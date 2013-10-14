@@ -1,0 +1,58 @@
+//
+// Prefix header for all source files of the 'MarineBlueHD' target in the 'MarineBlueHD' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+//#define SCREEN_LANDSCAPE
+//#define _ON_DEBUG_
+
+#import <mach/mach_time.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <GameKit/GameKit.h>
+
+#import "EAGLView.h"
+#import "SoundEngine.h"
+#import "Tile2D.h"
+#import "QList.h"
+#import "QChunk.h"
+#import "QVector.h"
+#import "QTable.h"
+#import "ResMgr_Tile.h"
+#import "SoundManager.h"
+#import "QobManager.h"
+#import "QobBase.h"
+#import "QobImage.h"
+#import "QobText.h"
+#import "QobButton.h"
+#import "QobCamera.h"
+#import "GameDef.h"
+#import "GameCenterManager.h"
+#import "PartsInfo.h"
+#import "MachInfo.h"
+#import "MachBuildSet.h"
+#import "ItemInfo.h"
+#import "WeaponInfo.h"
+#import "GlobalInfo.h"
+#import "GameMain.h"
+#import "GobWorld.h"
+
+#define TICK_INTERVAL			0.0166f					// 1/60초
+
+#define TAP_START		0
+#define TAP_MOVE		1
+#define TAP_END			2
+
+extern float g_time;
+extern EAGLView *_glView;
+extern GameMain *g_main;
+extern TGlobalValue g_value;
+
+#endif

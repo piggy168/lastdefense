@@ -1,0 +1,6104 @@
+{
+    "xcode_project": "MachDefense.xcodeproj", 
+    "sources": [
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QVisualLayer.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobAffecter.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobBase.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobButton.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobCamera.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobImage.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobImageFont.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobLine.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobManager.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobParticle.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/QObject/QobText.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/Collider.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/ImageAttacher.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/PVRTexture.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/QChunk.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/QList.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/QSocket.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/QTable.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/QUIAlertView.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/QVector.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/ResMgr_Tile.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/SoundEffect.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "c++", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/SoundEngine.cpp", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/SoundManager.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/Texture2D.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/TextureAtlas.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "../_CommonClass/Util/Tile2D.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/BaseUpgradeSet.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/BuildItem.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/CommonDlg.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DefaultAppDelegate.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DlgBuildMach.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DlgFormation.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DlgSpecialAttack.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DlgSummary.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DlgUpgradeBase.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DlgUpgradeEquip.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/DlgUpgradeItem.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc++", 
+            "header_paths": [], 
+            "source": "Classes/EAGLView.mm", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/EAGLViewController.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/DlgRadar.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/DlgSystemMenu.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GameMain.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GlobalInfo.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobAirStrike.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobBullet.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobEnemySpawner.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobFieldItem.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobHvM_Bot.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobHvM_Enemy.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobHvM_Player.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobHvMach.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobMachParts.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobStaffEffect.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobTrailEffect.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GobWorld.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GuiGame.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GuiHelp.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GuiMapLoading.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GuiSelectSlot.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/GuiTitle.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/ItemInfo.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/MachInfo.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/PartsController.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/PartsController_Weapon.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/PartsController_WeaponAI.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/PartsInfo.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/SpDamageInfo.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/Game/WeaponInfo.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/GameCenterManager.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/GuiSelectStage.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/MachBuildSet.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/PartsManager.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/SpAttackSet.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/UiObjMach.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/UiObjMachParts.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/WndBuildSlot.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "Classes/ZoneManager.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "main.m", 
+            "flags": [], 
+            "defines": {}
+        }
+    ], 
+    "infoplists": [
+        "./AppInfo.plist"
+    ], 
+    "libs": [
+        "sqlite3", 
+        "z"
+    ], 
+    "defines": {
+        "IBOutletCollection(ClassName)": "__attribute__((iboutletcollection(ClassName)))", 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40100, 
+        "IBAction": "void)__attribute__((ibaction)", 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "IBOutlet": "__attribute__((iboutlet))"
+    }, 
+    "pchs": [
+        "./MD_Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "MainWindow_iPhone.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "Resource/Icon72.png", 
+            "target": "Icon72.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ad.png", 
+            "target": "ad.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ae.png", 
+            "target": "ae.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/af.png", 
+            "target": "af.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ag.png", 
+            "target": "ag.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ai.png", 
+            "target": "ai.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/al.png", 
+            "target": "al.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/am.png", 
+            "target": "am.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/an.png", 
+            "target": "an.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ao.png", 
+            "target": "ao.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/aq.png", 
+            "target": "aq.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ar.png", 
+            "target": "ar.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/as.png", 
+            "target": "as.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/at.png", 
+            "target": "at.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/au.png", 
+            "target": "au.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/aw.png", 
+            "target": "aw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/az.png", 
+            "target": "az.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ba.png", 
+            "target": "ba.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bb.png", 
+            "target": "bb.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bd.png", 
+            "target": "bd.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/be.png", 
+            "target": "be.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bf.png", 
+            "target": "bf.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bg.png", 
+            "target": "bg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bh.png", 
+            "target": "bh.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bi.png", 
+            "target": "bi.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bj.png", 
+            "target": "bj.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bm.png", 
+            "target": "bm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bn.png", 
+            "target": "bn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bo.png", 
+            "target": "bo.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/br.png", 
+            "target": "br.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bs.png", 
+            "target": "bs.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bt.png", 
+            "target": "bt.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bw.png", 
+            "target": "bw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/by.png", 
+            "target": "by.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/bz.png", 
+            "target": "bz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ca.png", 
+            "target": "ca.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cf.png", 
+            "target": "cf.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ch.png", 
+            "target": "ch.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ci.png", 
+            "target": "ci.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ck.png", 
+            "target": "ck.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cl.png", 
+            "target": "cl.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cm.png", 
+            "target": "cm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cn.png", 
+            "target": "cn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/co.png", 
+            "target": "co.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cr.png", 
+            "target": "cr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cu.png", 
+            "target": "cu.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cv.png", 
+            "target": "cv.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cy.png", 
+            "target": "cy.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/cz.png", 
+            "target": "cz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/de.png", 
+            "target": "de.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/dj.png", 
+            "target": "dj.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/dk.png", 
+            "target": "dk.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/dm.png", 
+            "target": "dm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/do.png", 
+            "target": "do.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/dz.png", 
+            "target": "dz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ec.png", 
+            "target": "ec.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ee.png", 
+            "target": "ee.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/eg.png", 
+            "target": "eg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/eh.png", 
+            "target": "eh.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/er.png", 
+            "target": "er.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/es.png", 
+            "target": "es.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/et.png", 
+            "target": "et.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/fi.png", 
+            "target": "fi.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/fj.png", 
+            "target": "fj.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/fm.png", 
+            "target": "fm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/fo.png", 
+            "target": "fo.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/fr.png", 
+            "target": "fr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ga.png", 
+            "target": "ga.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gb.png", 
+            "target": "gb.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gd.png", 
+            "target": "gd.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ge.png", 
+            "target": "ge.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gg.png", 
+            "target": "gg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gh.png", 
+            "target": "gh.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gi.png", 
+            "target": "gi.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gl.png", 
+            "target": "gl.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gm.png", 
+            "target": "gm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gn.png", 
+            "target": "gn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gp.png", 
+            "target": "gp.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gq.png", 
+            "target": "gq.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gr.png", 
+            "target": "gr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gt.png", 
+            "target": "gt.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gu.png", 
+            "target": "gu.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gw.png", 
+            "target": "gw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/gy.png", 
+            "target": "gy.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/hk.png", 
+            "target": "hk.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/hn.png", 
+            "target": "hn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/hr.png", 
+            "target": "hr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ht.png", 
+            "target": "ht.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/hu.png", 
+            "target": "hu.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/id.png", 
+            "target": "id.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ie.png", 
+            "target": "ie.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/il.png", 
+            "target": "il.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/in.png", 
+            "target": "in.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/iq.png", 
+            "target": "iq.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ir.png", 
+            "target": "ir.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/is.png", 
+            "target": "is.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/it.png", 
+            "target": "it.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/je.png", 
+            "target": "je.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/jm.png", 
+            "target": "jm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/jo.png", 
+            "target": "jo.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/jp.png", 
+            "target": "jp.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ke.png", 
+            "target": "ke.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/kg.png", 
+            "target": "kg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/kh.png", 
+            "target": "kh.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ki.png", 
+            "target": "ki.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/km.png", 
+            "target": "km.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/kn.png", 
+            "target": "kn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/kp.png", 
+            "target": "kp.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/kr.png", 
+            "target": "kr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/kw.png", 
+            "target": "kw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ky.png", 
+            "target": "ky.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/kz.png", 
+            "target": "kz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/la.png", 
+            "target": "la.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/lb.png", 
+            "target": "lb.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/lc.png", 
+            "target": "lc.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/li.png", 
+            "target": "li.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/lk.png", 
+            "target": "lk.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/lr.png", 
+            "target": "lr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ls.png", 
+            "target": "ls.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/lt.png", 
+            "target": "lt.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/lu.png", 
+            "target": "lu.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/lv.png", 
+            "target": "lv.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ly.png", 
+            "target": "ly.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ma.png", 
+            "target": "ma.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mc.png", 
+            "target": "mc.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/md.png", 
+            "target": "md.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/me.png", 
+            "target": "me.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mg.png", 
+            "target": "mg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mh.png", 
+            "target": "mh.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mk.png", 
+            "target": "mk.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ml.png", 
+            "target": "ml.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mm.png", 
+            "target": "mm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mn.png", 
+            "target": "mn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mo.png", 
+            "target": "mo.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mq.png", 
+            "target": "mq.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mr.png", 
+            "target": "mr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ms.png", 
+            "target": "ms.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mt.png", 
+            "target": "mt.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mu.png", 
+            "target": "mu.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mw.png", 
+            "target": "mw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mx.png", 
+            "target": "mx.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/my.png", 
+            "target": "my.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/mz.png", 
+            "target": "mz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/na.png", 
+            "target": "na.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/nc.png", 
+            "target": "nc.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ne.png", 
+            "target": "ne.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ng.png", 
+            "target": "ng.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ni.png", 
+            "target": "ni.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/nl.png", 
+            "target": "nl.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/no.png", 
+            "target": "no.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/np.png", 
+            "target": "np.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/nr.png", 
+            "target": "nr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/nz.png", 
+            "target": "nz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/om.png", 
+            "target": "om.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pa.png", 
+            "target": "pa.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pe.png", 
+            "target": "pe.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pg.png", 
+            "target": "pg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ph.png", 
+            "target": "ph.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pk.png", 
+            "target": "pk.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pl.png", 
+            "target": "pl.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pr.png", 
+            "target": "pr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ps.png", 
+            "target": "ps.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pt.png", 
+            "target": "pt.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/pw.png", 
+            "target": "pw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/py.png", 
+            "target": "py.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/qa.png", 
+            "target": "qa.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ro.png", 
+            "target": "ro.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ru.png", 
+            "target": "ru.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/rw.png", 
+            "target": "rw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sa.png", 
+            "target": "sa.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sb.png", 
+            "target": "sb.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sc.png", 
+            "target": "sc.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sd.png", 
+            "target": "sd.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/se.png", 
+            "target": "se.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sg.png", 
+            "target": "sg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/si.png", 
+            "target": "si.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sk.png", 
+            "target": "sk.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sl.png", 
+            "target": "sl.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sm.png", 
+            "target": "sm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sn.png", 
+            "target": "sn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/so.png", 
+            "target": "so.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sr.png", 
+            "target": "sr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sv.png", 
+            "target": "sv.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sy.png", 
+            "target": "sy.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/sz.png", 
+            "target": "sz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tc.png", 
+            "target": "tc.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/td.png", 
+            "target": "td.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tg.png", 
+            "target": "tg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/th.png", 
+            "target": "th.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tj.png", 
+            "target": "tj.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tm.png", 
+            "target": "tm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tn.png", 
+            "target": "tn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/to.png", 
+            "target": "to.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tp.png", 
+            "target": "tp.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tr.png", 
+            "target": "tr.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tt.png", 
+            "target": "tt.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tv.png", 
+            "target": "tv.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tw.png", 
+            "target": "tw.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/tz.png", 
+            "target": "tz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ua.png", 
+            "target": "ua.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ug.png", 
+            "target": "ug.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/us.png", 
+            "target": "us.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/uy.png", 
+            "target": "uy.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/uz.png", 
+            "target": "uz.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/va.png", 
+            "target": "va.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/vc.png", 
+            "target": "vc.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ve.png", 
+            "target": "ve.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/vg.png", 
+            "target": "vg.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/vi.png", 
+            "target": "vi.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/vn.png", 
+            "target": "vn.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/vu.png", 
+            "target": "vu.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ws.png", 
+            "target": "ws.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ww.png", 
+            "target": "ww.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/ye.png", 
+            "target": "ye.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/za.png", 
+            "target": "za.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/zm.png", 
+            "target": "zm.png"
+        }, 
+        {
+            "asset": "Resource/Images/CountryIcon/zw.png", 
+            "target": "zw.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/DestPos.png", 
+            "target": "DestPos.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/EnemyBullet.png", 
+            "target": "EnemyBullet.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/HPGauge.png", 
+            "target": "HPGauge.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/HPGaugeBoss.png", 
+            "target": "HPGaugeBoss.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/HPGaugeEnemy.png", 
+            "target": "HPGaugeEnemy.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/MovePath.png", 
+            "target": "MovePath.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/NumSet01b.png", 
+            "target": "NumSet01b.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/PickItem.png", 
+            "target": "PickItem.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/SmokeEffect.png", 
+            "target": "SmokeEffect.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/SmokeEffect2.png", 
+            "target": "SmokeEffect2.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/SmokeTrail.png", 
+            "target": "SmokeTrail.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Target.png", 
+            "target": "Target.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/TargetPath.png", 
+            "target": "TargetPath.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_BACK.png", 
+            "target": "Common_Btn_BACK.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_CANCEL.png", 
+            "target": "Common_Btn_CANCEL.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_CLOSE.png", 
+            "target": "Common_Btn_CLOSE.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_DEL.png", 
+            "target": "Common_Btn_DEL.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_NEXT.png", 
+            "target": "Common_Btn_NEXT.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_NO.png", 
+            "target": "Common_Btn_NO.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_OK.png", 
+            "target": "Common_Btn_OK.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_PREV.png", 
+            "target": "Common_Btn_PREV.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_YES.png", 
+            "target": "Common_Btn_YES.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiEtc/NumSet01.png", 
+            "target": "NumSet01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiEtc/NumSet02.png", 
+            "target": "NumSet02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiEtc/NumSet02b.png", 
+            "target": "NumSet02b.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/EnemyGauge.png", 
+            "target": "EnemyGauge.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Inven_BtnItem.png", 
+            "target": "Inven_BtnItem.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/InvenPage.png", 
+            "target": "InvenPage.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Loading_Bottom.png", 
+            "target": "Loading_Bottom.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Loading_Center.png", 
+            "target": "Loading_Center.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Loading_Left.png", 
+            "target": "Loading_Left.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Loading_Left2.png", 
+            "target": "Loading_Left2.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Loading_Right.png", 
+            "target": "Loading_Right.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Loading_Right2.png", 
+            "target": "Loading_Right2.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Loading_Top.png", 
+            "target": "Loading_Top.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/MessageBox.png", 
+            "target": "MessageBox.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/PlaceNameBG.png", 
+            "target": "PlaceNameBG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/RaderBG.png", 
+            "target": "RaderBG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/RaderMark.png", 
+            "target": "RaderMark.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/SelSlot_Btn.png", 
+            "target": "SelSlot_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/Main_Copyright.png", 
+            "target": "Main_Copyright.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/Main_TapToStart.png", 
+            "target": "Main_TapToStart.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Airplane.png", 
+            "target": "Airplane.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_A_Body_01.png", 
+            "target": "B_A_Body_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_A_Body_02.png", 
+            "target": "B_A_Body_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_A_Body_03.png", 
+            "target": "B_A_Body_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_A_Wpn_01.png", 
+            "target": "B_A_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_A_Wpn_02.png", 
+            "target": "B_A_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_A_Wpn_03.png", 
+            "target": "B_A_Wpn_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_D_Body_01.png", 
+            "target": "B_D_Body_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_D_Body_02.png", 
+            "target": "B_D_Body_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_P_Body_01.png", 
+            "target": "B_P_Body_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_P_Body_02.png", 
+            "target": "B_P_Body_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_P_Body_03.png", 
+            "target": "B_P_Body_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_P_Body_04.png", 
+            "target": "B_P_Body_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_P_Body_05.png", 
+            "target": "B_P_Body_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/B_P_Body_06.png", 
+            "target": "B_P_Body_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss01_Body.png", 
+            "target": "Boss01_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss01_Wpn_01.png", 
+            "target": "Boss01_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss01_Wpn_02.png", 
+            "target": "Boss01_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss02_Body.png", 
+            "target": "Boss02_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss02_Wpn_01.png", 
+            "target": "Boss02_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss03_Body.png", 
+            "target": "Boss03_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss03_Wpn_01.png", 
+            "target": "Boss03_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss03_Wpn_02.png", 
+            "target": "Boss03_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss03_Wpn_03.png", 
+            "target": "Boss03_Wpn_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss04_Body.png", 
+            "target": "Boss04_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss04_Wpn_01.png", 
+            "target": "Boss04_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss04_Wpn_02.png", 
+            "target": "Boss04_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss04_Wpn_03.png", 
+            "target": "Boss04_Wpn_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss04_Wpn_04.png", 
+            "target": "Boss04_Wpn_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss05_Body.png", 
+            "target": "Boss05_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss05_Wpn_01.png", 
+            "target": "Boss05_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss05_Wpn_02.png", 
+            "target": "Boss05_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss06_Body.png", 
+            "target": "Boss06_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss06_Wpn_01.png", 
+            "target": "Boss06_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss07_Body.png", 
+            "target": "Boss07_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss07_Wpn_01.png", 
+            "target": "Boss07_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss07_Wpn_02.png", 
+            "target": "Boss07_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss08_Body.png", 
+            "target": "Boss08_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss08_Wpn_01.png", 
+            "target": "Boss08_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss08_Wpn_02.png", 
+            "target": "Boss08_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Boss08_Wpn_03.png", 
+            "target": "Boss08_Wpn_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Dummy.png", 
+            "target": "Dummy.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane04_Body.png", 
+            "target": "E_Plane04_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane04_Prop.png", 
+            "target": "E_Plane04_Prop.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane05_Body.png", 
+            "target": "E_Plane05_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane05_Prop.png", 
+            "target": "E_Plane05_Prop.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane05_Wpn.png", 
+            "target": "E_Plane05_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane_Body_01.png", 
+            "target": "E_Plane_Body_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane_Body_02.png", 
+            "target": "E_Plane_Body_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Plane_Body_03.png", 
+            "target": "E_Plane_Body_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Ship01_Body.png", 
+            "target": "E_Ship01_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Ship01_Wpn.png", 
+            "target": "E_Ship01_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank20_Body.png", 
+            "target": "E_Tank20_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank20_Wpn.png", 
+            "target": "E_Tank20_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank21_Body.png", 
+            "target": "E_Tank21_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank21_Wpn.png", 
+            "target": "E_Tank21_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank22_Body.png", 
+            "target": "E_Tank22_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank22_Wpn.png", 
+            "target": "E_Tank22_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank23_Body.png", 
+            "target": "E_Tank23_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank23_Wpn.png", 
+            "target": "E_Tank23_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank24_Body.png", 
+            "target": "E_Tank24_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank24_Wpn.png", 
+            "target": "E_Tank24_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank25_Body.png", 
+            "target": "E_Tank25_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank25_Wpn_01.png", 
+            "target": "E_Tank25_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank25_Wpn_02.png", 
+            "target": "E_Tank25_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank26_Body.png", 
+            "target": "E_Tank26_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank26_Wpn_01.png", 
+            "target": "E_Tank26_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank26_Wpn_02.png", 
+            "target": "E_Tank26_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank27_Body.png", 
+            "target": "E_Tank27_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank27_Wpn.png", 
+            "target": "E_Tank27_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank28_Body.png", 
+            "target": "E_Tank28_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank28_Wpn_01.png", 
+            "target": "E_Tank28_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank28_Wpn_02.png", 
+            "target": "E_Tank28_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank29_Body.png", 
+            "target": "E_Tank29_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank29_Wpn.png", 
+            "target": "E_Tank29_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank30_Body.png", 
+            "target": "E_Tank30_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank30_Wpn.png", 
+            "target": "E_Tank30_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank31_Body.png", 
+            "target": "E_Tank31_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank31_Wpn.png", 
+            "target": "E_Tank31_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank32_Body.png", 
+            "target": "E_Tank32_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank32_Wpn.png", 
+            "target": "E_Tank32_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_01.png", 
+            "target": "E_Tank_Body_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_02.png", 
+            "target": "E_Tank_Body_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_03.png", 
+            "target": "E_Tank_Body_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_04.png", 
+            "target": "E_Tank_Body_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_05.png", 
+            "target": "E_Tank_Body_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_06.png", 
+            "target": "E_Tank_Body_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_07.png", 
+            "target": "E_Tank_Body_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_08.png", 
+            "target": "E_Tank_Body_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_09.png", 
+            "target": "E_Tank_Body_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_10.png", 
+            "target": "E_Tank_Body_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_11.png", 
+            "target": "E_Tank_Body_11.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_12.png", 
+            "target": "E_Tank_Body_12.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_13.png", 
+            "target": "E_Tank_Body_13.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_14.png", 
+            "target": "E_Tank_Body_14.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_15.png", 
+            "target": "E_Tank_Body_15.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_16.png", 
+            "target": "E_Tank_Body_16.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_17.png", 
+            "target": "E_Tank_Body_17.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_18.png", 
+            "target": "E_Tank_Body_18.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Body_19.png", 
+            "target": "E_Tank_Body_19.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Top_01.png", 
+            "target": "E_Tank_Top_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_01.png", 
+            "target": "E_Tank_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_02.png", 
+            "target": "E_Tank_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_03.png", 
+            "target": "E_Tank_Wpn_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_04.png", 
+            "target": "E_Tank_Wpn_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_05.png", 
+            "target": "E_Tank_Wpn_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_06.png", 
+            "target": "E_Tank_Wpn_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_07.png", 
+            "target": "E_Tank_Wpn_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_08.png", 
+            "target": "E_Tank_Wpn_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_09.png", 
+            "target": "E_Tank_Wpn_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_10.png", 
+            "target": "E_Tank_Wpn_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_11.png", 
+            "target": "E_Tank_Wpn_11.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_12.png", 
+            "target": "E_Tank_Wpn_12.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_13.png", 
+            "target": "E_Tank_Wpn_13.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_14.png", 
+            "target": "E_Tank_Wpn_14.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_15.png", 
+            "target": "E_Tank_Wpn_15.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_16.png", 
+            "target": "E_Tank_Wpn_16.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_17.png", 
+            "target": "E_Tank_Wpn_17.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Tank_Wpn_18.png", 
+            "target": "E_Tank_Wpn_18.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret13_Body.png", 
+            "target": "E_Turret13_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret13_Wpn_01.png", 
+            "target": "E_Turret13_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret13_Wpn_02.png", 
+            "target": "E_Turret13_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret14_Body.png", 
+            "target": "E_Turret14_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret14_Wpn.png", 
+            "target": "E_Turret14_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret15_Body.png", 
+            "target": "E_Turret15_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret15_Wpn.png", 
+            "target": "E_Turret15_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret16_Body.png", 
+            "target": "E_Turret16_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret16_Wpn.png", 
+            "target": "E_Turret16_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret17_Body.png", 
+            "target": "E_Turret17_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret17_Wpn_01.png", 
+            "target": "E_Turret17_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret17_Wpn_02.png", 
+            "target": "E_Turret17_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret18_Body.png", 
+            "target": "E_Turret18_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret18_Wpn_01.png", 
+            "target": "E_Turret18_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret18_Wpn_02.png", 
+            "target": "E_Turret18_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret19_Body.png", 
+            "target": "E_Turret19_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret19_Wpn.png", 
+            "target": "E_Turret19_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret20_Body.png", 
+            "target": "E_Turret20_Body.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret20_Wpn.png", 
+            "target": "E_Turret20_Wpn.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_01.png", 
+            "target": "E_Turret_Body_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_02.png", 
+            "target": "E_Turret_Body_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_03.png", 
+            "target": "E_Turret_Body_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_04.png", 
+            "target": "E_Turret_Body_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_05.png", 
+            "target": "E_Turret_Body_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_06.png", 
+            "target": "E_Turret_Body_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_07.png", 
+            "target": "E_Turret_Body_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_08.png", 
+            "target": "E_Turret_Body_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_09.png", 
+            "target": "E_Turret_Body_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_10.png", 
+            "target": "E_Turret_Body_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_11.png", 
+            "target": "E_Turret_Body_11.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Body_12.png", 
+            "target": "E_Turret_Body_12.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_01.png", 
+            "target": "E_Turret_Wpn_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_02.png", 
+            "target": "E_Turret_Wpn_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_03.png", 
+            "target": "E_Turret_Wpn_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_04.png", 
+            "target": "E_Turret_Wpn_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_05.png", 
+            "target": "E_Turret_Wpn_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_06.png", 
+            "target": "E_Turret_Wpn_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_07.png", 
+            "target": "E_Turret_Wpn_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_08.png", 
+            "target": "E_Turret_Wpn_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_09.png", 
+            "target": "E_Turret_Wpn_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_10.png", 
+            "target": "E_Turret_Wpn_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_11.png", 
+            "target": "E_Turret_Wpn_11.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Turret_Wpn_12.png", 
+            "target": "E_Turret_Wpn_12.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_01.png", 
+            "target": "P_Body_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_02.png", 
+            "target": "P_Body_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_03.png", 
+            "target": "P_Body_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_04.png", 
+            "target": "P_Body_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_05.png", 
+            "target": "P_Body_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_06.png", 
+            "target": "P_Body_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_10.png", 
+            "target": "P_Body_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_11.png", 
+            "target": "P_Body_11.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_12.png", 
+            "target": "P_Body_12.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_13.png", 
+            "target": "P_Body_13.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_14.png", 
+            "target": "P_Body_14.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_15.png", 
+            "target": "P_Body_15.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_16.png", 
+            "target": "P_Body_16.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_17.png", 
+            "target": "P_Body_17.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_18.png", 
+            "target": "P_Body_18.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_20.png", 
+            "target": "P_Body_20.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_21.png", 
+            "target": "P_Body_21.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_22.png", 
+            "target": "P_Body_22.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_23.png", 
+            "target": "P_Body_23.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_30.png", 
+            "target": "P_Body_30.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_31.png", 
+            "target": "P_Body_31.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_32.png", 
+            "target": "P_Body_32.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_33.png", 
+            "target": "P_Body_33.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Body_34.png", 
+            "target": "P_Body_34.png"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Wpn_Default.wav", 
+            "target": "Wpn_Default.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Wpn_EnCanon.wav", 
+            "target": "Wpn_EnCanon.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Wpn_EnGun.wav", 
+            "target": "Wpn_EnGun.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Wpn_EnMissile.wav", 
+            "target": "Wpn_EnMissile.wav"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/ItemBox.png", 
+            "target": "ItemBox.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_EXIT.png", 
+            "target": "Common_Btn_EXIT.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/NumSet_Cr.png", 
+            "target": "NumSet_Cr.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_RANKING.png", 
+            "target": "Common_Btn_RANKING.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/BulletShell.png", 
+            "target": "BulletShell.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/NumSet_Level.png", 
+            "target": "NumSet_Level.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/NumSet_Stage.png", 
+            "target": "NumSet_Stage.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/MachButton.png", 
+            "target": "MachButton.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/GameUI_BtmR.png", 
+            "target": "GameUI_BtmR.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/GameUI_BtmL.png", 
+            "target": "GameUI_BtmL.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/MakeMach_Mach.png", 
+            "target": "MakeMach_Mach.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/BuildGauge.png", 
+            "target": "BuildGauge.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base01_Rader.png", 
+            "target": "Base01_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base01.png", 
+            "target": "Base01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base02_Rader.png", 
+            "target": "Base02_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base02.png", 
+            "target": "Base02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base03_Rader.png", 
+            "target": "Base03_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base03.png", 
+            "target": "Base03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base04_Rader.png", 
+            "target": "Base04_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base04.png", 
+            "target": "Base04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base05_Rader.png", 
+            "target": "Base05_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base05.png", 
+            "target": "Base05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base06_Rader.png", 
+            "target": "Base06_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base06.png", 
+            "target": "Base06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base07_Rader.png", 
+            "target": "Base07_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Base07.png", 
+            "target": "Base07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/BaseWpn01.png", 
+            "target": "BaseWpn01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/BaseWpn02.png", 
+            "target": "BaseWpn02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/BaseWpn03.png", 
+            "target": "BaseWpn03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/BaseWpn04.png", 
+            "target": "BaseWpn04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/BaseWpn05.png", 
+            "target": "BaseWpn05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/BaseWpn06.png", 
+            "target": "BaseWpn06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/BaseWpn07.png", 
+            "target": "BaseWpn07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Base_Rader.png", 
+            "target": "E_Base_Rader.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/E_Base.png", 
+            "target": "E_Base.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/SelMach.png", 
+            "target": "SelMach.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_MachBuild.png", 
+            "target": "Btn_MachBuild.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/NumSet_Mineral.png", 
+            "target": "NumSet_Mineral.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/iPad_Title_Main.png", 
+            "target": "iPad_Title_Main.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_Btn_NEW.png", 
+            "target": "Common_Btn_NEW.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_01.png", 
+            "target": "PB_HMG_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_02.png", 
+            "target": "PB_HMG_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_03.png", 
+            "target": "PB_HMG_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_04.png", 
+            "target": "PB_HMG_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_05.png", 
+            "target": "PB_HMG_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_06.png", 
+            "target": "PB_HMG_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_07.png", 
+            "target": "PB_HMG_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_08.png", 
+            "target": "PB_HMG_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_09.png", 
+            "target": "PB_HMG_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMG_10.png", 
+            "target": "PB_HMG_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_01.png", 
+            "target": "PB_HMsl_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_02.png", 
+            "target": "PB_HMsl_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_03.png", 
+            "target": "PB_HMsl_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_04.png", 
+            "target": "PB_HMsl_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_05.png", 
+            "target": "PB_HMsl_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_06.png", 
+            "target": "PB_HMsl_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_07.png", 
+            "target": "PB_HMsl_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_08.png", 
+            "target": "PB_HMsl_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_09.png", 
+            "target": "PB_HMsl_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_HMsl_10.png", 
+            "target": "PB_HMsl_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_01.png", 
+            "target": "PB_Ion_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_02.png", 
+            "target": "PB_Ion_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_03.png", 
+            "target": "PB_Ion_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_04.png", 
+            "target": "PB_Ion_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_05.png", 
+            "target": "PB_Ion_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_06.png", 
+            "target": "PB_Ion_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_07.png", 
+            "target": "PB_Ion_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_08.png", 
+            "target": "PB_Ion_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_09.png", 
+            "target": "PB_Ion_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Ion_10.png", 
+            "target": "PB_Ion_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_01.png", 
+            "target": "PB_Plasma_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_02.png", 
+            "target": "PB_Plasma_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_03.png", 
+            "target": "PB_Plasma_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_04.png", 
+            "target": "PB_Plasma_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_05.png", 
+            "target": "PB_Plasma_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_06.png", 
+            "target": "PB_Plasma_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_07.png", 
+            "target": "PB_Plasma_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_08.png", 
+            "target": "PB_Plasma_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_09.png", 
+            "target": "PB_Plasma_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Plasma_10.png", 
+            "target": "PB_Plasma_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_01.png", 
+            "target": "PB_Shg_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_02.png", 
+            "target": "PB_Shg_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_03.png", 
+            "target": "PB_Shg_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_04.png", 
+            "target": "PB_Shg_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_05.png", 
+            "target": "PB_Shg_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_06.png", 
+            "target": "PB_Shg_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_07.png", 
+            "target": "PB_Shg_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_08.png", 
+            "target": "PB_Shg_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_09.png", 
+            "target": "PB_Shg_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Shg_10.png", 
+            "target": "PB_Shg_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_01.png", 
+            "target": "PB_Tanker_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_02.png", 
+            "target": "PB_Tanker_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_03.png", 
+            "target": "PB_Tanker_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_04.png", 
+            "target": "PB_Tanker_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_05.png", 
+            "target": "PB_Tanker_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_06.png", 
+            "target": "PB_Tanker_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_07.png", 
+            "target": "PB_Tanker_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_08.png", 
+            "target": "PB_Tanker_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_09.png", 
+            "target": "PB_Tanker_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Tanker_10.png", 
+            "target": "PB_Tanker_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_01.png", 
+            "target": "PB_Missile_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_02.png", 
+            "target": "PB_Missile_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_03.png", 
+            "target": "PB_Missile_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_04.png", 
+            "target": "PB_Missile_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_05.png", 
+            "target": "PB_Missile_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_06.png", 
+            "target": "PB_Missile_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_07.png", 
+            "target": "PB_Missile_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_08.png", 
+            "target": "PB_Missile_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_09.png", 
+            "target": "PB_Missile_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/PB_Missile_10.png", 
+            "target": "PB_Missile_10.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BuildMach.png", 
+            "target": "Btn_BuildMach.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BuildMachBG.png", 
+            "target": "Btn_BuildMachBG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BuildMachInd.png", 
+            "target": "Btn_BuildMachInd.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Foot_32x16.png", 
+            "target": "P_Foot_32x16.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_32x16.png", 
+            "target": "P_Wpn_32x16.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_64x16.png", 
+            "target": "P_Wpn_64x16.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_64x32.png", 
+            "target": "P_Wpn_64x32.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_101.png", 
+            "target": "P_Wpn_Gun_101.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_102.png", 
+            "target": "P_Wpn_Gun_102.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_103.png", 
+            "target": "P_Wpn_Gun_103.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_104.png", 
+            "target": "P_Wpn_Gun_104.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_105.png", 
+            "target": "P_Wpn_Gun_105.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_106.png", 
+            "target": "P_Wpn_Gun_106.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_201.png", 
+            "target": "P_Wpn_Gun_201.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_202.png", 
+            "target": "P_Wpn_Gun_202.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_203.png", 
+            "target": "P_Wpn_Gun_203.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_204.png", 
+            "target": "P_Wpn_Gun_204.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_205.png", 
+            "target": "P_Wpn_Gun_205.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_206.png", 
+            "target": "P_Wpn_Gun_206.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_301.png", 
+            "target": "P_Wpn_Gun_301.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_302.png", 
+            "target": "P_Wpn_Gun_302.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_303.png", 
+            "target": "P_Wpn_Gun_303.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_304.png", 
+            "target": "P_Wpn_Gun_304.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_305.png", 
+            "target": "P_Wpn_Gun_305.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_401.png", 
+            "target": "P_Wpn_Gun_401.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_402.png", 
+            "target": "P_Wpn_Gun_402.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_403.png", 
+            "target": "P_Wpn_Gun_403.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_404.png", 
+            "target": "P_Wpn_Gun_404.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_405.png", 
+            "target": "P_Wpn_Gun_405.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_406.png", 
+            "target": "P_Wpn_Gun_406.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_407.png", 
+            "target": "P_Wpn_Gun_407.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Gun_408.png", 
+            "target": "P_Wpn_Gun_408.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_01.png", 
+            "target": "P_Wpn_HMG_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_02.png", 
+            "target": "P_Wpn_HMG_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_03.png", 
+            "target": "P_Wpn_HMG_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_04.png", 
+            "target": "P_Wpn_HMG_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_05.png", 
+            "target": "P_Wpn_HMG_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_06.png", 
+            "target": "P_Wpn_HMG_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_07.png", 
+            "target": "P_Wpn_HMG_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_08.png", 
+            "target": "P_Wpn_HMG_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_09.png", 
+            "target": "P_Wpn_HMG_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_HMG_10.png", 
+            "target": "P_Wpn_HMG_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_101.png", 
+            "target": "P_Wpn_Lsr_101.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_102.png", 
+            "target": "P_Wpn_Lsr_102.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_103.png", 
+            "target": "P_Wpn_Lsr_103.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_104.png", 
+            "target": "P_Wpn_Lsr_104.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_105.png", 
+            "target": "P_Wpn_Lsr_105.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_106.png", 
+            "target": "P_Wpn_Lsr_106.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_107.png", 
+            "target": "P_Wpn_Lsr_107.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_108.png", 
+            "target": "P_Wpn_Lsr_108.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_109.png", 
+            "target": "P_Wpn_Lsr_109.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_110.png", 
+            "target": "P_Wpn_Lsr_110.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_111.png", 
+            "target": "P_Wpn_Lsr_111.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_201.png", 
+            "target": "P_Wpn_Lsr_201.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_202.png", 
+            "target": "P_Wpn_Lsr_202.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_203.png", 
+            "target": "P_Wpn_Lsr_203.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_204.png", 
+            "target": "P_Wpn_Lsr_204.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_205.png", 
+            "target": "P_Wpn_Lsr_205.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_206.png", 
+            "target": "P_Wpn_Lsr_206.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_207.png", 
+            "target": "P_Wpn_Lsr_207.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_208.png", 
+            "target": "P_Wpn_Lsr_208.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_209.png", 
+            "target": "P_Wpn_Lsr_209.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Lsr_210.png", 
+            "target": "P_Wpn_Lsr_210.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_101.png", 
+            "target": "P_Wpn_Msl_101.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_102.png", 
+            "target": "P_Wpn_Msl_102.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_103.png", 
+            "target": "P_Wpn_Msl_103.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_104.png", 
+            "target": "P_Wpn_Msl_104.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_105.png", 
+            "target": "P_Wpn_Msl_105.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_106.png", 
+            "target": "P_Wpn_Msl_106.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_107.png", 
+            "target": "P_Wpn_Msl_107.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_108.png", 
+            "target": "P_Wpn_Msl_108.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_109.png", 
+            "target": "P_Wpn_Msl_109.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_110.png", 
+            "target": "P_Wpn_Msl_110.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_201.png", 
+            "target": "P_Wpn_Msl_201.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_202.png", 
+            "target": "P_Wpn_Msl_202.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_203.png", 
+            "target": "P_Wpn_Msl_203.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_204.png", 
+            "target": "P_Wpn_Msl_204.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_205.png", 
+            "target": "P_Wpn_Msl_205.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_206.png", 
+            "target": "P_Wpn_Msl_206.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_207.png", 
+            "target": "P_Wpn_Msl_207.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_208.png", 
+            "target": "P_Wpn_Msl_208.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_209.png", 
+            "target": "P_Wpn_Msl_209.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_210.png", 
+            "target": "P_Wpn_Msl_210.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_301.png", 
+            "target": "P_Wpn_Msl_301.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_302.png", 
+            "target": "P_Wpn_Msl_302.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_303.png", 
+            "target": "P_Wpn_Msl_303.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_304.png", 
+            "target": "P_Wpn_Msl_304.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_305.png", 
+            "target": "P_Wpn_Msl_305.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_306.png", 
+            "target": "P_Wpn_Msl_306.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_307.png", 
+            "target": "P_Wpn_Msl_307.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_308.png", 
+            "target": "P_Wpn_Msl_308.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_309.png", 
+            "target": "P_Wpn_Msl_309.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_310.png", 
+            "target": "P_Wpn_Msl_310.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_401.png", 
+            "target": "P_Wpn_Msl_401.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_402.png", 
+            "target": "P_Wpn_Msl_402.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_403.png", 
+            "target": "P_Wpn_Msl_403.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_404.png", 
+            "target": "P_Wpn_Msl_404.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_405.png", 
+            "target": "P_Wpn_Msl_405.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_406.png", 
+            "target": "P_Wpn_Msl_406.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_407.png", 
+            "target": "P_Wpn_Msl_407.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_408.png", 
+            "target": "P_Wpn_Msl_408.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Msl_409.png", 
+            "target": "P_Wpn_Msl_409.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_101.png", 
+            "target": "P_Wpn_Rlg_101.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_102.png", 
+            "target": "P_Wpn_Rlg_102.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_103.png", 
+            "target": "P_Wpn_Rlg_103.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_104.png", 
+            "target": "P_Wpn_Rlg_104.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_105.png", 
+            "target": "P_Wpn_Rlg_105.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_106.png", 
+            "target": "P_Wpn_Rlg_106.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_107.png", 
+            "target": "P_Wpn_Rlg_107.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_108.png", 
+            "target": "P_Wpn_Rlg_108.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_109.png", 
+            "target": "P_Wpn_Rlg_109.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_110.png", 
+            "target": "P_Wpn_Rlg_110.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_201.png", 
+            "target": "P_Wpn_Rlg_201.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_202.png", 
+            "target": "P_Wpn_Rlg_202.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_203.png", 
+            "target": "P_Wpn_Rlg_203.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_204.png", 
+            "target": "P_Wpn_Rlg_204.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_205.png", 
+            "target": "P_Wpn_Rlg_205.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_206.png", 
+            "target": "P_Wpn_Rlg_206.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_207.png", 
+            "target": "P_Wpn_Rlg_207.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_208.png", 
+            "target": "P_Wpn_Rlg_208.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_209.png", 
+            "target": "P_Wpn_Rlg_209.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_210.png", 
+            "target": "P_Wpn_Rlg_210.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Rlg_301.png", 
+            "target": "P_Wpn_Rlg_301.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_101.png", 
+            "target": "P_Wpn_Shg_101.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_102.png", 
+            "target": "P_Wpn_Shg_102.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_103.png", 
+            "target": "P_Wpn_Shg_103.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_104.png", 
+            "target": "P_Wpn_Shg_104.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_105.png", 
+            "target": "P_Wpn_Shg_105.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_106.png", 
+            "target": "P_Wpn_Shg_106.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_107.png", 
+            "target": "P_Wpn_Shg_107.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_108.png", 
+            "target": "P_Wpn_Shg_108.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_109.png", 
+            "target": "P_Wpn_Shg_109.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_110.png", 
+            "target": "P_Wpn_Shg_110.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_201.png", 
+            "target": "P_Wpn_Shg_201.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_202.png", 
+            "target": "P_Wpn_Shg_202.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_203.png", 
+            "target": "P_Wpn_Shg_203.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_204.png", 
+            "target": "P_Wpn_Shg_204.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_205.png", 
+            "target": "P_Wpn_Shg_205.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_206.png", 
+            "target": "P_Wpn_Shg_206.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_207.png", 
+            "target": "P_Wpn_Shg_207.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_208.png", 
+            "target": "P_Wpn_Shg_208.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_209.png", 
+            "target": "P_Wpn_Shg_209.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_210.png", 
+            "target": "P_Wpn_Shg_210.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Shg_301.png", 
+            "target": "P_Wpn_Shg_301.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Sni_101.png", 
+            "target": "P_Wpn_Sni_101.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Sni_102.png", 
+            "target": "P_Wpn_Sni_102.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Sni_103.png", 
+            "target": "P_Wpn_Sni_103.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Wpn_Sni_104.png", 
+            "target": "P_Wpn_Sni_104.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/BuildMach_Cover.png", 
+            "target": "BuildMach_Cover.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_UpgradeEquip.png", 
+            "target": "Btn_UpgradeEquip.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BuildMachUpgrade.png", 
+            "target": "Btn_BuildMachUpgrade.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/GameUI_BuildSlot.png", 
+            "target": "GameUI_BuildSlot.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/GameUI_MachSlot.png", 
+            "target": "GameUI_MachSlot.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BuildMachUpgradeOn.png", 
+            "target": "Btn_BuildMachUpgradeOn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/CommonUI_Btm.png", 
+            "target": "CommonUI_Btm.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/CommonUI_Mid.png", 
+            "target": "CommonUI_Mid.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/CommonUI_Summary.png", 
+            "target": "CommonUI_Summary.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/CommonUI_Top.png", 
+            "target": "CommonUI_Top.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/CommonUI_Upgrade.png", 
+            "target": "CommonUI_Upgrade.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeBtn_Install.png", 
+            "target": "UpgradeBtn_Install.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeBtn_Uninstall.png", 
+            "target": "UpgradeBtn_Uninstall.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeBtn_Upgrade.png", 
+            "target": "UpgradeBtn_Upgrade.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeMachBG.png", 
+            "target": "UpgradeMachBG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeEquip_SelMach.png", 
+            "target": "UpgradeEquip_SelMach.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_01.png", 
+            "target": "Turret_b_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_02.png", 
+            "target": "Turret_b_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_03.png", 
+            "target": "Turret_b_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_04.png", 
+            "target": "Turret_b_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_05.png", 
+            "target": "Turret_b_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_gun_01.png", 
+            "target": "Turret_gun_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_gun_02.png", 
+            "target": "Turret_gun_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_gun_03.png", 
+            "target": "Turret_gun_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_gun_04.png", 
+            "target": "Turret_gun_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_gun_05.png", 
+            "target": "Turret_gun_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_ion_01.png", 
+            "target": "Turret_ion_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_ion_02.png", 
+            "target": "Turret_ion_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_ion_03.png", 
+            "target": "Turret_ion_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_ion_04.png", 
+            "target": "Turret_ion_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_ion_05.png", 
+            "target": "Turret_ion_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_lsr_01.png", 
+            "target": "Turret_lsr_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_lsr_02.png", 
+            "target": "Turret_lsr_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_lsr_03.png", 
+            "target": "Turret_lsr_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_lsr_04.png", 
+            "target": "Turret_lsr_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_lsr_05.png", 
+            "target": "Turret_lsr_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_mg_01.png", 
+            "target": "Turret_mg_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_mg_02.png", 
+            "target": "Turret_mg_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_mg_03.png", 
+            "target": "Turret_mg_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_mg_04.png", 
+            "target": "Turret_mg_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_mg_05.png", 
+            "target": "Turret_mg_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_msl_01.png", 
+            "target": "Turret_msl_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_msl_02.png", 
+            "target": "Turret_msl_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_msl_03.png", 
+            "target": "Turret_msl_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_msl_04.png", 
+            "target": "Turret_msl_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_msl_05.png", 
+            "target": "Turret_msl_05.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_pla_01.png", 
+            "target": "Turret_pla_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_pla_02.png", 
+            "target": "Turret_pla_02.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_pla_03.png", 
+            "target": "Turret_pla_03.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_pla_04.png", 
+            "target": "Turret_pla_04.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_pla_05.png", 
+            "target": "Turret_pla_05.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeBtn_Buy.png", 
+            "target": "UpgradeBtn_Buy.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeEquip_MachInfo.png", 
+            "target": "UpgradeEquip_MachInfo.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_BaseCannon.png", 
+            "target": "Btn_BaseUpgrade_BaseCannon.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_BaseDefense.png", 
+            "target": "Btn_BaseUpgrade_BaseDefense.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_BuildTime.png", 
+            "target": "Btn_BaseUpgrade_BuildTime.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_CellResearch.png", 
+            "target": "Btn_BaseUpgrade_CellResearch.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_CellStorage.png", 
+            "target": "Btn_BaseUpgrade_CellStorage.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_CrResearch.png", 
+            "target": "Btn_BaseUpgrade_CrResearch.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_UpgradeBase_Close.png", 
+            "target": "Btn_UpgradeBase_Close.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Btn_UpgradeBase_Upgrade.png", 
+            "target": "Btn_UpgradeBase_Upgrade.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeEquip_UpgradeOn.png", 
+            "target": "UpgradeEquip_UpgradeOn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Ani_BuildMach.png", 
+            "target": "Ani_BuildMach.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Ani_Formation.png", 
+            "target": "Ani_Formation.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Ani_SpAttack.png", 
+            "target": "Ani_SpAttack.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeLine.png", 
+            "target": "UpgradeLine.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UpgradeTarget.png", 
+            "target": "UpgradeTarget.png"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG01.wav", 
+            "target": "HMG01.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG02.wav", 
+            "target": "HMG02.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG03.wav", 
+            "target": "HMG03.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG05.wav", 
+            "target": "HMG05.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG06.wav", 
+            "target": "HMG06.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG07.wav", 
+            "target": "HMG07.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG08.wav", 
+            "target": "HMG08.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG09.wav", 
+            "target": "HMG09.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG10.wav", 
+            "target": "HMG10.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Ion01.wav", 
+            "target": "Ion01.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Ion02.wav", 
+            "target": "Ion02.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Ion03.wav", 
+            "target": "Ion03.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun01.wav", 
+            "target": "MachineGun01.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun02.wav", 
+            "target": "MachineGun02.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun03.wav", 
+            "target": "MachineGun03.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun04.wav", 
+            "target": "MachineGun04.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun05.wav", 
+            "target": "MachineGun05.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun06.wav", 
+            "target": "MachineGun06.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun07.wav", 
+            "target": "MachineGun07.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun08.wav", 
+            "target": "MachineGun08.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun09.wav", 
+            "target": "MachineGun09.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/MachineGun10.wav", 
+            "target": "MachineGun10.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile01.wav", 
+            "target": "Missile01.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile02.wav", 
+            "target": "Missile02.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile03.wav", 
+            "target": "Missile03.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile04.wav", 
+            "target": "Missile04.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile05.wav", 
+            "target": "Missile05.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile06.wav", 
+            "target": "Missile06.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile07.wav", 
+            "target": "Missile07.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile08.wav", 
+            "target": "Missile08.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile09.wav", 
+            "target": "Missile09.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Missile10.wav", 
+            "target": "Missile10.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Plasma01.wav", 
+            "target": "Plasma01.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Plasma02.wav", 
+            "target": "Plasma02.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Plasma03.wav", 
+            "target": "Plasma03.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Plasma04.wav", 
+            "target": "Plasma04.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Plasma05.wav", 
+            "target": "Plasma05.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Shotgun01.wav", 
+            "target": "Shotgun01.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Shotgun02.wav", 
+            "target": "Shotgun02.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/Shotgun03.wav", 
+            "target": "Shotgun03.wav"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/CellUpgrade.png", 
+            "target": "CellUpgrade.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_01_01.png", 
+            "target": "tBG_01_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_01_02.png", 
+            "target": "tBG_01_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_02_01.png", 
+            "target": "tBG_02_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_02_02.png", 
+            "target": "tBG_02_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_03_01.png", 
+            "target": "tBG_03_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_03_02.png", 
+            "target": "tBG_03_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_04_01.png", 
+            "target": "tBG_04_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_04_02.png", 
+            "target": "tBG_04_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_05_01.png", 
+            "target": "tBG_05_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_05_02.png", 
+            "target": "tBG_05_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_06_01.png", 
+            "target": "tBG_06_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_06_02.png", 
+            "target": "tBG_06_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_07_01.png", 
+            "target": "tBG_07_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_07_02.png", 
+            "target": "tBG_07_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_08_01.png", 
+            "target": "tBG_08_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_08_02.png", 
+            "target": "tBG_08_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_09_01.png", 
+            "target": "tBG_09_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_09_02.png", 
+            "target": "tBG_09_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_10_01.png", 
+            "target": "tBG_10_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_10_02.png", 
+            "target": "tBG_10_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_11_01.png", 
+            "target": "tBG_11_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_11_02.png", 
+            "target": "tBG_11_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_12_01.png", 
+            "target": "tBG_12_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_12_02.png", 
+            "target": "tBG_12_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_13_01.png", 
+            "target": "tBG_13_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_13_02.png", 
+            "target": "tBG_13_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_14_01.png", 
+            "target": "tBG_14_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_14_02.png", 
+            "target": "tBG_14_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_15_01.png", 
+            "target": "tBG_15_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_15_02.png", 
+            "target": "tBG_15_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_16_01.png", 
+            "target": "tBG_16_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_16_02.png", 
+            "target": "tBG_16_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_17_01.png", 
+            "target": "tBG_17_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_17_02.png", 
+            "target": "tBG_17_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_18_01.png", 
+            "target": "tBG_18_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_18_02.png", 
+            "target": "tBG_18_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_19_01.png", 
+            "target": "tBG_19_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_19_02.png", 
+            "target": "tBG_19_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_20_01.png", 
+            "target": "tBG_20_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_20_02.png", 
+            "target": "tBG_20_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_21_01.png", 
+            "target": "tBG_21_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_21_02.png", 
+            "target": "tBG_21_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPad_SelStage_Fore.png", 
+            "target": "iPad_SelStage_Fore.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPad_SelSlot_BG.jpg", 
+            "target": "iPad_SelSlot_BG.jpg"
+        }, 
+        {
+            "asset": "Resource/Sound/BGM/GamePlay.mp3", 
+            "target": "GamePlay.mp3"
+        }, 
+        {
+            "asset": "Resource/Images/uiEtc/StageClear01.png", 
+            "target": "StageClear01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiEtc/StageClear02.png", 
+            "target": "StageClear02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/SysMenu_Btm.png", 
+            "target": "SysMenu_Btm.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/SysMenu_Btn.png", 
+            "target": "SysMenu_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/SysMenu_Mid.png", 
+            "target": "SysMenu_Mid.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/SysMenu_Sel.png", 
+            "target": "SysMenu_Sel.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/SysMenu_Top.png", 
+            "target": "SysMenu_Top.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/SelStage_Btn_Stage.png", 
+            "target": "SelStage_Btn_Stage.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/SelStage_CompleteMark.png", 
+            "target": "SelStage_CompleteMark.png"
+        }, 
+        {
+            "asset": "Resource/Sound/BGM/Intro.mp3", 
+            "target": "Intro.mp3"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/SummaryBtn_NextStage.png", 
+            "target": "SummaryBtn_NextStage.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/SummaryBtn_SelectStage.png", 
+            "target": "SummaryBtn_SelectStage.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/SummaryBtn_ExitGame.png", 
+            "target": "SummaryBtn_ExitGame.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/SummaryBtn_Retry.png", 
+            "target": "SummaryBtn_Retry.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/CommonUI_Defeat.png", 
+            "target": "CommonUI_Defeat.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/CommonUI_StageClear.png", 
+            "target": "CommonUI_StageClear.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/UiTitle.png", 
+            "target": "UiTitle.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/GameUI_HpGauge.png", 
+            "target": "GameUI_HpGauge.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/VolOption_Thumb.png", 
+            "target": "VolOption_Thumb.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/VolOption.png", 
+            "target": "VolOption.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Blt_Bullet.png", 
+            "target": "Blt_Bullet.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Blt_Railgun.png", 
+            "target": "Blt_Railgun.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02001.png", 
+            "target": "Icon02001.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02002.png", 
+            "target": "Icon02002.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02003.png", 
+            "target": "Icon02003.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02004.png", 
+            "target": "Icon02004.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02005.png", 
+            "target": "Icon02005.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02011.png", 
+            "target": "Icon02011.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02012.png", 
+            "target": "Icon02012.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02013.png", 
+            "target": "Icon02013.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02014.png", 
+            "target": "Icon02014.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02015.png", 
+            "target": "Icon02015.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02021.png", 
+            "target": "Icon02021.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02022.png", 
+            "target": "Icon02022.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02023.png", 
+            "target": "Icon02023.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02024.png", 
+            "target": "Icon02024.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02025.png", 
+            "target": "Icon02025.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02031.png", 
+            "target": "Icon02031.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02032.png", 
+            "target": "Icon02032.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02033.png", 
+            "target": "Icon02033.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02034.png", 
+            "target": "Icon02034.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02041.png", 
+            "target": "Icon02041.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02042.png", 
+            "target": "Icon02042.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02043.png", 
+            "target": "Icon02043.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02044.png", 
+            "target": "Icon02044.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02101.png", 
+            "target": "Icon02101.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02102.png", 
+            "target": "Icon02102.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02103.png", 
+            "target": "Icon02103.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02104.png", 
+            "target": "Icon02104.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02105.png", 
+            "target": "Icon02105.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02106.png", 
+            "target": "Icon02106.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02107.png", 
+            "target": "Icon02107.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02108.png", 
+            "target": "Icon02108.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02111.png", 
+            "target": "Icon02111.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02112.png", 
+            "target": "Icon02112.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02113.png", 
+            "target": "Icon02113.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02114.png", 
+            "target": "Icon02114.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon02115.png", 
+            "target": "Icon02115.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/Icon_32.png", 
+            "target": "Icon_32.png"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_01_01.jpg", 
+            "target": "BG_01_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_01_02.jpg", 
+            "target": "BG_01_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_02_01.jpg", 
+            "target": "BG_02_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_02_02.jpg", 
+            "target": "BG_02_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_03_01.jpg", 
+            "target": "BG_03_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_03_02.jpg", 
+            "target": "BG_03_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_04_01.jpg", 
+            "target": "BG_04_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_04_02.jpg", 
+            "target": "BG_04_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_05_01.jpg", 
+            "target": "BG_05_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_05_02.jpg", 
+            "target": "BG_05_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_06_01.jpg", 
+            "target": "BG_06_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_06_02.jpg", 
+            "target": "BG_06_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_07_01.jpg", 
+            "target": "BG_07_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_07_02.jpg", 
+            "target": "BG_07_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_08_01.jpg", 
+            "target": "BG_08_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_08_02.jpg", 
+            "target": "BG_08_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_09_01.jpg", 
+            "target": "BG_09_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_09_02.jpg", 
+            "target": "BG_09_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_10_01.jpg", 
+            "target": "BG_10_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_10_02.jpg", 
+            "target": "BG_10_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_11_01.jpg", 
+            "target": "BG_11_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_11_02.jpg", 
+            "target": "BG_11_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_12_01.jpg", 
+            "target": "BG_12_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_12_02.jpg", 
+            "target": "BG_12_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_13_01.jpg", 
+            "target": "BG_13_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_13_02.jpg", 
+            "target": "BG_13_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_14_01.jpg", 
+            "target": "BG_14_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_14_02.jpg", 
+            "target": "BG_14_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_15_01.jpg", 
+            "target": "BG_15_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_15_02.jpg", 
+            "target": "BG_15_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_16_01.jpg", 
+            "target": "BG_16_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_16_02.jpg", 
+            "target": "BG_16_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_17_01.jpg", 
+            "target": "BG_17_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_17_02.jpg", 
+            "target": "BG_17_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_18_01.jpg", 
+            "target": "BG_18_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_18_02.jpg", 
+            "target": "BG_18_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_19_01.jpg", 
+            "target": "BG_19_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_19_02.jpg", 
+            "target": "BG_19_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_20_01.jpg", 
+            "target": "BG_20_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_20_02.jpg", 
+            "target": "BG_20_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_21_01.jpg", 
+            "target": "BG_21_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_21_02.jpg", 
+            "target": "BG_21_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Sound/BGM/UI_BGM.mp3", 
+            "target": "UI_BGM.mp3"
+        }, 
+        {
+            "asset": "Resource/Sound/Weapon/HMG04.wav", 
+            "target": "HMG04.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/BuildMach.wav", 
+            "target": "BuildMach.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/BuildMachComplete.wav", 
+            "target": "BuildMachComplete.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/BuySpAttack.wav", 
+            "target": "BuySpAttack.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/DmgPlasma.wav", 
+            "target": "DmgPlasma.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Game_GetItem.wav", 
+            "target": "Game_GetItem.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Game_LowHP.wav", 
+            "target": "Game_LowHP.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Install.wav", 
+            "target": "Install.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Loading_Close.wav", 
+            "target": "Loading_Close.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Loading_Open.wav", 
+            "target": "Loading_Open.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_AirStrike.wav", 
+            "target": "SFX_AirStrike.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_ExplGround.wav", 
+            "target": "SFX_ExplGround.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_ExplMach.wav", 
+            "target": "SFX_ExplMach.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_GroundHit.wav", 
+            "target": "SFX_GroundHit.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_HitBody01.wav", 
+            "target": "SFX_HitBody01.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_HitBody02.wav", 
+            "target": "SFX_HitBody02.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_HitBody03.wav", 
+            "target": "SFX_HitBody03.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_HitBody04.wav", 
+            "target": "SFX_HitBody04.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_OnMessage.wav", 
+            "target": "SFX_OnMessage.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Title_Bang.wav", 
+            "target": "Title_Bang.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Title_TapToStart.wav", 
+            "target": "Title_TapToStart.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Title_TitleIn.wav", 
+            "target": "Title_TitleIn.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UI_Btn_Cancel.wav", 
+            "target": "UI_Btn_Cancel.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UI_Btn_OK.wav", 
+            "target": "UI_Btn_OK.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UI_Click.wav", 
+            "target": "UI_Click.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UIType_BuildMach.wav", 
+            "target": "UIType_BuildMach.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UIType_Formation.wav", 
+            "target": "UIType_Formation.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UIType_SpAttack.wav", 
+            "target": "UIType_SpAttack.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/Uninstall.wav", 
+            "target": "Uninstall.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UpgradeBase.wav", 
+            "target": "UpgradeBase.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UpgradeMach.wav", 
+            "target": "UpgradeMach.wav"
+        }, 
+        {
+            "asset": "Resource/Sound/UpgradeSpAttack.wav", 
+            "target": "UpgradeSpAttack.wav"
+        }, 
+        {
+            "asset": "Resource/Icon57.png", 
+            "target": "Icon57.png"
+        }, 
+        {
+            "asset": "Resource/Icon114.png", 
+            "target": "Icon114.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_22_01.png", 
+            "target": "tBG_22_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_22_02.png", 
+            "target": "tBG_22_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_23_01.png", 
+            "target": "tBG_23_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_23_02.png", 
+            "target": "tBG_23_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_24_01.png", 
+            "target": "tBG_24_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_24_02.png", 
+            "target": "tBG_24_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_25_01.png", 
+            "target": "tBG_25_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/tBG_25_02.png", 
+            "target": "tBG_25_02.png"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_22_01.jpg", 
+            "target": "BG_22_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_22_02.jpg", 
+            "target": "BG_22_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_23_01.jpg", 
+            "target": "BG_23_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_23_02.jpg", 
+            "target": "BG_23_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_24_01.jpg", 
+            "target": "BG_24_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_24_02.jpg", 
+            "target": "BG_24_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_25_01.jpg", 
+            "target": "BG_25_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/BG_25_02.jpg", 
+            "target": "BG_25_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Data/Description_kr.tble", 
+            "target": "Description_kr.tble"
+        }, 
+        {
+            "asset": "Resource/Data/Description_us.tble", 
+            "target": "Description_us.tble"
+        }, 
+        {
+            "asset": "Resource/Data/ItemInfo.tble", 
+            "target": "ItemInfo.tble"
+        }, 
+        {
+            "asset": "Resource/Data/ItemRegen.tble", 
+            "target": "ItemRegen.tble"
+        }, 
+        {
+            "asset": "Resource/Data/MachInfo.mcb", 
+            "target": "MachInfo.mcb"
+        }, 
+        {
+            "asset": "Resource/Data/MachList.tble", 
+            "target": "MachList.tble"
+        }, 
+        {
+            "asset": "Resource/Data/MapInfo.mcb", 
+            "target": "MapInfo.mcb"
+        }, 
+        {
+            "asset": "Resource/Data/MapList.tble", 
+            "target": "MapList.tble"
+        }, 
+        {
+            "asset": "Resource/Data/PartsInfo.mcb", 
+            "target": "PartsInfo.mcb"
+        }, 
+        {
+            "asset": "Resource/Data/PartsList.tble", 
+            "target": "PartsList.tble"
+        }, 
+        {
+            "asset": "Resource/Data/WeaponInfo.tble", 
+            "target": "WeaponInfo.tble"
+        }, 
+        {
+            "asset": "Resource/Data/BaseUpgrade.tble", 
+            "target": "BaseUpgrade.tble"
+        }, 
+        {
+            "asset": "Resource/Data/MachBuild_Name.tble", 
+            "target": "MachBuild_Name.tble"
+        }, 
+        {
+            "asset": "Resource/Data/MachBuild_Parts.tble", 
+            "target": "MachBuild_Parts.tble"
+        }, 
+        {
+            "asset": "Resource/Data/MachRegen.tble", 
+            "target": "MachRegen.tble"
+        }, 
+        {
+            "asset": "Resource/Data/SpAttackList.tble", 
+            "target": "SpAttackList.tble"
+        }, 
+        {
+            "asset": "Resource/Data/TileList.tble", 
+            "target": "TileList.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_01.tble", 
+            "target": "ESpawn_01.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_02.tble", 
+            "target": "ESpawn_02.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_03.tble", 
+            "target": "ESpawn_03.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_04.tble", 
+            "target": "ESpawn_04.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_05.tble", 
+            "target": "ESpawn_05.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_06.tble", 
+            "target": "ESpawn_06.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_07.tble", 
+            "target": "ESpawn_07.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_08.tble", 
+            "target": "ESpawn_08.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_09.tble", 
+            "target": "ESpawn_09.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_10.tble", 
+            "target": "ESpawn_10.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_11.tble", 
+            "target": "ESpawn_11.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_12.tble", 
+            "target": "ESpawn_12.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_13.tble", 
+            "target": "ESpawn_13.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_14.tble", 
+            "target": "ESpawn_14.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_15.tble", 
+            "target": "ESpawn_15.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_16.tble", 
+            "target": "ESpawn_16.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_17.tble", 
+            "target": "ESpawn_17.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_18.tble", 
+            "target": "ESpawn_18.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_19.tble", 
+            "target": "ESpawn_19.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_20.tble", 
+            "target": "ESpawn_20.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_21.tble", 
+            "target": "ESpawn_21.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_22.tble", 
+            "target": "ESpawn_22.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_23.tble", 
+            "target": "ESpawn_23.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_24.tble", 
+            "target": "ESpawn_24.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_25.tble", 
+            "target": "ESpawn_25.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_26.tble", 
+            "target": "ESpawn_26.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_27.tble", 
+            "target": "ESpawn_27.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_28.tble", 
+            "target": "ESpawn_28.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_29.tble", 
+            "target": "ESpawn_29.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_30.tble", 
+            "target": "ESpawn_30.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_31.tble", 
+            "target": "ESpawn_31.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_32.tble", 
+            "target": "ESpawn_32.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_33.tble", 
+            "target": "ESpawn_33.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_34.tble", 
+            "target": "ESpawn_34.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_35.tble", 
+            "target": "ESpawn_35.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_36.tble", 
+            "target": "ESpawn_36.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_37.tble", 
+            "target": "ESpawn_37.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_38.tble", 
+            "target": "ESpawn_38.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_39.tble", 
+            "target": "ESpawn_39.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_40.tble", 
+            "target": "ESpawn_40.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_41.tble", 
+            "target": "ESpawn_41.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_42.tble", 
+            "target": "ESpawn_42.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_43.tble", 
+            "target": "ESpawn_43.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_44.tble", 
+            "target": "ESpawn_44.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_45.tble", 
+            "target": "ESpawn_45.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_46.tble", 
+            "target": "ESpawn_46.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_47.tble", 
+            "target": "ESpawn_47.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_48.tble", 
+            "target": "ESpawn_48.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_49.tble", 
+            "target": "ESpawn_49.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_50.tble", 
+            "target": "ESpawn_50.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_51.tble", 
+            "target": "ESpawn_51.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_52.tble", 
+            "target": "ESpawn_52.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_53.tble", 
+            "target": "ESpawn_53.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_54.tble", 
+            "target": "ESpawn_54.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_55.tble", 
+            "target": "ESpawn_55.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_56.tble", 
+            "target": "ESpawn_56.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_57.tble", 
+            "target": "ESpawn_57.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_58.tble", 
+            "target": "ESpawn_58.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_59.tble", 
+            "target": "ESpawn_59.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_60.tble", 
+            "target": "ESpawn_60.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_61.tble", 
+            "target": "ESpawn_61.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_62.tble", 
+            "target": "ESpawn_62.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_63.tble", 
+            "target": "ESpawn_63.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_64.tble", 
+            "target": "ESpawn_64.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_65.tble", 
+            "target": "ESpawn_65.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_66.tble", 
+            "target": "ESpawn_66.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_67.tble", 
+            "target": "ESpawn_67.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_68.tble", 
+            "target": "ESpawn_68.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_69.tble", 
+            "target": "ESpawn_69.tble"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_70.tble", 
+            "target": "ESpawn_70.tble"
+        }, 
+        {
+            "asset": "Resource/Sound/SFX_QuickSlot.wav", 
+            "target": "SFX_QuickSlot.wav"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/iPon_Title_Main.png", 
+            "target": "iPon_Title_Main.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/iPon_Title_Main@2x.png", 
+            "target": "iPon_Title_Main@2x.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_BG.jpg", 
+            "target": "iPon_SelSlot_BG.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_BG@2x.jpg", 
+            "target": "iPon_SelSlot_BG@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPon_SelStage_Fore.png", 
+            "target": "iPon_SelStage_Fore.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPon_SelStage_Fore@2x.png", 
+            "target": "iPon_SelStage_Fore@2x.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/iPad_GameUI_BG.png", 
+            "target": "iPad_GameUI_BG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/iPad_QuickBtn.png", 
+            "target": "iPad_QuickBtn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/iPon_GameUI_BG.png", 
+            "target": "iPon_GameUI_BG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/iPon_GameUI_BG@2x.png", 
+            "target": "iPon_GameUI_BG@2x.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/iPon_QuickBtn.png", 
+            "target": "iPon_QuickBtn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/iPon_QuickBtn@2x.png", 
+            "target": "iPon_QuickBtn@2x.png"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_01_01.jpg", 
+            "target": "iPon_BG_01_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_01_02.jpg", 
+            "target": "iPon_BG_01_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_02_01.jpg", 
+            "target": "iPon_BG_02_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_02_02.jpg", 
+            "target": "iPon_BG_02_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_03_01.jpg", 
+            "target": "iPon_BG_03_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_03_02.jpg", 
+            "target": "iPon_BG_03_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_04_01.jpg", 
+            "target": "iPon_BG_04_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_04_02.jpg", 
+            "target": "iPon_BG_04_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_05_01.jpg", 
+            "target": "iPon_BG_05_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_05_02.jpg", 
+            "target": "iPon_BG_05_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_06_01.jpg", 
+            "target": "iPon_BG_06_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_06_02.jpg", 
+            "target": "iPon_BG_06_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_07_01.jpg", 
+            "target": "iPon_BG_07_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_07_02.jpg", 
+            "target": "iPon_BG_07_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_08_01.jpg", 
+            "target": "iPon_BG_08_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_08_02.jpg", 
+            "target": "iPon_BG_08_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_09_01.jpg", 
+            "target": "iPon_BG_09_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_09_02.jpg", 
+            "target": "iPon_BG_09_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_10_01.jpg", 
+            "target": "iPon_BG_10_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_10_02.jpg", 
+            "target": "iPon_BG_10_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_11_01.jpg", 
+            "target": "iPon_BG_11_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_11_02.jpg", 
+            "target": "iPon_BG_11_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_12_01.jpg", 
+            "target": "iPon_BG_12_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_12_02.jpg", 
+            "target": "iPon_BG_12_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_13_01.jpg", 
+            "target": "iPon_BG_13_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_13_02.jpg", 
+            "target": "iPon_BG_13_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_14_01.jpg", 
+            "target": "iPon_BG_14_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_14_02.jpg", 
+            "target": "iPon_BG_14_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_15_01.jpg", 
+            "target": "iPon_BG_15_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_15_02.jpg", 
+            "target": "iPon_BG_15_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_16_01.jpg", 
+            "target": "iPon_BG_16_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_16_02.jpg", 
+            "target": "iPon_BG_16_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_17_01.jpg", 
+            "target": "iPon_BG_17_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_17_02.jpg", 
+            "target": "iPon_BG_17_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_18_01.jpg", 
+            "target": "iPon_BG_18_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_18_02.jpg", 
+            "target": "iPon_BG_18_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_19_01.jpg", 
+            "target": "iPon_BG_19_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_19_02.jpg", 
+            "target": "iPon_BG_19_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_20_01.jpg", 
+            "target": "iPon_BG_20_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_20_02.jpg", 
+            "target": "iPon_BG_20_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_21_01.jpg", 
+            "target": "iPon_BG_21_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_21_02.jpg", 
+            "target": "iPon_BG_21_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_22_01.jpg", 
+            "target": "iPon_BG_22_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_22_02.jpg", 
+            "target": "iPon_BG_22_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_23_01.jpg", 
+            "target": "iPon_BG_23_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_23_02.jpg", 
+            "target": "iPon_BG_23_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_24_01.jpg", 
+            "target": "iPon_BG_24_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_24_02.jpg", 
+            "target": "iPon_BG_24_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_25_01.jpg", 
+            "target": "iPon_BG_25_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Map/Images/256/iPon_BG_25_02.jpg", 
+            "target": "iPon_BG_25_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPad_SelSlot_Sel.png", 
+            "target": "iPad_SelSlot_Sel.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_Sel.png", 
+            "target": "iPon_SelSlot_Sel.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_Sel@2x.png", 
+            "target": "iPon_SelSlot_Sel@2x.png"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr01_kr.jpg", 
+            "target": "iPad_HelpScr01_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr01_us.jpg", 
+            "target": "iPad_HelpScr01_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr02_kr.jpg", 
+            "target": "iPad_HelpScr02_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr02_us.jpg", 
+            "target": "iPad_HelpScr02_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr03_kr.jpg", 
+            "target": "iPad_HelpScr03_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr03_us.jpg", 
+            "target": "iPad_HelpScr03_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr04_kr.jpg", 
+            "target": "iPad_HelpScr04_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr04_us.jpg", 
+            "target": "iPad_HelpScr04_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr05_kr.jpg", 
+            "target": "iPad_HelpScr05_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr05_us.jpg", 
+            "target": "iPad_HelpScr05_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr06_kr.jpg", 
+            "target": "iPad_HelpScr06_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr06_us.jpg", 
+            "target": "iPad_HelpScr06_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr07_kr.jpg", 
+            "target": "iPad_HelpScr07_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScr07_us.jpg", 
+            "target": "iPad_HelpScr07_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScrMain_kr.jpg", 
+            "target": "iPad_HelpScrMain_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPad_HelpScrMain_us.jpg", 
+            "target": "iPad_HelpScrMain_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr01_us.jpg", 
+            "target": "iPon_HelpScr01_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr01_us@2x.jpg", 
+            "target": "iPon_HelpScr01_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr01_kr.jpg", 
+            "target": "iPon_HelpScr01_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr01_kr@2x.jpg", 
+            "target": "iPon_HelpScr01_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr02_us.jpg", 
+            "target": "iPon_HelpScr02_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr02_us@2x.jpg", 
+            "target": "iPon_HelpScr02_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr02_kr.jpg", 
+            "target": "iPon_HelpScr02_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr02_kr@2x.jpg", 
+            "target": "iPon_HelpScr02_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr03_us.jpg", 
+            "target": "iPon_HelpScr03_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr03_us@2x.jpg", 
+            "target": "iPon_HelpScr03_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr03_kr.jpg", 
+            "target": "iPon_HelpScr03_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr03_kr@2x.jpg", 
+            "target": "iPon_HelpScr03_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr04_us.jpg", 
+            "target": "iPon_HelpScr04_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr04_us@2x.jpg", 
+            "target": "iPon_HelpScr04_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr04_kr.jpg", 
+            "target": "iPon_HelpScr04_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr04_kr@2x.jpg", 
+            "target": "iPon_HelpScr04_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr05_us.jpg", 
+            "target": "iPon_HelpScr05_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr05_us@2x.jpg", 
+            "target": "iPon_HelpScr05_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr05_kr.jpg", 
+            "target": "iPon_HelpScr05_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr05_kr@2x.jpg", 
+            "target": "iPon_HelpScr05_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr06_us.jpg", 
+            "target": "iPon_HelpScr06_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr06_us@2x.jpg", 
+            "target": "iPon_HelpScr06_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr06_kr.jpg", 
+            "target": "iPon_HelpScr06_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr06_kr@2x.jpg", 
+            "target": "iPon_HelpScr06_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr07_us.jpg", 
+            "target": "iPon_HelpScr07_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr07_us@2x.jpg", 
+            "target": "iPon_HelpScr07_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr07_kr.jpg", 
+            "target": "iPon_HelpScr07_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScr07_kr@2x.jpg", 
+            "target": "iPon_HelpScr07_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScrMain_us.jpg", 
+            "target": "iPon_HelpScrMain_us.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScrMain_us@2x.jpg", 
+            "target": "iPon_HelpScrMain_us@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScrMain_kr.jpg", 
+            "target": "iPon_HelpScrMain_kr.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/iPon_HelpScrMain_kr@2x.jpg", 
+            "target": "iPon_HelpScrMain_kr@2x.jpg"
+        }, 
+        {
+            "asset": "Resource/Help/Black.png", 
+            "target": "Black.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/NowLoading.png", 
+            "target": "NowLoading.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/SummaryBtn_LeaderBoard.png", 
+            "target": "SummaryBtn_LeaderBoard.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/FormationIcon_01.png", 
+            "target": "FormationIcon_01.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/FormationIcon_02.png", 
+            "target": "FormationIcon_02.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/FormationIcon_03.png", 
+            "target": "FormationIcon_03.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/FormationIcon_04.png", 
+            "target": "FormationIcon_04.png"
+        }, 
+        {
+            "asset": "Resource/Images/ItemIcon/FormationIcon_05.png", 
+            "target": "FormationIcon_05.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Explode01.png", 
+            "target": "Efx_Explode01.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Explode02.png", 
+            "target": "Efx_Explode02.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Explode03.png", 
+            "target": "Efx_Explode03.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Explode04.png", 
+            "target": "Efx_Explode04.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_ExplodeBoss.png", 
+            "target": "Efx_ExplodeBoss.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_ExplodeGround.png", 
+            "target": "Efx_ExplodeGround.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_ExplodeIon.png", 
+            "target": "Efx_ExplodeIon.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_ExplodeNPC.png", 
+            "target": "Efx_ExplodeNPC.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_ExplodePlasma.png", 
+            "target": "Efx_ExplodePlasma.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Fire.png", 
+            "target": "Efx_Fire.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Flame.png", 
+            "target": "Efx_Flame.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Ion01.png", 
+            "target": "Efx_Ion01.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Ion02.png", 
+            "target": "Efx_Ion02.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Ion03.png", 
+            "target": "Efx_Ion03.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Ion04.png", 
+            "target": "Efx_Ion04.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Ion05.png", 
+            "target": "Efx_Ion05.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Ion06.png", 
+            "target": "Efx_Ion06.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Ion07.png", 
+            "target": "Efx_Ion07.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Item.png", 
+            "target": "Efx_Item.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Item2.png", 
+            "target": "Efx_Item2.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_LevelUp.jpg", 
+            "target": "Efx_LevelUp.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Lightning.png", 
+            "target": "Efx_Lightning.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Nuclear.png", 
+            "target": "Efx_Nuclear.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Plasma.png", 
+            "target": "Efx_Plasma.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Rail01.png", 
+            "target": "Efx_Rail01.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Railgun.png", 
+            "target": "Efx_Railgun.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_RailgunEx.png", 
+            "target": "Efx_RailgunEx.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Shotgun.png", 
+            "target": "Efx_Shotgun.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Smoke.png", 
+            "target": "Efx_Smoke.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Trail01.png", 
+            "target": "Efx_Trail01.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Trail02.png", 
+            "target": "Efx_Trail02.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Trail03.png", 
+            "target": "Efx_Trail03.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Trail04.png", 
+            "target": "Efx_Trail04.png"
+        }, 
+        {
+            "asset": "Default-Portrait~ipad.png", 
+            "target": "Default-Portrait~ipad.png"
+        }, 
+        {
+            "asset": "Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
+        }, 
+        {
+            "asset": "Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_BulletTrail.png", 
+            "target": "Efx_BulletTrail.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_Damage.png", 
+            "target": "Efx_Damage.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_DamageHMG.png", 
+            "target": "Efx_DamageHMG.png"
+        }
+    ], 
+    "type": "app", 
+    "header_paths": [
+        {
+            "type": "iquote", 
+            "header_path": "MachDefense-generated-files.hmap", 
+            "hmap": {}
+        }, 
+        {
+            "type": "I", 
+            "header_path": "MachDefense-own-target-headers.hmap", 
+            "hmap": {}
+        }, 
+        {
+            "type": "I", 
+            "header_path": "MachDefense-all-target-headers.hmap", 
+            "hmap": {}
+        }, 
+        {
+            "type": "iquote", 
+            "header_path": "MachDefense-project-headers.hmap", 
+            "hmap": {
+                "ResMgr_Tile.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "ResMgr_Tile.h", 
+                    "key": "ResMgr_Tile.h"
+                }, 
+                "BaseUpgradeSet.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "BaseUpgradeSet.h", 
+                    "key": "BaseUpgradeSet.h"
+                }, 
+                "PartsController_Weapon.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsController_Weapon.h", 
+                    "key": "PartsController_Weapon.h"
+                }, 
+                "DlgUpgradeBase.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DlgUpgradeBase.h", 
+                    "key": "DlgUpgradeBase.h"
+                }, 
+                "MachInfo.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "MachInfo.h", 
+                    "key": "MachInfo.h"
+                }, 
+                "GobAirStrike.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobAirStrike.h", 
+                    "key": "GobAirStrike.h"
+                }, 
+                "QobAffecter.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobAffecter.h", 
+                    "key": "QobAffecter.h"
+                }, 
+                "UiObjMachParts.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "UiObjMachParts.h", 
+                    "key": "UiObjMachParts.h"
+                }, 
+                "GobHvM_Player.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvM_Player.h", 
+                    "key": "GobHvM_Player.h"
+                }, 
+                "TextureAtlas.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "TextureAtlas.h", 
+                    "key": "TextureAtlas.h"
+                }, 
+                "PartsManager.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "PartsManager.h", 
+                    "key": "PartsManager.h"
+                }, 
+                "GobHvMach.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvMach.h", 
+                    "key": "GobHvMach.h"
+                }, 
+                "MachBuildSet.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "MachBuildSet.h", 
+                    "key": "MachBuildSet.h"
+                }, 
+                "GobWorld.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobWorld.h", 
+                    "key": "GobWorld.h"
+                }, 
+                "Tile2D.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "Tile2D.h", 
+                    "key": "Tile2D.h"
+                }, 
+                "DefaultAppDelegate.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DefaultAppDelegate.h", 
+                    "key": "DefaultAppDelegate.h"
+                }, 
+                "GuiSelectSlot.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiSelectSlot.h", 
+                    "key": "GuiSelectSlot.h"
+                }, 
+                "ItemInfo.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "ItemInfo.h", 
+                    "key": "ItemInfo.h"
+                }, 
+                "DlgSystemMenu.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "DlgSystemMenu.h", 
+                    "key": "DlgSystemMenu.h"
+                }, 
+                "PVRTexture.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "PVRTexture.h", 
+                    "key": "PVRTexture.h"
+                }, 
+                "GobBullet.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobBullet.h", 
+                    "key": "GobBullet.h"
+                }, 
+                "WndBuildSlot.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "WndBuildSlot.h", 
+                    "key": "WndBuildSlot.h"
+                }, 
+                "EAGLView.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "EAGLView.h", 
+                    "key": "EAGLView.h"
+                }, 
+                "SpAttackSet.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "SpAttackSet.h", 
+                    "key": "SpAttackSet.h"
+                }, 
+                "GuiTitle.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiTitle.h", 
+                    "key": "GuiTitle.h"
+                }, 
+                "GobStaffEffect.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobStaffEffect.h", 
+                    "key": "GobStaffEffect.h"
+                }, 
+                "QVisualLayer.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QVisualLayer.h", 
+                    "key": "QVisualLayer.h"
+                }, 
+                "GameMain.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GameMain.h", 
+                    "key": "GameMain.h"
+                }, 
+                "DlgFormation.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DlgFormation.h", 
+                    "key": "DlgFormation.h"
+                }, 
+                "QobBase.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobBase.h", 
+                    "key": "QobBase.h"
+                }, 
+                "GuiSelectStage.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "GuiSelectStage.h", 
+                    "key": "GuiSelectStage.h"
+                }, 
+                "SoundManager.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "SoundManager.h", 
+                    "key": "SoundManager.h"
+                }, 
+                "GameDef.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GameDef.h", 
+                    "key": "GameDef.h"
+                }, 
+                "EAGLViewController.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "EAGLViewController.h", 
+                    "key": "EAGLViewController.h"
+                }, 
+                "GameCenterManager.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "GameCenterManager.h", 
+                    "key": "GameCenterManager.h"
+                }, 
+                "QobCamera.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobCamera.h", 
+                    "key": "QobCamera.h"
+                }, 
+                "GobEnemySpawner.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobEnemySpawner.h", 
+                    "key": "GobEnemySpawner.h"
+                }, 
+                "BuildItem.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "BuildItem.h", 
+                    "key": "BuildItem.h"
+                }, 
+                "QobParticle.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobParticle.h", 
+                    "key": "QobParticle.h"
+                }, 
+                "ZoneManager.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "ZoneManager.h", 
+                    "key": "ZoneManager.h"
+                }, 
+                "CommonDlg.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "CommonDlg.h", 
+                    "key": "CommonDlg.h"
+                }, 
+                "GuiGame.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiGame.h", 
+                    "key": "GuiGame.h"
+                }, 
+                "DlgSpecialAttack.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DlgSpecialAttack.h", 
+                    "key": "DlgSpecialAttack.h"
+                }, 
+                "QList.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QList.h", 
+                    "key": "QList.h"
+                }, 
+                "UiObjMach.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "UiObjMach.h", 
+                    "key": "UiObjMach.h"
+                }, 
+                "DlgSummary.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DlgSummary.h", 
+                    "key": "DlgSummary.h"
+                }, 
+                "GobTrailEffect.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobTrailEffect.h", 
+                    "key": "GobTrailEffect.h"
+                }, 
+                "SoundEngine.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "SoundEngine.h", 
+                    "key": "SoundEngine.h"
+                }, 
+                "QobText.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobText.h", 
+                    "key": "QobText.h"
+                }, 
+                "GobHvM_Bot.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvM_Bot.h", 
+                    "key": "GobHvM_Bot.h"
+                }, 
+                "DlgUpgradeEquip.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DlgUpgradeEquip.h", 
+                    "key": "DlgUpgradeEquip.h"
+                }, 
+                "QSocket.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QSocket.h", 
+                    "key": "QSocket.h"
+                }, 
+                "PartsController_WeaponAI.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsController_WeaponAI.h", 
+                    "key": "PartsController_WeaponAI.h"
+                }, 
+                "DlgRadar.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "DlgRadar.h", 
+                    "key": "DlgRadar.h"
+                }, 
+                "Texture2D.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "Texture2D.h", 
+                    "key": "Texture2D.h"
+                }, 
+                "QobLine.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobLine.h", 
+                    "key": "QobLine.h"
+                }, 
+                "GobMachParts.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobMachParts.h", 
+                    "key": "GobMachParts.h"
+                }, 
+                "QobManager.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobManager.h", 
+                    "key": "QobManager.h"
+                }, 
+                "SpDamageInfo.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "SpDamageInfo.h", 
+                    "key": "SpDamageInfo.h"
+                }, 
+                "QVector.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QVector.h", 
+                    "key": "QVector.h"
+                }, 
+                "QUIAlertView.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QUIAlertView.h", 
+                    "key": "QUIAlertView.h"
+                }, 
+                "PartsController.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsController.h", 
+                    "key": "PartsController.h"
+                }, 
+                "QobImageFont.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobImageFont.h", 
+                    "key": "QobImageFont.h"
+                }, 
+                "QTable.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QTable.h", 
+                    "key": "QTable.h"
+                }, 
+                "QobImage.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobImage.h", 
+                    "key": "QobImage.h"
+                }, 
+                "QChunk.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QChunk.h", 
+                    "key": "QChunk.h"
+                }, 
+                "GuiMapLoading.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiMapLoading.h", 
+                    "key": "GuiMapLoading.h"
+                }, 
+                "PartsInfo.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsInfo.h", 
+                    "key": "PartsInfo.h"
+                }, 
+                "DlgUpgradeItem.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DlgUpgradeItem.h", 
+                    "key": "DlgUpgradeItem.h"
+                }, 
+                "GlobalInfo.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GlobalInfo.h", 
+                    "key": "GlobalInfo.h"
+                }, 
+                "MD_Prefix.pch": {
+                    "prefix": "./", 
+                    "suffix": "MD_Prefix.pch", 
+                    "key": "MD_Prefix.pch"
+                }, 
+                "GuiHelp.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiHelp.h", 
+                    "key": "GuiHelp.h"
+                }, 
+                "WeaponInfo.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "WeaponInfo.h", 
+                    "key": "WeaponInfo.h"
+                }, 
+                "ImageAttacher.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "ImageAttacher.h", 
+                    "key": "ImageAttacher.h"
+                }, 
+                "SoundEffect.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "SoundEffect.h", 
+                    "key": "SoundEffect.h"
+                }, 
+                "DlgBuildMach.h": {
+                    "prefix": "Classes/", 
+                    "suffix": "DlgBuildMach.h", 
+                    "key": "DlgBuildMach.h"
+                }, 
+                "Collider.h": {
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "Collider.h", 
+                    "key": "Collider.h"
+                }, 
+                "GobFieldItem.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobFieldItem.h", 
+                    "key": "GobFieldItem.h"
+                }, 
+                "GobHvM_Enemy.h": {
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvM_Enemy.h", 
+                    "key": "GobHvM_Enemy.h"
+                }, 
+                "QobButton.h": {
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobButton.h", 
+                    "key": "QobButton.h"
+                }
+            }
+        }
+    ], 
+    "modules": [], 
+    "version": "1", 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=c99", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "deps": [
+        "UIKit", 
+        "Foundation", 
+        "OpenGLES", 
+        "QuartzCore", 
+        "MediaPlayer", 
+        "OpenAL", 
+        "CoreGraphics", 
+        "AudioToolbox", 
+        "CoreAudio", 
+        "Security", 
+        "CFNetwork", 
+        "CoreLocation", 
+        "SystemConfiguration", 
+        "StoreKit", 
+        "iAd", 
+        "GameKit"
+    ], 
+    "config": {
+        "APPLICATION_NAME": "MachDefense", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "MachDefense", 
+            "PRODUCT_NAME": "MachDefense"
+        }, 
+        "LONG_VERSION": "1.0.5", 
+        "APPLICATION_FULL_NAME": "MachDefense", 
+        "APPLICATION_IDENTIFIER": "com.knockgames.MachDefense"
+    }
+}
