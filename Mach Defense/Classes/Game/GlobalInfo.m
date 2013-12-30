@@ -224,7 +224,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 		strcpy(slot->name, [name UTF8String]);
 		strcpy(slot->country, [country UTF8String]);
 
-#ifdef _ON_DEBUG_
+#ifdef DEBUG
 		if(strcmp(slot->name, "GimmeCr") == 0)			// cheat
 		{
 			slot->cr = 10000000;
@@ -273,6 +273,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 		buildSet = [self buyBuildSet:@"Tanker"];				buildSet.onSlot = true;
 		buildSet = [self buyBuildSet:@"Missile"];				buildSet.onSlot = true;
 		buildSet = [self buyBuildSet:@"RifleTurret"];			buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"PlasmaGun"];			buildSet.onSlot = true;
 
 		SpAttackSet *attackSet;
 		attackSet = [self buyAttackSet:@"AirStrike-Bomb" Count:2];		attackSet.onSlot = true;
@@ -326,11 +327,13 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	}
 	
 	// 임시 초기값 //////////////////			// cheat
-//	GSLOT->stage = 20;
-//	GSLOT->cr = 20000;
+#ifdef DEBUG
+	GSLOT->stage = 20;
+	GSLOT->cr = 20000;
 //	GSLOT->maxHp = 256;
-	//	GSLOT->stage = 49;
-	//	GSLOT->weaponCnt = 200; 
+		GSLOT->lastStage = MAX_STAGE;
+	GSLOT->machCount = 7;
+#endif
 	///////////////////////////////
 	
 	return true;
@@ -400,7 +403,10 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 		{
 			_saveData.slot[i].use = false;
 		}
-		_saveData.runCount = 0;
+        
+        [GINFO initSlotWithName:@"FinalForce" Country:@"us"];
+        //_saveData.slot[0].use = true;
+		//_saveData.runCount = 1;
 	}
 }
 
@@ -477,11 +483,15 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	
 	[mapChunk release];
 	
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MapList" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MapList" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *name = [[NSString alloc] initWithString:[table getString:i Key:@"Stage"]];
 		NSString *desc = [[NSString alloc] initWithString:[table getString:i Key:@"ImageFile"]];
+        float x = [table getFloat:i Key:@"PositionX"];
+        float y = [table getFloat:i Key:@"PositionY"];
+        
+        _listMapPosition[i] =  CGPointMake(x, y);
 		
 		[_dictMapName setObject:desc forKey:name];
 		[name release];
@@ -501,6 +511,17 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 - (NSString *)getMapName:(NSString *)mapId
 {
 	return [_dictMapName objectForKey:mapId];
+}
+
+
+- (CGPoint)getMapPosition:(NSString *)mapId
+{
+    return _listMapPosition[mapId.intValue];
+}
+
+- (CGPoint)getMapPositionFromIndex:(int)nMapIndex
+{
+    return _listMapPosition[nMapIndex];
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -566,7 +587,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	
 	[data release];
 	
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"PartsList" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"PartsList" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *partsName = [table getString:i Key:@"PartsName"];

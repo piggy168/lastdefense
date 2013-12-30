@@ -80,7 +80,8 @@ extern DefaultAppDelegate *_appDelegate;
 	_show = true;
 
 	Tile2D *tile = nil;
-	tile = [TILEMGR getTile:@"Efx_BulletTrail.png"];			[tile tileSplitX:1 splitY:1];
+	tile = [TILEMGR getTile:@"Efx_BulletTrail_green.png"];			[tile tileSplitX:1 splitY:1];
+    tile = [TILEMGR getTile:@"Efx_BulletTrail_red.png"];			[tile tileSplitX:1 splitY:1];
 	tile = [TILEMGR getTile:@"Efx_Lightning.png"];				[tile tileSplitX:2 splitY:4];
 	tile = [TILEMGR getTileForRetina:@"Efx_Explode01.png"];		[tile tileSplitX:4 splitY:2];
 	tile = [TILEMGR getTileForRetina:@"Efx_Explode02.png"];		[tile tileSplitX:6 splitY:4];	[tile setOriginY:-44];
@@ -887,8 +888,14 @@ extern DefaultAppDelegate *_appDelegate;
 	NSString *mapId = [NSString stringWithFormat:@"%d", stage + 1];
 	NSString *mapName = [GINFO getMapName:mapId];
 	
-	if(_glView.deviceType == DEVICE_IPHONE) tile = [_tileResMgr getTile:[NSString stringWithFormat:@"iPon_%@_01.jpg", mapName]];
-	else tile = [_tileResMgr getTileForRetina:[NSString stringWithFormat:@"%@_01.jpg", mapName]];
+	if(_glView.deviceType == DEVICE_IPHONE)
+    {
+        tile = [_tileResMgr getTile:[NSString stringWithFormat:@"iPon_%@_01.jpg", mapName]];
+    }
+	else
+    {
+        tile = [_tileResMgr getTileForRetina:[NSString stringWithFormat:@"%@_01.jpg", mapName]];
+    }
 	[tile tileSplitX:1 splitY:1];
 	QobImage *img = [[QobImage alloc] initWithTile:tile tileNo:0];
 	[img setFixedPos:true];

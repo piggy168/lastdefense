@@ -564,7 +564,7 @@
     ], 
     "defines": {
         "IBOutletCollection(ClassName)": "__attribute__((iboutletcollection(ClassName)))", 
-        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40100, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60000, 
         "IBAction": "void)__attribute__((ibaction)", 
         "NS_BLOCK_ASSERTIONS": 1, 
         "IBOutlet": "__attribute__((iboutlet))"

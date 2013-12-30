@@ -62,7 +62,7 @@ extern DefaultAppDelegate *_appDelegate;
 	_playStartGameSnd = false;
 	_startTime = g_time;
 	
-	[_appDelegate bannerTurnOn:nil];
+	//[_appDelegate bannerTurnOn:nil];
 
 	return self;
 }

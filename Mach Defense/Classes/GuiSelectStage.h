@@ -14,9 +14,10 @@
 	ResMgr_Tile *_tileResMgr;
 	QobBase *_buttonBase;
 	QobImage *_imgSel;
+    QobButton *_btnFight;
 
 	int _sel;
-	float _camPos, _dragPos, _dragVel, _btnHeight, _topLimit, _btmLimit;
+	float _camPos, _dragPos, _dragVel, _btnHeight, _topLimit, _btmLimit, _lastPosition;
 }
 
 - (void)handleButton:(NSNotification *)note;

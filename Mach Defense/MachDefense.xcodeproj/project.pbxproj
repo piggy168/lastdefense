@@ -14,6 +14,22 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		DA30DB94186CF4B500D9AF93 /* Efx_BulletTrail_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */; };
+		DA30DB95186CF4B500D9AF93 /* Efx_BulletTrail_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */; };
+		DA43FF531832116300C2834A /* t_body_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF501832116300C2834A /* t_body_01.png */; };
+		DA43FF541832116300C2834A /* t_foot_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF511832116300C2834A /* t_foot_01.png */; };
+		DA43FF551832116300C2834A /* t_wpn_gun_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF521832116300C2834A /* t_wpn_gun_01.png */; };
+		DA43FF5A18322CEF00C2834A /* MachInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5618322CEE00C2834A /* MachInfo.mcb */; };
+		DA43FF5C18322CEF00C2834A /* PartsInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5818322CEE00C2834A /* PartsInfo.mcb */; };
+		DA43FF6118322DBC00C2834A /* ItemInfo.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5E18322DBB00C2834A /* ItemInfo.tble */; };
+		DA43FF6218322DBC00C2834A /* MachList.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5F18322DBC00C2834A /* MachList.tble */; };
+		DA43FF6318322DBC00C2834A /* PartsList.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF6018322DBC00C2834A /* PartsList.tble */; };
+		DA43FF6518322E1600C2834A /* MachBuild_Parts.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF6418322E1600C2834A /* MachBuild_Parts.tble */; };
+		DA43FF671832B07500C2834A /* PartsList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF661832B07500C2834A /* PartsList.tbl */; };
+		DA73CBFA1836B04D002912A9 /* MapList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA73CBF91836B04D002912A9 /* MapList.tbl */; };
+		DA79CB4A1871700F00DD7E45 /* P_Foot_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DA79CB491871700F00DD7E45 /* P_Foot_11.png */; };
+		DA8EA0781833647900A12DD5 /* P_Foot_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8EA0771833647900A12DD5 /* P_Foot_07.png */; };
+		DACAA7D1183490480085C2AB /* selStage_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D0183490480085C2AB /* selStage_btn.png */; };
 		E50CA02911B8CE9900A110B5 /* EAGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50CA02811B8CE9900A110B5 /* EAGLViewController.m */; };
 		E518A2861266C15B000FDC0F /* Base01_Rader.png in Resources */ = {isa = PBXBuildFile; fileRef = E518A2711266C15B000FDC0F /* Base01_Rader.png */; };
 		E518A2871266C15C000FDC0F /* Base01.png in Resources */ = {isa = PBXBuildFile; fileRef = E518A2721266C15B000FDC0F /* Base01.png */; };
@@ -1199,18 +1215,11 @@
 		E5D8ADD112B5B476003A5E05 /* BG_25_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5D8ADC912B5B476003A5E05 /* BG_25_02.jpg */; };
 		E5D8AE9712B61818003A5E05 /* Description_kr.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8612B61818003A5E05 /* Description_kr.tble */; };
 		E5D8AE9812B61818003A5E05 /* Description_us.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8712B61818003A5E05 /* Description_us.tble */; };
-		E5D8AE9912B61818003A5E05 /* ItemInfo.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8812B61818003A5E05 /* ItemInfo.tble */; };
 		E5D8AE9A12B61818003A5E05 /* ItemRegen.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8912B61818003A5E05 /* ItemRegen.tble */; };
-		E5D8AE9B12B61818003A5E05 /* MachInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8A12B61818003A5E05 /* MachInfo.mcb */; };
-		E5D8AE9C12B61818003A5E05 /* MachList.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8B12B61818003A5E05 /* MachList.tble */; };
 		E5D8AE9D12B61818003A5E05 /* MapInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8C12B61818003A5E05 /* MapInfo.mcb */; };
-		E5D8AE9E12B61818003A5E05 /* MapList.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8D12B61818003A5E05 /* MapList.tble */; };
-		E5D8AE9F12B61818003A5E05 /* PartsInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8E12B61818003A5E05 /* PartsInfo.mcb */; };
-		E5D8AEA012B61818003A5E05 /* PartsList.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8F12B61818003A5E05 /* PartsList.tble */; };
 		E5D8AEA112B61818003A5E05 /* WeaponInfo.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9012B61818003A5E05 /* WeaponInfo.tble */; };
 		E5D8AEA212B61818003A5E05 /* BaseUpgrade.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9112B61818003A5E05 /* BaseUpgrade.tble */; };
 		E5D8AEA312B61818003A5E05 /* MachBuild_Name.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9212B61818003A5E05 /* MachBuild_Name.tble */; };
-		E5D8AEA412B61818003A5E05 /* MachBuild_Parts.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9312B61818003A5E05 /* MachBuild_Parts.tble */; };
 		E5D8AEA512B61818003A5E05 /* MachRegen.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9412B61818003A5E05 /* MachRegen.tble */; };
 		E5D8AEA612B61818003A5E05 /* SpAttackList.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9512B61818003A5E05 /* SpAttackList.tble */; };
 		E5D8AEA712B61818003A5E05 /* TileList.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9612B61818003A5E05 /* TileList.tble */; };
@@ -1364,7 +1373,6 @@
 		FDA222C1134D36310049AA67 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA222C0134D36310049AA67 /* Default-Landscape~ipad.png */; };
 		FDA222CD134D6E7B0049AA67 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA222CC134D6E7B0049AA67 /* Default@2x.png */; };
 		FDA222CF134D6E850049AA67 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA222CE134D6E840049AA67 /* Default.png */; };
-		FDFD232313583DFD0020250D /* Efx_BulletTrail.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFD232213583DFD0020250D /* Efx_BulletTrail.png */; };
 		FDFD232713583E060020250D /* Efx_Damage.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFD232513583E060020250D /* Efx_Damage.png */; };
 		FDFD232813583E060020250D /* Efx_DamageHMG.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFD232613583E060020250D /* Efx_DamageHMG.png */; };
 /* End PBXBuildFile section */
@@ -1382,6 +1390,23 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* AppInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppInfo.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_green.png; sourceTree = "<group>"; };
+		DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_red.png; sourceTree = "<group>"; };
+		DA30DB96186D03B200D9AF93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA43FF501832116300C2834A /* t_body_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_body_01.png; sourceTree = "<group>"; };
+		DA43FF511832116300C2834A /* t_foot_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_foot_01.png; sourceTree = "<group>"; };
+		DA43FF521832116300C2834A /* t_wpn_gun_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_wpn_gun_01.png; sourceTree = "<group>"; };
+		DA43FF5618322CEE00C2834A /* MachInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachInfo.mcb; sourceTree = "<group>"; };
+		DA43FF5818322CEE00C2834A /* PartsInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PartsInfo.mcb; sourceTree = "<group>"; };
+		DA43FF5E18322DBB00C2834A /* ItemInfo.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemInfo.tble; sourceTree = "<group>"; };
+		DA43FF5F18322DBC00C2834A /* MachList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachList.tble; sourceTree = "<group>"; };
+		DA43FF6018322DBC00C2834A /* PartsList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = PartsList.tble; sourceTree = "<group>"; };
+		DA43FF6418322E1600C2834A /* MachBuild_Parts.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachBuild_Parts.tble; sourceTree = "<group>"; };
+		DA43FF661832B07500C2834A /* PartsList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PartsList.tbl; sourceTree = "<group>"; };
+		DA73CBF91836B04D002912A9 /* MapList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapList.tbl; sourceTree = "<group>"; };
+		DA79CB491871700F00DD7E45 /* P_Foot_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_11.png; sourceTree = "<group>"; };
+		DA8EA0771833647900A12DD5 /* P_Foot_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_07.png; sourceTree = "<group>"; };
+		DACAA7D0183490480085C2AB /* selStage_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selStage_btn.png; sourceTree = "<group>"; };
 		E50CA02711B8CE9900A110B5 /* EAGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLViewController.h; sourceTree = "<group>"; };
 		E50CA02811B8CE9900A110B5 /* EAGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLViewController.m; sourceTree = "<group>"; };
 		E518A2711266C15B000FDC0F /* Base01_Rader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Base01_Rader.png; sourceTree = "<group>"; };
@@ -2641,18 +2666,11 @@
 		E5D8ADC912B5B476003A5E05 /* BG_25_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG_25_02.jpg; sourceTree = "<group>"; };
 		E5D8AE8612B61818003A5E05 /* Description_kr.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = Description_kr.tble; sourceTree = "<group>"; };
 		E5D8AE8712B61818003A5E05 /* Description_us.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = Description_us.tble; sourceTree = "<group>"; };
-		E5D8AE8812B61818003A5E05 /* ItemInfo.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemInfo.tble; sourceTree = "<group>"; };
 		E5D8AE8912B61818003A5E05 /* ItemRegen.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemRegen.tble; sourceTree = "<group>"; };
-		E5D8AE8A12B61818003A5E05 /* MachInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachInfo.mcb; sourceTree = "<group>"; };
-		E5D8AE8B12B61818003A5E05 /* MachList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachList.tble; sourceTree = "<group>"; };
 		E5D8AE8C12B61818003A5E05 /* MapInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MapInfo.mcb; sourceTree = "<group>"; };
-		E5D8AE8D12B61818003A5E05 /* MapList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MapList.tble; sourceTree = "<group>"; };
-		E5D8AE8E12B61818003A5E05 /* PartsInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PartsInfo.mcb; sourceTree = "<group>"; };
-		E5D8AE8F12B61818003A5E05 /* PartsList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = PartsList.tble; sourceTree = "<group>"; };
 		E5D8AE9012B61818003A5E05 /* WeaponInfo.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeaponInfo.tble; sourceTree = "<group>"; };
 		E5D8AE9112B61818003A5E05 /* BaseUpgrade.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = BaseUpgrade.tble; sourceTree = "<group>"; };
 		E5D8AE9212B61818003A5E05 /* MachBuild_Name.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachBuild_Name.tble; sourceTree = "<group>"; };
-		E5D8AE9312B61818003A5E05 /* MachBuild_Parts.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachBuild_Parts.tble; sourceTree = "<group>"; };
 		E5D8AE9412B61818003A5E05 /* MachRegen.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachRegen.tble; sourceTree = "<group>"; };
 		E5D8AE9512B61818003A5E05 /* SpAttackList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpAttackList.tble; sourceTree = "<group>"; };
 		E5D8AE9612B61818003A5E05 /* TileList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = TileList.tble; sourceTree = "<group>"; };
@@ -2809,7 +2827,6 @@
 		FDA222C0134D36310049AA67 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		FDA222CC134D6E7B0049AA67 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FDA222CE134D6E840049AA67 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FDFD232213583DFD0020250D /* Efx_BulletTrail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail.png; sourceTree = "<group>"; };
 		FDFD232513583E060020250D /* Efx_Damage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_Damage.png; sourceTree = "<group>"; };
 		FDFD232613583E060020250D /* Efx_DamageHMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_DamageHMG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2868,6 +2885,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DA30DB96186D03B200D9AF93 /* Default-568h@2x.png */,
 				FDA222CE134D6E840049AA67 /* Default.png */,
 				FDA222CC134D6E7B0049AA67 /* Default@2x.png */,
 				FDA222C0134D36310049AA67 /* Default-Landscape~ipad.png */,
@@ -2941,23 +2959,24 @@
 		E52B51A1129B7CC30022EB7E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				DA43FF6418322E1600C2834A /* MachBuild_Parts.tble */,
+				DA43FF5E18322DBB00C2834A /* ItemInfo.tble */,
+				DA43FF5F18322DBC00C2834A /* MachList.tble */,
+				DA43FF661832B07500C2834A /* PartsList.tbl */,
+				DA43FF6018322DBC00C2834A /* PartsList.tble */,
+				DA73CBF91836B04D002912A9 /* MapList.tbl */,
+				DA43FF5618322CEE00C2834A /* MachInfo.mcb */,
+				DA43FF5818322CEE00C2834A /* PartsInfo.mcb */,
 				E5D8AE8612B61818003A5E05 /* Description_kr.tble */,
 				E5D8AE8712B61818003A5E05 /* Description_us.tble */,
-				E5D8AE8812B61818003A5E05 /* ItemInfo.tble */,
 				E5D8AE8912B61818003A5E05 /* ItemRegen.tble */,
-				E5D8AE8B12B61818003A5E05 /* MachList.tble */,
-				E5D8AE8D12B61818003A5E05 /* MapList.tble */,
-				E5D8AE8F12B61818003A5E05 /* PartsList.tble */,
 				E5D8AE9012B61818003A5E05 /* WeaponInfo.tble */,
 				E5D8AE9112B61818003A5E05 /* BaseUpgrade.tble */,
 				E5D8AE9212B61818003A5E05 /* MachBuild_Name.tble */,
-				E5D8AE9312B61818003A5E05 /* MachBuild_Parts.tble */,
 				E5D8AE9412B61818003A5E05 /* MachRegen.tble */,
 				E5D8AE9512B61818003A5E05 /* SpAttackList.tble */,
 				E5D8AE9612B61818003A5E05 /* TileList.tble */,
-				E5D8AE8A12B61818003A5E05 /* MachInfo.mcb */,
 				E5D8AE8C12B61818003A5E05 /* MapInfo.mcb */,
-				E5D8AE8E12B61818003A5E05 /* PartsInfo.mcb */,
 			);
 			name = Data;
 			path = Resource/Data;
@@ -3262,7 +3281,8 @@
 		E53CB3C111EEAAC2002B0F88 /* GameCommon */ = {
 			isa = PBXGroup;
 			children = (
-				FDFD232213583DFD0020250D /* Efx_BulletTrail.png */,
+				DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */,
+				DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */,
 				FDFD232513583E060020250D /* Efx_Damage.png */,
 				FDFD232613583E060020250D /* Efx_DamageHMG.png */,
 				FD211F481325C7C3004EB335 /* Efx_Explode01.png */,
@@ -3443,6 +3463,7 @@
 		E53CB45311EEAAC3002B0F88 /* uiSelectSlot */ = {
 			isa = PBXGroup;
 			children = (
+				DACAA7D0183490480085C2AB /* selStage_btn.png */,
 				E5A92CF912AC9BA300939CDE /* iPad_SelSlot_BG.jpg */,
 				E5A92CF112AC9A2700939CDE /* iPad_SelStage_Fore.png */,
 				E59C5BDB12C04E81001C682A /* iPad_SelSlot_Sel.png */,
@@ -3534,6 +3555,9 @@
 		E53CB63611EEAAC3002B0F88 /* Parts */ = {
 			isa = PBXGroup;
 			children = (
+				DA43FF501832116300C2834A /* t_body_01.png */,
+				DA43FF511832116300C2834A /* t_foot_01.png */,
+				DA43FF521832116300C2834A /* t_wpn_gun_01.png */,
 				E53CB63711EEAAC3002B0F88 /* Airplane.png */,
 				E518A2711266C15B000FDC0F /* Base01_Rader.png */,
 				E518A2721266C15B000FDC0F /* Base01.png */,
@@ -3958,6 +3982,8 @@
 				E59528DE12951D9B0034BB09 /* P_Wpn_Sni_102.png */,
 				E59528DF12951D9B0034BB09 /* P_Wpn_Sni_103.png */,
 				E59528E012951D9B0034BB09 /* P_Wpn_Sni_104.png */,
+				DA79CB491871700F00DD7E45 /* P_Foot_11.png */,
+				DA8EA0771833647900A12DD5 /* P_Foot_07.png */,
 				E5DC18EC129E04D000C58585 /* Turret_b_01.png */,
 				E5DC18ED129E04D000C58585 /* Turret_b_02.png */,
 				E5DC18EE129E04D000C58585 /* Turret_b_03.png */,
@@ -5607,18 +5633,11 @@
 				E5D8ADD112B5B476003A5E05 /* BG_25_02.jpg in Resources */,
 				E5D8AE9712B61818003A5E05 /* Description_kr.tble in Resources */,
 				E5D8AE9812B61818003A5E05 /* Description_us.tble in Resources */,
-				E5D8AE9912B61818003A5E05 /* ItemInfo.tble in Resources */,
 				E5D8AE9A12B61818003A5E05 /* ItemRegen.tble in Resources */,
-				E5D8AE9B12B61818003A5E05 /* MachInfo.mcb in Resources */,
-				E5D8AE9C12B61818003A5E05 /* MachList.tble in Resources */,
 				E5D8AE9D12B61818003A5E05 /* MapInfo.mcb in Resources */,
-				E5D8AE9E12B61818003A5E05 /* MapList.tble in Resources */,
-				E5D8AE9F12B61818003A5E05 /* PartsInfo.mcb in Resources */,
-				E5D8AEA012B61818003A5E05 /* PartsList.tble in Resources */,
 				E5D8AEA112B61818003A5E05 /* WeaponInfo.tble in Resources */,
 				E5D8AEA212B61818003A5E05 /* BaseUpgrade.tble in Resources */,
 				E5D8AEA312B61818003A5E05 /* MachBuild_Name.tble in Resources */,
-				E5D8AEA412B61818003A5E05 /* MachBuild_Parts.tble in Resources */,
 				E5D8AEA512B61818003A5E05 /* MachRegen.tble in Resources */,
 				E5D8AEA612B61818003A5E05 /* SpAttackList.tble in Resources */,
 				E5D8AEA712B61818003A5E05 /* TileList.tble in Resources */,
@@ -5851,9 +5870,24 @@
 				FDA222C1134D36310049AA67 /* Default-Landscape~ipad.png in Resources */,
 				FDA222CD134D6E7B0049AA67 /* Default@2x.png in Resources */,
 				FDA222CF134D6E850049AA67 /* Default.png in Resources */,
-				FDFD232313583DFD0020250D /* Efx_BulletTrail.png in Resources */,
 				FDFD232713583E060020250D /* Efx_Damage.png in Resources */,
 				FDFD232813583E060020250D /* Efx_DamageHMG.png in Resources */,
+				DA43FF531832116300C2834A /* t_body_01.png in Resources */,
+				DA43FF541832116300C2834A /* t_foot_01.png in Resources */,
+				DA43FF551832116300C2834A /* t_wpn_gun_01.png in Resources */,
+				DA43FF5A18322CEF00C2834A /* MachInfo.mcb in Resources */,
+				DA43FF5C18322CEF00C2834A /* PartsInfo.mcb in Resources */,
+				DA43FF6118322DBC00C2834A /* ItemInfo.tble in Resources */,
+				DA43FF6218322DBC00C2834A /* MachList.tble in Resources */,
+				DA43FF6318322DBC00C2834A /* PartsList.tble in Resources */,
+				DA43FF6518322E1600C2834A /* MachBuild_Parts.tble in Resources */,
+				DA43FF671832B07500C2834A /* PartsList.tbl in Resources */,
+				DA8EA0781833647900A12DD5 /* P_Foot_07.png in Resources */,
+				DACAA7D1183490480085C2AB /* selStage_btn.png in Resources */,
+				DA73CBFA1836B04D002912A9 /* MapList.tbl in Resources */,
+				DA30DB94186CF4B500D9AF93 /* Efx_BulletTrail_green.png in Resources */,
+				DA30DB95186CF4B500D9AF93 /* Efx_BulletTrail_red.png in Resources */,
+				DA79CB4A1871700F00DD7E45 /* P_Foot_11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

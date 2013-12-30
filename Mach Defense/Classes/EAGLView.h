@@ -53,7 +53,7 @@
 
 @property(assign) id<EAGLViewDelegate> delegate;
 
-- (void) createViewController:(CGSize)size;
+- (CGSize) createViewController:(CGSize)size;
 - (BOOL) _createSurface;
 - (void) _destroySurface;
 

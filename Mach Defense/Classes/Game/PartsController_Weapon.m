@@ -113,7 +113,8 @@
 						{
 							fLen = sqrt(fLen);
 							
-							tile = [TILEMGR getTile:@"Efx_BulletTrail.png"];
+                            if(_hvMach.enemy) tile = [TILEMGR getTile:@"Efx_BulletTrail_red.png"];
+                            else tile = [TILEMGR getTile:@"Efx_BulletTrail_green.png"];
 							[particle setBlendType:BT_ADD];
 							[particle setLiveTime:0.1f];
 							[particle setTile:tile tileNo:0];
@@ -173,7 +174,8 @@
 						{
 							fLen = sqrt(fLen);
 							
-							tile = [TILEMGR getTile:@"Efx_BulletTrail.png"];
+							if(_hvMach.enemy) tile = [TILEMGR getTile:@"Efx_BulletTrail_red.png"];
+                            else tile = [TILEMGR getTile:@"Efx_BulletTrail_green.png"];
 							[particle setBlendType:BT_ADD];
 							[particle setLiveTime:0.1f];
 							[particle setTile:tile tileNo:0];

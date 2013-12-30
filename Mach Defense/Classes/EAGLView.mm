@@ -48,6 +48,8 @@ EAGLView *_glView = nil;
 #if __IPHONE_3_2 <= __IPHONE_OS_VERSION_MAX_ALLOWED
 		if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) _deviceType = DEVICE_IPAD;
 #endif
+        NSLog(@"scale %.0f", [[UIScreen mainScreen] scale]);
+        
 		if(_deviceType == DEVICE_IPHONE && [[UIScreen mainScreen] scale] == 2.0)
 		{
 			_deviceType = DEVICE_IPHONE_RETINA;
@@ -79,7 +81,7 @@ EAGLView *_glView = nil;
 	return self;
 }
 
-- (void) createViewController:(CGSize)size
+- (CGSize) createViewController:(CGSize)size
 {
     _size = size;
     if(![self _createSurface])
@@ -89,6 +91,9 @@ EAGLView *_glView = nil;
     
   	_viewController = [[EAGLViewController alloc] init];
 	[_viewController setView:self];
+    //[self setCenter:CGPointMake(size.width/2, size.height/2)];
+    
+    return _size;
 }
 
 - (BOOL) _createSurface
@@ -110,6 +115,9 @@ EAGLView *_glView = nil;
 		newSize.width *= 2.f;
 		newSize.height *= 2.f;
 	}
+    
+    _deviceType = DEVICE_IPHONE_RETINA;
+    
 	
 	glGetIntegerv(GL_RENDERBUFFER_BINDING_OES, (GLint *) &oldRenderbuffer);
 	glGetIntegerv(GL_FRAMEBUFFER_BINDING_OES, (GLint *) &oldFramebuffer);

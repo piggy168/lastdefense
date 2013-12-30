@@ -61,7 +61,10 @@ static ResMgr_Tile *_sharedMgr = nil;
 	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) _deviceType = DEVICE_IPAD;
 #endif
 	
-	if(_deviceType == DEVICE_IPHONE && [[UIScreen mainScreen] scale] == 2.0) _deviceType = DEVICE_IPHONE_RETINA;
+	if(_deviceType == DEVICE_IPHONE && [[UIScreen mainScreen] scale] == 2.0)
+    {
+        _deviceType = DEVICE_IPHONE_RETINA;
+    }
 	
 	return self;
 }

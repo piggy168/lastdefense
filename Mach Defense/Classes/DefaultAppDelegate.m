@@ -50,21 +50,29 @@ DefaultAppDelegate *_appDelegate = nil;
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {
 #ifdef ANDROID
+//    [UIScreen mainScreen].currentMode =
+//    [UIScreenMode emulatedMode:UIScreenIPhone3GEmulationMode];
+    
     [UIScreen mainScreen].currentMode =
-    [UIScreenMode emulatedMode:UIScreenIPhone3GEmulationMode];
+    [UIScreenMode emulatedMode:UIScreenIPhone4EmulationMode];
 #endif
     
 	CGRect rect = [[UIScreen mainScreen] bounds];
     NSLog(@"rect %.0f %.0f",rect.size.width, rect.size.height);
     
+   // rect = CGRectMake(0, 0, 640, 960);
+    
     [glView createViewController:rect.size];
     
-    window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, 320, 480) ];//[[UIScreen mainScreen] bounds]];
+    window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];//CGRectMake(0, 0, 640, 960) ];//
     [window addSubview:glView];
     [window makeKeyAndVisible];
+    //[window setAutoresizesSubviews:YES];
+//    [window sizeThatFits:CGSizeMake(640, 960)];
+//    window.center = CGPointMake(320, 480);
     
 	//Set up OpenGL projection matrix
-    glViewport(0, 0, rect.size.width, rect.size.height);
+    glViewport(0, 0, 640,960);//rect.size.width, rect.size.height);
 	glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
 	glOrthof(0, rect.size.width, 0, rect.size.height, -1, 1);

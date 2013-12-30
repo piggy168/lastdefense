@@ -119,7 +119,10 @@
 		btnCnt++;
 	}
 	tile = [TILEMGR makeTileWithImageAttacher:attacher];
-	if(_glView.deviceType != DEVICE_IPAD) [tile setForRetina:YES];
+	if(_glView.deviceType != DEVICE_IPAD)
+    {
+        [tile setForRetina:YES];
+    }
 	[tile tileSplitX:1 splitY:1];
 	img = [[QobImage alloc] initWithTile:tile tileNo:0];
 	[img setPosX:0 Y:0];

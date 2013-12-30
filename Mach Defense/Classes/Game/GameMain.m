@@ -318,8 +318,8 @@ float g_time = 0.0;
 	
 	switch(_screen)
 	{
-		case GSCR_TITLE:			[self setScreen_Title];				break;
-		case GSCR_SELECTSLOT:		[self setScreen_SelectSlot];		break;
+		case GSCR_TITLE:			//[self setScreen_Title];				break;
+		case GSCR_SELECTSLOT:		//[self setScreen_SelectSlot];		break;
 		case GSCR_SELECTSTAGE:		[self setScreen_SelectStage];		break;
 		case GSCR_GAME:				[self setScreen_Game];				break;
 		case GSCR_CLEARSTAGE:											break;
