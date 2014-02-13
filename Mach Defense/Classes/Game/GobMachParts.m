@@ -25,8 +25,8 @@
 	_baseSocket = 0;
 	_rotate = 0.f;
 	_tileNo = 0;
-	_scale = 1.f;
-	_drawScale = 1.f;
+	_scale = 1.0f;
+	_drawScale = 1.0f;
 	_useBaseRot = true;
 	_reverse = 0;
 	_prevRot = -1.f;

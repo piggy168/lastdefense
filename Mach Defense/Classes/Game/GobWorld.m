@@ -830,8 +830,11 @@ extern DefaultAppDelegate *_appDelegate;
 	short jointCnt = *(short *)(data + size);		size += sizeof(short);
 	for(int i = 0; i < jointCnt; i++)
 	{
-		curPt.x = *(float *)(data + size);			size += sizeof(float);
-		curPt.y = *(float *)(data + size);			size += sizeof(float);
+        float x,y;
+        memcpy(&x, (data + size), 4); size += 4;
+        memcpy(&y, (data + size), 4); size += 4;
+		curPt.x = x;
+		curPt.y = y;
 		
 		[QVector vector:&curPt Mul:_deviceScale];
 		
@@ -927,7 +930,7 @@ extern DefaultAppDelegate *_appDelegate;
 
 	NSMutableArray *genMachList = [[NSMutableArray alloc] init];
 	NSString *fileName = [NSString stringWithFormat:@"ESpawn_%02d", stage + 1];
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:fileName ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:fileName ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *machName = [table getString:i Key:@"MachName"];

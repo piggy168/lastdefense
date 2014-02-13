@@ -14,22 +14,100 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		DA277C381881332600E27D73 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA277C321881332600E27D73 /* libTestFlight.a */; };
+		DA277C391881332600E27D73 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA277C331881332600E27D73 /* README.md */; };
+		DA277C3A1881332600E27D73 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = DA277C341881332600E27D73 /* release_notes.md */; };
 		DA30DB94186CF4B500D9AF93 /* Efx_BulletTrail_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */; };
 		DA30DB95186CF4B500D9AF93 /* Efx_BulletTrail_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */; };
-		DA43FF531832116300C2834A /* t_body_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF501832116300C2834A /* t_body_01.png */; };
-		DA43FF541832116300C2834A /* t_foot_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF511832116300C2834A /* t_foot_01.png */; };
-		DA43FF551832116300C2834A /* t_wpn_gun_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF521832116300C2834A /* t_wpn_gun_01.png */; };
 		DA43FF5A18322CEF00C2834A /* MachInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5618322CEE00C2834A /* MachInfo.mcb */; };
 		DA43FF5C18322CEF00C2834A /* PartsInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5818322CEE00C2834A /* PartsInfo.mcb */; };
-		DA43FF6118322DBC00C2834A /* ItemInfo.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5E18322DBB00C2834A /* ItemInfo.tble */; };
-		DA43FF6218322DBC00C2834A /* MachList.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5F18322DBC00C2834A /* MachList.tble */; };
-		DA43FF6318322DBC00C2834A /* PartsList.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF6018322DBC00C2834A /* PartsList.tble */; };
-		DA43FF6518322E1600C2834A /* MachBuild_Parts.tble in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF6418322E1600C2834A /* MachBuild_Parts.tble */; };
 		DA43FF671832B07500C2834A /* PartsList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF661832B07500C2834A /* PartsList.tbl */; };
 		DA73CBFA1836B04D002912A9 /* MapList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA73CBF91836B04D002912A9 /* MapList.tbl */; };
 		DA79CB4A1871700F00DD7E45 /* P_Foot_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DA79CB491871700F00DD7E45 /* P_Foot_11.png */; };
+		DA86AF7E1876C43A00DFB848 /* ESpawn_01.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF381876C43A00DFB848 /* ESpawn_01.tbl */; };
+		DA86AF7F1876C43A00DFB848 /* ESpawn_02.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF391876C43A00DFB848 /* ESpawn_02.tbl */; };
+		DA86AF801876C43A00DFB848 /* ESpawn_03.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF3A1876C43A00DFB848 /* ESpawn_03.tbl */; };
+		DA86AF811876C43A00DFB848 /* ESpawn_04.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF3B1876C43A00DFB848 /* ESpawn_04.tbl */; };
+		DA86AF821876C43A00DFB848 /* ESpawn_05.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF3C1876C43A00DFB848 /* ESpawn_05.tbl */; };
+		DA86AF831876C43A00DFB848 /* ESpawn_06.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF3D1876C43A00DFB848 /* ESpawn_06.tbl */; };
+		DA86AF841876C43A00DFB848 /* ESpawn_07.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF3E1876C43A00DFB848 /* ESpawn_07.tbl */; };
+		DA86AF851876C43A00DFB848 /* ESpawn_08.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF3F1876C43A00DFB848 /* ESpawn_08.tbl */; };
+		DA86AF861876C43A00DFB848 /* ESpawn_09.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF401876C43A00DFB848 /* ESpawn_09.tbl */; };
+		DA86AF871876C43A00DFB848 /* ESpawn_10.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF411876C43A00DFB848 /* ESpawn_10.tbl */; };
+		DA86AF881876C43A00DFB848 /* ESpawn_11.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF421876C43A00DFB848 /* ESpawn_11.tbl */; };
+		DA86AF891876C43A00DFB848 /* ESpawn_12.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF431876C43A00DFB848 /* ESpawn_12.tbl */; };
+		DA86AF8A1876C43A00DFB848 /* ESpawn_13.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF441876C43A00DFB848 /* ESpawn_13.tbl */; };
+		DA86AF8B1876C43A00DFB848 /* ESpawn_14.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF451876C43A00DFB848 /* ESpawn_14.tbl */; };
+		DA86AF8C1876C43A00DFB848 /* ESpawn_15.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF461876C43A00DFB848 /* ESpawn_15.tbl */; };
+		DA86AF8D1876C43A00DFB848 /* ESpawn_16.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF471876C43A00DFB848 /* ESpawn_16.tbl */; };
+		DA86AF8E1876C43A00DFB848 /* ESpawn_17.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF481876C43A00DFB848 /* ESpawn_17.tbl */; };
+		DA86AF8F1876C43A00DFB848 /* ESpawn_18.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF491876C43A00DFB848 /* ESpawn_18.tbl */; };
+		DA86AF901876C43A00DFB848 /* ESpawn_19.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF4A1876C43A00DFB848 /* ESpawn_19.tbl */; };
+		DA86AF911876C43A00DFB848 /* ESpawn_20.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF4B1876C43A00DFB848 /* ESpawn_20.tbl */; };
+		DA86AF921876C43A00DFB848 /* ESpawn_21.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF4C1876C43A00DFB848 /* ESpawn_21.tbl */; };
+		DA86AF931876C43A00DFB848 /* ESpawn_22.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF4D1876C43A00DFB848 /* ESpawn_22.tbl */; };
+		DA86AF941876C43A00DFB848 /* ESpawn_23.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF4E1876C43A00DFB848 /* ESpawn_23.tbl */; };
+		DA86AF951876C43A00DFB848 /* ESpawn_24.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF4F1876C43A00DFB848 /* ESpawn_24.tbl */; };
+		DA86AF961876C43A00DFB848 /* ESpawn_25.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF501876C43A00DFB848 /* ESpawn_25.tbl */; };
+		DA86AF971876C43A00DFB848 /* ESpawn_26.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF511876C43A00DFB848 /* ESpawn_26.tbl */; };
+		DA86AF981876C43A00DFB848 /* ESpawn_27.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF521876C43A00DFB848 /* ESpawn_27.tbl */; };
+		DA86AF991876C43A00DFB848 /* ESpawn_28.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF531876C43A00DFB848 /* ESpawn_28.tbl */; };
+		DA86AF9A1876C43A00DFB848 /* ESpawn_29.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF541876C43A00DFB848 /* ESpawn_29.tbl */; };
+		DA86AF9B1876C43A00DFB848 /* ESpawn_30.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF551876C43A00DFB848 /* ESpawn_30.tbl */; };
+		DA86AF9C1876C43A00DFB848 /* ESpawn_31.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF561876C43A00DFB848 /* ESpawn_31.tbl */; };
+		DA86AF9D1876C43A00DFB848 /* ESpawn_32.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF571876C43A00DFB848 /* ESpawn_32.tbl */; };
+		DA86AF9E1876C43A00DFB848 /* ESpawn_33.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF581876C43A00DFB848 /* ESpawn_33.tbl */; };
+		DA86AF9F1876C43A00DFB848 /* ESpawn_34.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF591876C43A00DFB848 /* ESpawn_34.tbl */; };
+		DA86AFA01876C43A00DFB848 /* ESpawn_35.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF5A1876C43A00DFB848 /* ESpawn_35.tbl */; };
+		DA86AFA11876C43A00DFB848 /* ESpawn_36.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF5B1876C43A00DFB848 /* ESpawn_36.tbl */; };
+		DA86AFA21876C43A00DFB848 /* ESpawn_37.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF5C1876C43A00DFB848 /* ESpawn_37.tbl */; };
+		DA86AFA31876C43A00DFB848 /* ESpawn_38.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF5D1876C43A00DFB848 /* ESpawn_38.tbl */; };
+		DA86AFA41876C43A00DFB848 /* ESpawn_39.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF5E1876C43A00DFB848 /* ESpawn_39.tbl */; };
+		DA86AFA51876C43A00DFB848 /* ESpawn_40.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF5F1876C43A00DFB848 /* ESpawn_40.tbl */; };
+		DA86AFA61876C43A00DFB848 /* ESpawn_41.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF601876C43A00DFB848 /* ESpawn_41.tbl */; };
+		DA86AFA71876C43A00DFB848 /* ESpawn_42.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF611876C43A00DFB848 /* ESpawn_42.tbl */; };
+		DA86AFA81876C43A00DFB848 /* ESpawn_43.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF621876C43A00DFB848 /* ESpawn_43.tbl */; };
+		DA86AFA91876C43A00DFB848 /* ESpawn_44.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF631876C43A00DFB848 /* ESpawn_44.tbl */; };
+		DA86AFAA1876C43A00DFB848 /* ESpawn_45.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF641876C43A00DFB848 /* ESpawn_45.tbl */; };
+		DA86AFAB1876C43A00DFB848 /* ESpawn_46.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF651876C43A00DFB848 /* ESpawn_46.tbl */; };
+		DA86AFAC1876C43A00DFB848 /* ESpawn_47.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF661876C43A00DFB848 /* ESpawn_47.tbl */; };
+		DA86AFAD1876C43A00DFB848 /* ESpawn_48.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF671876C43A00DFB848 /* ESpawn_48.tbl */; };
+		DA86AFAE1876C43A00DFB848 /* ESpawn_49.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF681876C43A00DFB848 /* ESpawn_49.tbl */; };
+		DA86AFAF1876C43A00DFB848 /* ESpawn_50.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF691876C43A00DFB848 /* ESpawn_50.tbl */; };
+		DA86AFB01876C43A00DFB848 /* ESpawn_51.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF6A1876C43A00DFB848 /* ESpawn_51.tbl */; };
+		DA86AFB11876C43A00DFB848 /* ESpawn_52.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF6B1876C43A00DFB848 /* ESpawn_52.tbl */; };
+		DA86AFB21876C43A00DFB848 /* ESpawn_53.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF6C1876C43A00DFB848 /* ESpawn_53.tbl */; };
+		DA86AFB31876C43A00DFB848 /* ESpawn_54.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF6D1876C43A00DFB848 /* ESpawn_54.tbl */; };
+		DA86AFB41876C43A00DFB848 /* ESpawn_55.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF6E1876C43A00DFB848 /* ESpawn_55.tbl */; };
+		DA86AFB51876C43A00DFB848 /* ESpawn_56.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF6F1876C43A00DFB848 /* ESpawn_56.tbl */; };
+		DA86AFB61876C43A00DFB848 /* ESpawn_57.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF701876C43A00DFB848 /* ESpawn_57.tbl */; };
+		DA86AFB71876C43A00DFB848 /* ESpawn_58.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF711876C43A00DFB848 /* ESpawn_58.tbl */; };
+		DA86AFB81876C43A00DFB848 /* ESpawn_59.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF721876C43A00DFB848 /* ESpawn_59.tbl */; };
+		DA86AFB91876C43A00DFB848 /* ESpawn_60.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF731876C43A00DFB848 /* ESpawn_60.tbl */; };
+		DA86AFBA1876C43A00DFB848 /* ESpawn_61.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF741876C43A00DFB848 /* ESpawn_61.tbl */; };
+		DA86AFBB1876C43A00DFB848 /* ESpawn_62.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF751876C43A00DFB848 /* ESpawn_62.tbl */; };
+		DA86AFBC1876C43A00DFB848 /* ESpawn_63.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF761876C43A00DFB848 /* ESpawn_63.tbl */; };
+		DA86AFBD1876C43A00DFB848 /* ESpawn_64.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF771876C43A00DFB848 /* ESpawn_64.tbl */; };
+		DA86AFBE1876C43A00DFB848 /* ESpawn_65.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF781876C43A00DFB848 /* ESpawn_65.tbl */; };
+		DA86AFBF1876C43A00DFB848 /* ESpawn_66.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF791876C43A00DFB848 /* ESpawn_66.tbl */; };
+		DA86AFC01876C43A00DFB848 /* ESpawn_67.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF7A1876C43A00DFB848 /* ESpawn_67.tbl */; };
+		DA86AFC11876C43A00DFB848 /* ESpawn_68.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF7B1876C43A00DFB848 /* ESpawn_68.tbl */; };
+		DA86AFC21876C43A00DFB848 /* ESpawn_69.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF7C1876C43A00DFB848 /* ESpawn_69.tbl */; };
+		DA86AFC31876C43A00DFB848 /* ESpawn_70.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF7D1876C43A00DFB848 /* ESpawn_70.tbl */; };
+		DA86AFC51876C5CB00DFB848 /* P_Foot_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA86AFC41876C5CB00DFB848 /* P_Foot_01.png */; };
+		DA86AFC71876C5DD00DFB848 /* P_Foot_09.png in Resources */ = {isa = PBXBuildFile; fileRef = DA86AFC61876C5DD00DFB848 /* P_Foot_09.png */; };
+		DA86AFC91876C5EB00DFB848 /* P_Foot_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */; };
+		DA870F161891007B000A9D79 /* MachList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA870F151891007B000A9D79 /* MachList.tbl */; };
 		DA8EA0781833647900A12DD5 /* P_Foot_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8EA0771833647900A12DD5 /* P_Foot_07.png */; };
 		DACAA7D1183490480085C2AB /* selStage_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D0183490480085C2AB /* selStage_btn.png */; };
+		DADC60201883ABE900A544B9 /* ItemInfo.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC601F1883ABE900A544B9 /* ItemInfo.tbl */; };
+		DADC60221883AC0500A544B9 /* MachBuild_Name.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60211883AC0500A544B9 /* MachBuild_Name.tbl */; };
+		DADC60241883AC3300A544B9 /* MachBuild_Parts.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60231883AC3300A544B9 /* MachBuild_Parts.tbl */; };
+		DADC60261883AC5600A544B9 /* SpAttackList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60251883AC5600A544B9 /* SpAttackList.tbl */; };
+		DADC60281883AC7100A544B9 /* MachRegen.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60271883AC7100A544B9 /* MachRegen.tbl */; };
+		DADC602A1883AC9D00A544B9 /* BaseUpgrade.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60291883AC9D00A544B9 /* BaseUpgrade.tbl */; };
+		DADC602C1883ACAE00A544B9 /* WeaponInfo.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC602B1883ACAE00A544B9 /* WeaponInfo.tbl */; };
+		DADC602E1883ACD600A544B9 /* TileList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC602D1883ACD600A544B9 /* TileList.tbl */; };
 		E50CA02911B8CE9900A110B5 /* EAGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50CA02811B8CE9900A110B5 /* EAGLViewController.m */; };
 		E518A2861266C15B000FDC0F /* Base01_Rader.png in Resources */ = {isa = PBXBuildFile; fileRef = E518A2711266C15B000FDC0F /* Base01_Rader.png */; };
 		E518A2871266C15C000FDC0F /* Base01.png in Resources */ = {isa = PBXBuildFile; fileRef = E518A2721266C15B000FDC0F /* Base01.png */; };
@@ -1217,82 +1295,6 @@
 		E5D8AE9812B61818003A5E05 /* Description_us.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8712B61818003A5E05 /* Description_us.tble */; };
 		E5D8AE9A12B61818003A5E05 /* ItemRegen.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8912B61818003A5E05 /* ItemRegen.tble */; };
 		E5D8AE9D12B61818003A5E05 /* MapInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE8C12B61818003A5E05 /* MapInfo.mcb */; };
-		E5D8AEA112B61818003A5E05 /* WeaponInfo.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9012B61818003A5E05 /* WeaponInfo.tble */; };
-		E5D8AEA212B61818003A5E05 /* BaseUpgrade.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9112B61818003A5E05 /* BaseUpgrade.tble */; };
-		E5D8AEA312B61818003A5E05 /* MachBuild_Name.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9212B61818003A5E05 /* MachBuild_Name.tble */; };
-		E5D8AEA512B61818003A5E05 /* MachRegen.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9412B61818003A5E05 /* MachRegen.tble */; };
-		E5D8AEA612B61818003A5E05 /* SpAttackList.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9512B61818003A5E05 /* SpAttackList.tble */; };
-		E5D8AEA712B61818003A5E05 /* TileList.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AE9612B61818003A5E05 /* TileList.tble */; };
-		E5D8AEF012B618B5003A5E05 /* ESpawn_01.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEAA12B618B5003A5E05 /* ESpawn_01.tble */; };
-		E5D8AEF112B618B5003A5E05 /* ESpawn_02.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEAB12B618B5003A5E05 /* ESpawn_02.tble */; };
-		E5D8AEF212B618B5003A5E05 /* ESpawn_03.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEAC12B618B5003A5E05 /* ESpawn_03.tble */; };
-		E5D8AEF312B618B5003A5E05 /* ESpawn_04.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEAD12B618B5003A5E05 /* ESpawn_04.tble */; };
-		E5D8AEF412B618B5003A5E05 /* ESpawn_05.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEAE12B618B5003A5E05 /* ESpawn_05.tble */; };
-		E5D8AEF512B618B5003A5E05 /* ESpawn_06.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEAF12B618B5003A5E05 /* ESpawn_06.tble */; };
-		E5D8AEF612B618B5003A5E05 /* ESpawn_07.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB012B618B5003A5E05 /* ESpawn_07.tble */; };
-		E5D8AEF712B618B5003A5E05 /* ESpawn_08.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB112B618B5003A5E05 /* ESpawn_08.tble */; };
-		E5D8AEF812B618B5003A5E05 /* ESpawn_09.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB212B618B5003A5E05 /* ESpawn_09.tble */; };
-		E5D8AEF912B618B5003A5E05 /* ESpawn_10.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB312B618B5003A5E05 /* ESpawn_10.tble */; };
-		E5D8AEFA12B618B5003A5E05 /* ESpawn_11.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB412B618B5003A5E05 /* ESpawn_11.tble */; };
-		E5D8AEFB12B618B5003A5E05 /* ESpawn_12.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB512B618B5003A5E05 /* ESpawn_12.tble */; };
-		E5D8AEFC12B618B5003A5E05 /* ESpawn_13.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB612B618B5003A5E05 /* ESpawn_13.tble */; };
-		E5D8AEFD12B618B5003A5E05 /* ESpawn_14.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB712B618B5003A5E05 /* ESpawn_14.tble */; };
-		E5D8AEFE12B618B5003A5E05 /* ESpawn_15.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB812B618B5003A5E05 /* ESpawn_15.tble */; };
-		E5D8AEFF12B618B5003A5E05 /* ESpawn_16.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEB912B618B5003A5E05 /* ESpawn_16.tble */; };
-		E5D8AF0012B618B5003A5E05 /* ESpawn_17.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEBA12B618B5003A5E05 /* ESpawn_17.tble */; };
-		E5D8AF0112B618B5003A5E05 /* ESpawn_18.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEBB12B618B5003A5E05 /* ESpawn_18.tble */; };
-		E5D8AF0212B618B5003A5E05 /* ESpawn_19.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEBC12B618B5003A5E05 /* ESpawn_19.tble */; };
-		E5D8AF0312B618B5003A5E05 /* ESpawn_20.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEBD12B618B5003A5E05 /* ESpawn_20.tble */; };
-		E5D8AF0412B618B5003A5E05 /* ESpawn_21.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEBE12B618B5003A5E05 /* ESpawn_21.tble */; };
-		E5D8AF0512B618B5003A5E05 /* ESpawn_22.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEBF12B618B5003A5E05 /* ESpawn_22.tble */; };
-		E5D8AF0612B618B5003A5E05 /* ESpawn_23.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC012B618B5003A5E05 /* ESpawn_23.tble */; };
-		E5D8AF0712B618B5003A5E05 /* ESpawn_24.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC112B618B5003A5E05 /* ESpawn_24.tble */; };
-		E5D8AF0812B618B5003A5E05 /* ESpawn_25.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC212B618B5003A5E05 /* ESpawn_25.tble */; };
-		E5D8AF0912B618B5003A5E05 /* ESpawn_26.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC312B618B5003A5E05 /* ESpawn_26.tble */; };
-		E5D8AF0A12B618B5003A5E05 /* ESpawn_27.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC412B618B5003A5E05 /* ESpawn_27.tble */; };
-		E5D8AF0B12B618B5003A5E05 /* ESpawn_28.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC512B618B5003A5E05 /* ESpawn_28.tble */; };
-		E5D8AF0C12B618B5003A5E05 /* ESpawn_29.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC612B618B5003A5E05 /* ESpawn_29.tble */; };
-		E5D8AF0D12B618B5003A5E05 /* ESpawn_30.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC712B618B5003A5E05 /* ESpawn_30.tble */; };
-		E5D8AF0E12B618B5003A5E05 /* ESpawn_31.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC812B618B5003A5E05 /* ESpawn_31.tble */; };
-		E5D8AF0F12B618B5003A5E05 /* ESpawn_32.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEC912B618B5003A5E05 /* ESpawn_32.tble */; };
-		E5D8AF1012B618B5003A5E05 /* ESpawn_33.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AECA12B618B5003A5E05 /* ESpawn_33.tble */; };
-		E5D8AF1112B618B5003A5E05 /* ESpawn_34.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AECB12B618B5003A5E05 /* ESpawn_34.tble */; };
-		E5D8AF1212B618B5003A5E05 /* ESpawn_35.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AECC12B618B5003A5E05 /* ESpawn_35.tble */; };
-		E5D8AF1312B618B5003A5E05 /* ESpawn_36.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AECD12B618B5003A5E05 /* ESpawn_36.tble */; };
-		E5D8AF1412B618B5003A5E05 /* ESpawn_37.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AECE12B618B5003A5E05 /* ESpawn_37.tble */; };
-		E5D8AF1512B618B5003A5E05 /* ESpawn_38.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AECF12B618B5003A5E05 /* ESpawn_38.tble */; };
-		E5D8AF1612B618B5003A5E05 /* ESpawn_39.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED012B618B5003A5E05 /* ESpawn_39.tble */; };
-		E5D8AF1712B618B5003A5E05 /* ESpawn_40.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED112B618B5003A5E05 /* ESpawn_40.tble */; };
-		E5D8AF1812B618B5003A5E05 /* ESpawn_41.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED212B618B5003A5E05 /* ESpawn_41.tble */; };
-		E5D8AF1912B618B5003A5E05 /* ESpawn_42.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED312B618B5003A5E05 /* ESpawn_42.tble */; };
-		E5D8AF1A12B618B5003A5E05 /* ESpawn_43.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED412B618B5003A5E05 /* ESpawn_43.tble */; };
-		E5D8AF1B12B618B5003A5E05 /* ESpawn_44.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED512B618B5003A5E05 /* ESpawn_44.tble */; };
-		E5D8AF1C12B618B5003A5E05 /* ESpawn_45.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED612B618B5003A5E05 /* ESpawn_45.tble */; };
-		E5D8AF1D12B618B5003A5E05 /* ESpawn_46.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED712B618B5003A5E05 /* ESpawn_46.tble */; };
-		E5D8AF1E12B618B5003A5E05 /* ESpawn_47.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED812B618B5003A5E05 /* ESpawn_47.tble */; };
-		E5D8AF1F12B618B5003A5E05 /* ESpawn_48.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AED912B618B5003A5E05 /* ESpawn_48.tble */; };
-		E5D8AF2012B618B5003A5E05 /* ESpawn_49.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEDA12B618B5003A5E05 /* ESpawn_49.tble */; };
-		E5D8AF2112B618B5003A5E05 /* ESpawn_50.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEDB12B618B5003A5E05 /* ESpawn_50.tble */; };
-		E5D8AF2212B618B5003A5E05 /* ESpawn_51.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEDC12B618B5003A5E05 /* ESpawn_51.tble */; };
-		E5D8AF2312B618B5003A5E05 /* ESpawn_52.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEDD12B618B5003A5E05 /* ESpawn_52.tble */; };
-		E5D8AF2412B618B5003A5E05 /* ESpawn_53.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEDE12B618B5003A5E05 /* ESpawn_53.tble */; };
-		E5D8AF2512B618B5003A5E05 /* ESpawn_54.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEDF12B618B5003A5E05 /* ESpawn_54.tble */; };
-		E5D8AF2612B618B5003A5E05 /* ESpawn_55.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE012B618B5003A5E05 /* ESpawn_55.tble */; };
-		E5D8AF2712B618B5003A5E05 /* ESpawn_56.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE112B618B5003A5E05 /* ESpawn_56.tble */; };
-		E5D8AF2812B618B5003A5E05 /* ESpawn_57.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE212B618B5003A5E05 /* ESpawn_57.tble */; };
-		E5D8AF2912B618B5003A5E05 /* ESpawn_58.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE312B618B5003A5E05 /* ESpawn_58.tble */; };
-		E5D8AF2A12B618B5003A5E05 /* ESpawn_59.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE412B618B5003A5E05 /* ESpawn_59.tble */; };
-		E5D8AF2B12B618B5003A5E05 /* ESpawn_60.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE512B618B5003A5E05 /* ESpawn_60.tble */; };
-		E5D8AF2C12B618B5003A5E05 /* ESpawn_61.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE612B618B5003A5E05 /* ESpawn_61.tble */; };
-		E5D8AF2D12B618B5003A5E05 /* ESpawn_62.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE712B618B5003A5E05 /* ESpawn_62.tble */; };
-		E5D8AF2E12B618B5003A5E05 /* ESpawn_63.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE812B618B5003A5E05 /* ESpawn_63.tble */; };
-		E5D8AF2F12B618B5003A5E05 /* ESpawn_64.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEE912B618B5003A5E05 /* ESpawn_64.tble */; };
-		E5D8AF3012B618B5003A5E05 /* ESpawn_65.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEEA12B618B5003A5E05 /* ESpawn_65.tble */; };
-		E5D8AF3112B618B5003A5E05 /* ESpawn_66.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEEB12B618B5003A5E05 /* ESpawn_66.tble */; };
-		E5D8AF3212B618B5003A5E05 /* ESpawn_67.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEEC12B618B5003A5E05 /* ESpawn_67.tble */; };
-		E5D8AF3312B618B5003A5E05 /* ESpawn_68.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEED12B618B5003A5E05 /* ESpawn_68.tble */; };
-		E5D8AF3412B618B5003A5E05 /* ESpawn_69.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEEE12B618B5003A5E05 /* ESpawn_69.tble */; };
-		E5D8AF3512B618B5003A5E05 /* ESpawn_70.tble in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AEEF12B618B5003A5E05 /* ESpawn_70.tble */; };
 		E5D8AF4712B61AFC003A5E05 /* SFX_QuickSlot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5D8AF4612B61AFC003A5E05 /* SFX_QuickSlot.wav */; };
 		E5DC190F129E04D000C58585 /* Turret_b_01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DC18EC129E04D000C58585 /* Turret_b_01.png */; };
 		E5DC1910129E04D000C58585 /* Turret_b_02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DC18ED129E04D000C58585 /* Turret_b_02.png */; };
@@ -1390,23 +1392,104 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* AppInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppInfo.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DA277C321881332600E27D73 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		DA277C331881332600E27D73 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DA277C341881332600E27D73 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		DA277C351881332600E27D73 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		DA277C361881332600E27D73 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		DA277C371881332600E27D73 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_green.png; sourceTree = "<group>"; };
 		DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_red.png; sourceTree = "<group>"; };
 		DA30DB96186D03B200D9AF93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DA43FF501832116300C2834A /* t_body_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_body_01.png; sourceTree = "<group>"; };
-		DA43FF511832116300C2834A /* t_foot_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_foot_01.png; sourceTree = "<group>"; };
-		DA43FF521832116300C2834A /* t_wpn_gun_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_wpn_gun_01.png; sourceTree = "<group>"; };
 		DA43FF5618322CEE00C2834A /* MachInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachInfo.mcb; sourceTree = "<group>"; };
 		DA43FF5818322CEE00C2834A /* PartsInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PartsInfo.mcb; sourceTree = "<group>"; };
-		DA43FF5E18322DBB00C2834A /* ItemInfo.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemInfo.tble; sourceTree = "<group>"; };
-		DA43FF5F18322DBC00C2834A /* MachList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachList.tble; sourceTree = "<group>"; };
-		DA43FF6018322DBC00C2834A /* PartsList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = PartsList.tble; sourceTree = "<group>"; };
-		DA43FF6418322E1600C2834A /* MachBuild_Parts.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachBuild_Parts.tble; sourceTree = "<group>"; };
 		DA43FF661832B07500C2834A /* PartsList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PartsList.tbl; sourceTree = "<group>"; };
 		DA73CBF91836B04D002912A9 /* MapList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapList.tbl; sourceTree = "<group>"; };
 		DA79CB491871700F00DD7E45 /* P_Foot_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_11.png; sourceTree = "<group>"; };
+		DA86AF381876C43A00DFB848 /* ESpawn_01.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_01.tbl; sourceTree = "<group>"; };
+		DA86AF391876C43A00DFB848 /* ESpawn_02.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_02.tbl; sourceTree = "<group>"; };
+		DA86AF3A1876C43A00DFB848 /* ESpawn_03.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_03.tbl; sourceTree = "<group>"; };
+		DA86AF3B1876C43A00DFB848 /* ESpawn_04.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_04.tbl; sourceTree = "<group>"; };
+		DA86AF3C1876C43A00DFB848 /* ESpawn_05.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_05.tbl; sourceTree = "<group>"; };
+		DA86AF3D1876C43A00DFB848 /* ESpawn_06.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_06.tbl; sourceTree = "<group>"; };
+		DA86AF3E1876C43A00DFB848 /* ESpawn_07.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_07.tbl; sourceTree = "<group>"; };
+		DA86AF3F1876C43A00DFB848 /* ESpawn_08.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_08.tbl; sourceTree = "<group>"; };
+		DA86AF401876C43A00DFB848 /* ESpawn_09.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_09.tbl; sourceTree = "<group>"; };
+		DA86AF411876C43A00DFB848 /* ESpawn_10.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_10.tbl; sourceTree = "<group>"; };
+		DA86AF421876C43A00DFB848 /* ESpawn_11.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_11.tbl; sourceTree = "<group>"; };
+		DA86AF431876C43A00DFB848 /* ESpawn_12.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_12.tbl; sourceTree = "<group>"; };
+		DA86AF441876C43A00DFB848 /* ESpawn_13.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_13.tbl; sourceTree = "<group>"; };
+		DA86AF451876C43A00DFB848 /* ESpawn_14.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_14.tbl; sourceTree = "<group>"; };
+		DA86AF461876C43A00DFB848 /* ESpawn_15.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_15.tbl; sourceTree = "<group>"; };
+		DA86AF471876C43A00DFB848 /* ESpawn_16.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_16.tbl; sourceTree = "<group>"; };
+		DA86AF481876C43A00DFB848 /* ESpawn_17.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_17.tbl; sourceTree = "<group>"; };
+		DA86AF491876C43A00DFB848 /* ESpawn_18.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_18.tbl; sourceTree = "<group>"; };
+		DA86AF4A1876C43A00DFB848 /* ESpawn_19.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_19.tbl; sourceTree = "<group>"; };
+		DA86AF4B1876C43A00DFB848 /* ESpawn_20.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_20.tbl; sourceTree = "<group>"; };
+		DA86AF4C1876C43A00DFB848 /* ESpawn_21.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_21.tbl; sourceTree = "<group>"; };
+		DA86AF4D1876C43A00DFB848 /* ESpawn_22.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_22.tbl; sourceTree = "<group>"; };
+		DA86AF4E1876C43A00DFB848 /* ESpawn_23.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_23.tbl; sourceTree = "<group>"; };
+		DA86AF4F1876C43A00DFB848 /* ESpawn_24.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_24.tbl; sourceTree = "<group>"; };
+		DA86AF501876C43A00DFB848 /* ESpawn_25.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_25.tbl; sourceTree = "<group>"; };
+		DA86AF511876C43A00DFB848 /* ESpawn_26.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_26.tbl; sourceTree = "<group>"; };
+		DA86AF521876C43A00DFB848 /* ESpawn_27.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_27.tbl; sourceTree = "<group>"; };
+		DA86AF531876C43A00DFB848 /* ESpawn_28.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_28.tbl; sourceTree = "<group>"; };
+		DA86AF541876C43A00DFB848 /* ESpawn_29.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_29.tbl; sourceTree = "<group>"; };
+		DA86AF551876C43A00DFB848 /* ESpawn_30.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_30.tbl; sourceTree = "<group>"; };
+		DA86AF561876C43A00DFB848 /* ESpawn_31.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_31.tbl; sourceTree = "<group>"; };
+		DA86AF571876C43A00DFB848 /* ESpawn_32.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_32.tbl; sourceTree = "<group>"; };
+		DA86AF581876C43A00DFB848 /* ESpawn_33.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_33.tbl; sourceTree = "<group>"; };
+		DA86AF591876C43A00DFB848 /* ESpawn_34.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_34.tbl; sourceTree = "<group>"; };
+		DA86AF5A1876C43A00DFB848 /* ESpawn_35.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_35.tbl; sourceTree = "<group>"; };
+		DA86AF5B1876C43A00DFB848 /* ESpawn_36.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_36.tbl; sourceTree = "<group>"; };
+		DA86AF5C1876C43A00DFB848 /* ESpawn_37.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_37.tbl; sourceTree = "<group>"; };
+		DA86AF5D1876C43A00DFB848 /* ESpawn_38.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_38.tbl; sourceTree = "<group>"; };
+		DA86AF5E1876C43A00DFB848 /* ESpawn_39.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_39.tbl; sourceTree = "<group>"; };
+		DA86AF5F1876C43A00DFB848 /* ESpawn_40.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_40.tbl; sourceTree = "<group>"; };
+		DA86AF601876C43A00DFB848 /* ESpawn_41.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_41.tbl; sourceTree = "<group>"; };
+		DA86AF611876C43A00DFB848 /* ESpawn_42.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_42.tbl; sourceTree = "<group>"; };
+		DA86AF621876C43A00DFB848 /* ESpawn_43.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_43.tbl; sourceTree = "<group>"; };
+		DA86AF631876C43A00DFB848 /* ESpawn_44.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_44.tbl; sourceTree = "<group>"; };
+		DA86AF641876C43A00DFB848 /* ESpawn_45.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_45.tbl; sourceTree = "<group>"; };
+		DA86AF651876C43A00DFB848 /* ESpawn_46.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_46.tbl; sourceTree = "<group>"; };
+		DA86AF661876C43A00DFB848 /* ESpawn_47.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_47.tbl; sourceTree = "<group>"; };
+		DA86AF671876C43A00DFB848 /* ESpawn_48.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_48.tbl; sourceTree = "<group>"; };
+		DA86AF681876C43A00DFB848 /* ESpawn_49.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_49.tbl; sourceTree = "<group>"; };
+		DA86AF691876C43A00DFB848 /* ESpawn_50.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_50.tbl; sourceTree = "<group>"; };
+		DA86AF6A1876C43A00DFB848 /* ESpawn_51.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_51.tbl; sourceTree = "<group>"; };
+		DA86AF6B1876C43A00DFB848 /* ESpawn_52.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_52.tbl; sourceTree = "<group>"; };
+		DA86AF6C1876C43A00DFB848 /* ESpawn_53.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_53.tbl; sourceTree = "<group>"; };
+		DA86AF6D1876C43A00DFB848 /* ESpawn_54.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_54.tbl; sourceTree = "<group>"; };
+		DA86AF6E1876C43A00DFB848 /* ESpawn_55.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_55.tbl; sourceTree = "<group>"; };
+		DA86AF6F1876C43A00DFB848 /* ESpawn_56.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_56.tbl; sourceTree = "<group>"; };
+		DA86AF701876C43A00DFB848 /* ESpawn_57.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_57.tbl; sourceTree = "<group>"; };
+		DA86AF711876C43A00DFB848 /* ESpawn_58.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_58.tbl; sourceTree = "<group>"; };
+		DA86AF721876C43A00DFB848 /* ESpawn_59.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_59.tbl; sourceTree = "<group>"; };
+		DA86AF731876C43A00DFB848 /* ESpawn_60.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_60.tbl; sourceTree = "<group>"; };
+		DA86AF741876C43A00DFB848 /* ESpawn_61.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_61.tbl; sourceTree = "<group>"; };
+		DA86AF751876C43A00DFB848 /* ESpawn_62.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_62.tbl; sourceTree = "<group>"; };
+		DA86AF761876C43A00DFB848 /* ESpawn_63.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_63.tbl; sourceTree = "<group>"; };
+		DA86AF771876C43A00DFB848 /* ESpawn_64.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_64.tbl; sourceTree = "<group>"; };
+		DA86AF781876C43A00DFB848 /* ESpawn_65.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_65.tbl; sourceTree = "<group>"; };
+		DA86AF791876C43A00DFB848 /* ESpawn_66.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_66.tbl; sourceTree = "<group>"; };
+		DA86AF7A1876C43A00DFB848 /* ESpawn_67.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_67.tbl; sourceTree = "<group>"; };
+		DA86AF7B1876C43A00DFB848 /* ESpawn_68.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_68.tbl; sourceTree = "<group>"; };
+		DA86AF7C1876C43A00DFB848 /* ESpawn_69.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_69.tbl; sourceTree = "<group>"; };
+		DA86AF7D1876C43A00DFB848 /* ESpawn_70.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_70.tbl; sourceTree = "<group>"; };
+		DA86AFC41876C5CB00DFB848 /* P_Foot_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_01.png; sourceTree = "<group>"; };
+		DA86AFC61876C5DD00DFB848 /* P_Foot_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_09.png; sourceTree = "<group>"; };
+		DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_14.png; sourceTree = "<group>"; };
+		DA870F151891007B000A9D79 /* MachList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachList.tbl; sourceTree = "<group>"; };
 		DA8EA0771833647900A12DD5 /* P_Foot_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_07.png; sourceTree = "<group>"; };
 		DACAA7D0183490480085C2AB /* selStage_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selStage_btn.png; sourceTree = "<group>"; };
+		DADC601F1883ABE900A544B9 /* ItemInfo.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ItemInfo.tbl; sourceTree = "<group>"; };
+		DADC60211883AC0500A544B9 /* MachBuild_Name.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachBuild_Name.tbl; sourceTree = "<group>"; };
+		DADC60231883AC3300A544B9 /* MachBuild_Parts.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachBuild_Parts.tbl; sourceTree = "<group>"; };
+		DADC60251883AC5600A544B9 /* SpAttackList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SpAttackList.tbl; sourceTree = "<group>"; };
+		DADC60271883AC7100A544B9 /* MachRegen.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachRegen.tbl; sourceTree = "<group>"; };
+		DADC60291883AC9D00A544B9 /* BaseUpgrade.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseUpgrade.tbl; sourceTree = "<group>"; };
+		DADC602B1883ACAE00A544B9 /* WeaponInfo.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WeaponInfo.tbl; sourceTree = "<group>"; };
+		DADC602D1883ACD600A544B9 /* TileList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TileList.tbl; sourceTree = "<group>"; };
 		E50CA02711B8CE9900A110B5 /* EAGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLViewController.h; sourceTree = "<group>"; };
 		E50CA02811B8CE9900A110B5 /* EAGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLViewController.m; sourceTree = "<group>"; };
 		E518A2711266C15B000FDC0F /* Base01_Rader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Base01_Rader.png; sourceTree = "<group>"; };
@@ -2668,82 +2751,6 @@
 		E5D8AE8712B61818003A5E05 /* Description_us.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = Description_us.tble; sourceTree = "<group>"; };
 		E5D8AE8912B61818003A5E05 /* ItemRegen.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemRegen.tble; sourceTree = "<group>"; };
 		E5D8AE8C12B61818003A5E05 /* MapInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MapInfo.mcb; sourceTree = "<group>"; };
-		E5D8AE9012B61818003A5E05 /* WeaponInfo.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeaponInfo.tble; sourceTree = "<group>"; };
-		E5D8AE9112B61818003A5E05 /* BaseUpgrade.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = BaseUpgrade.tble; sourceTree = "<group>"; };
-		E5D8AE9212B61818003A5E05 /* MachBuild_Name.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachBuild_Name.tble; sourceTree = "<group>"; };
-		E5D8AE9412B61818003A5E05 /* MachRegen.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachRegen.tble; sourceTree = "<group>"; };
-		E5D8AE9512B61818003A5E05 /* SpAttackList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpAttackList.tble; sourceTree = "<group>"; };
-		E5D8AE9612B61818003A5E05 /* TileList.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = TileList.tble; sourceTree = "<group>"; };
-		E5D8AEAA12B618B5003A5E05 /* ESpawn_01.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_01.tble; sourceTree = "<group>"; };
-		E5D8AEAB12B618B5003A5E05 /* ESpawn_02.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_02.tble; sourceTree = "<group>"; };
-		E5D8AEAC12B618B5003A5E05 /* ESpawn_03.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_03.tble; sourceTree = "<group>"; };
-		E5D8AEAD12B618B5003A5E05 /* ESpawn_04.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_04.tble; sourceTree = "<group>"; };
-		E5D8AEAE12B618B5003A5E05 /* ESpawn_05.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_05.tble; sourceTree = "<group>"; };
-		E5D8AEAF12B618B5003A5E05 /* ESpawn_06.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_06.tble; sourceTree = "<group>"; };
-		E5D8AEB012B618B5003A5E05 /* ESpawn_07.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_07.tble; sourceTree = "<group>"; };
-		E5D8AEB112B618B5003A5E05 /* ESpawn_08.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_08.tble; sourceTree = "<group>"; };
-		E5D8AEB212B618B5003A5E05 /* ESpawn_09.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_09.tble; sourceTree = "<group>"; };
-		E5D8AEB312B618B5003A5E05 /* ESpawn_10.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_10.tble; sourceTree = "<group>"; };
-		E5D8AEB412B618B5003A5E05 /* ESpawn_11.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_11.tble; sourceTree = "<group>"; };
-		E5D8AEB512B618B5003A5E05 /* ESpawn_12.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_12.tble; sourceTree = "<group>"; };
-		E5D8AEB612B618B5003A5E05 /* ESpawn_13.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_13.tble; sourceTree = "<group>"; };
-		E5D8AEB712B618B5003A5E05 /* ESpawn_14.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_14.tble; sourceTree = "<group>"; };
-		E5D8AEB812B618B5003A5E05 /* ESpawn_15.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_15.tble; sourceTree = "<group>"; };
-		E5D8AEB912B618B5003A5E05 /* ESpawn_16.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_16.tble; sourceTree = "<group>"; };
-		E5D8AEBA12B618B5003A5E05 /* ESpawn_17.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_17.tble; sourceTree = "<group>"; };
-		E5D8AEBB12B618B5003A5E05 /* ESpawn_18.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_18.tble; sourceTree = "<group>"; };
-		E5D8AEBC12B618B5003A5E05 /* ESpawn_19.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_19.tble; sourceTree = "<group>"; };
-		E5D8AEBD12B618B5003A5E05 /* ESpawn_20.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_20.tble; sourceTree = "<group>"; };
-		E5D8AEBE12B618B5003A5E05 /* ESpawn_21.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_21.tble; sourceTree = "<group>"; };
-		E5D8AEBF12B618B5003A5E05 /* ESpawn_22.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_22.tble; sourceTree = "<group>"; };
-		E5D8AEC012B618B5003A5E05 /* ESpawn_23.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_23.tble; sourceTree = "<group>"; };
-		E5D8AEC112B618B5003A5E05 /* ESpawn_24.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_24.tble; sourceTree = "<group>"; };
-		E5D8AEC212B618B5003A5E05 /* ESpawn_25.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_25.tble; sourceTree = "<group>"; };
-		E5D8AEC312B618B5003A5E05 /* ESpawn_26.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_26.tble; sourceTree = "<group>"; };
-		E5D8AEC412B618B5003A5E05 /* ESpawn_27.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_27.tble; sourceTree = "<group>"; };
-		E5D8AEC512B618B5003A5E05 /* ESpawn_28.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_28.tble; sourceTree = "<group>"; };
-		E5D8AEC612B618B5003A5E05 /* ESpawn_29.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_29.tble; sourceTree = "<group>"; };
-		E5D8AEC712B618B5003A5E05 /* ESpawn_30.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_30.tble; sourceTree = "<group>"; };
-		E5D8AEC812B618B5003A5E05 /* ESpawn_31.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_31.tble; sourceTree = "<group>"; };
-		E5D8AEC912B618B5003A5E05 /* ESpawn_32.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_32.tble; sourceTree = "<group>"; };
-		E5D8AECA12B618B5003A5E05 /* ESpawn_33.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_33.tble; sourceTree = "<group>"; };
-		E5D8AECB12B618B5003A5E05 /* ESpawn_34.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_34.tble; sourceTree = "<group>"; };
-		E5D8AECC12B618B5003A5E05 /* ESpawn_35.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_35.tble; sourceTree = "<group>"; };
-		E5D8AECD12B618B5003A5E05 /* ESpawn_36.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_36.tble; sourceTree = "<group>"; };
-		E5D8AECE12B618B5003A5E05 /* ESpawn_37.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_37.tble; sourceTree = "<group>"; };
-		E5D8AECF12B618B5003A5E05 /* ESpawn_38.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_38.tble; sourceTree = "<group>"; };
-		E5D8AED012B618B5003A5E05 /* ESpawn_39.tble */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_39.tble; sourceTree = "<group>"; };
-		E5D8AED112B618B5003A5E05 /* ESpawn_40.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_40.tble; sourceTree = "<group>"; };
-		E5D8AED212B618B5003A5E05 /* ESpawn_41.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_41.tble; sourceTree = "<group>"; };
-		E5D8AED312B618B5003A5E05 /* ESpawn_42.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_42.tble; sourceTree = "<group>"; };
-		E5D8AED412B618B5003A5E05 /* ESpawn_43.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_43.tble; sourceTree = "<group>"; };
-		E5D8AED512B618B5003A5E05 /* ESpawn_44.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_44.tble; sourceTree = "<group>"; };
-		E5D8AED612B618B5003A5E05 /* ESpawn_45.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_45.tble; sourceTree = "<group>"; };
-		E5D8AED712B618B5003A5E05 /* ESpawn_46.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_46.tble; sourceTree = "<group>"; };
-		E5D8AED812B618B5003A5E05 /* ESpawn_47.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_47.tble; sourceTree = "<group>"; };
-		E5D8AED912B618B5003A5E05 /* ESpawn_48.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_48.tble; sourceTree = "<group>"; };
-		E5D8AEDA12B618B5003A5E05 /* ESpawn_49.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_49.tble; sourceTree = "<group>"; };
-		E5D8AEDB12B618B5003A5E05 /* ESpawn_50.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_50.tble; sourceTree = "<group>"; };
-		E5D8AEDC12B618B5003A5E05 /* ESpawn_51.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_51.tble; sourceTree = "<group>"; };
-		E5D8AEDD12B618B5003A5E05 /* ESpawn_52.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_52.tble; sourceTree = "<group>"; };
-		E5D8AEDE12B618B5003A5E05 /* ESpawn_53.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_53.tble; sourceTree = "<group>"; };
-		E5D8AEDF12B618B5003A5E05 /* ESpawn_54.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_54.tble; sourceTree = "<group>"; };
-		E5D8AEE012B618B5003A5E05 /* ESpawn_55.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_55.tble; sourceTree = "<group>"; };
-		E5D8AEE112B618B5003A5E05 /* ESpawn_56.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_56.tble; sourceTree = "<group>"; };
-		E5D8AEE212B618B5003A5E05 /* ESpawn_57.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_57.tble; sourceTree = "<group>"; };
-		E5D8AEE312B618B5003A5E05 /* ESpawn_58.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_58.tble; sourceTree = "<group>"; };
-		E5D8AEE412B618B5003A5E05 /* ESpawn_59.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_59.tble; sourceTree = "<group>"; };
-		E5D8AEE512B618B5003A5E05 /* ESpawn_60.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_60.tble; sourceTree = "<group>"; };
-		E5D8AEE612B618B5003A5E05 /* ESpawn_61.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_61.tble; sourceTree = "<group>"; };
-		E5D8AEE712B618B5003A5E05 /* ESpawn_62.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_62.tble; sourceTree = "<group>"; };
-		E5D8AEE812B618B5003A5E05 /* ESpawn_63.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_63.tble; sourceTree = "<group>"; };
-		E5D8AEE912B618B5003A5E05 /* ESpawn_64.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_64.tble; sourceTree = "<group>"; };
-		E5D8AEEA12B618B5003A5E05 /* ESpawn_65.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_65.tble; sourceTree = "<group>"; };
-		E5D8AEEB12B618B5003A5E05 /* ESpawn_66.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_66.tble; sourceTree = "<group>"; };
-		E5D8AEEC12B618B5003A5E05 /* ESpawn_67.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_67.tble; sourceTree = "<group>"; };
-		E5D8AEED12B618B5003A5E05 /* ESpawn_68.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_68.tble; sourceTree = "<group>"; };
-		E5D8AEEE12B618B5003A5E05 /* ESpawn_69.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_69.tble; sourceTree = "<group>"; };
-		E5D8AEEF12B618B5003A5E05 /* ESpawn_70.tble */ = {isa = PBXFileReference; lastKnownFileType = file; path = ESpawn_70.tble; sourceTree = "<group>"; };
 		E5D8AF4612B61AFC003A5E05 /* SFX_QuickSlot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SFX_QuickSlot.wav; sourceTree = "<group>"; };
 		E5DC18EC129E04D000C58585 /* Turret_b_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_01.png; sourceTree = "<group>"; };
 		E5DC18ED129E04D000C58585 /* Turret_b_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_02.png; sourceTree = "<group>"; };
@@ -2855,6 +2862,7 @@
 				E5910DC711D835A9009DAF6E /* StoreKit.framework in Frameworks */,
 				E5CF5EEF12B858B300E6D857 /* iAd.framework in Frameworks */,
 				E5C9E06412D17F3700043F02 /* GameKit.framework in Frameworks */,
+				DA277C381881332600E27D73 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2864,6 +2872,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DA277C311881332600E27D73 /* TestFlightSDK2.1.3 */,
 				28FD14FC0DC6FC130079059D /* EAGLView.h */,
 				28FD14FD0DC6FC130079059D /* EAGLView.mm */,
 				E50CA02711B8CE9900A110B5 /* EAGLViewController.h */,
@@ -2956,26 +2965,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA277C311881332600E27D73 /* TestFlightSDK2.1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				DA277C321881332600E27D73 /* libTestFlight.a */,
+				DA277C331881332600E27D73 /* README.md */,
+				DA277C341881332600E27D73 /* release_notes.md */,
+				DA277C351881332600E27D73 /* TestFlight+AsyncLogging.h */,
+				DA277C361881332600E27D73 /* TestFlight+ManualSessions.h */,
+				DA277C371881332600E27D73 /* TestFlight.h */,
+			);
+			path = TestFlightSDK2.1.3;
+			sourceTree = "<group>";
+		};
 		E52B51A1129B7CC30022EB7E /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				DA43FF6418322E1600C2834A /* MachBuild_Parts.tble */,
-				DA43FF5E18322DBB00C2834A /* ItemInfo.tble */,
-				DA43FF5F18322DBC00C2834A /* MachList.tble */,
+				DADC60231883AC3300A544B9 /* MachBuild_Parts.tbl */,
+				DADC601F1883ABE900A544B9 /* ItemInfo.tbl */,
 				DA43FF661832B07500C2834A /* PartsList.tbl */,
-				DA43FF6018322DBC00C2834A /* PartsList.tble */,
+				DA870F151891007B000A9D79 /* MachList.tbl */,
 				DA73CBF91836B04D002912A9 /* MapList.tbl */,
 				DA43FF5618322CEE00C2834A /* MachInfo.mcb */,
 				DA43FF5818322CEE00C2834A /* PartsInfo.mcb */,
 				E5D8AE8612B61818003A5E05 /* Description_kr.tble */,
 				E5D8AE8712B61818003A5E05 /* Description_us.tble */,
 				E5D8AE8912B61818003A5E05 /* ItemRegen.tble */,
-				E5D8AE9012B61818003A5E05 /* WeaponInfo.tble */,
-				E5D8AE9112B61818003A5E05 /* BaseUpgrade.tble */,
-				E5D8AE9212B61818003A5E05 /* MachBuild_Name.tble */,
-				E5D8AE9412B61818003A5E05 /* MachRegen.tble */,
-				E5D8AE9512B61818003A5E05 /* SpAttackList.tble */,
-				E5D8AE9612B61818003A5E05 /* TileList.tble */,
+				DADC602B1883ACAE00A544B9 /* WeaponInfo.tbl */,
+				DADC60291883AC9D00A544B9 /* BaseUpgrade.tbl */,
+				DADC60211883AC0500A544B9 /* MachBuild_Name.tbl */,
+				DADC60271883AC7100A544B9 /* MachRegen.tbl */,
+				DADC60251883AC5600A544B9 /* SpAttackList.tbl */,
+				DADC602D1883ACD600A544B9 /* TileList.tbl */,
 				E5D8AE8C12B61818003A5E05 /* MapInfo.mcb */,
 			);
 			name = Data;
@@ -3555,9 +3576,6 @@
 		E53CB63611EEAAC3002B0F88 /* Parts */ = {
 			isa = PBXGroup;
 			children = (
-				DA43FF501832116300C2834A /* t_body_01.png */,
-				DA43FF511832116300C2834A /* t_foot_01.png */,
-				DA43FF521832116300C2834A /* t_wpn_gun_01.png */,
 				E53CB63711EEAAC3002B0F88 /* Airplane.png */,
 				E518A2711266C15B000FDC0F /* Base01_Rader.png */,
 				E518A2721266C15B000FDC0F /* Base01.png */,
@@ -3982,7 +4000,10 @@
 				E59528DE12951D9B0034BB09 /* P_Wpn_Sni_102.png */,
 				E59528DF12951D9B0034BB09 /* P_Wpn_Sni_103.png */,
 				E59528E012951D9B0034BB09 /* P_Wpn_Sni_104.png */,
+				DA86AFC41876C5CB00DFB848 /* P_Foot_01.png */,
+				DA86AFC61876C5DD00DFB848 /* P_Foot_09.png */,
 				DA79CB491871700F00DD7E45 /* P_Foot_11.png */,
+				DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */,
 				DA8EA0771833647900A12DD5 /* P_Foot_07.png */,
 				E5DC18EC129E04D000C58585 /* Turret_b_01.png */,
 				E5DC18ED129E04D000C58585 /* Turret_b_02.png */,
@@ -4026,76 +4047,76 @@
 		E53CB79011EEAAC4002B0F88 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				E5D8AEAA12B618B5003A5E05 /* ESpawn_01.tble */,
-				E5D8AEAB12B618B5003A5E05 /* ESpawn_02.tble */,
-				E5D8AEAC12B618B5003A5E05 /* ESpawn_03.tble */,
-				E5D8AEAD12B618B5003A5E05 /* ESpawn_04.tble */,
-				E5D8AEAE12B618B5003A5E05 /* ESpawn_05.tble */,
-				E5D8AEAF12B618B5003A5E05 /* ESpawn_06.tble */,
-				E5D8AEB012B618B5003A5E05 /* ESpawn_07.tble */,
-				E5D8AEB112B618B5003A5E05 /* ESpawn_08.tble */,
-				E5D8AEB212B618B5003A5E05 /* ESpawn_09.tble */,
-				E5D8AEB312B618B5003A5E05 /* ESpawn_10.tble */,
-				E5D8AEB412B618B5003A5E05 /* ESpawn_11.tble */,
-				E5D8AEB512B618B5003A5E05 /* ESpawn_12.tble */,
-				E5D8AEB612B618B5003A5E05 /* ESpawn_13.tble */,
-				E5D8AEB712B618B5003A5E05 /* ESpawn_14.tble */,
-				E5D8AEB812B618B5003A5E05 /* ESpawn_15.tble */,
-				E5D8AEB912B618B5003A5E05 /* ESpawn_16.tble */,
-				E5D8AEBA12B618B5003A5E05 /* ESpawn_17.tble */,
-				E5D8AEBB12B618B5003A5E05 /* ESpawn_18.tble */,
-				E5D8AEBC12B618B5003A5E05 /* ESpawn_19.tble */,
-				E5D8AEBD12B618B5003A5E05 /* ESpawn_20.tble */,
-				E5D8AEBE12B618B5003A5E05 /* ESpawn_21.tble */,
-				E5D8AEBF12B618B5003A5E05 /* ESpawn_22.tble */,
-				E5D8AEC012B618B5003A5E05 /* ESpawn_23.tble */,
-				E5D8AEC112B618B5003A5E05 /* ESpawn_24.tble */,
-				E5D8AEC212B618B5003A5E05 /* ESpawn_25.tble */,
-				E5D8AEC312B618B5003A5E05 /* ESpawn_26.tble */,
-				E5D8AEC412B618B5003A5E05 /* ESpawn_27.tble */,
-				E5D8AEC512B618B5003A5E05 /* ESpawn_28.tble */,
-				E5D8AEC612B618B5003A5E05 /* ESpawn_29.tble */,
-				E5D8AEC712B618B5003A5E05 /* ESpawn_30.tble */,
-				E5D8AEC812B618B5003A5E05 /* ESpawn_31.tble */,
-				E5D8AEC912B618B5003A5E05 /* ESpawn_32.tble */,
-				E5D8AECA12B618B5003A5E05 /* ESpawn_33.tble */,
-				E5D8AECB12B618B5003A5E05 /* ESpawn_34.tble */,
-				E5D8AECC12B618B5003A5E05 /* ESpawn_35.tble */,
-				E5D8AECD12B618B5003A5E05 /* ESpawn_36.tble */,
-				E5D8AECE12B618B5003A5E05 /* ESpawn_37.tble */,
-				E5D8AECF12B618B5003A5E05 /* ESpawn_38.tble */,
-				E5D8AED012B618B5003A5E05 /* ESpawn_39.tble */,
-				E5D8AED112B618B5003A5E05 /* ESpawn_40.tble */,
-				E5D8AED212B618B5003A5E05 /* ESpawn_41.tble */,
-				E5D8AED312B618B5003A5E05 /* ESpawn_42.tble */,
-				E5D8AED412B618B5003A5E05 /* ESpawn_43.tble */,
-				E5D8AED512B618B5003A5E05 /* ESpawn_44.tble */,
-				E5D8AED612B618B5003A5E05 /* ESpawn_45.tble */,
-				E5D8AED712B618B5003A5E05 /* ESpawn_46.tble */,
-				E5D8AED812B618B5003A5E05 /* ESpawn_47.tble */,
-				E5D8AED912B618B5003A5E05 /* ESpawn_48.tble */,
-				E5D8AEDA12B618B5003A5E05 /* ESpawn_49.tble */,
-				E5D8AEDB12B618B5003A5E05 /* ESpawn_50.tble */,
-				E5D8AEDC12B618B5003A5E05 /* ESpawn_51.tble */,
-				E5D8AEDD12B618B5003A5E05 /* ESpawn_52.tble */,
-				E5D8AEDE12B618B5003A5E05 /* ESpawn_53.tble */,
-				E5D8AEDF12B618B5003A5E05 /* ESpawn_54.tble */,
-				E5D8AEE012B618B5003A5E05 /* ESpawn_55.tble */,
-				E5D8AEE112B618B5003A5E05 /* ESpawn_56.tble */,
-				E5D8AEE212B618B5003A5E05 /* ESpawn_57.tble */,
-				E5D8AEE312B618B5003A5E05 /* ESpawn_58.tble */,
-				E5D8AEE412B618B5003A5E05 /* ESpawn_59.tble */,
-				E5D8AEE512B618B5003A5E05 /* ESpawn_60.tble */,
-				E5D8AEE612B618B5003A5E05 /* ESpawn_61.tble */,
-				E5D8AEE712B618B5003A5E05 /* ESpawn_62.tble */,
-				E5D8AEE812B618B5003A5E05 /* ESpawn_63.tble */,
-				E5D8AEE912B618B5003A5E05 /* ESpawn_64.tble */,
-				E5D8AEEA12B618B5003A5E05 /* ESpawn_65.tble */,
-				E5D8AEEB12B618B5003A5E05 /* ESpawn_66.tble */,
-				E5D8AEEC12B618B5003A5E05 /* ESpawn_67.tble */,
-				E5D8AEED12B618B5003A5E05 /* ESpawn_68.tble */,
-				E5D8AEEE12B618B5003A5E05 /* ESpawn_69.tble */,
-				E5D8AEEF12B618B5003A5E05 /* ESpawn_70.tble */,
+				DA86AF381876C43A00DFB848 /* ESpawn_01.tbl */,
+				DA86AF391876C43A00DFB848 /* ESpawn_02.tbl */,
+				DA86AF3A1876C43A00DFB848 /* ESpawn_03.tbl */,
+				DA86AF3B1876C43A00DFB848 /* ESpawn_04.tbl */,
+				DA86AF3C1876C43A00DFB848 /* ESpawn_05.tbl */,
+				DA86AF3D1876C43A00DFB848 /* ESpawn_06.tbl */,
+				DA86AF3E1876C43A00DFB848 /* ESpawn_07.tbl */,
+				DA86AF3F1876C43A00DFB848 /* ESpawn_08.tbl */,
+				DA86AF401876C43A00DFB848 /* ESpawn_09.tbl */,
+				DA86AF411876C43A00DFB848 /* ESpawn_10.tbl */,
+				DA86AF421876C43A00DFB848 /* ESpawn_11.tbl */,
+				DA86AF431876C43A00DFB848 /* ESpawn_12.tbl */,
+				DA86AF441876C43A00DFB848 /* ESpawn_13.tbl */,
+				DA86AF451876C43A00DFB848 /* ESpawn_14.tbl */,
+				DA86AF461876C43A00DFB848 /* ESpawn_15.tbl */,
+				DA86AF471876C43A00DFB848 /* ESpawn_16.tbl */,
+				DA86AF481876C43A00DFB848 /* ESpawn_17.tbl */,
+				DA86AF491876C43A00DFB848 /* ESpawn_18.tbl */,
+				DA86AF4A1876C43A00DFB848 /* ESpawn_19.tbl */,
+				DA86AF4B1876C43A00DFB848 /* ESpawn_20.tbl */,
+				DA86AF4C1876C43A00DFB848 /* ESpawn_21.tbl */,
+				DA86AF4D1876C43A00DFB848 /* ESpawn_22.tbl */,
+				DA86AF4E1876C43A00DFB848 /* ESpawn_23.tbl */,
+				DA86AF4F1876C43A00DFB848 /* ESpawn_24.tbl */,
+				DA86AF501876C43A00DFB848 /* ESpawn_25.tbl */,
+				DA86AF511876C43A00DFB848 /* ESpawn_26.tbl */,
+				DA86AF521876C43A00DFB848 /* ESpawn_27.tbl */,
+				DA86AF531876C43A00DFB848 /* ESpawn_28.tbl */,
+				DA86AF541876C43A00DFB848 /* ESpawn_29.tbl */,
+				DA86AF551876C43A00DFB848 /* ESpawn_30.tbl */,
+				DA86AF561876C43A00DFB848 /* ESpawn_31.tbl */,
+				DA86AF571876C43A00DFB848 /* ESpawn_32.tbl */,
+				DA86AF581876C43A00DFB848 /* ESpawn_33.tbl */,
+				DA86AF591876C43A00DFB848 /* ESpawn_34.tbl */,
+				DA86AF5A1876C43A00DFB848 /* ESpawn_35.tbl */,
+				DA86AF5B1876C43A00DFB848 /* ESpawn_36.tbl */,
+				DA86AF5C1876C43A00DFB848 /* ESpawn_37.tbl */,
+				DA86AF5D1876C43A00DFB848 /* ESpawn_38.tbl */,
+				DA86AF5E1876C43A00DFB848 /* ESpawn_39.tbl */,
+				DA86AF5F1876C43A00DFB848 /* ESpawn_40.tbl */,
+				DA86AF601876C43A00DFB848 /* ESpawn_41.tbl */,
+				DA86AF611876C43A00DFB848 /* ESpawn_42.tbl */,
+				DA86AF621876C43A00DFB848 /* ESpawn_43.tbl */,
+				DA86AF631876C43A00DFB848 /* ESpawn_44.tbl */,
+				DA86AF641876C43A00DFB848 /* ESpawn_45.tbl */,
+				DA86AF651876C43A00DFB848 /* ESpawn_46.tbl */,
+				DA86AF661876C43A00DFB848 /* ESpawn_47.tbl */,
+				DA86AF671876C43A00DFB848 /* ESpawn_48.tbl */,
+				DA86AF681876C43A00DFB848 /* ESpawn_49.tbl */,
+				DA86AF691876C43A00DFB848 /* ESpawn_50.tbl */,
+				DA86AF6A1876C43A00DFB848 /* ESpawn_51.tbl */,
+				DA86AF6B1876C43A00DFB848 /* ESpawn_52.tbl */,
+				DA86AF6C1876C43A00DFB848 /* ESpawn_53.tbl */,
+				DA86AF6D1876C43A00DFB848 /* ESpawn_54.tbl */,
+				DA86AF6E1876C43A00DFB848 /* ESpawn_55.tbl */,
+				DA86AF6F1876C43A00DFB848 /* ESpawn_56.tbl */,
+				DA86AF701876C43A00DFB848 /* ESpawn_57.tbl */,
+				DA86AF711876C43A00DFB848 /* ESpawn_58.tbl */,
+				DA86AF721876C43A00DFB848 /* ESpawn_59.tbl */,
+				DA86AF731876C43A00DFB848 /* ESpawn_60.tbl */,
+				DA86AF741876C43A00DFB848 /* ESpawn_61.tbl */,
+				DA86AF751876C43A00DFB848 /* ESpawn_62.tbl */,
+				DA86AF761876C43A00DFB848 /* ESpawn_63.tbl */,
+				DA86AF771876C43A00DFB848 /* ESpawn_64.tbl */,
+				DA86AF781876C43A00DFB848 /* ESpawn_65.tbl */,
+				DA86AF791876C43A00DFB848 /* ESpawn_66.tbl */,
+				DA86AF7A1876C43A00DFB848 /* ESpawn_67.tbl */,
+				DA86AF7B1876C43A00DFB848 /* ESpawn_68.tbl */,
+				DA86AF7C1876C43A00DFB848 /* ESpawn_69.tbl */,
+				DA86AF7D1876C43A00DFB848 /* ESpawn_70.tbl */,
 				E53CB79111EEAAC4002B0F88 /* Images */,
 			);
 			name = Map;
@@ -5635,82 +5656,6 @@
 				E5D8AE9812B61818003A5E05 /* Description_us.tble in Resources */,
 				E5D8AE9A12B61818003A5E05 /* ItemRegen.tble in Resources */,
 				E5D8AE9D12B61818003A5E05 /* MapInfo.mcb in Resources */,
-				E5D8AEA112B61818003A5E05 /* WeaponInfo.tble in Resources */,
-				E5D8AEA212B61818003A5E05 /* BaseUpgrade.tble in Resources */,
-				E5D8AEA312B61818003A5E05 /* MachBuild_Name.tble in Resources */,
-				E5D8AEA512B61818003A5E05 /* MachRegen.tble in Resources */,
-				E5D8AEA612B61818003A5E05 /* SpAttackList.tble in Resources */,
-				E5D8AEA712B61818003A5E05 /* TileList.tble in Resources */,
-				E5D8AEF012B618B5003A5E05 /* ESpawn_01.tble in Resources */,
-				E5D8AEF112B618B5003A5E05 /* ESpawn_02.tble in Resources */,
-				E5D8AEF212B618B5003A5E05 /* ESpawn_03.tble in Resources */,
-				E5D8AEF312B618B5003A5E05 /* ESpawn_04.tble in Resources */,
-				E5D8AEF412B618B5003A5E05 /* ESpawn_05.tble in Resources */,
-				E5D8AEF512B618B5003A5E05 /* ESpawn_06.tble in Resources */,
-				E5D8AEF612B618B5003A5E05 /* ESpawn_07.tble in Resources */,
-				E5D8AEF712B618B5003A5E05 /* ESpawn_08.tble in Resources */,
-				E5D8AEF812B618B5003A5E05 /* ESpawn_09.tble in Resources */,
-				E5D8AEF912B618B5003A5E05 /* ESpawn_10.tble in Resources */,
-				E5D8AEFA12B618B5003A5E05 /* ESpawn_11.tble in Resources */,
-				E5D8AEFB12B618B5003A5E05 /* ESpawn_12.tble in Resources */,
-				E5D8AEFC12B618B5003A5E05 /* ESpawn_13.tble in Resources */,
-				E5D8AEFD12B618B5003A5E05 /* ESpawn_14.tble in Resources */,
-				E5D8AEFE12B618B5003A5E05 /* ESpawn_15.tble in Resources */,
-				E5D8AEFF12B618B5003A5E05 /* ESpawn_16.tble in Resources */,
-				E5D8AF0012B618B5003A5E05 /* ESpawn_17.tble in Resources */,
-				E5D8AF0112B618B5003A5E05 /* ESpawn_18.tble in Resources */,
-				E5D8AF0212B618B5003A5E05 /* ESpawn_19.tble in Resources */,
-				E5D8AF0312B618B5003A5E05 /* ESpawn_20.tble in Resources */,
-				E5D8AF0412B618B5003A5E05 /* ESpawn_21.tble in Resources */,
-				E5D8AF0512B618B5003A5E05 /* ESpawn_22.tble in Resources */,
-				E5D8AF0612B618B5003A5E05 /* ESpawn_23.tble in Resources */,
-				E5D8AF0712B618B5003A5E05 /* ESpawn_24.tble in Resources */,
-				E5D8AF0812B618B5003A5E05 /* ESpawn_25.tble in Resources */,
-				E5D8AF0912B618B5003A5E05 /* ESpawn_26.tble in Resources */,
-				E5D8AF0A12B618B5003A5E05 /* ESpawn_27.tble in Resources */,
-				E5D8AF0B12B618B5003A5E05 /* ESpawn_28.tble in Resources */,
-				E5D8AF0C12B618B5003A5E05 /* ESpawn_29.tble in Resources */,
-				E5D8AF0D12B618B5003A5E05 /* ESpawn_30.tble in Resources */,
-				E5D8AF0E12B618B5003A5E05 /* ESpawn_31.tble in Resources */,
-				E5D8AF0F12B618B5003A5E05 /* ESpawn_32.tble in Resources */,
-				E5D8AF1012B618B5003A5E05 /* ESpawn_33.tble in Resources */,
-				E5D8AF1112B618B5003A5E05 /* ESpawn_34.tble in Resources */,
-				E5D8AF1212B618B5003A5E05 /* ESpawn_35.tble in Resources */,
-				E5D8AF1312B618B5003A5E05 /* ESpawn_36.tble in Resources */,
-				E5D8AF1412B618B5003A5E05 /* ESpawn_37.tble in Resources */,
-				E5D8AF1512B618B5003A5E05 /* ESpawn_38.tble in Resources */,
-				E5D8AF1612B618B5003A5E05 /* ESpawn_39.tble in Resources */,
-				E5D8AF1712B618B5003A5E05 /* ESpawn_40.tble in Resources */,
-				E5D8AF1812B618B5003A5E05 /* ESpawn_41.tble in Resources */,
-				E5D8AF1912B618B5003A5E05 /* ESpawn_42.tble in Resources */,
-				E5D8AF1A12B618B5003A5E05 /* ESpawn_43.tble in Resources */,
-				E5D8AF1B12B618B5003A5E05 /* ESpawn_44.tble in Resources */,
-				E5D8AF1C12B618B5003A5E05 /* ESpawn_45.tble in Resources */,
-				E5D8AF1D12B618B5003A5E05 /* ESpawn_46.tble in Resources */,
-				E5D8AF1E12B618B5003A5E05 /* ESpawn_47.tble in Resources */,
-				E5D8AF1F12B618B5003A5E05 /* ESpawn_48.tble in Resources */,
-				E5D8AF2012B618B5003A5E05 /* ESpawn_49.tble in Resources */,
-				E5D8AF2112B618B5003A5E05 /* ESpawn_50.tble in Resources */,
-				E5D8AF2212B618B5003A5E05 /* ESpawn_51.tble in Resources */,
-				E5D8AF2312B618B5003A5E05 /* ESpawn_52.tble in Resources */,
-				E5D8AF2412B618B5003A5E05 /* ESpawn_53.tble in Resources */,
-				E5D8AF2512B618B5003A5E05 /* ESpawn_54.tble in Resources */,
-				E5D8AF2612B618B5003A5E05 /* ESpawn_55.tble in Resources */,
-				E5D8AF2712B618B5003A5E05 /* ESpawn_56.tble in Resources */,
-				E5D8AF2812B618B5003A5E05 /* ESpawn_57.tble in Resources */,
-				E5D8AF2912B618B5003A5E05 /* ESpawn_58.tble in Resources */,
-				E5D8AF2A12B618B5003A5E05 /* ESpawn_59.tble in Resources */,
-				E5D8AF2B12B618B5003A5E05 /* ESpawn_60.tble in Resources */,
-				E5D8AF2C12B618B5003A5E05 /* ESpawn_61.tble in Resources */,
-				E5D8AF2D12B618B5003A5E05 /* ESpawn_62.tble in Resources */,
-				E5D8AF2E12B618B5003A5E05 /* ESpawn_63.tble in Resources */,
-				E5D8AF2F12B618B5003A5E05 /* ESpawn_64.tble in Resources */,
-				E5D8AF3012B618B5003A5E05 /* ESpawn_65.tble in Resources */,
-				E5D8AF3112B618B5003A5E05 /* ESpawn_66.tble in Resources */,
-				E5D8AF3212B618B5003A5E05 /* ESpawn_67.tble in Resources */,
-				E5D8AF3312B618B5003A5E05 /* ESpawn_68.tble in Resources */,
-				E5D8AF3412B618B5003A5E05 /* ESpawn_69.tble in Resources */,
-				E5D8AF3512B618B5003A5E05 /* ESpawn_70.tble in Resources */,
 				E5D8AF4712B61AFC003A5E05 /* SFX_QuickSlot.wav in Resources */,
 				E5CF5F0712B85CB600E6D857 /* iPon_Title_Main.png in Resources */,
 				E5CF5F0812B85CB600E6D857 /* iPon_Title_Main@2x.png in Resources */,
@@ -5872,15 +5817,8 @@
 				FDA222CF134D6E850049AA67 /* Default.png in Resources */,
 				FDFD232713583E060020250D /* Efx_Damage.png in Resources */,
 				FDFD232813583E060020250D /* Efx_DamageHMG.png in Resources */,
-				DA43FF531832116300C2834A /* t_body_01.png in Resources */,
-				DA43FF541832116300C2834A /* t_foot_01.png in Resources */,
-				DA43FF551832116300C2834A /* t_wpn_gun_01.png in Resources */,
 				DA43FF5A18322CEF00C2834A /* MachInfo.mcb in Resources */,
 				DA43FF5C18322CEF00C2834A /* PartsInfo.mcb in Resources */,
-				DA43FF6118322DBC00C2834A /* ItemInfo.tble in Resources */,
-				DA43FF6218322DBC00C2834A /* MachList.tble in Resources */,
-				DA43FF6318322DBC00C2834A /* PartsList.tble in Resources */,
-				DA43FF6518322E1600C2834A /* MachBuild_Parts.tble in Resources */,
 				DA43FF671832B07500C2834A /* PartsList.tbl in Resources */,
 				DA8EA0781833647900A12DD5 /* P_Foot_07.png in Resources */,
 				DACAA7D1183490480085C2AB /* selStage_btn.png in Resources */,
@@ -5888,6 +5826,90 @@
 				DA30DB94186CF4B500D9AF93 /* Efx_BulletTrail_green.png in Resources */,
 				DA30DB95186CF4B500D9AF93 /* Efx_BulletTrail_red.png in Resources */,
 				DA79CB4A1871700F00DD7E45 /* P_Foot_11.png in Resources */,
+				DA86AF7E1876C43A00DFB848 /* ESpawn_01.tbl in Resources */,
+				DA86AF7F1876C43A00DFB848 /* ESpawn_02.tbl in Resources */,
+				DA86AF801876C43A00DFB848 /* ESpawn_03.tbl in Resources */,
+				DA86AF811876C43A00DFB848 /* ESpawn_04.tbl in Resources */,
+				DA86AF821876C43A00DFB848 /* ESpawn_05.tbl in Resources */,
+				DA86AF831876C43A00DFB848 /* ESpawn_06.tbl in Resources */,
+				DA86AF841876C43A00DFB848 /* ESpawn_07.tbl in Resources */,
+				DA86AF851876C43A00DFB848 /* ESpawn_08.tbl in Resources */,
+				DA86AF861876C43A00DFB848 /* ESpawn_09.tbl in Resources */,
+				DA86AF871876C43A00DFB848 /* ESpawn_10.tbl in Resources */,
+				DA86AF881876C43A00DFB848 /* ESpawn_11.tbl in Resources */,
+				DA86AF891876C43A00DFB848 /* ESpawn_12.tbl in Resources */,
+				DA86AF8A1876C43A00DFB848 /* ESpawn_13.tbl in Resources */,
+				DA86AF8B1876C43A00DFB848 /* ESpawn_14.tbl in Resources */,
+				DA86AF8C1876C43A00DFB848 /* ESpawn_15.tbl in Resources */,
+				DA86AF8D1876C43A00DFB848 /* ESpawn_16.tbl in Resources */,
+				DA86AF8E1876C43A00DFB848 /* ESpawn_17.tbl in Resources */,
+				DA86AF8F1876C43A00DFB848 /* ESpawn_18.tbl in Resources */,
+				DA86AF901876C43A00DFB848 /* ESpawn_19.tbl in Resources */,
+				DA86AF911876C43A00DFB848 /* ESpawn_20.tbl in Resources */,
+				DA86AF921876C43A00DFB848 /* ESpawn_21.tbl in Resources */,
+				DA86AF931876C43A00DFB848 /* ESpawn_22.tbl in Resources */,
+				DA86AF941876C43A00DFB848 /* ESpawn_23.tbl in Resources */,
+				DA86AF951876C43A00DFB848 /* ESpawn_24.tbl in Resources */,
+				DA86AF961876C43A00DFB848 /* ESpawn_25.tbl in Resources */,
+				DA86AF971876C43A00DFB848 /* ESpawn_26.tbl in Resources */,
+				DA86AF981876C43A00DFB848 /* ESpawn_27.tbl in Resources */,
+				DA86AF991876C43A00DFB848 /* ESpawn_28.tbl in Resources */,
+				DA86AF9A1876C43A00DFB848 /* ESpawn_29.tbl in Resources */,
+				DA86AF9B1876C43A00DFB848 /* ESpawn_30.tbl in Resources */,
+				DA86AF9C1876C43A00DFB848 /* ESpawn_31.tbl in Resources */,
+				DA86AF9D1876C43A00DFB848 /* ESpawn_32.tbl in Resources */,
+				DA86AF9E1876C43A00DFB848 /* ESpawn_33.tbl in Resources */,
+				DA86AF9F1876C43A00DFB848 /* ESpawn_34.tbl in Resources */,
+				DA86AFA01876C43A00DFB848 /* ESpawn_35.tbl in Resources */,
+				DA86AFA11876C43A00DFB848 /* ESpawn_36.tbl in Resources */,
+				DA86AFA21876C43A00DFB848 /* ESpawn_37.tbl in Resources */,
+				DA86AFA31876C43A00DFB848 /* ESpawn_38.tbl in Resources */,
+				DA86AFA41876C43A00DFB848 /* ESpawn_39.tbl in Resources */,
+				DA86AFA51876C43A00DFB848 /* ESpawn_40.tbl in Resources */,
+				DA86AFA61876C43A00DFB848 /* ESpawn_41.tbl in Resources */,
+				DA86AFA71876C43A00DFB848 /* ESpawn_42.tbl in Resources */,
+				DA86AFA81876C43A00DFB848 /* ESpawn_43.tbl in Resources */,
+				DA86AFA91876C43A00DFB848 /* ESpawn_44.tbl in Resources */,
+				DA86AFAA1876C43A00DFB848 /* ESpawn_45.tbl in Resources */,
+				DA86AFAB1876C43A00DFB848 /* ESpawn_46.tbl in Resources */,
+				DA86AFAC1876C43A00DFB848 /* ESpawn_47.tbl in Resources */,
+				DA86AFAD1876C43A00DFB848 /* ESpawn_48.tbl in Resources */,
+				DA86AFAE1876C43A00DFB848 /* ESpawn_49.tbl in Resources */,
+				DA86AFAF1876C43A00DFB848 /* ESpawn_50.tbl in Resources */,
+				DA86AFB01876C43A00DFB848 /* ESpawn_51.tbl in Resources */,
+				DA86AFB11876C43A00DFB848 /* ESpawn_52.tbl in Resources */,
+				DA86AFB21876C43A00DFB848 /* ESpawn_53.tbl in Resources */,
+				DA86AFB31876C43A00DFB848 /* ESpawn_54.tbl in Resources */,
+				DA86AFB41876C43A00DFB848 /* ESpawn_55.tbl in Resources */,
+				DA86AFB51876C43A00DFB848 /* ESpawn_56.tbl in Resources */,
+				DA86AFB61876C43A00DFB848 /* ESpawn_57.tbl in Resources */,
+				DA86AFB71876C43A00DFB848 /* ESpawn_58.tbl in Resources */,
+				DA86AFB81876C43A00DFB848 /* ESpawn_59.tbl in Resources */,
+				DA86AFB91876C43A00DFB848 /* ESpawn_60.tbl in Resources */,
+				DA86AFBA1876C43A00DFB848 /* ESpawn_61.tbl in Resources */,
+				DA86AFBB1876C43A00DFB848 /* ESpawn_62.tbl in Resources */,
+				DA86AFBC1876C43A00DFB848 /* ESpawn_63.tbl in Resources */,
+				DA86AFBD1876C43A00DFB848 /* ESpawn_64.tbl in Resources */,
+				DA86AFBE1876C43A00DFB848 /* ESpawn_65.tbl in Resources */,
+				DA86AFBF1876C43A00DFB848 /* ESpawn_66.tbl in Resources */,
+				DA86AFC01876C43A00DFB848 /* ESpawn_67.tbl in Resources */,
+				DA86AFC11876C43A00DFB848 /* ESpawn_68.tbl in Resources */,
+				DA86AFC21876C43A00DFB848 /* ESpawn_69.tbl in Resources */,
+				DA86AFC31876C43A00DFB848 /* ESpawn_70.tbl in Resources */,
+				DA86AFC51876C5CB00DFB848 /* P_Foot_01.png in Resources */,
+				DA86AFC71876C5DD00DFB848 /* P_Foot_09.png in Resources */,
+				DA86AFC91876C5EB00DFB848 /* P_Foot_14.png in Resources */,
+				DA277C391881332600E27D73 /* README.md in Resources */,
+				DA277C3A1881332600E27D73 /* release_notes.md in Resources */,
+				DADC60201883ABE900A544B9 /* ItemInfo.tbl in Resources */,
+				DADC60221883AC0500A544B9 /* MachBuild_Name.tbl in Resources */,
+				DADC60241883AC3300A544B9 /* MachBuild_Parts.tbl in Resources */,
+				DADC60261883AC5600A544B9 /* SpAttackList.tbl in Resources */,
+				DADC60281883AC7100A544B9 /* MachRegen.tbl in Resources */,
+				DADC602A1883AC9D00A544B9 /* BaseUpgrade.tbl in Resources */,
+				DADC602C1883ACAE00A544B9 /* WeaponInfo.tbl in Resources */,
+				DADC602E1883ACD600A544B9 /* TileList.tbl in Resources */,
+				DA870F161891007B000A9D79 /* MachList.tbl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5988,7 +6010,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kang Sung Won (FG92L23S3T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -5997,10 +6020,15 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = AppInfo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/TestFlightSDK2.1.3\"",
+				);
 				PRODUCT_NAME = MachDefense;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA0063F7-5103-449A-A8C8-52A417A6F2DE";
+				PROVISIONING_PROFILE = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -6009,7 +6037,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kang Sung Won (FG92L23S3T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
 				COPY_PHASE_STRIP = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -6017,10 +6046,15 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = AppInfo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/TestFlightSDK2.1.3\"",
+				);
 				PRODUCT_NAME = MachDefense;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA0063F7-5103-449A-A8C8-52A417A6F2DE";
+				PROVISIONING_PROFILE = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -6029,15 +6063,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
-				TARGETED_DEVICE_FAMILY = 2;
+				PROVISIONING_PROFILE = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -6045,54 +6083,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Release;
-		};
-		E5D8AF4012B61A13003A5E05 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Distribution;
-		};
-		E5D8AF4112B61A13003A5E05 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HaeJun Byun";
-				COPY_PHASE_STRIP = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = MD_Prefix.pch;
-				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
-				INFOPLIST_FILE = AppInfo.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = MachDefense;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EEB09D7C-340F-444B-B7B8-1CCFEE0FDE29";
+				PROVISIONING_PROFILE = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Distribution;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -6102,20 +6107,18 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
-				E5D8AF4112B61A13003A5E05 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MachDefense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
-				E5D8AF4012B61A13003A5E05 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

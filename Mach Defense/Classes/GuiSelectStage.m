@@ -52,13 +52,15 @@
 //	[_buttonBase setPosY:0];
 	[img addChild:_buttonBase];
 	
-	tile = [_tileResMgr getUniTile:@"SelStage_Fore.png"];
-	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
-	[img setLayer:VLAYER_UI];
-	[self addChild:img];
+//	tile = [_tileResMgr getUniTile:@"SelStage_Fore.png"];
+//	img = [[QobImage alloc] initWithTile:tile tileNo:0];
+//	[img setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
+//	[img setLayer:VLAYER_UI];
+//	[self addChild:img];
+    
+    NSLog(@"STAGE : [%d]",GSLOT->lastStage);
 	
-	for(int i = 0; i < GSLOT->lastStage + 11; i++)
+	for(int i = 0; i < GSLOT->lastStage; i++)
 	{
 		if(i >= MAX_STAGE) continue;
 		tile = [_tileResMgr getTileForRetina:@"selStage_btn.png"];
@@ -135,7 +137,7 @@
 
 	tile = [_tileResMgr getTileForRetina:@"Common_Btn_BACK.png"];
 	[tile tileSplitX:1 splitY:2];
-	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_BACK];
+	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_OK];
 	[btn setReleaseTileNo:1];
 	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
@@ -152,9 +154,9 @@
 	else [_btnFight setPosX: 240 Y:30];
 	[_btnFight setLayer:VLAYER_UI];
 	[_buttonBase addChild:_btnFight];
-    _btnFight.visual = NO;
+    //_btnFight.visual = NO;
 	
-	_sel = 3;//GSLOT->lastStage;
+	_sel = 1;//GSLOT->lastStage;
     NSLog(@"lastStage %d", GSLOT->lastStage);
     CGPoint pos = [GINFO getMapPosition:[NSString stringWithFormat:@"%d", GSLOT->lastStage-1]];
     _lastPosition = pos.y;
@@ -199,7 +201,7 @@
 	if(_camPos < _topLimit) EASYOUTE(_camPos, _topLimit, 5.f, .1f);
 	if(_camPos > lowerLimit) EASYOUTE(_camPos, lowerLimit, 5.f, .1f);
 	EASYOUTE(y, _camPos, 5.f, .1f);
-	[_buttonBase setPosY:y];
+//	[_buttonBase setPosY:y];
 	
 	[super tick];
 }

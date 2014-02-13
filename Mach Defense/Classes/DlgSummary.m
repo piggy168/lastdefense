@@ -121,7 +121,7 @@
 	NSString *buildsetName[64];
 	int buildsetRate[64], buildsetCount = 0;
 	int rateSum = 0, rndSeed;
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachRegen" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachRegen" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *machName = [table getString:i Key:@"MachName"];

@@ -8,6 +8,8 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+#import "TestFlight.h"
+
 #import "DefaultAppDelegate.h"
 #import "EAGLView.h"
 #import "QobAffecter.h"
@@ -56,6 +58,8 @@ DefaultAppDelegate *_appDelegate = nil;
     [UIScreen mainScreen].currentMode =
     [UIScreenMode emulatedMode:UIScreenIPhone4EmulationMode];
 #endif
+    [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+    [TestFlight takeOff:@"c1a04021-c218-42f3-b16a-c7eb0e1d7570"];
     
 	CGRect rect = [[UIScreen mainScreen] bounds];
     NSLog(@"rect %.0f %.0f",rect.size.width, rect.size.height);

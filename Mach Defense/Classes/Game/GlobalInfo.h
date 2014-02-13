@@ -169,6 +169,7 @@ typedef struct TGlobalValue TGlobalValue;
 
 - (void)loadSFX;
 - (UInt32)sfxID:(int)nSndID;
+- (float)readfloat:(Byte *) buffer offset:(int) offset;
 
 - (void)updateBaseUpgrade;
 

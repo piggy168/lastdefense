@@ -32,7 +32,7 @@
 //	_layer.zSort = true;
 	_machState = MACHSTATE_STOP;
 	_machType = MACHTYPE_BIPOD;
-	_scale = 1.f;
+	_scale = 1.0f;
 
 	_hp = 256;
 	_speed = 0.f;

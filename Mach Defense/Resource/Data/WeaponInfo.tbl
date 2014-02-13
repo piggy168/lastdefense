@@ -9,10 +9,10 @@ BaseWpn05   	Gun 	5	20   	0   	460 	18  	0.12	2.1 	1   	0.80	0	0	0   	-       	-
 BaseWpn06   	Gun 	6	25  	0   	500 	20   	0.11 	2.0 	1   	0.75 	0	0	0   	-       	-   	-       	0   	0   	Damage      	1   	MachineGun09.wav
 BaseWpn07   	Gun 	7	30   	0   	540 	24  	0.10 	1.9 	1   	0.70	0	0	0   	-       	-   	-       	0   	0   	Damage      	1   	MachineGun10.wav
 // Light Machine-Gun
-P_Wpn_Gun_401	Gun 	1	9   	0   	200 	6   	0.2 	2.5 	1   	1.00	0	0	0   	-       	-   	-       	0   	0   	Damage      	0.8   	MachineGun03.wav
-P_Wpn_Gun_101	Gun 	2	11   	0   	210 	9   	0.19 	2.4 	1   	0.95   	0	0	0   	-       	-   	-       	0   	0   	Damage      	0.8 	MachineGun03.wav
-P_Wpn_Gun_402	Gun 	3	13   	0   	220 	12  	0.18	2.3 	1   	0.90	0	0	0   	-       	-   	-       	0   	0   	Damage      	0.8 	MachineGun03.wav
-P_Wpn_Gun_102	Gun 	4	15   	0   	230 	16  	0.17 	2.2 	1   	0.85	0	0	0   	-       	-   	-       	0   	0   	Damage      	0.8 	MachineGun04.wav
+P_Wpn_Gun_401	Bomb 	1	9   	0   	200 	6   	0.2 	2.5 	1   	1.00	0	0	0   	Bullet_06	-   	-       	0   	0   	Damage      	0.8   	MachineGun03.wav
+P_Wpn_Gun_101	Bomb 	2	11   	0   	210 	9   	0.19 	2.4 	1   	0.95   	0	0	0   	Bullet_07  	-   	-       	0   	0   	Damage      	0.8 	MachineGun03.wav
+P_Wpn_Gun_402	Bomb 	3	13   	0   	220 	12  	0.18	2.3 	1   	0.90	0	0	0   	Bullet_08   -   	-       	0   	0   	Damage      	0.8 	MachineGun03.wav
+P_Wpn_Gun_102	Bomb 	4	15   	0   	230 	16  	0.17 	2.2 	1   	0.85	0	0	0   	Bullet_09	-   	-       	0   	0   	Damage      	0.8 	MachineGun04.wav
 P_Wpn_Gun_103	Gun 	5	18   	0   	240 	18  	0.16	2.1 	1   	0.80	0	0	0   	-       	-   	-       	0   	0   	Damage      	0.8 	MachineGun05.wav
 P_Wpn_Gun_407	Gun 	6	21  	0   	250 	21   	0.15 	2.0 	1   	0.75 	0	0	0   	-       	-   	-       	0   	0   	Damage      	0.8 	MachineGun06.wav
 P_Wpn_Gun_104	Gun 	7	24   	0   	260 	24  	0.14 	1.9 	1   	0.70	0	0	0   	-       	-   	-       	0   	0   	Damage      	0.8 	MachineGun07.wav

@@ -85,7 +85,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	
 	_gameMode = GMODE_SCENARIO;
 	
-	_tileList = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"TileList" ofType:@"tble"]];
+	_tileList = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"TileList" ofType:@"tbl"]];
 
 	return self;
 }
@@ -273,7 +273,11 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 		buildSet = [self buyBuildSet:@"Tanker"];				buildSet.onSlot = true;
 		buildSet = [self buyBuildSet:@"Missile"];				buildSet.onSlot = true;
 		buildSet = [self buyBuildSet:@"RifleTurret"];			buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"PlasmaGun"];			buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"PlasmaGun"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"HMG"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"HeavyMissile"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"ShotGun"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"IonRifle"];             buildSet.onSlot = true;
 
 		SpAttackSet *attackSet;
 		attackSet = [self buyAttackSet:@"AirStrike-Bomb" Count:2];		attackSet.onSlot = true;
@@ -550,8 +554,10 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 		
 		for(unsigned char i = 0; i < socketCnt; i++)
 		{
-			float x = *(float *)(pData + dataPos);							dataPos += sizeof(float);
-			float y = *(float *)(pData + dataPos);							dataPos += sizeof(float);
+            float x ;
+            memcpy(&x, (pData + dataPos), 4); dataPos += 4;
+            float y;
+            memcpy(&y, (pData + dataPos), 4); dataPos += 4;
 
 			[partsInfo setSocket:i X:x Y:y];
 		}
@@ -568,6 +574,20 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	}
 	
 	return pos;
+}
+
+- (float)readfloat:(Byte *) buffer offset:(int) offset
+{    
+    float val=0;
+    
+    unsigned long result=0;
+    result |= ((unsigned long)(buffer[offset]) << 0x18);
+    result |= ((unsigned long)(buffer[offset+1]) << 0x10);
+    result |= ((unsigned long)(buffer[offset+2]) << 0x08);
+    result |= ((unsigned long)(buffer[offset+3]));
+    memcpy(&val,&result,4);
+    
+    return val;
 }
 
 - (bool)openPartsInfo
@@ -651,7 +671,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 
 - (bool)openMachInfo
 {
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachList" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachList" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		MachInfo *mach = [[MachInfo alloc] init];
@@ -680,7 +700,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 			mach.speed *= .5f;
 			mach.radius *= .5f; 
 		}
-		
+
 		[_dictMachInfo setObject:mach forKey:[table getString:i Key:@"MachName"]];
 		[mach release];
 	}
@@ -712,7 +732,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - (bool)openItemInfo
 {
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"ItemInfo" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"ItemInfo" ofType:@"tbl"]];
 	
 	for(int i = 0; i < table.row; i++)
 	{
@@ -765,7 +785,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - (bool)openMachBuildSet
 {
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachBuild_Parts" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachBuild_Parts" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *machName = [table getString:i Key:@"MachName"];
@@ -800,7 +820,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	}
 	[table release];
 	
-	table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachBuild_Name" ofType:@"tble"]];
+	table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachBuild_Name" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *tmpName;
@@ -893,7 +913,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - (bool)openSpAttackList
 {
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"SpAttackList" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"SpAttackList" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *attackName = [table getString:i Key:@"AttackName"];
@@ -963,7 +983,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - (bool)openBaseUpgradeInfo
 {
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"BaseUpgrade" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"BaseUpgrade" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *upgradeName = [table getString:i Key:@"UpgradeName"];
@@ -1001,7 +1021,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - (bool)openWeaponInfo
 {
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"WeaponInfo" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"WeaponInfo" ofType:@"tbl"]];
 	
 	for(int i = 0; i < table.row; i++)
 	{
@@ -1134,7 +1154,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 
 - (void)restoreWeaponSound
 {
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"WeaponInfo" ofType:@"tble"]];
+	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"WeaponInfo" ofType:@"tbl"]];
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *wpnName = [table getString:i Key:@"Parts"];
