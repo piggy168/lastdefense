@@ -87,7 +87,7 @@
 	
 	int x = 200;
 	ImageAttacher *attacher = [[ImageAttacher alloc] initWithWidth:256 Height:1024 Name:attachTileName];
-	[attacher attachImage:[TILEMGR getImage:@"GameUI_MachSlot.png"] ToX:128 Y:512];
+	[attacher attachImage:[TILEMGR getImage:@"GameUI_MachSlot.png"] ToX:256-64 Y:484];
 
 	int btnCnt = 0;
 	float basePos = 864;
