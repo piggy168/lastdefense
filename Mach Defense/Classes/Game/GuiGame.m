@@ -47,7 +47,7 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	else
 	{
-		_uiDefaultPos = -178;
+		_uiDefaultPos = -215;
 		_uiWorldMargin = 240;
 		_msgPos = 216.f;
 	}
