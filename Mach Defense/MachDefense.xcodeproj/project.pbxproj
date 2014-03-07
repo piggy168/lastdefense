@@ -14,6 +14,31 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		A89F075518CA670000791217 /* turret_b_06.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F073C18CA670000791217 /* turret_b_06.png */; };
+		A89F075618CA670000791217 /* turret_b_07.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F073D18CA670000791217 /* turret_b_07.png */; };
+		A89F075718CA670000791217 /* turret_b_08.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F073E18CA670000791217 /* turret_b_08.png */; };
+		A89F075818CA670000791217 /* turret_b_09.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F073F18CA670000791217 /* turret_b_09.png */; };
+		A89F075918CA670000791217 /* turret_b_10.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074018CA670000791217 /* turret_b_10.png */; };
+		A89F075A18CA670000791217 /* turret_b_11.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074118CA670000791217 /* turret_b_11.png */; };
+		A89F075B18CA670000791217 /* turret_b_12.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074218CA670000791217 /* turret_b_12.png */; };
+		A89F075C18CA670000791217 /* turret_b_13.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074318CA670000791217 /* turret_b_13.png */; };
+		A89F075D18CA670000791217 /* turret_b_14.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074418CA670000791217 /* turret_b_14.png */; };
+		A89F075E18CA670000791217 /* turret_b_15.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074518CA670000791217 /* turret_b_15.png */; };
+		A89F075F18CA670000791217 /* turret_b_16.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074618CA670000791217 /* turret_b_16.png */; };
+		A89F076018CA670000791217 /* turret_b_17.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074718CA670000791217 /* turret_b_17.png */; };
+		A89F076118CA670000791217 /* turret_b_18.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074818CA670000791217 /* turret_b_18.png */; };
+		A89F076218CA670000791217 /* turret_b_19.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074918CA670000791217 /* turret_b_19.png */; };
+		A89F076318CA670000791217 /* turret_b_20.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074A18CA670000791217 /* turret_b_20.png */; };
+		A89F076418CA670000791217 /* turret_b_21.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074B18CA670000791217 /* turret_b_21.png */; };
+		A89F076518CA670000791217 /* turret_b_22.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074C18CA670000791217 /* turret_b_22.png */; };
+		A89F076618CA670000791217 /* turret_b_23.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074D18CA670000791217 /* turret_b_23.png */; };
+		A89F076718CA670000791217 /* turret_b_24.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074E18CA670000791217 /* turret_b_24.png */; };
+		A89F076818CA670000791217 /* turret_b_25.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F074F18CA670000791217 /* turret_b_25.png */; };
+		A89F076918CA670000791217 /* turret_b_26.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F075018CA670000791217 /* turret_b_26.png */; };
+		A89F076A18CA670000791217 /* turret_b_27.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F075118CA670000791217 /* turret_b_27.png */; };
+		A89F076B18CA670000791217 /* turret_b_28.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F075218CA670000791217 /* turret_b_28.png */; };
+		A89F076C18CA670000791217 /* turret_b_29.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F075318CA670000791217 /* turret_b_29.png */; };
+		A89F076D18CA670000791217 /* turret_b_30.png in Resources */ = {isa = PBXBuildFile; fileRef = A89F075418CA670000791217 /* turret_b_30.png */; };
 		DA277C381881332600E27D73 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA277C321881332600E27D73 /* libTestFlight.a */; };
 		DA277C391881332600E27D73 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA277C331881332600E27D73 /* README.md */; };
 		DA277C3A1881332600E27D73 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = DA277C341881332600E27D73 /* release_notes.md */; };
@@ -1392,6 +1417,31 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* AppInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppInfo.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A89F073C18CA670000791217 /* turret_b_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_06.png; path = Resource/Mach/Parts/turret_b_06.png; sourceTree = SOURCE_ROOT; };
+		A89F073D18CA670000791217 /* turret_b_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_07.png; path = Resource/Mach/Parts/turret_b_07.png; sourceTree = SOURCE_ROOT; };
+		A89F073E18CA670000791217 /* turret_b_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_08.png; path = Resource/Mach/Parts/turret_b_08.png; sourceTree = SOURCE_ROOT; };
+		A89F073F18CA670000791217 /* turret_b_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_09.png; path = Resource/Mach/Parts/turret_b_09.png; sourceTree = SOURCE_ROOT; };
+		A89F074018CA670000791217 /* turret_b_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_10.png; path = Resource/Mach/Parts/turret_b_10.png; sourceTree = SOURCE_ROOT; };
+		A89F074118CA670000791217 /* turret_b_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_11.png; path = Resource/Mach/Parts/turret_b_11.png; sourceTree = SOURCE_ROOT; };
+		A89F074218CA670000791217 /* turret_b_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_12.png; path = Resource/Mach/Parts/turret_b_12.png; sourceTree = SOURCE_ROOT; };
+		A89F074318CA670000791217 /* turret_b_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_13.png; path = Resource/Mach/Parts/turret_b_13.png; sourceTree = SOURCE_ROOT; };
+		A89F074418CA670000791217 /* turret_b_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_14.png; path = Resource/Mach/Parts/turret_b_14.png; sourceTree = SOURCE_ROOT; };
+		A89F074518CA670000791217 /* turret_b_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_15.png; path = Resource/Mach/Parts/turret_b_15.png; sourceTree = SOURCE_ROOT; };
+		A89F074618CA670000791217 /* turret_b_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_16.png; path = Resource/Mach/Parts/turret_b_16.png; sourceTree = SOURCE_ROOT; };
+		A89F074718CA670000791217 /* turret_b_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_17.png; path = Resource/Mach/Parts/turret_b_17.png; sourceTree = SOURCE_ROOT; };
+		A89F074818CA670000791217 /* turret_b_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_18.png; path = Resource/Mach/Parts/turret_b_18.png; sourceTree = SOURCE_ROOT; };
+		A89F074918CA670000791217 /* turret_b_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_19.png; path = Resource/Mach/Parts/turret_b_19.png; sourceTree = SOURCE_ROOT; };
+		A89F074A18CA670000791217 /* turret_b_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_20.png; path = Resource/Mach/Parts/turret_b_20.png; sourceTree = SOURCE_ROOT; };
+		A89F074B18CA670000791217 /* turret_b_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_21.png; path = Resource/Mach/Parts/turret_b_21.png; sourceTree = SOURCE_ROOT; };
+		A89F074C18CA670000791217 /* turret_b_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_22.png; path = Resource/Mach/Parts/turret_b_22.png; sourceTree = SOURCE_ROOT; };
+		A89F074D18CA670000791217 /* turret_b_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_23.png; path = Resource/Mach/Parts/turret_b_23.png; sourceTree = SOURCE_ROOT; };
+		A89F074E18CA670000791217 /* turret_b_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_24.png; path = Resource/Mach/Parts/turret_b_24.png; sourceTree = SOURCE_ROOT; };
+		A89F074F18CA670000791217 /* turret_b_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_25.png; path = Resource/Mach/Parts/turret_b_25.png; sourceTree = SOURCE_ROOT; };
+		A89F075018CA670000791217 /* turret_b_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_26.png; path = Resource/Mach/Parts/turret_b_26.png; sourceTree = SOURCE_ROOT; };
+		A89F075118CA670000791217 /* turret_b_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_27.png; path = Resource/Mach/Parts/turret_b_27.png; sourceTree = SOURCE_ROOT; };
+		A89F075218CA670000791217 /* turret_b_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_28.png; path = Resource/Mach/Parts/turret_b_28.png; sourceTree = SOURCE_ROOT; };
+		A89F075318CA670000791217 /* turret_b_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_29.png; path = Resource/Mach/Parts/turret_b_29.png; sourceTree = SOURCE_ROOT; };
+		A89F075418CA670000791217 /* turret_b_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_30.png; path = Resource/Mach/Parts/turret_b_30.png; sourceTree = SOURCE_ROOT; };
 		DA277C321881332600E27D73 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
 		DA277C331881332600E27D73 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DA277C341881332600E27D73 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
@@ -2981,6 +3031,31 @@
 		E52B51A1129B7CC30022EB7E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A89F073C18CA670000791217 /* turret_b_06.png */,
+				A89F073D18CA670000791217 /* turret_b_07.png */,
+				A89F073E18CA670000791217 /* turret_b_08.png */,
+				A89F073F18CA670000791217 /* turret_b_09.png */,
+				A89F074018CA670000791217 /* turret_b_10.png */,
+				A89F074118CA670000791217 /* turret_b_11.png */,
+				A89F074218CA670000791217 /* turret_b_12.png */,
+				A89F074318CA670000791217 /* turret_b_13.png */,
+				A89F074418CA670000791217 /* turret_b_14.png */,
+				A89F074518CA670000791217 /* turret_b_15.png */,
+				A89F074618CA670000791217 /* turret_b_16.png */,
+				A89F074718CA670000791217 /* turret_b_17.png */,
+				A89F074818CA670000791217 /* turret_b_18.png */,
+				A89F074918CA670000791217 /* turret_b_19.png */,
+				A89F074A18CA670000791217 /* turret_b_20.png */,
+				A89F074B18CA670000791217 /* turret_b_21.png */,
+				A89F074C18CA670000791217 /* turret_b_22.png */,
+				A89F074D18CA670000791217 /* turret_b_23.png */,
+				A89F074E18CA670000791217 /* turret_b_24.png */,
+				A89F074F18CA670000791217 /* turret_b_25.png */,
+				A89F075018CA670000791217 /* turret_b_26.png */,
+				A89F075118CA670000791217 /* turret_b_27.png */,
+				A89F075218CA670000791217 /* turret_b_28.png */,
+				A89F075318CA670000791217 /* turret_b_29.png */,
+				A89F075418CA670000791217 /* turret_b_30.png */,
 				DADC60231883AC3300A544B9 /* MachBuild_Parts.tbl */,
 				DADC601F1883ABE900A544B9 /* ItemInfo.tbl */,
 				DA43FF661832B07500C2834A /* PartsList.tbl */,
@@ -4615,6 +4690,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MachDefense" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -4668,6 +4745,7 @@
 				E53CB95511EEAAC5002B0F88 /* bj.png in Resources */,
 				E53CB95611EEAAC5002B0F88 /* bm.png in Resources */,
 				E53CB95711EEAAC5002B0F88 /* bn.png in Resources */,
+				A89F075918CA670000791217 /* turret_b_10.png in Resources */,
 				E53CB95811EEAAC5002B0F88 /* bo.png in Resources */,
 				E53CB95911EEAAC5002B0F88 /* br.png in Resources */,
 				E53CB95A11EEAAC5002B0F88 /* bs.png in Resources */,
@@ -4690,6 +4768,7 @@
 				E53CB96B11EEAAC5002B0F88 /* cy.png in Resources */,
 				E53CB96C11EEAAC5002B0F88 /* cz.png in Resources */,
 				E53CB96D11EEAAC5002B0F88 /* de.png in Resources */,
+				A89F076518CA670000791217 /* turret_b_22.png in Resources */,
 				E53CB96E11EEAAC5002B0F88 /* dj.png in Resources */,
 				E53CB96F11EEAAC5002B0F88 /* dk.png in Resources */,
 				E53CB97011EEAAC5002B0F88 /* dm.png in Resources */,
@@ -4755,11 +4834,13 @@
 				E53CB9AC11EEAAC5002B0F88 /* la.png in Resources */,
 				E53CB9AD11EEAAC5002B0F88 /* lb.png in Resources */,
 				E53CB9AE11EEAAC5002B0F88 /* lc.png in Resources */,
+				A89F076118CA670000791217 /* turret_b_18.png in Resources */,
 				E53CB9AF11EEAAC5002B0F88 /* li.png in Resources */,
 				E53CB9B011EEAAC5002B0F88 /* lk.png in Resources */,
 				E53CB9B111EEAAC5002B0F88 /* lr.png in Resources */,
 				E53CB9B211EEAAC5002B0F88 /* ls.png in Resources */,
 				E53CB9B311EEAAC5002B0F88 /* lt.png in Resources */,
+				A89F076218CA670000791217 /* turret_b_19.png in Resources */,
 				E53CB9B411EEAAC5002B0F88 /* lu.png in Resources */,
 				E53CB9B511EEAAC5002B0F88 /* lv.png in Resources */,
 				E53CB9B611EEAAC5002B0F88 /* ly.png in Resources */,
@@ -4767,11 +4848,13 @@
 				E53CB9B811EEAAC5002B0F88 /* mc.png in Resources */,
 				E53CB9B911EEAAC5002B0F88 /* md.png in Resources */,
 				E53CB9BA11EEAAC5002B0F88 /* me.png in Resources */,
+				A89F075B18CA670000791217 /* turret_b_12.png in Resources */,
 				E53CB9BB11EEAAC5002B0F88 /* mg.png in Resources */,
 				E53CB9BC11EEAAC5002B0F88 /* mh.png in Resources */,
 				E53CB9BD11EEAAC5002B0F88 /* mk.png in Resources */,
 				E53CB9BE11EEAAC5002B0F88 /* ml.png in Resources */,
 				E53CB9BF11EEAAC5002B0F88 /* mm.png in Resources */,
+				A89F075E18CA670000791217 /* turret_b_15.png in Resources */,
 				E53CB9C011EEAAC5002B0F88 /* mn.png in Resources */,
 				E53CB9C111EEAAC5002B0F88 /* mo.png in Resources */,
 				E53CB9C211EEAAC5002B0F88 /* mq.png in Resources */,
@@ -4810,6 +4893,7 @@
 				E53CB9E311EEAAC5002B0F88 /* ru.png in Resources */,
 				E53CB9E411EEAAC5002B0F88 /* rw.png in Resources */,
 				E53CB9E511EEAAC5002B0F88 /* sa.png in Resources */,
+				A89F075D18CA670000791217 /* turret_b_14.png in Resources */,
 				E53CB9E611EEAAC5002B0F88 /* sb.png in Resources */,
 				E53CB9E711EEAAC5002B0F88 /* sc.png in Resources */,
 				E53CB9E811EEAAC5002B0F88 /* sd.png in Resources */,
@@ -4819,6 +4903,7 @@
 				E53CB9EC11EEAAC5002B0F88 /* sk.png in Resources */,
 				E53CB9ED11EEAAC5002B0F88 /* sl.png in Resources */,
 				E53CB9EE11EEAAC5002B0F88 /* sm.png in Resources */,
+				A89F075818CA670000791217 /* turret_b_09.png in Resources */,
 				E53CB9EF11EEAAC5002B0F88 /* sn.png in Resources */,
 				E53CB9F011EEAAC5002B0F88 /* so.png in Resources */,
 				E53CB9F111EEAAC5002B0F88 /* sr.png in Resources */,
@@ -4899,6 +4984,7 @@
 				E53CBAA311EEAAC5002B0F88 /* SelSlot_Btn.png in Resources */,
 				E53CBAA811EEAAC5002B0F88 /* Main_Copyright.png in Resources */,
 				E53CBAAB11EEAAC5002B0F88 /* Main_TapToStart.png in Resources */,
+				A89F075718CA670000791217 /* turret_b_08.png in Resources */,
 				E53CBC8011EEAAC6002B0F88 /* Airplane.png in Resources */,
 				E53CBC8111EEAAC6002B0F88 /* B_A_Body_01.png in Resources */,
 				E53CBC8211EEAAC6002B0F88 /* B_A_Body_02.png in Resources */,
@@ -4989,9 +5075,11 @@
 				E53CBCD711EEAAC6002B0F88 /* E_Tank_Body_07.png in Resources */,
 				E53CBCD811EEAAC6002B0F88 /* E_Tank_Body_08.png in Resources */,
 				E53CBCD911EEAAC6002B0F88 /* E_Tank_Body_09.png in Resources */,
+				A89F076618CA670000791217 /* turret_b_23.png in Resources */,
 				E53CBCDA11EEAAC6002B0F88 /* E_Tank_Body_10.png in Resources */,
 				E53CBCDB11EEAAC6002B0F88 /* E_Tank_Body_11.png in Resources */,
 				E53CBCDC11EEAAC6002B0F88 /* E_Tank_Body_12.png in Resources */,
+				A89F076D18CA670000791217 /* turret_b_30.png in Resources */,
 				E53CBCDD11EEAAC6002B0F88 /* E_Tank_Body_13.png in Resources */,
 				E53CBCDE11EEAAC6002B0F88 /* E_Tank_Body_14.png in Resources */,
 				E53CBCDF11EEAAC6002B0F88 /* E_Tank_Body_15.png in Resources */,
@@ -5008,6 +5096,7 @@
 				E53CBCEA11EEAAC6002B0F88 /* E_Tank_Wpn_06.png in Resources */,
 				E53CBCEB11EEAAC6002B0F88 /* E_Tank_Wpn_07.png in Resources */,
 				E53CBCEC11EEAAC6002B0F88 /* E_Tank_Wpn_08.png in Resources */,
+				A89F076818CA670000791217 /* turret_b_25.png in Resources */,
 				E53CBCED11EEAAC6002B0F88 /* E_Tank_Wpn_09.png in Resources */,
 				E53CBCEE11EEAAC6002B0F88 /* E_Tank_Wpn_10.png in Resources */,
 				E53CBCEF11EEAAC6002B0F88 /* E_Tank_Wpn_11.png in Resources */,
@@ -5172,6 +5261,7 @@
 				E5C083581290FDF2000D315D /* PB_Shg_01.png in Resources */,
 				E5C083591290FDF2000D315D /* PB_Shg_02.png in Resources */,
 				E5C0835A1290FDF2000D315D /* PB_Shg_03.png in Resources */,
+				A89F076918CA670000791217 /* turret_b_26.png in Resources */,
 				E5C0835B1290FDF2000D315D /* PB_Shg_04.png in Resources */,
 				E5C0835C1290FDF2000D315D /* PB_Shg_05.png in Resources */,
 				E5C0835D1290FDF2000D315D /* PB_Shg_06.png in Resources */,
@@ -5210,6 +5300,7 @@
 				E59528E212951D9B0034BB09 /* P_Wpn_Gun_102.png in Resources */,
 				E59528E312951D9B0034BB09 /* P_Wpn_Gun_103.png in Resources */,
 				E59528E412951D9B0034BB09 /* P_Wpn_Gun_104.png in Resources */,
+				A89F075C18CA670000791217 /* turret_b_13.png in Resources */,
 				E59528E512951D9B0034BB09 /* P_Wpn_Gun_105.png in Resources */,
 				E59528E612951D9B0034BB09 /* P_Wpn_Gun_106.png in Resources */,
 				E59528E712951D9B0034BB09 /* P_Wpn_Gun_201.png in Resources */,
@@ -5272,6 +5363,7 @@
 				E595292012951D9B0034BB09 /* P_Wpn_Msl_108.png in Resources */,
 				E595292112951D9B0034BB09 /* P_Wpn_Msl_109.png in Resources */,
 				E595292212951D9B0034BB09 /* P_Wpn_Msl_110.png in Resources */,
+				A89F075A18CA670000791217 /* turret_b_11.png in Resources */,
 				E595292312951D9B0034BB09 /* P_Wpn_Msl_201.png in Resources */,
 				E595292412951D9B0034BB09 /* P_Wpn_Msl_202.png in Resources */,
 				E595292512951D9B0034BB09 /* P_Wpn_Msl_203.png in Resources */,
@@ -5321,6 +5413,7 @@
 				E595295112951D9B0034BB09 /* P_Wpn_Rlg_208.png in Resources */,
 				E595295212951D9B0034BB09 /* P_Wpn_Rlg_209.png in Resources */,
 				E595295312951D9B0034BB09 /* P_Wpn_Rlg_210.png in Resources */,
+				A89F076C18CA670000791217 /* turret_b_29.png in Resources */,
 				E595295412951D9B0034BB09 /* P_Wpn_Rlg_301.png in Resources */,
 				E595295512951D9B0034BB09 /* P_Wpn_Shg_101.png in Resources */,
 				E595295612951D9B0034BB09 /* P_Wpn_Shg_102.png in Resources */,
@@ -5423,6 +5516,7 @@
 				E5C44A9C12A8D6920020DC11 /* HMG08.wav in Resources */,
 				E5C44A9D12A8D6920020DC11 /* HMG09.wav in Resources */,
 				E5C44A9E12A8D6920020DC11 /* HMG10.wav in Resources */,
+				A89F076B18CA670000791217 /* turret_b_28.png in Resources */,
 				E5C44A9F12A8D6920020DC11 /* Ion01.wav in Resources */,
 				E5C44AA012A8D6920020DC11 /* Ion02.wav in Resources */,
 				E5C44AA112A8D6920020DC11 /* Ion03.wav in Resources */,
@@ -5604,6 +5698,7 @@
 				E5C1B4AB12B4C3E300DFEA9B /* UI_BGM.mp3 in Resources */,
 				E53878DC12B4D8C400C98CC8 /* HMG04.wav in Resources */,
 				E538790012B4ED9500C98CC8 /* BuildMach.wav in Resources */,
+				A89F076418CA670000791217 /* turret_b_21.png in Resources */,
 				E538790112B4ED9500C98CC8 /* BuildMachComplete.wav in Resources */,
 				E538790212B4ED9500C98CC8 /* BuySpAttack.wav in Resources */,
 				E538790312B4ED9500C98CC8 /* DmgPlasma.wav in Resources */,
@@ -5629,10 +5724,12 @@
 				E538791712B4ED9500C98CC8 /* UI_Click.wav in Resources */,
 				E538791812B4ED9500C98CC8 /* UIType_BuildMach.wav in Resources */,
 				E538791912B4ED9500C98CC8 /* UIType_Formation.wav in Resources */,
+				A89F075518CA670000791217 /* turret_b_06.png in Resources */,
 				E538791A12B4ED9500C98CC8 /* UIType_SpAttack.wav in Resources */,
 				E538791B12B4ED9500C98CC8 /* Uninstall.wav in Resources */,
 				E538791C12B4ED9500C98CC8 /* UpgradeBase.wav in Resources */,
 				E538791D12B4ED9500C98CC8 /* UpgradeMach.wav in Resources */,
+				A89F075F18CA670000791217 /* turret_b_16.png in Resources */,
 				E538791E12B4ED9500C98CC8 /* UpgradeSpAttack.wav in Resources */,
 				E5D8AD6B12B5AD83003A5E05 /* Icon57.png in Resources */,
 				E5D8AD6C12B5AD83003A5E05 /* Icon114.png in Resources */,
@@ -5710,6 +5807,7 @@
 				E59CCCCC12BC793F0003F026 /* iPon_BG_20_01.jpg in Resources */,
 				E59CCCCD12BC793F0003F026 /* iPon_BG_20_02.jpg in Resources */,
 				E59CCCCE12BC793F0003F026 /* iPon_BG_21_01.jpg in Resources */,
+				A89F076718CA670000791217 /* turret_b_24.png in Resources */,
 				E59CCCCF12BC793F0003F026 /* iPon_BG_21_02.jpg in Resources */,
 				E59CCCD012BC793F0003F026 /* iPon_BG_22_01.jpg in Resources */,
 				E59CCCD112BC793F0003F026 /* iPon_BG_22_02.jpg in Resources */,
@@ -5745,6 +5843,7 @@
 				E59C5D9E12C1ADCD001C682A /* iPon_HelpScr02_us.jpg in Resources */,
 				E59C5D9F12C1ADCD001C682A /* iPon_HelpScr02_us@2x.jpg in Resources */,
 				E59C5DA012C1ADCD001C682A /* iPon_HelpScr02_kr.jpg in Resources */,
+				A89F076318CA670000791217 /* turret_b_20.png in Resources */,
 				E59C5DA112C1ADCD001C682A /* iPon_HelpScr02_kr@2x.jpg in Resources */,
 				E59C5DA212C1ADCD001C682A /* iPon_HelpScr03_us.jpg in Resources */,
 				E59C5DA312C1ADCD001C682A /* iPon_HelpScr03_us@2x.jpg in Resources */,
@@ -5771,6 +5870,7 @@
 				E59C5DB812C1ADCD001C682A /* iPon_HelpScrMain_kr.jpg in Resources */,
 				E59C5DB912C1ADCD001C682A /* iPon_HelpScrMain_kr@2x.jpg in Resources */,
 				E59C5DBF12C1B1A4001C682A /* Black.png in Resources */,
+				A89F075618CA670000791217 /* turret_b_07.png in Resources */,
 				E59C5DD312C1B83D001C682A /* NowLoading.png in Resources */,
 				E596AC6812D561F100B9840D /* SummaryBtn_LeaderBoard.png in Resources */,
 				E5B761C512E3F87300AF033B /* FormationIcon_01.png in Resources */,
@@ -5789,7 +5889,9 @@
 				FD211F711325C7C3004EB335 /* Efx_ExplodePlasma.png in Resources */,
 				FD211F721325C7C3004EB335 /* Efx_Fire.png in Resources */,
 				FD211F731325C7C3004EB335 /* Efx_Flame.png in Resources */,
+				A89F076A18CA670000791217 /* turret_b_27.png in Resources */,
 				FD211F741325C7C3004EB335 /* Efx_Ion01.png in Resources */,
+				A89F076018CA670000791217 /* turret_b_17.png in Resources */,
 				FD211F751325C7C3004EB335 /* Efx_Ion02.png in Resources */,
 				FD211F761325C7C3004EB335 /* Efx_Ion03.png in Resources */,
 				FD211F771325C7C3004EB335 /* Efx_Ion04.png in Resources */,
