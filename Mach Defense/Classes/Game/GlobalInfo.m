@@ -59,6 +59,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 
 	_dictMapInfo = [[NSMutableDictionary dictionaryWithCapacity: 10] retain];
 	_dictMapName = [[NSMutableDictionary dictionaryWithCapacity: 10] retain];
+    _dictUnlockName = [[NSMutableDictionary dictionaryWithCapacity: 10] retain];
 	_dictPartsInfo = [[NSMutableDictionary dictionaryWithCapacity: 10] retain];
 	_dictMachInfo = [[NSMutableDictionary dictionaryWithCapacity: 10] retain];
 	_dictMachBuildInfo = [[NSMutableDictionary dictionaryWithCapacity: 10] retain];
@@ -94,6 +95,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 {
 	[_dictMapInfo release];
 	[_dictMapName release];
+    [_dictUnlockName release];
 	[_dictPartsInfo release];
 	[_dictMachInfo release];
 	[_dictMachBuildInfo release];
@@ -335,7 +337,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	GSLOT->stage = 20;
 	GSLOT->cr = 20000;
 //	GSLOT->maxHp = 256;
-		GSLOT->lastStage = MAX_STAGE;
+    GSLOT->lastStage = 10;//MAX_STAGE;
 	GSLOT->machCount = 7;
 #endif
 	///////////////////////////////
@@ -492,12 +494,17 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	{
 		NSString *name = [[NSString alloc] initWithString:[table getString:i Key:@"Stage"]];
 		NSString *desc = [[NSString alloc] initWithString:[table getString:i Key:@"ImageFile"]];
+        NSString *unlock = [[NSString alloc] initWithString:[table getString:i Key:@"Unlock"]];
         float x = [table getFloat:i Key:@"PositionX"];
         float y = [table getFloat:i Key:@"PositionY"];
         
         _listMapPosition[i] =  CGPointMake(x, y);
+        
+        NSLog(@"Unlock mach [%@]",unlock);
 		
 		[_dictMapName setObject:desc forKey:name];
+		[_dictUnlockName setObject:unlock forKey:name];
+        [unlock release];
 		[name release];
 		[desc release];
 	}
@@ -517,6 +524,10 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	return [_dictMapName objectForKey:mapId];
 }
 
+- (NSString *)getUnlockName:(NSString *)mapId
+{
+	return [_dictUnlockName objectForKey:mapId];
+}
 
 - (CGPoint)getMapPosition:(NSString *)mapId
 {
@@ -1026,39 +1037,22 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *wpnName = [table getString:i Key:@"Parts"];
-        NSLog(@"%@",wpnName);
 		NSString *type = [table getString:i Key:@"Type"];
-        NSLog(@"%@",type);
 		short dmg = [table getInt:i Key:@"Dmg"];
-        NSLog(@"%d",dmg);
 		short dmgRange = [table getInt:i Key:@"Range"];
-        NSLog(@"%d",dmgRange);
 		short shotRng = [table getInt:i Key:@"ShtRng"] * 1.5f;
-        NSLog(@"%d",shotRng);
 		short shotCnt = [table getInt:i Key:@"ShtCnt"];
-        NSLog(@"%d",shotCnt);
 		float shotDly = [table getFloat:i Key:@"ShtDly"];
-        NSLog(@"%.02f",shotDly);
 		float reloadDly = [table getFloat:i Key:@"RldDly"];
-        NSLog(@"%.02f",reloadDly);
 		float spd = [table getFloat:i Key:@"Speed"];
-        NSLog(@"%.02f",spd);
 		float aimRand = [table getFloat:i Key:@"AimRt"];
-        NSLog(@"%.02f",aimRand);
 		float spParam1 = [table getFloat:i Key:@"sp1"];
-        NSLog(@"%.02f",spParam1);
 		float spParam2 = [table getFloat:i Key:@"sp2"];
-        NSLog(@"%.02f",spParam2);
 		NSString *bulletTile = [table getString:i Key:@"BltTile"];
-        NSLog(@"%@",bulletTile);
 		NSString *effectType = [table getString:i Key:@"EffType"];
-        NSLog(@"%@",effectType);
 		NSString *effectTile = [table getString:i Key:@"EffTile"];
-        NSLog(@"%@",effectTile);
 		NSString *explodeTile = [table getString:i Key:@"ExplodeEff"];
-        NSLog(@"%@",explodeTile);
 		float explodeScale = [table getFloat:i Key:@"ExplScl"];
-        NSLog(@"%.02f",explodeScale);
 		short shell = [table getInt:i Key:@"Shell"];
 		NSString *fireSfx = [table getString:i Key:@"FireSound"];
 		short uiTile = [table getInt:i Key:@"UiTile"];

@@ -84,6 +84,8 @@
 //	tile = [TILEMGR getTile:attachTileName];
 //	if(tile != nil) [TILEMGR removeTile:tile];
 	if(_imgButtonBG != nil) [_imgButtonBG remove];
+    
+    NSLog(@"refreshButtonsWithType");
 	
 	int x = 200;
 	ImageAttacher *attacher = [[ImageAttacher alloc] initWithWidth:256 Height:1024 Name:attachTileName];

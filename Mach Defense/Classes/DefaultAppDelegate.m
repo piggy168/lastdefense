@@ -58,7 +58,7 @@ DefaultAppDelegate *_appDelegate = nil;
     [UIScreen mainScreen].currentMode =
     [UIScreenMode emulatedMode:UIScreenIPhone4EmulationMode];
 #endif
-    [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+    //[TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
     [TestFlight takeOff:@"c1a04021-c218-42f3-b16a-c7eb0e1d7570"];
     
 	CGRect rect = [[UIScreen mainScreen] bounds];

@@ -137,6 +137,7 @@ typedef struct TGlobalValue TGlobalValue;
 	NSMutableDictionary *_dictBaseUpgradeInfo;
 	NSMutableDictionary *_dictMapInfo;
 	NSMutableDictionary *_dictMapName;
+	NSMutableDictionary *_dictUnlockName;
     CGPoint _listMapPosition[70];
 	NSMutableDictionary *_dictDescription;
 	NSMutableArray *_listBuyBuildSet;
@@ -185,6 +186,7 @@ typedef struct TGlobalValue TGlobalValue;
 - (bool)openMapInfo;
 - (QChunk *)getMapInfo:(NSString *)mapName;
 - (NSString *)getMapName:(NSString *)mapId;
+- (NSString *)getUnlockName:(NSString *)mapId;
 - (CGPoint)getMapPosition:(NSString *)mapId;
 - (CGPoint)getMapPositionFromIndex:(int)nMapIndex;
 

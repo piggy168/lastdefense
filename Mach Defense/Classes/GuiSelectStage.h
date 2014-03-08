@@ -8,18 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+#define MAX_WORLDMAP 2
 
 @interface GuiSelectStage : QobBase
 {
 	ResMgr_Tile *_tileResMgr;
 	QobBase *_buttonBase;
-	QobImage *_imgSel;
+	QobImage *_imgSel, *_imgWorldMap;
     QobButton *_btnFight;
 
 	int _sel;
-	float _camPos, _dragPos, _dragVel, _btnHeight, _topLimit, _btmLimit, _lastPosition;
+	float _camPos, _dragPos, _dragVel, _btnHeight, _lowerLimit, _btmLimit, _lastPosition;
 }
 
 - (void)handleButton:(NSNotification *)note;
+- (void)createWorldMap;
 
 @end

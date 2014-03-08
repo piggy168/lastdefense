@@ -60,6 +60,8 @@
 		[_uiMach setName:_machName];
 		if(_setType == BST_PARTS)
 		{
+            NSLog(@"makeMack [%@]",_machName);
+            
 			[_uiMach setParts:@"DummyParts" partsType:PARTS_BASE];
 			[_uiMach setParts:_buildSet[_level].parts->foot.strParam partsType:PARTS_FOOT];
 			[_uiMach setParts:_buildSet[_level].parts->armor.strParam partsType:PARTS_BODY];
@@ -67,6 +69,7 @@
 		}
 		else
 		{
+            NSLog(@"makeMack [%s]",_buildSet[_level].name->szMachName);
 			[_uiMach makeMachFromName:_buildSet[_level].name->szMachName];
 		}
 		[_uiMach bakeTile];
@@ -76,7 +79,6 @@
 - (Tile2D *)machTile
 {
 	if(_uiMach == nil) return nil;
-	
 	return _uiMach.tile;
 }
 
