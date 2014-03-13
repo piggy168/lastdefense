@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define MAX_WORLDMAP 2
+#define MAX_WORLDMAP 4
 
 @interface GuiSelectStage : QobBase
 {

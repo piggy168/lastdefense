@@ -96,6 +96,10 @@
 		DA86AFC91876C5EB00DFB848 /* P_Foot_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */; };
 		DA870F161891007B000A9D79 /* MachList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA870F151891007B000A9D79 /* MachList.tbl */; };
 		DA8EA0781833647900A12DD5 /* P_Foot_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8EA0771833647900A12DD5 /* P_Foot_07.png */; };
+		DA9409BC18CEDFF000FDA2ED /* worldmap_map_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA9409BA18CEDFF000FDA2ED /* worldmap_map_03.jpg */; };
+		DA9409BD18CEDFF000FDA2ED /* worldmap_map_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA9409BB18CEDFF000FDA2ED /* worldmap_map_04.jpg */; };
+		DA9409C118CEE93B00FDA2ED /* worldmap_bar_left.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9409BF18CEE93B00FDA2ED /* worldmap_bar_left.png */; };
+		DA9409C218CEE93B00FDA2ED /* worldmap_bar_right.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9409C018CEE93B00FDA2ED /* worldmap_bar_right.png */; };
 		DA979C4E18C3F800009DF352 /* worldmap_bg_option.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C3F18C3F800009DF352 /* worldmap_bg_option.png */; };
 		DA979C5018C3F800009DF352 /* worldmap_btn_base.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4118C3F800009DF352 /* worldmap_btn_base.png */; };
 		DA979C5118C3F800009DF352 /* worldmap_btn_bombs.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4218C3F800009DF352 /* worldmap_btn_bombs.png */; };
@@ -105,9 +109,7 @@
 		DA979C5518C3F800009DF352 /* worldmap_btn_option.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4618C3F800009DF352 /* worldmap_btn_option.png */; };
 		DA979C5618C3F800009DF352 /* worldmap_frame_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4718C3F800009DF352 /* worldmap_frame_menu.png */; };
 		DA979C5718C3F800009DF352 /* worldmap_map_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4818C3F800009DF352 /* worldmap_map_01.jpg */; };
-		DA979C5818C3F800009DF352 /* worldmap_map_01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4918C3F800009DF352 /* worldmap_map_01.png */; };
 		DA979C5918C3F800009DF352 /* worldmap_map_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4A18C3F800009DF352 /* worldmap_map_02.jpg */; };
-		DA979C5A18C3F800009DF352 /* worldmap_map_02.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4B18C3F800009DF352 /* worldmap_map_02.png */; };
 		DA979C5B18C3F800009DF352 /* worldmap_numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4C18C3F800009DF352 /* worldmap_numbers.png */; };
 		DA979C5C18C3F800009DF352 /* worldmap_top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4D18C3F800009DF352 /* worldmap_top_bar.png */; };
 		DA979C5E18C3FA3A009DF352 /* worldmap_bottom_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C5D18C3FA3A009DF352 /* worldmap_bottom_bar.png */; };
@@ -1382,6 +1384,31 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* AppInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppInfo.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A89F073C18CA670000791217 /* turret_b_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_06.png; path = Resource/Mach/Parts/turret_b_06.png; sourceTree = SOURCE_ROOT; };
+		A89F073D18CA670000791217 /* turret_b_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_07.png; path = Resource/Mach/Parts/turret_b_07.png; sourceTree = SOURCE_ROOT; };
+		A89F073E18CA670000791217 /* turret_b_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_08.png; path = Resource/Mach/Parts/turret_b_08.png; sourceTree = SOURCE_ROOT; };
+		A89F073F18CA670000791217 /* turret_b_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_09.png; path = Resource/Mach/Parts/turret_b_09.png; sourceTree = SOURCE_ROOT; };
+		A89F074018CA670000791217 /* turret_b_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_10.png; path = Resource/Mach/Parts/turret_b_10.png; sourceTree = SOURCE_ROOT; };
+		A89F074118CA670000791217 /* turret_b_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_11.png; path = Resource/Mach/Parts/turret_b_11.png; sourceTree = SOURCE_ROOT; };
+		A89F074218CA670000791217 /* turret_b_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_12.png; path = Resource/Mach/Parts/turret_b_12.png; sourceTree = SOURCE_ROOT; };
+		A89F074318CA670000791217 /* turret_b_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_13.png; path = Resource/Mach/Parts/turret_b_13.png; sourceTree = SOURCE_ROOT; };
+		A89F074418CA670000791217 /* turret_b_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_14.png; path = Resource/Mach/Parts/turret_b_14.png; sourceTree = SOURCE_ROOT; };
+		A89F074518CA670000791217 /* turret_b_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_15.png; path = Resource/Mach/Parts/turret_b_15.png; sourceTree = SOURCE_ROOT; };
+		A89F074618CA670000791217 /* turret_b_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_16.png; path = Resource/Mach/Parts/turret_b_16.png; sourceTree = SOURCE_ROOT; };
+		A89F074718CA670000791217 /* turret_b_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_17.png; path = Resource/Mach/Parts/turret_b_17.png; sourceTree = SOURCE_ROOT; };
+		A89F074818CA670000791217 /* turret_b_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_18.png; path = Resource/Mach/Parts/turret_b_18.png; sourceTree = SOURCE_ROOT; };
+		A89F074918CA670000791217 /* turret_b_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_19.png; path = Resource/Mach/Parts/turret_b_19.png; sourceTree = SOURCE_ROOT; };
+		A89F074A18CA670000791217 /* turret_b_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_20.png; path = Resource/Mach/Parts/turret_b_20.png; sourceTree = SOURCE_ROOT; };
+		A89F074B18CA670000791217 /* turret_b_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_21.png; path = Resource/Mach/Parts/turret_b_21.png; sourceTree = SOURCE_ROOT; };
+		A89F074C18CA670000791217 /* turret_b_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_22.png; path = Resource/Mach/Parts/turret_b_22.png; sourceTree = SOURCE_ROOT; };
+		A89F074D18CA670000791217 /* turret_b_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_23.png; path = Resource/Mach/Parts/turret_b_23.png; sourceTree = SOURCE_ROOT; };
+		A89F074E18CA670000791217 /* turret_b_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_24.png; path = Resource/Mach/Parts/turret_b_24.png; sourceTree = SOURCE_ROOT; };
+		A89F074F18CA670000791217 /* turret_b_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_25.png; path = Resource/Mach/Parts/turret_b_25.png; sourceTree = SOURCE_ROOT; };
+		A89F075018CA670000791217 /* turret_b_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_26.png; path = Resource/Mach/Parts/turret_b_26.png; sourceTree = SOURCE_ROOT; };
+		A89F075118CA670000791217 /* turret_b_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_27.png; path = Resource/Mach/Parts/turret_b_27.png; sourceTree = SOURCE_ROOT; };
+		A89F075218CA670000791217 /* turret_b_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_28.png; path = Resource/Mach/Parts/turret_b_28.png; sourceTree = SOURCE_ROOT; };
+		A89F075318CA670000791217 /* turret_b_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_29.png; path = Resource/Mach/Parts/turret_b_29.png; sourceTree = SOURCE_ROOT; };
+		A89F075418CA670000791217 /* turret_b_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_30.png; path = Resource/Mach/Parts/turret_b_30.png; sourceTree = SOURCE_ROOT; };
 		DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_green.png; sourceTree = "<group>"; };
 		DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_red.png; sourceTree = "<group>"; };
 		DA30DB96186D03B200D9AF93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -1465,6 +1492,10 @@
 		DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_14.png; sourceTree = "<group>"; };
 		DA870F151891007B000A9D79 /* MachList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachList.tbl; sourceTree = "<group>"; };
 		DA8EA0771833647900A12DD5 /* P_Foot_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_07.png; sourceTree = "<group>"; };
+		DA9409BA18CEDFF000FDA2ED /* worldmap_map_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap_map_03.jpg; sourceTree = "<group>"; };
+		DA9409BB18CEDFF000FDA2ED /* worldmap_map_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap_map_04.jpg; sourceTree = "<group>"; };
+		DA9409BF18CEE93B00FDA2ED /* worldmap_bar_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_bar_left.png; sourceTree = "<group>"; };
+		DA9409C018CEE93B00FDA2ED /* worldmap_bar_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_bar_right.png; sourceTree = "<group>"; };
 		DA979C3F18C3F800009DF352 /* worldmap_bg_option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_bg_option.png; sourceTree = "<group>"; };
 		DA979C4118C3F800009DF352 /* worldmap_btn_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_btn_base.png; sourceTree = "<group>"; };
 		DA979C4218C3F800009DF352 /* worldmap_btn_bombs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_btn_bombs.png; sourceTree = "<group>"; };
@@ -1474,9 +1505,7 @@
 		DA979C4618C3F800009DF352 /* worldmap_btn_option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_btn_option.png; sourceTree = "<group>"; };
 		DA979C4718C3F800009DF352 /* worldmap_frame_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_frame_menu.png; sourceTree = "<group>"; };
 		DA979C4818C3F800009DF352 /* worldmap_map_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap_map_01.jpg; sourceTree = "<group>"; };
-		DA979C4918C3F800009DF352 /* worldmap_map_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_map_01.png; sourceTree = "<group>"; };
 		DA979C4A18C3F800009DF352 /* worldmap_map_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap_map_02.jpg; sourceTree = "<group>"; };
-		DA979C4B18C3F800009DF352 /* worldmap_map_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_map_02.png; sourceTree = "<group>"; };
 		DA979C4C18C3F800009DF352 /* worldmap_numbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_numbers.png; sourceTree = "<group>"; };
 		DA979C4D18C3F800009DF352 /* worldmap_top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_top_bar.png; sourceTree = "<group>"; };
 		DA979C5D18C3FA3A009DF352 /* worldmap_bottom_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_bottom_bar.png; sourceTree = "<group>"; };
@@ -2961,6 +2990,31 @@
 		E52B51A1129B7CC30022EB7E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A89F073C18CA670000791217 /* turret_b_06.png */,
+				A89F073D18CA670000791217 /* turret_b_07.png */,
+				A89F073E18CA670000791217 /* turret_b_08.png */,
+				A89F073F18CA670000791217 /* turret_b_09.png */,
+				A89F074018CA670000791217 /* turret_b_10.png */,
+				A89F074118CA670000791217 /* turret_b_11.png */,
+				A89F074218CA670000791217 /* turret_b_12.png */,
+				A89F074318CA670000791217 /* turret_b_13.png */,
+				A89F074418CA670000791217 /* turret_b_14.png */,
+				A89F074518CA670000791217 /* turret_b_15.png */,
+				A89F074618CA670000791217 /* turret_b_16.png */,
+				A89F074718CA670000791217 /* turret_b_17.png */,
+				A89F074818CA670000791217 /* turret_b_18.png */,
+				A89F074918CA670000791217 /* turret_b_19.png */,
+				A89F074A18CA670000791217 /* turret_b_20.png */,
+				A89F074B18CA670000791217 /* turret_b_21.png */,
+				A89F074C18CA670000791217 /* turret_b_22.png */,
+				A89F074D18CA670000791217 /* turret_b_23.png */,
+				A89F074E18CA670000791217 /* turret_b_24.png */,
+				A89F074F18CA670000791217 /* turret_b_25.png */,
+				A89F075018CA670000791217 /* turret_b_26.png */,
+				A89F075118CA670000791217 /* turret_b_27.png */,
+				A89F075218CA670000791217 /* turret_b_28.png */,
+				A89F075318CA670000791217 /* turret_b_29.png */,
+				A89F075418CA670000791217 /* turret_b_30.png */,
 				DADC60231883AC3300A544B9 /* MachBuild_Parts.tbl */,
 				DADC601F1883ABE900A544B9 /* ItemInfo.tbl */,
 				DA43FF661832B07500C2834A /* PartsList.tbl */,
@@ -3477,6 +3531,8 @@
 				E5CF5F2612B865BA00E6D857 /* iPon_SelStage_Fore@2x.png */,
 				E59C5BDD12C04E8D001C682A /* iPon_SelSlot_Sel.png */,
 				E59C5BDE12C04E8D001C682A /* iPon_SelSlot_Sel@2x.png */,
+				DA9409BF18CEE93B00FDA2ED /* worldmap_bar_left.png */,
+				DA9409C018CEE93B00FDA2ED /* worldmap_bar_right.png */,
 				DA979C3F18C3F800009DF352 /* worldmap_bg_option.png */,
 				DA979C5D18C3FA3A009DF352 /* worldmap_bottom_bar.png */,
 				DA979C4118C3F800009DF352 /* worldmap_btn_base.png */,
@@ -3487,9 +3543,9 @@
 				DA979C4618C3F800009DF352 /* worldmap_btn_option.png */,
 				DA979C4718C3F800009DF352 /* worldmap_frame_menu.png */,
 				DA979C4818C3F800009DF352 /* worldmap_map_01.jpg */,
-				DA979C4918C3F800009DF352 /* worldmap_map_01.png */,
 				DA979C4A18C3F800009DF352 /* worldmap_map_02.jpg */,
-				DA979C4B18C3F800009DF352 /* worldmap_map_02.png */,
+				DA9409BA18CEDFF000FDA2ED /* worldmap_map_03.jpg */,
+				DA9409BB18CEDFF000FDA2ED /* worldmap_map_04.jpg */,
 				DA979C4C18C3F800009DF352 /* worldmap_numbers.png */,
 				DA979C4D18C3F800009DF352 /* worldmap_top_bar.png */,
 			);
@@ -5840,9 +5896,7 @@
 				DA979C5518C3F800009DF352 /* worldmap_btn_option.png in Resources */,
 				DA979C5618C3F800009DF352 /* worldmap_frame_menu.png in Resources */,
 				DA979C5718C3F800009DF352 /* worldmap_map_01.jpg in Resources */,
-				DA979C5818C3F800009DF352 /* worldmap_map_01.png in Resources */,
 				DA979C5918C3F800009DF352 /* worldmap_map_02.jpg in Resources */,
-				DA979C5A18C3F800009DF352 /* worldmap_map_02.png in Resources */,
 				DA979C5B18C3F800009DF352 /* worldmap_numbers.png in Resources */,
 				DA979C5C18C3F800009DF352 /* worldmap_top_bar.png in Resources */,
 				DA979C5E18C3FA3A009DF352 /* worldmap_bottom_bar.png in Resources */,
@@ -5873,6 +5927,10 @@
 				DAF1523B18C9A6B600331C03 /* turret_b_30.png in Resources */,
 				DAF1524518C9B3E400331C03 /* README.md in Resources */,
 				DAF1524618C9B3E400331C03 /* release_notes.md in Resources */,
+				DA9409BC18CEDFF000FDA2ED /* worldmap_map_03.jpg in Resources */,
+				DA9409BD18CEDFF000FDA2ED /* worldmap_map_04.jpg in Resources */,
+				DA9409C118CEE93B00FDA2ED /* worldmap_bar_left.png in Resources */,
+				DA9409C218CEE93B00FDA2ED /* worldmap_bar_right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

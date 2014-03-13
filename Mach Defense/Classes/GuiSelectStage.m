@@ -40,94 +40,6 @@
 	[SOUNDMGR playBGM:@"UI_BGM.mp3"];
     
     [self createWorldMap];
-	
-	/*	img = [[QobImage alloc] initWithTile:g_main.loadingImg tileNo:0];
-	 [img setPosX:240 Y:160];
-	 [self addChild:img];*/
-	
-//	tile = [_tileResMgr getUniTile:@"SelSlot_BG.jpg"];
-//	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-//	[img setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
-//	[img setLayer:VLAYER_BG];
-//	[self addChild:img];
-//	
-//	_buttonBase = [[QobBase alloc] init];
-//	[_buttonBase setLayer:VLAYER_FORE];
-////	[_buttonBase setPosY:0];
-//	[img addChild:_buttonBase];
-//	
-////	tile = [_tileResMgr getUniTile:@"SelStage_Fore.png"];
-////	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-////	[img setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
-////	[img setLayer:VLAYER_UI];
-////	[self addChild:img];
-//    
-//    NSLog(@"STAGE : [%d]",GSLOT->lastStage);
-//	
-//	for(int i = 0; i < GSLOT->lastStage; i++)
-//	{
-//		if(i >= MAX_STAGE) continue;
-//		tile = [_tileResMgr getTileForRetina:@"selStage_btn.png"];
-//		[tile tileSplitX:1 splitY:3];
-//		btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_SELSTAGE];
-//		if(i > GSLOT->lastStage)
-//		{
-//			[btn setDefaultTileNo:2];
-//			[btn setReleaseTileNo:2];
-//			[btn setDeactiveTileNo:2];
-//		}
-//		else
-//		{
-//			[btn setReleaseTileNo:1];
-//			[btn setDeactiveTileNo:2];
-//		}
-//
-//       // NSString *mapId = [NSString stringWithFormat:@"%d", i + 1];
-//        CGPoint btnPos = [GINFO getMapPositionFromIndex:i];
-//		[btn setIntData:i];
-////		[btn setBoundWidth:80 Height:40];
-//		[btn setPosX:btnPos.x Y:btnPos.y];
-//		[_buttonBase addChild:btn];
-//
-//        /*
-//		QobText *text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"Stage %d", i + 1] Size:CGSizeMake(256, 42) Align:UITextAlignmentLeft Font:@"TrebuchetMS-Bold" FontSize:32 Retina:true];
-//		if(i > GSLOT->lastStage) [text setColorR:10 G:10 B:10];
-//		else  [text setColorR:10 G:255 B:255];
-//		if(_glView.deviceType == DEVICE_IPAD) [text setPosX:-40];
-//		else [text setPosX:-10];
-//		[btn addChild:text];
-//
-//		NSString *mapId = [NSString stringWithFormat:@"%d", i + 1];
-//		NSString *mapName = [GINFO getMapName:mapId];
-//		
-//		tile = [_tileResMgr getTileForRetina:[NSString stringWithFormat:@"t%@_01.png", mapName]];
-//		[tile tileSplitX:1 splitY:1];
-//		QobImage *img = [[QobImage alloc] initWithTile:tile tileNo:0];
-//		[img setFixedPos:true];
-//		if(_glView.deviceType == DEVICE_IPAD) [img setPosX:77];
-//		else [img setPosX:38];
-//		[btn addChild:img];
-//		
-//		tile = [_tileResMgr getTileForRetina:[NSString stringWithFormat:@"t%@_02.png", mapName]];
-//		[tile tileSplitX:1 splitY:1];
-//		img = [[QobImage alloc] initWithTile:tile tileNo:0];
-//		[img setFixedPos:true];
-//		if(_glView.deviceType == DEVICE_IPAD) [img setPosX:173];
-//		else [img setPosX:86];
-//		[btn addChild:img];
-//
-//		if(i < GSLOT->lastStage)
-//		{
-//			tile = [_tileResMgr getTileForRetina:@"CompleteMark.png"];
-//			[tile tileSplitX:1 splitY:1];
-//			img = [[QobImage alloc] initWithTile:tile tileNo:0];
-//			[img setFixedPos:true];
-//			[img setPosX:160];
-//			[btn addChild:img];
-//		}
-//*/
-//		if(i == GSLOT->lastStage) _camPos = i * _btnHeight;
-//	}
 
 #ifdef _LITE_VERSION_
 	tile = [_tileResMgr getTileForRetina:@"BuyFullVersion.png"];
@@ -139,28 +51,63 @@
 	[_buttonBase addChild:btn];
 #endif
 
-	tile = [_tileResMgr getTileForRetina:@"Common_Btn_BACK.png"];
-	[tile tileSplitX:1 splitY:2];
-	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_OK];
+	tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu.png"];
+	[tile tileSplitX:1 splitY:1];
+	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_BASE];
 	[btn setReleaseTileNo:1];
-	[btn setBoundWidth:80 Height:40];
+//	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
-	else [btn setPosX:80 Y:30];
+	else [btn setPosX:60 Y:40];
 	[btn setLayer:VLAYER_UI];
 	[self addChild:btn];
 	
-	tile = [_tileResMgr getTileForRetina:@"Common_Btn_OK.png"];
-	[tile tileSplitX:1 splitY:4];
-	_btnFight = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_OK];
-	[_btnFight setReleaseTileNo:1];
-	[_btnFight setBoundWidth:80 Height:40];
-	if(_glView.deviceType == DEVICE_IPAD) [_btnFight setPosX: 544 Y:80];
-	else [_btnFight setPosX: 240 Y:30];
-	[_btnFight setLayer:VLAYER_UI];
-	[_buttonBase addChild:_btnFight];
-    //_btnFight.visual = NO;
+	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT];
+	[btn setReleaseTileNo:1];
+	//[btn setBoundWidth:80 Height:40];
+	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX: 544 Y:80];
+	else [btn setPosX: 160 Y:40];
+	[btn setLayer:VLAYER_UI];
+	[self addChild:btn];
+    
+    btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT];
+	[btn setReleaseTileNo:1];
+	//[btn setBoundWidth:80 Height:40];
+	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX: 544 Y:80];
+	else [btn setPosX: 260 Y:40];
+	[btn setLayer:VLAYER_UI];
+	[self addChild:btn];
+    
+    tile = [_tileResMgr getTileForRetina:@"worldmap_btn_base.png"];
+	[tile tileSplitX:1 splitY:3];
+	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_BASE];
+	[btn setReleaseTileNo:1];
+    //	[btn setBoundWidth:80 Height:40];
+	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
+	else [btn setPosX:60 Y:20];
+	[btn setLayer:VLAYER_UI+1];
+	[self addChild:btn];
+    
+    tile = [_tileResMgr getTileForRetina:@"worldmap_btn_mechs.png"];
+	[tile tileSplitX:1 splitY:3];
+	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT];
+	[btn setReleaseTileNo:1];
+    //	[btn setBoundWidth:80 Height:40];
+	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
+	else [btn setPosX:160 Y:20];
+	[btn setLayer:VLAYER_UI+1];
+	[self addChild:btn];
+    
+    tile = [_tileResMgr getTileForRetina:@"worldmap_btn_bombs.png"];
+	[tile tileSplitX:1 splitY:3];
+	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_BOMB];
+	[btn setReleaseTileNo:1];
+    //	[btn setBoundWidth:80 Height:40];
+	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
+	else [btn setPosX:260 Y:20];
+	[btn setLayer:VLAYER_UI+1];
+	[self addChild:btn];
 	
-	_sel = 1;//GSLOT->lastStage;
+	_sel = GSLOT->lastStage;
     NSLog(@"lastStage %d", GSLOT->lastStage);
     CGPoint pos = [GINFO getMapPosition:[NSString stringWithFormat:@"%d", GSLOT->lastStage-1]];
     _lastPosition = pos.y;
@@ -202,6 +149,18 @@
     tile = [_tileResMgr getTileForRetina:@"worldmap_top_bar.png"];
     img = [[QobImage alloc] initWithTile:tile tileNo:0];
     [img setPosX:_glView.surfaceSize.width/2+5 Y:_glView.surfaceSize.height-30];
+    [img setLayer:VLAYER_MIDDLE+1];
+    [self addChild:img];
+    
+    tile = [_tileResMgr getTileForRetina:@"worldmap_bar_left.png"];
+    img = [[QobImage alloc] initWithTile:tile tileNo:0];
+    [img setPosX:10 Y:_glView.surfaceSize.height/2];
+    [img setLayer:VLAYER_MIDDLE];
+    [self addChild:img];
+    
+    tile = [_tileResMgr getTileForRetina:@"worldmap_bar_right.png"];
+    img = [[QobImage alloc] initWithTile:tile tileNo:0];
+    [img setPosX:_glView.surfaceSize.width-10 Y:_glView.surfaceSize.height/2];
     [img setLayer:VLAYER_MIDDLE];
     [self addChild:img];
     
