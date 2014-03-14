@@ -170,14 +170,12 @@
     [_imgWorldMap setLayer:VLAYER_BG];
     [self addChild:_imgWorldMap];
     
-    float fY = 0;
     for(int i=1; i<MAX_WORLDMAP; i++)
     {
         NSString *strName = [NSString stringWithFormat:@"worldmap_map_%02d.jpg",i+1];
         tile = [_tileResMgr getTileForRetina:strName];
-        fY += 1024/2;
         QobImage *imgMap = [[QobImage alloc] initWithTile:tile tileNo:0];
-        [imgMap setPosX:0 Y:fY];
+        [imgMap setPosX:0 Y:1024/2+((i-1)*1024/2)];
         [imgMap setLayer:VLAYER_BG];
         [_imgWorldMap addChild:imgMap];
     }

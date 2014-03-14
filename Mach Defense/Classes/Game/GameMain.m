@@ -19,6 +19,7 @@
 #import "GuiSelectSlot.h"
 #import "GuiSelectStage.h"
 #import "GuiGame.h"
+#import "QobAffecter.h"
 
 GameMain *g_main = nil;
 float g_time = 0.0;
@@ -74,6 +75,7 @@ float g_time = 0.0;
 
 - (void)start
 {
+    srandom(time(NULL));
 	[SOUNDMGR setMaxDistance:800.f];
 	
 	GINFO;
@@ -85,45 +87,37 @@ float g_time = 0.0;
 	[self addChild:_layerLoading];
 	
 	Tile2D *tile;
-	
-	tile = [TILEMGR getTile:@"Loading_Left.png"];
-	if(_glView.deviceType != DEVICE_IPAD) [tile setForRetina:YES];
-	_imgLoading[2] = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[_imgLoading[2] setScale:2.f];
-	[_imgLoading[2] setLayer:VLAYER_SYSTEM];
-	[_layerLoading addChild:_imgLoading[2]];
-	
-	tile = [TILEMGR getTile:@"Loading_Right.png"];
-	if(_glView.deviceType != DEVICE_IPAD) [tile setForRetina:YES];
-	_imgLoading[3] = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[_imgLoading[3] setScale:2.f];
-	[_imgLoading[3] setLayer:VLAYER_SYSTEM];
-	[_layerLoading addChild:_imgLoading[3]];
-	
-	tile = [TILEMGR getTile:@"Loading_Top.png"];
-	if(_glView.deviceType != DEVICE_IPAD) [tile setForRetina:YES];
+	tile = [TILEMGR getTile:@"loading_screen01.png"];
+    [tile setForRetina:YES];
 	_imgLoading[0] = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[_imgLoading[0] setScale:1.5f];
+    if(_glView.deviceType != DEVICE_IPAD) [_imgLoading[0] setScale:1.f];
+    else [_imgLoading[0] setScale:0.5f];
+    [_imgLoading[0] setBlendType:BT_ALPHA];
 	[_imgLoading[0] setLayer:VLAYER_SYSTEM];
 	[_layerLoading addChild:_imgLoading[0]];
+    [_imgLoading[0] setPosX:168 Y:260];
 	
-	tile = [TILEMGR getTile:@"Loading_Bottom.png"];
-	if(_glView.deviceType != DEVICE_IPAD) [tile setForRetina:YES];
+	tile = [TILEMGR getTile:@"loading_screen02.png"];
+    [tile setForRetina:YES];
 	_imgLoading[1] = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[_imgLoading[1] setScale:1.5f];
+    if(_glView.deviceType != DEVICE_IPAD) [_imgLoading[1] setScale:1.f];
+    else [_imgLoading[1] setScale:0.5f];
+    [_imgLoading[1] setBlendType:BT_ALPHA];
 	[_imgLoading[1] setLayer:VLAYER_SYSTEM];
 	[_layerLoading addChild:_imgLoading[1]];
+    [_imgLoading[1] setPosX:168 Y:260];
 	
-	tile = [TILEMGR getTile:@"Loading_Center.png"];
-	if(_glView.deviceType != DEVICE_IPAD) [tile setForRetina:YES];
+	tile = [TILEMGR getTile:@"NowLoading.png"];
+    [tile setForRetina:YES];
 	_imgLoadingCenter = [[QobImage alloc] initWithTile:tile tileNo:0];
-	if(_glView.deviceType == DEVICE_IPAD) [_imgLoadingCenter setPosX:0 Y:168];
-	else [_imgLoadingCenter setPosX:0 Y:84];
+	if(_glView.deviceType == DEVICE_IPAD) [_imgLoadingCenter setPosX:_glView.surfaceSize.width/2 Y:168];
+	else [_imgLoadingCenter setPosX:160 Y:200];
+    [_imgLoadingCenter setBlendType:BT_ALPHA];
 	[_imgLoadingCenter setLayer:VLAYER_SYSTEM];
-	[_imgLoading[1] addChild:_imgLoadingCenter];
+	[_layerLoading addChild:_imgLoadingCenter];
 	
-	_sfxLoadingOpen = [SOUNDMGR getSound:@"Loading_Open.wav"];
-	_sfxLoadingClose = [SOUNDMGR getSound:@"Loading_Close.wav"];
+	//_sfxLoadingOpen = [SOUNDMGR getSound:@"Loading_Open.wav"];
+	//_sfxLoadingClose = [SOUNDMGR getSound:@"Loading_Close.wav"];
 	
 	[GINFO openDataFile];
 //	[GINFO initSlot:0 Name:@"enbi" Country:@"kr"];
@@ -147,140 +141,53 @@ float g_time = 0.0;
 	{
 		if(_scrChangeState == SCRCHG_START)
 		{
+            _loading_alpha = 1.0f;
+            [_imgLoading[0] setAlpha:_loading_alpha];
+            [_imgLoading[1] setAlpha:_loading_alpha];
+            [_imgLoadingCenter setAlpha:_loading_alpha];
 			[_layerLoading setShow:true];
-			
-			if(_glView.deviceType == DEVICE_IPAD)
-			{
-				_startPos[0] = 1408;		_startPos[1] = -384;
-				_startPos[2] = -256;		_startPos[3] = 1024;
-				_destPos[0] = 640;			_destPos[1] = 384;
-				_destPos[2] = 256;			_destPos[3] = 512;
-				_checkPos[0] = 200;			_checkPos[1] = 640;
-			}
-			else
-			{
-				_startPos[0] = 672;			_startPos[1] = -192;
-				_startPos[2] = -128;		_startPos[3] = 448;
-				_destPos[0] = 304;			_destPos[1] = 176;
-				_destPos[2] = 96;			_destPos[3] = 224;
-				_checkPos[0] = 80;			_checkPos[1] = 304;
-			}
-			_loadingPt[0].x = _glView.surfaceSize.width/2;	_loadingPt[0].y = _startPos[0];
-			_loadingPt[1].x = _glView.surfaceSize.width/2;	_loadingPt[1].y = _startPos[1];
-			_loadingPt[2].x = _startPos[2];					_loadingPt[2].y = _glView.surfaceSize.height/2;
-			_loadingPt[3].x = _startPos[3];					_loadingPt[3].y = _glView.surfaceSize.height/2;
-			
-			
-			[_imgLoadingCenter setScale:1.5f];
-			[_imgLoadingCenter setRotate:0.f];
-
-			_scrChangeState = SCRCHG_CLOSE1;
-			[SOUNDMGR play:_sfxLoadingClose];
+						
+			_scrChangeState = SCRCHG_OPEN1;
+//			[SOUNDMGR play:_sfxLoadingClose];
 		}
-		else if(_scrChangeState == SCRCHG_CLOSE1)
-		{
-			EASYOUT(_loadingPt[2].x, _destPos[2], 5.f);
-			EASYOUT(_loadingPt[3].x, _destPos[3], 5.f);
-			
-			if(_loadingPt[2].x >= _checkPos[0])
-			{
-				_scrChangeState = SCRCHG_CLOSE2;
-				[SOUNDMGR play:_sfxLoadingClose];
-			}
-		}
-		else if(_scrChangeState == SCRCHG_CLOSE2)
-		{
-			EASYOUTE(_loadingPt[0].y, _destPos[0], 6.f, 0.1f);
-			EASYOUTE(_loadingPt[1].y, _destPos[1], 6.f, 0.1f);
-			EASYOUTE(_loadingPt[2].x, _destPos[2], 5.f, .1f);
-			EASYOUTE(_loadingPt[3].x, _destPos[3], 5.f, .1f);
-			
-			if(_loadingPt[0].y == _checkPos[1])
-			{
-				_loadingPt[1].y = _destPos[1];
-				_scrChangeState = SCRCHG_ROLL1;
-			}
-		}
-		else if(_scrChangeState == SCRCHG_ROLL1)
-		{
-			EASYOUT(_imgLoadingCenter.scaleX, .9f, 5.f);
-			_imgLoadingCenter.scaleY = _imgLoadingCenter.scaleX;
-			if(_imgLoadingCenter.scaleX < 1.f)
-			{
-				[_imgLoadingCenter setScale:1.f];
-				_scrChangeState = SCRCHG_LOADING;
-			}
-		}
-		else if(_scrChangeState == SCRCHG_LOADING)
-		{
-			[self refreshScreen];
-			_scrChangeState = SCRCHG_ROLL2;
-			[SOUNDMGR play:_sfxLoadingOpen];
-		}
-		else if(_scrChangeState == SCRCHG_ROLL2)
-		{
-			EASYOUT(_imgLoadingCenter.scaleX, 1.5f, 5.f);
-			_imgLoadingCenter.scaleY = _imgLoadingCenter.scaleX;
-			
-			if(_imgLoadingCenter.scaleX > 1.4f)
-			{
-				_scrChangeState = SCRCHG_OPEN2;
-			}
-		}
-		else if(_scrChangeState == SCRCHG_OPEN1)
-		{
-			EASYOUTE(_loadingPt[2].x, _startPos[2], 10.f, .1f);
-			EASYOUTE(_loadingPt[3].x, _startPos[3], 10.f, .1f);
-			
-			if(_loadingPt[2].x < 0.f)
-			{
-				_scrChangeState = SCRCHG_OPEN2;
-				[SOUNDMGR play:_sfxLoadingOpen];
-			}
-		}
-		else if(_scrChangeState == SCRCHG_OPEN2)
-		{
-//			EASYOUT(_imgLoadingCenter.rotate, 0, 8.f);
-			EASYOUT(_imgLoadingCenter.scaleX, 1.5f, 5.f);
-			_imgLoadingCenter.scaleY = _imgLoadingCenter.scaleX;
-
-			EASYOUTE(_loadingPt[0].y, _startPos[0], 10.f, .1f);
-			EASYOUTE(_loadingPt[1].y, _startPos[1], 10.f, .1f);
-			
-			EASYOUTE(_loadingPt[2].x, _startPos[2], 10.f, .1f);
-			EASYOUTE(_loadingPt[3].x, _startPos[3], 10.f, .1f);
-			
-			if(_loadingPt[0].y == _startPos[0])
-			{
-				[_imgLoadingCenter setScale:1.5f];
-				[_layerLoading setShow:false];
-				_scrChangeState = SCRCHG_END;
-			}
-		}
-		
-		[_imgLoading[0] setPosX:_loadingPt[0].x Y:_loadingPt[0].y];
-		[_imgLoading[1] setPosX:_loadingPt[1].x Y:_loadingPt[1].y];
-		[_imgLoading[2] setPosX:_loadingPt[2].x Y:_loadingPt[2].y];
-		[_imgLoading[3] setPosX:_loadingPt[3].x Y:_loadingPt[3].y];
+        else if(_scrChangeState == SCRCHG_OPEN1)
+        {
+            [self refreshScreen];
+            _scrChangeState = SCRCHG_CLOSE1;
+        }
+        else if(_scrChangeState == SCRCHG_CLOSE1)
+        {
+            if (_loading_alpha) _loading_alpha *= 0.9f;
+            [_imgLoading[0] setAlpha:_loading_alpha];
+            [_imgLoading[1] setAlpha:_loading_alpha];
+            [_imgLoadingCenter setAlpha:_loading_alpha];
+            
+            if(_loading_alpha <= 0.05f) _scrChangeState = SCRCHG_OPEN2;
+        }
+        else
+        {
+            [_layerLoading setShow:false];
+            _scrChangeState = SCRCHG_END;
+        }
 	}
 
-#ifdef _ON_DEBUG_
-	double now = CFAbsoluteTimeGetCurrent();
-	if(_lastTime == 0) _lastTime = now;
-	_frames++;
-	
-	if(now > _lastTime + .5f)
-	{
-		char format[16];
-		sprintf(format,"%.1f", _frames / (now - _lastTime));
-		[_numFPS setText:format];
-		
-		_frames = 0;
-		_lastTime = now;
-	}
-
-	[_numDrawCall setNumber:QOBMGR.drawCall];
-#endif
+//#ifdef _ON_DEBUG_
+//	double now = CFAbsoluteTimeGetCurrent();
+//	if(_lastTime == 0) _lastTime = now;
+//	_frames++;
+//	
+//	if(now > _lastTime + .5f)
+//	{
+//		char format[16];
+//		sprintf(format,"%.1f", _frames / (now - _lastTime));
+//		[_numFPS setText:format];
+//		
+//		_frames = 0;
+//		_lastTime = now;
+//	}
+//
+//	[_numDrawCall setNumber:QOBMGR.drawCall];
+//#endif
 
 	[super tick];
 }
@@ -306,6 +213,19 @@ float g_time = 0.0;
 {
 	if(_scrChangeState < SCRCHG_OPEN2) return;
 	if(screen <= GSCR_BEGIN || screen >= GSCR_END) return;
+    
+    if(random()%2==0)
+    {
+        [_imgLoading[1] setShow:true];
+        if(_glView.deviceType == DEVICE_IPAD) [_imgLoadingCenter setPosX:_glView.surfaceSize.width/2 Y:168];
+        else [_imgLoadingCenter setPosX:160 Y:200];
+    }
+    else
+    {
+        [_imgLoading[1] setShow:false];
+        if(_glView.deviceType == DEVICE_IPAD) [_imgLoadingCenter setPosX:_glView.surfaceSize.width/2 Y:168];
+        else [_imgLoadingCenter setPosX:160 Y:320];
+    }
 
 	_prevScreen = _screen;
 	_screen = screen;

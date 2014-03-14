@@ -132,7 +132,7 @@ static Texture2DPixelFormat defaultAlphaPixelFormat = kTexture2DPixelFormat_Defa
 	}
 	
 	
-	unsigned maxTextureSize = 1024;
+	unsigned maxTextureSize = 2048;
 	if( width > maxTextureSize || height > maxTextureSize )
 	{
 //		CCLOG(@"cocos2d: WARNING: Image (%d x %d) is bigger than the supported %d x %d", width, height, maxTextureSize, maxTextureSize);
