@@ -67,12 +67,12 @@ enum EAlertID
 	
 	QobBase *_layerLoading;
 	Tile2D *_tileLoadingImg;
-	QobImage *_imgLoading[4];
+	QobImage *_imgLoading[2];
 	QobImage *_imgLoadingCenter;
-	QobImage *_imgLoadingL;
-	QobImage *_imgLoadingR;
-	CGPoint _loadingPt[4];
-	float _startPos[4], _destPos[4], _checkPos[2];
+//	QobImage *_imgLoadingL;
+//	QobImage *_imgLoadingR;
+//	CGPoint _loadingPt[4];
+//	float _startPos[4], _destPos[4], _checkPos[2];
 	UInt32 _sfxLoadingOpen;
 	UInt32 _sfxLoadingClose;
 
@@ -82,6 +82,7 @@ enum EAlertID
 	double _startTime;
 	double _lastTime;
 	int _frames;
+    float _loading_alpha;
 }
 
 @property(readonly) int screen;
