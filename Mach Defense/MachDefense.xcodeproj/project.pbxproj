@@ -122,31 +122,31 @@
 		DADC602A1883AC9D00A544B9 /* BaseUpgrade.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60291883AC9D00A544B9 /* BaseUpgrade.tbl */; };
 		DADC602C1883ACAE00A544B9 /* WeaponInfo.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC602B1883ACAE00A544B9 /* WeaponInfo.tbl */; };
 		DADC602E1883ACD600A544B9 /* TileList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC602D1883ACD600A544B9 /* TileList.tbl */; };
-		DAF1522318C9A6B600331C03 /* turret_b_06.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520A18C9A6B500331C03 /* turret_b_06.png */; };
-		DAF1522418C9A6B600331C03 /* turret_b_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520B18C9A6B500331C03 /* turret_b_07.png */; };
-		DAF1522518C9A6B600331C03 /* turret_b_08.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520C18C9A6B500331C03 /* turret_b_08.png */; };
-		DAF1522618C9A6B600331C03 /* turret_b_09.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520D18C9A6B500331C03 /* turret_b_09.png */; };
-		DAF1522718C9A6B600331C03 /* turret_b_10.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520E18C9A6B500331C03 /* turret_b_10.png */; };
-		DAF1522818C9A6B600331C03 /* turret_b_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520F18C9A6B500331C03 /* turret_b_11.png */; };
-		DAF1522918C9A6B600331C03 /* turret_b_12.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521018C9A6B500331C03 /* turret_b_12.png */; };
-		DAF1522A18C9A6B600331C03 /* turret_b_13.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521118C9A6B500331C03 /* turret_b_13.png */; };
-		DAF1522B18C9A6B600331C03 /* turret_b_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521218C9A6B500331C03 /* turret_b_14.png */; };
-		DAF1522C18C9A6B600331C03 /* turret_b_15.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521318C9A6B500331C03 /* turret_b_15.png */; };
-		DAF1522D18C9A6B600331C03 /* turret_b_16.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521418C9A6B500331C03 /* turret_b_16.png */; };
-		DAF1522E18C9A6B600331C03 /* turret_b_17.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521518C9A6B500331C03 /* turret_b_17.png */; };
-		DAF1522F18C9A6B600331C03 /* turret_b_18.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521618C9A6B500331C03 /* turret_b_18.png */; };
-		DAF1523018C9A6B600331C03 /* turret_b_19.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521718C9A6B500331C03 /* turret_b_19.png */; };
-		DAF1523118C9A6B600331C03 /* turret_b_20.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521818C9A6B500331C03 /* turret_b_20.png */; };
-		DAF1523218C9A6B600331C03 /* turret_b_21.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521918C9A6B500331C03 /* turret_b_21.png */; };
-		DAF1523318C9A6B600331C03 /* turret_b_22.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521A18C9A6B600331C03 /* turret_b_22.png */; };
-		DAF1523418C9A6B600331C03 /* turret_b_23.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521B18C9A6B600331C03 /* turret_b_23.png */; };
-		DAF1523518C9A6B600331C03 /* turret_b_24.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521C18C9A6B600331C03 /* turret_b_24.png */; };
-		DAF1523618C9A6B600331C03 /* turret_b_25.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521D18C9A6B600331C03 /* turret_b_25.png */; };
-		DAF1523718C9A6B600331C03 /* turret_b_26.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521E18C9A6B600331C03 /* turret_b_26.png */; };
-		DAF1523818C9A6B600331C03 /* turret_b_27.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521F18C9A6B600331C03 /* turret_b_27.png */; };
-		DAF1523918C9A6B600331C03 /* turret_b_28.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1522018C9A6B600331C03 /* turret_b_28.png */; };
-		DAF1523A18C9A6B600331C03 /* turret_b_29.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1522118C9A6B600331C03 /* turret_b_29.png */; };
-		DAF1523B18C9A6B600331C03 /* turret_b_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1522218C9A6B600331C03 /* turret_b_30.png */; };
+		DAF1522318C9A6B600331C03 /* Turret_b_06.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520A18C9A6B500331C03 /* Turret_b_06.png */; };
+		DAF1522418C9A6B600331C03 /* Turret_b_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520B18C9A6B500331C03 /* Turret_b_07.png */; };
+		DAF1522518C9A6B600331C03 /* Turret_b_08.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520C18C9A6B500331C03 /* Turret_b_08.png */; };
+		DAF1522618C9A6B600331C03 /* Turret_b_09.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520D18C9A6B500331C03 /* Turret_b_09.png */; };
+		DAF1522718C9A6B600331C03 /* Turret_b_10.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520E18C9A6B500331C03 /* Turret_b_10.png */; };
+		DAF1522818C9A6B600331C03 /* Turret_b_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520F18C9A6B500331C03 /* Turret_b_11.png */; };
+		DAF1522918C9A6B600331C03 /* Turret_b_12.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521018C9A6B500331C03 /* Turret_b_12.png */; };
+		DAF1522A18C9A6B600331C03 /* Turret_b_13.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521118C9A6B500331C03 /* Turret_b_13.png */; };
+		DAF1522B18C9A6B600331C03 /* Turret_b_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521218C9A6B500331C03 /* Turret_b_14.png */; };
+		DAF1522C18C9A6B600331C03 /* Turret_b_15.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521318C9A6B500331C03 /* Turret_b_15.png */; };
+		DAF1522D18C9A6B600331C03 /* Turret_b_16.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521418C9A6B500331C03 /* Turret_b_16.png */; };
+		DAF1522E18C9A6B600331C03 /* Turret_b_17.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521518C9A6B500331C03 /* Turret_b_17.png */; };
+		DAF1522F18C9A6B600331C03 /* Turret_b_18.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521618C9A6B500331C03 /* Turret_b_18.png */; };
+		DAF1523018C9A6B600331C03 /* Turret_b_19.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521718C9A6B500331C03 /* Turret_b_19.png */; };
+		DAF1523118C9A6B600331C03 /* Turret_b_20.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521818C9A6B500331C03 /* Turret_b_20.png */; };
+		DAF1523218C9A6B600331C03 /* Turret_b_21.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521918C9A6B500331C03 /* Turret_b_21.png */; };
+		DAF1523318C9A6B600331C03 /* Turret_b_22.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521A18C9A6B600331C03 /* Turret_b_22.png */; };
+		DAF1523418C9A6B600331C03 /* Turret_b_23.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521B18C9A6B600331C03 /* Turret_b_23.png */; };
+		DAF1523518C9A6B600331C03 /* Turret_b_24.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521C18C9A6B600331C03 /* Turret_b_24.png */; };
+		DAF1523618C9A6B600331C03 /* Turret_b_25.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521D18C9A6B600331C03 /* Turret_b_25.png */; };
+		DAF1523718C9A6B600331C03 /* Turret_b_26.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521E18C9A6B600331C03 /* Turret_b_26.png */; };
+		DAF1523818C9A6B600331C03 /* Turret_b_27.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1521F18C9A6B600331C03 /* Turret_b_27.png */; };
+		DAF1523918C9A6B600331C03 /* Turret_b_28.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1522018C9A6B600331C03 /* Turret_b_28.png */; };
+		DAF1523A18C9A6B600331C03 /* Turret_b_29.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1522118C9A6B600331C03 /* Turret_b_29.png */; };
+		DAF1523B18C9A6B600331C03 /* Turret_b_30.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1522218C9A6B600331C03 /* Turret_b_30.png */; };
 		DAF1524418C9B3E400331C03 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF1523E18C9B3E400331C03 /* libTestFlight.a */; };
 		DAF1524518C9B3E400331C03 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DAF1523F18C9B3E400331C03 /* README.md */; };
 		DAF1524618C9B3E400331C03 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = DAF1524018C9B3E400331C03 /* release_notes.md */; };
@@ -1518,31 +1518,31 @@
 		DADC60291883AC9D00A544B9 /* BaseUpgrade.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseUpgrade.tbl; sourceTree = "<group>"; };
 		DADC602B1883ACAE00A544B9 /* WeaponInfo.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WeaponInfo.tbl; sourceTree = "<group>"; };
 		DADC602D1883ACD600A544B9 /* TileList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TileList.tbl; sourceTree = "<group>"; };
-		DAF1520A18C9A6B500331C03 /* turret_b_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_06.png; sourceTree = "<group>"; };
-		DAF1520B18C9A6B500331C03 /* turret_b_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_07.png; sourceTree = "<group>"; };
-		DAF1520C18C9A6B500331C03 /* turret_b_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_08.png; sourceTree = "<group>"; };
-		DAF1520D18C9A6B500331C03 /* turret_b_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_09.png; sourceTree = "<group>"; };
-		DAF1520E18C9A6B500331C03 /* turret_b_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_10.png; sourceTree = "<group>"; };
-		DAF1520F18C9A6B500331C03 /* turret_b_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_11.png; sourceTree = "<group>"; };
-		DAF1521018C9A6B500331C03 /* turret_b_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_12.png; sourceTree = "<group>"; };
-		DAF1521118C9A6B500331C03 /* turret_b_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_13.png; sourceTree = "<group>"; };
-		DAF1521218C9A6B500331C03 /* turret_b_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_14.png; sourceTree = "<group>"; };
-		DAF1521318C9A6B500331C03 /* turret_b_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_15.png; sourceTree = "<group>"; };
-		DAF1521418C9A6B500331C03 /* turret_b_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_16.png; sourceTree = "<group>"; };
-		DAF1521518C9A6B500331C03 /* turret_b_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_17.png; sourceTree = "<group>"; };
-		DAF1521618C9A6B500331C03 /* turret_b_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_18.png; sourceTree = "<group>"; };
-		DAF1521718C9A6B500331C03 /* turret_b_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_19.png; sourceTree = "<group>"; };
-		DAF1521818C9A6B500331C03 /* turret_b_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_20.png; sourceTree = "<group>"; };
-		DAF1521918C9A6B500331C03 /* turret_b_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_21.png; sourceTree = "<group>"; };
-		DAF1521A18C9A6B600331C03 /* turret_b_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_22.png; sourceTree = "<group>"; };
-		DAF1521B18C9A6B600331C03 /* turret_b_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_23.png; sourceTree = "<group>"; };
-		DAF1521C18C9A6B600331C03 /* turret_b_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_24.png; sourceTree = "<group>"; };
-		DAF1521D18C9A6B600331C03 /* turret_b_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_25.png; sourceTree = "<group>"; };
-		DAF1521E18C9A6B600331C03 /* turret_b_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_26.png; sourceTree = "<group>"; };
-		DAF1521F18C9A6B600331C03 /* turret_b_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_27.png; sourceTree = "<group>"; };
-		DAF1522018C9A6B600331C03 /* turret_b_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_28.png; sourceTree = "<group>"; };
-		DAF1522118C9A6B600331C03 /* turret_b_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_29.png; sourceTree = "<group>"; };
-		DAF1522218C9A6B600331C03 /* turret_b_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret_b_30.png; sourceTree = "<group>"; };
+		DAF1520A18C9A6B500331C03 /* Turret_b_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_06.png; sourceTree = "<group>"; };
+		DAF1520B18C9A6B500331C03 /* Turret_b_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_07.png; sourceTree = "<group>"; };
+		DAF1520C18C9A6B500331C03 /* Turret_b_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_08.png; sourceTree = "<group>"; };
+		DAF1520D18C9A6B500331C03 /* Turret_b_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_09.png; sourceTree = "<group>"; };
+		DAF1520E18C9A6B500331C03 /* Turret_b_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_10.png; sourceTree = "<group>"; };
+		DAF1520F18C9A6B500331C03 /* Turret_b_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_11.png; sourceTree = "<group>"; };
+		DAF1521018C9A6B500331C03 /* Turret_b_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_12.png; sourceTree = "<group>"; };
+		DAF1521118C9A6B500331C03 /* Turret_b_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_13.png; sourceTree = "<group>"; };
+		DAF1521218C9A6B500331C03 /* Turret_b_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_14.png; sourceTree = "<group>"; };
+		DAF1521318C9A6B500331C03 /* Turret_b_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_15.png; sourceTree = "<group>"; };
+		DAF1521418C9A6B500331C03 /* Turret_b_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_16.png; sourceTree = "<group>"; };
+		DAF1521518C9A6B500331C03 /* Turret_b_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_17.png; sourceTree = "<group>"; };
+		DAF1521618C9A6B500331C03 /* Turret_b_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_18.png; sourceTree = "<group>"; };
+		DAF1521718C9A6B500331C03 /* Turret_b_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_19.png; sourceTree = "<group>"; };
+		DAF1521818C9A6B500331C03 /* Turret_b_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_20.png; sourceTree = "<group>"; };
+		DAF1521918C9A6B500331C03 /* Turret_b_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_21.png; sourceTree = "<group>"; };
+		DAF1521A18C9A6B600331C03 /* Turret_b_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_22.png; sourceTree = "<group>"; };
+		DAF1521B18C9A6B600331C03 /* Turret_b_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_23.png; sourceTree = "<group>"; };
+		DAF1521C18C9A6B600331C03 /* Turret_b_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_24.png; sourceTree = "<group>"; };
+		DAF1521D18C9A6B600331C03 /* Turret_b_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_25.png; sourceTree = "<group>"; };
+		DAF1521E18C9A6B600331C03 /* Turret_b_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_26.png; sourceTree = "<group>"; };
+		DAF1521F18C9A6B600331C03 /* Turret_b_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_27.png; sourceTree = "<group>"; };
+		DAF1522018C9A6B600331C03 /* Turret_b_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_28.png; sourceTree = "<group>"; };
+		DAF1522118C9A6B600331C03 /* Turret_b_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_29.png; sourceTree = "<group>"; };
+		DAF1522218C9A6B600331C03 /* Turret_b_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_30.png; sourceTree = "<group>"; };
 		DAF1523E18C9B3E400331C03 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
 		DAF1523F18C9B3E400331C03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DAF1524018C9B3E400331C03 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
@@ -4011,31 +4011,31 @@
 				E5DC18EE129E04D000C58585 /* Turret_b_03.png */,
 				E5DC18EF129E04D000C58585 /* Turret_b_04.png */,
 				E5DC18F0129E04D000C58585 /* Turret_b_05.png */,
-				DAF1520A18C9A6B500331C03 /* turret_b_06.png */,
-				DAF1520B18C9A6B500331C03 /* turret_b_07.png */,
-				DAF1520C18C9A6B500331C03 /* turret_b_08.png */,
-				DAF1520D18C9A6B500331C03 /* turret_b_09.png */,
-				DAF1520E18C9A6B500331C03 /* turret_b_10.png */,
-				DAF1520F18C9A6B500331C03 /* turret_b_11.png */,
-				DAF1521018C9A6B500331C03 /* turret_b_12.png */,
-				DAF1521118C9A6B500331C03 /* turret_b_13.png */,
-				DAF1521218C9A6B500331C03 /* turret_b_14.png */,
-				DAF1521318C9A6B500331C03 /* turret_b_15.png */,
-				DAF1521418C9A6B500331C03 /* turret_b_16.png */,
-				DAF1521518C9A6B500331C03 /* turret_b_17.png */,
-				DAF1521618C9A6B500331C03 /* turret_b_18.png */,
-				DAF1521718C9A6B500331C03 /* turret_b_19.png */,
-				DAF1521818C9A6B500331C03 /* turret_b_20.png */,
-				DAF1521918C9A6B500331C03 /* turret_b_21.png */,
-				DAF1521A18C9A6B600331C03 /* turret_b_22.png */,
-				DAF1521B18C9A6B600331C03 /* turret_b_23.png */,
-				DAF1521C18C9A6B600331C03 /* turret_b_24.png */,
-				DAF1521D18C9A6B600331C03 /* turret_b_25.png */,
-				DAF1521E18C9A6B600331C03 /* turret_b_26.png */,
-				DAF1521F18C9A6B600331C03 /* turret_b_27.png */,
-				DAF1522018C9A6B600331C03 /* turret_b_28.png */,
-				DAF1522118C9A6B600331C03 /* turret_b_29.png */,
-				DAF1522218C9A6B600331C03 /* turret_b_30.png */,
+				DAF1520A18C9A6B500331C03 /* Turret_b_06.png */,
+				DAF1520B18C9A6B500331C03 /* Turret_b_07.png */,
+				DAF1520C18C9A6B500331C03 /* Turret_b_08.png */,
+				DAF1520D18C9A6B500331C03 /* Turret_b_09.png */,
+				DAF1520E18C9A6B500331C03 /* Turret_b_10.png */,
+				DAF1520F18C9A6B500331C03 /* Turret_b_11.png */,
+				DAF1521018C9A6B500331C03 /* Turret_b_12.png */,
+				DAF1521118C9A6B500331C03 /* Turret_b_13.png */,
+				DAF1521218C9A6B500331C03 /* Turret_b_14.png */,
+				DAF1521318C9A6B500331C03 /* Turret_b_15.png */,
+				DAF1521418C9A6B500331C03 /* Turret_b_16.png */,
+				DAF1521518C9A6B500331C03 /* Turret_b_17.png */,
+				DAF1521618C9A6B500331C03 /* Turret_b_18.png */,
+				DAF1521718C9A6B500331C03 /* Turret_b_19.png */,
+				DAF1521818C9A6B500331C03 /* Turret_b_20.png */,
+				DAF1521918C9A6B500331C03 /* Turret_b_21.png */,
+				DAF1521A18C9A6B600331C03 /* Turret_b_22.png */,
+				DAF1521B18C9A6B600331C03 /* Turret_b_23.png */,
+				DAF1521C18C9A6B600331C03 /* Turret_b_24.png */,
+				DAF1521D18C9A6B600331C03 /* Turret_b_25.png */,
+				DAF1521E18C9A6B600331C03 /* Turret_b_26.png */,
+				DAF1521F18C9A6B600331C03 /* Turret_b_27.png */,
+				DAF1522018C9A6B600331C03 /* Turret_b_28.png */,
+				DAF1522118C9A6B600331C03 /* Turret_b_29.png */,
+				DAF1522218C9A6B600331C03 /* Turret_b_30.png */,
 				E5DC18F1129E04D000C58585 /* Turret_gun_01.png */,
 				E5DC18F2129E04D000C58585 /* Turret_gun_02.png */,
 				E5DC18F3129E04D000C58585 /* Turret_gun_03.png */,
@@ -5900,31 +5900,31 @@
 				DA979C5B18C3F800009DF352 /* worldmap_numbers.png in Resources */,
 				DA979C5C18C3F800009DF352 /* worldmap_top_bar.png in Resources */,
 				DA979C5E18C3FA3A009DF352 /* worldmap_bottom_bar.png in Resources */,
-				DAF1522318C9A6B600331C03 /* turret_b_06.png in Resources */,
-				DAF1522418C9A6B600331C03 /* turret_b_07.png in Resources */,
-				DAF1522518C9A6B600331C03 /* turret_b_08.png in Resources */,
-				DAF1522618C9A6B600331C03 /* turret_b_09.png in Resources */,
-				DAF1522718C9A6B600331C03 /* turret_b_10.png in Resources */,
-				DAF1522818C9A6B600331C03 /* turret_b_11.png in Resources */,
-				DAF1522918C9A6B600331C03 /* turret_b_12.png in Resources */,
-				DAF1522A18C9A6B600331C03 /* turret_b_13.png in Resources */,
-				DAF1522B18C9A6B600331C03 /* turret_b_14.png in Resources */,
-				DAF1522C18C9A6B600331C03 /* turret_b_15.png in Resources */,
-				DAF1522D18C9A6B600331C03 /* turret_b_16.png in Resources */,
-				DAF1522E18C9A6B600331C03 /* turret_b_17.png in Resources */,
-				DAF1522F18C9A6B600331C03 /* turret_b_18.png in Resources */,
-				DAF1523018C9A6B600331C03 /* turret_b_19.png in Resources */,
-				DAF1523118C9A6B600331C03 /* turret_b_20.png in Resources */,
-				DAF1523218C9A6B600331C03 /* turret_b_21.png in Resources */,
-				DAF1523318C9A6B600331C03 /* turret_b_22.png in Resources */,
-				DAF1523418C9A6B600331C03 /* turret_b_23.png in Resources */,
-				DAF1523518C9A6B600331C03 /* turret_b_24.png in Resources */,
-				DAF1523618C9A6B600331C03 /* turret_b_25.png in Resources */,
-				DAF1523718C9A6B600331C03 /* turret_b_26.png in Resources */,
-				DAF1523818C9A6B600331C03 /* turret_b_27.png in Resources */,
-				DAF1523918C9A6B600331C03 /* turret_b_28.png in Resources */,
-				DAF1523A18C9A6B600331C03 /* turret_b_29.png in Resources */,
-				DAF1523B18C9A6B600331C03 /* turret_b_30.png in Resources */,
+				DAF1522318C9A6B600331C03 /* Turret_b_06.png in Resources */,
+				DAF1522418C9A6B600331C03 /* Turret_b_07.png in Resources */,
+				DAF1522518C9A6B600331C03 /* Turret_b_08.png in Resources */,
+				DAF1522618C9A6B600331C03 /* Turret_b_09.png in Resources */,
+				DAF1522718C9A6B600331C03 /* Turret_b_10.png in Resources */,
+				DAF1522818C9A6B600331C03 /* Turret_b_11.png in Resources */,
+				DAF1522918C9A6B600331C03 /* Turret_b_12.png in Resources */,
+				DAF1522A18C9A6B600331C03 /* Turret_b_13.png in Resources */,
+				DAF1522B18C9A6B600331C03 /* Turret_b_14.png in Resources */,
+				DAF1522C18C9A6B600331C03 /* Turret_b_15.png in Resources */,
+				DAF1522D18C9A6B600331C03 /* Turret_b_16.png in Resources */,
+				DAF1522E18C9A6B600331C03 /* Turret_b_17.png in Resources */,
+				DAF1522F18C9A6B600331C03 /* Turret_b_18.png in Resources */,
+				DAF1523018C9A6B600331C03 /* Turret_b_19.png in Resources */,
+				DAF1523118C9A6B600331C03 /* Turret_b_20.png in Resources */,
+				DAF1523218C9A6B600331C03 /* Turret_b_21.png in Resources */,
+				DAF1523318C9A6B600331C03 /* Turret_b_22.png in Resources */,
+				DAF1523418C9A6B600331C03 /* Turret_b_23.png in Resources */,
+				DAF1523518C9A6B600331C03 /* Turret_b_24.png in Resources */,
+				DAF1523618C9A6B600331C03 /* Turret_b_25.png in Resources */,
+				DAF1523718C9A6B600331C03 /* Turret_b_26.png in Resources */,
+				DAF1523818C9A6B600331C03 /* Turret_b_27.png in Resources */,
+				DAF1523918C9A6B600331C03 /* Turret_b_28.png in Resources */,
+				DAF1523A18C9A6B600331C03 /* Turret_b_29.png in Resources */,
+				DAF1523B18C9A6B600331C03 /* Turret_b_30.png in Resources */,
 				DAF1524518C9B3E400331C03 /* README.md in Resources */,
 				DAF1524618C9B3E400331C03 /* release_notes.md in Resources */,
 				DA9409BC18CEDFF000FDA2ED /* worldmap_map_03.jpg in Resources */,
