@@ -209,7 +209,7 @@
         
         if(i > GSLOT->lastStage)
         {
-            [text setColorR:246 G:75 B:75];
+            [text setColorR:50 G:40 B:50];
    			[btn setDefaultTileNo:2];
    			[btn setReleaseTileNo:2];
    			[btn setDeactiveTileNo:2];
