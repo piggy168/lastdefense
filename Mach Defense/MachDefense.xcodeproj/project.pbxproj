@@ -14,6 +14,9 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		DA1E952B18DD5740005E2F09 /* worldmap_frame_menu_base.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1E952818DD5740005E2F09 /* worldmap_frame_menu_base.png */; };
+		DA1E952C18DD5740005E2F09 /* worldmap_frame_menu_bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1E952918DD5740005E2F09 /* worldmap_frame_menu_bomb.png */; };
+		DA1E952D18DD5740005E2F09 /* worldmap_frame_menu_unit.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1E952A18DD5740005E2F09 /* worldmap_frame_menu_unit.png */; };
 		DA30DB94186CF4B500D9AF93 /* Efx_BulletTrail_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */; };
 		DA30DB95186CF4B500D9AF93 /* Efx_BulletTrail_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */; };
 		DA40813618D2C7FB00D08666 /* loading_screen01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA40813418D2C7FA00D08666 /* loading_screen01.png */; };
@@ -1408,6 +1411,9 @@
 		A89F075218CA670000791217 /* turret_b_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_28.png; path = Resource/Mach/Parts/turret_b_28.png; sourceTree = SOURCE_ROOT; };
 		A89F075318CA670000791217 /* turret_b_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_29.png; path = Resource/Mach/Parts/turret_b_29.png; sourceTree = SOURCE_ROOT; };
 		A89F075418CA670000791217 /* turret_b_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_30.png; path = Resource/Mach/Parts/turret_b_30.png; sourceTree = SOURCE_ROOT; };
+		DA1E952818DD5740005E2F09 /* worldmap_frame_menu_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_frame_menu_base.png; sourceTree = "<group>"; };
+		DA1E952918DD5740005E2F09 /* worldmap_frame_menu_bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_frame_menu_bomb.png; sourceTree = "<group>"; };
+		DA1E952A18DD5740005E2F09 /* worldmap_frame_menu_unit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_frame_menu_unit.png; sourceTree = "<group>"; };
 		DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_green.png; sourceTree = "<group>"; };
 		DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_red.png; sourceTree = "<group>"; };
 		DA30DB96186D03B200D9AF93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -3516,6 +3522,9 @@
 		E53CB45311EEAAC3002B0F88 /* uiSelectSlot */ = {
 			isa = PBXGroup;
 			children = (
+				DA1E952818DD5740005E2F09 /* worldmap_frame_menu_base.png */,
+				DA1E952918DD5740005E2F09 /* worldmap_frame_menu_bomb.png */,
+				DA1E952A18DD5740005E2F09 /* worldmap_frame_menu_unit.png */,
 				DACAA7D0183490480085C2AB /* selStage_btn.png */,
 				E5A92CF912AC9BA300939CDE /* iPad_SelSlot_BG.jpg */,
 				E5A92CF112AC9A2700939CDE /* iPad_SelStage_Fore.png */,
@@ -5927,6 +5936,9 @@
 				DA9409C218CEE93B00FDA2ED /* worldmap_bar_right.png in Resources */,
 				DA40813618D2C7FB00D08666 /* loading_screen01.png in Resources */,
 				DA40813718D2C7FB00D08666 /* loading_screen02.png in Resources */,
+				DA1E952B18DD5740005E2F09 /* worldmap_frame_menu_base.png in Resources */,
+				DA1E952C18DD5740005E2F09 /* worldmap_frame_menu_bomb.png in Resources */,
+				DA1E952D18DD5740005E2F09 /* worldmap_frame_menu_unit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

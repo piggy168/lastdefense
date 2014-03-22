@@ -16,9 +16,11 @@
 	QobBase *_buttonBase;
 	QobImage *_imgSel, *_imgWorldMap;
     QobButton *_btnFight;
+    QobText *_cr;
 
+    bool _isClick;
 	int _sel;
-	float _camPos, _dragPos, _dragVel, _btnHeight, _lowerLimit, _btmLimit, _lastPosition;
+	float _camPos, _dragPos, _dragVel, _btnHeight, _lowerLimit, _topLimit, _btmLimit, _lastPosition;
 }
 
 - (void)handleButton:(NSNotification *)note;
