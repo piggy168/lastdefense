@@ -34,8 +34,9 @@
 		_lowerLimit = _glView.surfaceSize.height/2+110/2;
 		_btmLimit = 125;
 	}
-    
     _camPos = _lowerLimit;
+    _topLimit = MAX_WORLDMAP/2*1024/2;
+    _isClick = NO;
 	
 	[SOUNDMGR playBGM:@"UI_BGM.mp3"];
     
@@ -51,7 +52,7 @@
 	[_buttonBase addChild:btn];
 #endif
 
-	tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu.png"];
+	tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu_base.png"];
 	[tile tileSplitX:1 splitY:1];
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_BASE];
 	[btn setReleaseTileNo:1];
@@ -61,6 +62,7 @@
 	[btn setLayer:VLAYER_UI];
 	[self addChild:btn];
 	
+    tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu_unit.png"];
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT];
 	[btn setReleaseTileNo:1];
 	//[btn setBoundWidth:80 Height:40];
@@ -69,6 +71,7 @@
 	[btn setLayer:VLAYER_UI];
 	[self addChild:btn];
     
+    tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu_bomb.png"];
     btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT];
 	[btn setReleaseTileNo:1];
 	//[btn setBoundWidth:80 Height:40];
@@ -151,6 +154,13 @@
     [img setPosX:_glView.surfaceSize.width/2+5 Y:_glView.surfaceSize.height-30];
     [img setLayer:VLAYER_MIDDLE+1];
     [self addChild:img];
+    
+    _cr = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d",GSLOT->cr] Size:CGSizeMake(128, 32) Align:UITextAlignmentRight Font:@"TrebuchetMS-Bold" FontSize:24 Retina:true];
+    [_cr setPosX:-128 Y:-8];
+    [img addChild:_cr];
+    [_cr setColorR:55 G:125 B:126];
+    
+    NSLog(@"crcrcr %d",GSLOT->cr);
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_bar_left.png"];
     img = [[QobImage alloc] initWithTile:tile tileNo:0];
@@ -256,7 +266,7 @@
 		EASYOUTE(_dragVel, 0.0f, 10.f, .1f);
 		_camPos += _dragVel;
 	}
-//	if(_camPos < _topLimit) EASYOUTE(_camPos, _topLimit, 5.f, .1f);
+	if(_camPos < -_topLimit) EASYOUTE(_camPos, -_topLimit, 5.f, .1f);
 	if(_camPos > _lowerLimit) EASYOUTE(_camPos, _lowerLimit, 5.f, .1f);
 	EASYOUTE(y, _camPos, 5.f, .1f);
 	[_imgWorldMap setPosY:y];
@@ -271,29 +281,32 @@
 	
 	if([[note name]isEqualToString:@"PushButton"])
 	{
-		if(button.buttonId == BTNID_SELSTAGE)
+		if(button.buttonId != BTNID_SELSTAGE)
 		{
+            NSLog(@"yes");
 			_dragPos = button.tapPos.y;
 //			[SOUNDMGR play:[GINFO sfxID:SND_MENU_CLICK]];
 		}
+        else
+            NSLog(@"NO");
 	}
 	else if([[note name]isEqualToString:@"MoveButton"])
 	{
-		if(button.buttonId == BTNID_SELSTAGE)
-		{
-			_dragVel = button.tapPos.y - _dragPos;
-			_dragPos = button.tapPos.y;
-			
-			_camPos += _dragVel;
-		}
+//		if(button.buttonId != BTNID_SELSTAGE)
+//		{
+//			_dragVel = button.tapPos.y - _dragPos;
+//			_dragPos = button.tapPos.y;
+//			
+//			_camPos += _dragVel;
+//		}
 	}
 	else if([[note name]isEqualToString:@"CancelButton"])
 	{
-		if(button.buttonId == BTNID_SELSTAGE)
-		{
-			_dragVel = button.tapPos.y - _dragPos;
-			_dragPos = 0;
-		}
+//		if(button.buttonId != BTNID_SELSTAGE)
+//		{
+//			_dragVel = button.tapPos.y - _dragPos;
+//			_dragPos = 0;
+//		}
 	}
 	else if([[note name]isEqualToString:@"PopButton"])
 	{
