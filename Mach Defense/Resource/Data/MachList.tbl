@@ -39,7 +39,7 @@ Base04  	512 	0   	0	TURRET	-   	64	0   	0   	NULL    	DummyParts
 Base05  	512 	0   	0	TURRET	-   	64	0   	0   	NULL    	DummyParts
 Base06  	512 	0   	0	TURRET	-   	64	0   	0   	NULL    	DummyParts
 Base07  	512 	0   	0	TURRET	-   	64	0   	0   	NULL    	DummyParts
-E_Base  	2000	0   	0	TURRET	-   	64	0   	0   	NULL    	E_Base
+E_Base  	200 	0   	0	TURRET	-   	64	0   	0   	NULL    	E_Base
 Bot_A01 	200 	0   	2	BOT 	BOT_A	15	0   	0   	NULL    	B_A_Body_01
 Bot_A02 	800 	0   	2	BOT 	BOT_A	15	0   	0   	NULL    	B_A_Body_02
 Bot_A03 	2400 	0   	2	BOT 	BOT_A	15	0   	0   	NULL    	B_A_Body_03
