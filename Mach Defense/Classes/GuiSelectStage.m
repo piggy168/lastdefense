@@ -7,7 +7,8 @@
 //
 
 #import "GuiSelectStage.h"
-
+#import "DlgShop.h"
+#import "DlgUpgradeEquip.h"
 
 @implementation GuiSelectStage
 
@@ -17,10 +18,15 @@
 	[self setUiReceiver:true];
     
 	_tileResMgr = [[ResMgr_Tile alloc] init];
+    _btnMNG = [[NSMutableArray alloc] init];
+    
+    _dlgShop = nil;
 	
 	Tile2D *tile = nil;
 	QobImage *img = nil;
 	QobButton *btn = nil;
+    
+    _mode = 0;
 	
 	if(_glView.deviceType == DEVICE_IPAD)
 	{
@@ -35,11 +41,12 @@
 		_btmLimit = 125;
 	}
     _camPos = _lowerLimit;
-    _topLimit = MAX_WORLDMAP/2*1024/2;
+    _topLimit = MAX_WORLDMAP/2*1024/2+960/4+50;
     _isClick = NO;
 	
 	[SOUNDMGR playBGM:@"UI_BGM.mp3"];
-    
+
+    GSLOT->lastStage = 12;
     [self createWorldMap];
 
 #ifdef _LITE_VERSION_
@@ -53,31 +60,33 @@
 #endif
 
 	tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu_base.png"];
-	[tile tileSplitX:1 splitY:1];
+	[tile tileSplitX:1 splitY:3];
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_BASE];
 	[btn setReleaseTileNo:1];
 //	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
 	else [btn setPosX:60 Y:40];
-	[btn setLayer:VLAYER_UI];
+	[btn setLayer:VLAYER_FORE_UI2];
 	[self addChild:btn];
 	
     tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu_unit.png"];
+    [tile tileSplitX:1 splitY:3];
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT];
 	[btn setReleaseTileNo:1];
 	//[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX: 544 Y:80];
 	else [btn setPosX: 160 Y:40];
-	[btn setLayer:VLAYER_UI];
+	[btn setLayer:VLAYER_FORE_UI2];
 	[self addChild:btn];
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu_bomb.png"];
-    btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT];
+    [tile tileSplitX:1 splitY:3];
+    btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT1];
 	[btn setReleaseTileNo:1];
 	//[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX: 544 Y:80];
 	else [btn setPosX: 260 Y:40];
-	[btn setLayer:VLAYER_UI];
+	[btn setLayer:VLAYER_FORE_UI2];
 	[self addChild:btn];
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_btn_base.png"];
@@ -87,7 +96,7 @@
     //	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
 	else [btn setPosX:60 Y:20];
-	[btn setLayer:VLAYER_UI+1];
+	[btn setLayer:VLAYER_FORE_UI2+1];
 	[self addChild:btn];
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_btn_mechs.png"];
@@ -97,7 +106,7 @@
     //	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
 	else [btn setPosX:160 Y:20];
-	[btn setLayer:VLAYER_UI+1];
+	[btn setLayer:VLAYER_FORE_UI2+1];
 	[self addChild:btn];
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_btn_bombs.png"];
@@ -107,7 +116,7 @@
     //	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
 	else [btn setPosX:260 Y:20];
-	[btn setLayer:VLAYER_UI+1];
+	[btn setLayer:VLAYER_FORE_UI2+1];
 	[self addChild:btn];
 	
 	_sel = GSLOT->lastStage;
@@ -134,9 +143,18 @@
 {
 	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
 	[nc removeObserver:self];
+    
+    if(_dlgShop)
+    {
+        [_dlgShop remove];
+        _dlgShop = nil;
+    }
 	
 	[_tileResMgr removeAllTiles];
 	[_tileResMgr release];
+    
+    [_btnMNG removeAllObjects];
+    [_btnMNG release];
 	
 	[super dealloc];
 }
@@ -146,12 +164,12 @@
     Tile2D *tile = [_tileResMgr getTileForRetina:@"worldmap_bottom_bar.png"];
     QobImage *img = [[QobImage alloc] initWithTile:tile tileNo:0];
     [img setPosX:_glView.surfaceSize.width/2 Y:165/4];
-    [img setLayer:VLAYER_MIDDLE];
+    [img setLayer:VLAYER_FORE_UI2];
     [self addChild:img];
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_top_bar.png"];
     img = [[QobImage alloc] initWithTile:tile tileNo:0];
-    [img setPosX:_glView.surfaceSize.width/2+5 Y:_glView.surfaceSize.height-30];
+    [img setPosX:_glView.surfaceSize.width/2+5 Y:_glView.surfaceSize.height-5];
     [img setLayer:VLAYER_MIDDLE+1];
     [self addChild:img];
     
@@ -200,6 +218,8 @@
         [btn setIntData:i];
         [_imgWorldMap addChild:btn];
         
+        [_btnMNG addObject:btn];
+        
         QobText *text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d",i+1] Size:CGSizeMake(64, 32) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:24 Retina:true];
 		[text setPosX:0 Y:0];
 		[btn addChild:text];
@@ -219,6 +239,7 @@
         
         if(i > GSLOT->lastStage)
         {
+            [text setVisual:NO];
             [text setColorR:50 G:40 B:50];
    			[btn setDefaultTileNo:2];
    			[btn setReleaseTileNo:2];
@@ -230,6 +251,7 @@
             [btn setReleaseTileNo:1];
             [btn setDeactiveTileNo:2];
         }
+        
         //		if(i >= MAX_STAGE) continue;
         //		tile = [_tileResMgr getTileForRetina:@"selStage_btn.png"];
         //		[tile tileSplitX:1 splitY:3];
@@ -253,6 +275,14 @@
         //		[btn setPosX:btnPos.x Y:btnPos.y];
         //		[_buttonBase addChild:btn];
     }
+    
+    if( GSLOT->lastStage > 10)
+    {
+        CGPoint btnPos = [GINFO getMapPositionFromIndex:GSLOT->lastStage];
+        _camPos = -(btnPos.y-_glView.surfaceSize.height/2)/2+110/2;
+    
+        NSLog(@"[%.02f]",btnPos.y);
+    }
 }
 
 - (void)tick
@@ -265,7 +295,9 @@
 	{
 		EASYOUTE(_dragVel, 0.0f, 10.f, .1f);
 		_camPos += _dragVel;
+        NSLog(@"campos [%.02f]",_camPos);
 	}
+
 	if(_camPos < -_topLimit) EASYOUTE(_camPos, -_topLimit, 5.f, .1f);
 	if(_camPos > _lowerLimit) EASYOUTE(_camPos, _lowerLimit, 5.f, .1f);
 	EASYOUTE(y, _camPos, 5.f, .1f);
@@ -281,8 +313,23 @@
 	
 	if([[note name]isEqualToString:@"PushButton"])
 	{
-		if(button.buttonId != BTNID_SELSTAGE)
+        if( button.buttonId == BTNID_UNIT || button.buttonId == BTNID_UNIT1)
+        {
+            _isClick = YES;
+            _mode = 1;
+//            DlgUpgradeEquip *upgrade = [[DlgUpgradeEquip alloc] init];
+//            [upgrade setLayer:VLAYER_MIDDLE];
+//            [upgrade setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2-7];
+//            [upgrade refreshMachButtons];
+//            [self addChild:upgrade];
+//            _dlgUpgrade = upgrade;
+            
+            //[_dlgBuildMach refreshButtonsWithType:BMT_UPGRADEMACH];
+            //[_dlgBuildSpAttack refreshButtonsWithType:BSAT_UPGRADEATTACK];
+        }
+		else if(button.buttonId == BTNID_SELSTAGE)
 		{
+            _isClick = YES;
             NSLog(@"yes");
 			_dragPos = button.tapPos.y;
 //			[SOUNDMGR play:[GINFO sfxID:SND_MENU_CLICK]];
@@ -309,58 +356,98 @@
 //		}
 	}
 	else if([[note name]isEqualToString:@"PopButton"])
-	{
-		if(button.buttonId == BTNID_OK)
-		{
-			GSLOT->stage = _sel;
-			[g_main changeScreen:GSCR_GAME];
-			[SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
-		}
-		else if(button.buttonId == BTNID_BACK)
-		{
-			[g_main changeScreen:GSCR_SELECTSLOT];
-			[SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
-		}
-		else if(button.buttonId == BTNID_SELSTAGE)
-		{
-			if(button.intData <= GSLOT->lastStage)
-			{
-				_sel = button.intData;
-				//[_imgSel setPosY:-_sel * _btnHeight];
-                _btnFight.visual = YES;
-                //CGPoint pos = [GINFO getMapPositionFromIndex:_sel];
-                //[_btnFight setPosX:pos.x Y:pos.y+_btnHeight];
+    {
+        if(_isClick)
+        {
+            if( button.buttonId == BTNID_UNIT || button.buttonId == BTNID_UNIT1 )
+            {
+                if(_dlgShop)
+                {
+                    [_dlgShop remove];
+                    _dlgShop = nil;
+                }
+                else
+                {
+                    DlgShop *dlgShop = [[DlgShop alloc] init];
+                    [dlgShop setLayer:VLAYER_MIDDLE-2];
+                    [dlgShop setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2+24];
+                    [self addChild:dlgShop];
+                    _dlgShop = dlgShop;
+                }
+            }
+            else if(button.buttonId == BTNID_OK)
+            {
                 GSLOT->stage = _sel;
                 [g_main changeScreen:GSCR_GAME];
-				[SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
-			}
-		}
-		else if(button.buttonId == BTNID_BUYFULLVERSION)
-		{
-			[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/mach-defense/id409754707?mt=8"]];
-			[SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
-		}
+                [SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
+            }
+            else if(button.buttonId == BTNID_BACK)
+            {
+                [g_main changeScreen:GSCR_SELECTSLOT];
+                [SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
+            }
+            else if(button.buttonId == BTNID_SELSTAGE)
+            {
+                if(button.intData <= GSLOT->lastStage)
+                {
+                    _sel = button.intData;
+                    //[_imgSel setPosY:-_sel * _btnHeight];
+                    _btnFight.visual = YES;
+                    //CGPoint pos = [GINFO getMapPositionFromIndex:_sel];
+                    //[_btnFight setPosX:pos.x Y:pos.y+_btnHeight];
+                    GSLOT->stage = _sel;
+                    [g_main changeScreen:GSCR_GAME];
+                    [SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
+                }
+            }
+            else if(button.buttonId == BTNID_BUYFULLVERSION)
+            {
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/mach-defense/id409754707?mt=8"]];
+                [SOUNDMGR play:[GINFO sfxID:SND_BTN_OK]];
+            }
+        }
+        
+        _isClick = NO;
 	}
 }
 
 - (BOOL)onTap:(CGPoint)pt State:(int)state ID:(id)tapID
 {
+    NSLog(@"GuiSelectStage %d", state);
+    
+    if(_mode == 1)
+    {
+        [_dlgShop onTap:pt State:state ID:tapID];
+        return true;
+    }
+    
     if(state == TAP_START)
     {
-        _dragPos = pt.y;
-        _btnFight.visual = NO;
+        if(_mode == 0 && !_isClick)
+        {
+            _dragPos = pt.y;
+            _btnFight.visual = NO;
+        }
     }
     else if(state == TAP_MOVE)
     {
-        _dragVel = pt.y - _dragPos;
-        _dragPos = pt.y;
+        if(_mode == 0 && !_isClick)
+        {
+            _dragVel = pt.y - _dragPos;
+            _dragPos = pt.y;
         
-        _camPos += _dragVel;
+            _camPos += _dragVel;
+        }
     }
     else if(state == TAP_END)
     {
-        _dragVel = pt.y - _dragPos;
-        _dragPos = 0;
+        if(_mode == 0 && !_isClick)
+        {
+            _dragVel = pt.y - _dragPos;
+            _dragPos = 0;
+        }
+        
+        _isClick = NO;
     }
     
     return true;

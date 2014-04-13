@@ -118,7 +118,20 @@
 		DA979C5B18C3F800009DF352 /* worldmap_numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4C18C3F800009DF352 /* worldmap_numbers.png */; };
 		DA979C5C18C3F800009DF352 /* worldmap_top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4D18C3F800009DF352 /* worldmap_top_bar.png */; };
 		DA979C5E18C3FA3A009DF352 /* worldmap_bottom_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C5D18C3FA3A009DF352 /* worldmap_bottom_bar.png */; };
+		DA97A05A18F666B100B34976 /* DlgShop.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97A05918F666B100B34976 /* DlgShop.m */; };
 		DACAA7D1183490480085C2AB /* selStage_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D0183490480085C2AB /* selStage_btn.png */; };
+		DADB2CCD18E28CD400BF059A /* Done_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC118E28CD400BF059A /* Done_btn.png */; };
+		DADB2CCE18E28CD400BF059A /* Shop_Screen_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC218E28CD400BF059A /* Shop_Screen_BG.png */; };
+		DADB2CCF18E28CD400BF059A /* Shop_Screen_BG_right_filter.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC318E28CD400BF059A /* Shop_Screen_BG_right_filter.png */; };
+		DADB2CD018E28CD400BF059A /* Shop_Screen_Border.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC418E28CD400BF059A /* Shop_Screen_Border.png */; };
+		DADB2CD118E28CD400BF059A /* Side_bar_mech_box.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC518E28CD400BF059A /* Side_bar_mech_box.png */; };
+		DADB2CD218E28CD400BF059A /* Side_bar_mech_box_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC618E28CD400BF059A /* Side_bar_mech_box_cover.png */; };
+		DADB2CD318E28CD400BF059A /* Uninstall_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC718E28CD400BF059A /* Uninstall_Btn.png */; };
+		DADB2CD418E28CD400BF059A /* Upgrade_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC818E28CD400BF059A /* Upgrade_Btn.png */; };
+		DADB2CD518E28CD400BF059A /* Upgrade_Mach_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC918E28CD400BF059A /* Upgrade_Mach_BG.png */; };
+		DADB2CD618E28CD400BF059A /* Upgrade_Mach_BG_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CCA18E28CD400BF059A /* Upgrade_Mach_BG_cover.png */; };
+		DADB2CD718E28CD400BF059A /* Upgrade_Mach_BG_unselect.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CCB18E28CD400BF059A /* Upgrade_Mach_BG_unselect.png */; };
+		DADB2CD818E28CD400BF059A /* Upgrade_Select_border.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CCC18E28CD400BF059A /* Upgrade_Select_border.png */; };
 		DADC60201883ABE900A544B9 /* ItemInfo.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC601F1883ABE900A544B9 /* ItemInfo.tbl */; };
 		DADC60221883AC0500A544B9 /* MachBuild_Name.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60211883AC0500A544B9 /* MachBuild_Name.tbl */; };
 		DADC60241883AC3300A544B9 /* MachBuild_Parts.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60231883AC3300A544B9 /* MachBuild_Parts.tbl */; };
@@ -1516,7 +1529,21 @@
 		DA979C4C18C3F800009DF352 /* worldmap_numbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_numbers.png; sourceTree = "<group>"; };
 		DA979C4D18C3F800009DF352 /* worldmap_top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_top_bar.png; sourceTree = "<group>"; };
 		DA979C5D18C3FA3A009DF352 /* worldmap_bottom_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_bottom_bar.png; sourceTree = "<group>"; };
+		DA97A05818F666B100B34976 /* DlgShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlgShop.h; sourceTree = "<group>"; };
+		DA97A05918F666B100B34976 /* DlgShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DlgShop.m; sourceTree = "<group>"; };
 		DACAA7D0183490480085C2AB /* selStage_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selStage_btn.png; sourceTree = "<group>"; };
+		DADB2CC118E28CD400BF059A /* Done_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done_btn.png; sourceTree = "<group>"; };
+		DADB2CC218E28CD400BF059A /* Shop_Screen_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shop_Screen_BG.png; sourceTree = "<group>"; };
+		DADB2CC318E28CD400BF059A /* Shop_Screen_BG_right_filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shop_Screen_BG_right_filter.png; sourceTree = "<group>"; };
+		DADB2CC418E28CD400BF059A /* Shop_Screen_Border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shop_Screen_Border.png; sourceTree = "<group>"; };
+		DADB2CC518E28CD400BF059A /* Side_bar_mech_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Side_bar_mech_box.png; sourceTree = "<group>"; };
+		DADB2CC618E28CD400BF059A /* Side_bar_mech_box_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Side_bar_mech_box_cover.png; sourceTree = "<group>"; };
+		DADB2CC718E28CD400BF059A /* Uninstall_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uninstall_Btn.png; sourceTree = "<group>"; };
+		DADB2CC818E28CD400BF059A /* Upgrade_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Btn.png; sourceTree = "<group>"; };
+		DADB2CC918E28CD400BF059A /* Upgrade_Mach_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Mach_BG.png; sourceTree = "<group>"; };
+		DADB2CCA18E28CD400BF059A /* Upgrade_Mach_BG_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Mach_BG_cover.png; sourceTree = "<group>"; };
+		DADB2CCB18E28CD400BF059A /* Upgrade_Mach_BG_unselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Mach_BG_unselect.png; sourceTree = "<group>"; };
+		DADB2CCC18E28CD400BF059A /* Upgrade_Select_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Select_border.png; sourceTree = "<group>"; };
 		DADC601F1883ABE900A544B9 /* ItemInfo.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ItemInfo.tbl; sourceTree = "<group>"; };
 		DADC60211883AC0500A544B9 /* MachBuild_Name.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachBuild_Name.tbl; sourceTree = "<group>"; };
 		DADC60231883AC3300A544B9 /* MachBuild_Parts.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachBuild_Parts.tbl; sourceTree = "<group>"; };
@@ -2978,6 +3005,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DADB2CC018E28CD400BF059A /* uiShop */ = {
+			isa = PBXGroup;
+			children = (
+				DADB2CC118E28CD400BF059A /* Done_btn.png */,
+				DADB2CC218E28CD400BF059A /* Shop_Screen_BG.png */,
+				DADB2CC318E28CD400BF059A /* Shop_Screen_BG_right_filter.png */,
+				DADB2CC418E28CD400BF059A /* Shop_Screen_Border.png */,
+				DADB2CC518E28CD400BF059A /* Side_bar_mech_box.png */,
+				DADB2CC618E28CD400BF059A /* Side_bar_mech_box_cover.png */,
+				DADB2CC718E28CD400BF059A /* Uninstall_Btn.png */,
+				DADB2CC818E28CD400BF059A /* Upgrade_Btn.png */,
+				DADB2CC918E28CD400BF059A /* Upgrade_Mach_BG.png */,
+				DADB2CCA18E28CD400BF059A /* Upgrade_Mach_BG_cover.png */,
+				DADB2CCB18E28CD400BF059A /* Upgrade_Mach_BG_unselect.png */,
+				DADB2CCC18E28CD400BF059A /* Upgrade_Select_border.png */,
+			);
+			path = uiShop;
+			sourceTree = "<group>";
+		};
 		DAF1523D18C9B3E400331C03 /* TestFlightSDK3.0.0 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3101,6 +3147,7 @@
 		E53CB2E711EEAAC2002B0F88 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DADB2CC018E28CD400BF059A /* uiShop */,
 				E53CB2E811EEAAC2002B0F88 /* CountryIcon */,
 				E53CB3C111EEAAC2002B0F88 /* GameCommon */,
 				E53CB40311EEAAC3002B0F88 /* uiCommon */,
@@ -4498,6 +4545,8 @@
 				E53CC06A11EEAFE3002B0F88 /* GuiMapLoading.m */,
 				E53CC06511EEAFE3002B0F88 /* GuiHelp.h */,
 				E53CC06611EEAFE3002B0F88 /* GuiHelp.m */,
+				DA97A05818F666B100B34976 /* DlgShop.h */,
+				DA97A05918F666B100B34976 /* DlgShop.m */,
 			);
 			name = "UI Objects";
 			path = Classes;
@@ -5939,6 +5988,18 @@
 				DA1E952B18DD5740005E2F09 /* worldmap_frame_menu_base.png in Resources */,
 				DA1E952C18DD5740005E2F09 /* worldmap_frame_menu_bomb.png in Resources */,
 				DA1E952D18DD5740005E2F09 /* worldmap_frame_menu_unit.png in Resources */,
+				DADB2CCD18E28CD400BF059A /* Done_btn.png in Resources */,
+				DADB2CCE18E28CD400BF059A /* Shop_Screen_BG.png in Resources */,
+				DADB2CCF18E28CD400BF059A /* Shop_Screen_BG_right_filter.png in Resources */,
+				DADB2CD018E28CD400BF059A /* Shop_Screen_Border.png in Resources */,
+				DADB2CD118E28CD400BF059A /* Side_bar_mech_box.png in Resources */,
+				DADB2CD218E28CD400BF059A /* Side_bar_mech_box_cover.png in Resources */,
+				DADB2CD318E28CD400BF059A /* Uninstall_Btn.png in Resources */,
+				DADB2CD418E28CD400BF059A /* Upgrade_Btn.png in Resources */,
+				DADB2CD518E28CD400BF059A /* Upgrade_Mach_BG.png in Resources */,
+				DADB2CD618E28CD400BF059A /* Upgrade_Mach_BG_cover.png in Resources */,
+				DADB2CD718E28CD400BF059A /* Upgrade_Mach_BG_unselect.png in Resources */,
+				DADB2CD818E28CD400BF059A /* Upgrade_Select_border.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6028,6 +6089,7 @@
 				E5A92C5F12AC7B0C00939CDE /* GuiSelectStage.m in Sources */,
 				E5C9E07712D184CF00043F02 /* GameCenterManager.m in Sources */,
 				E5B761AC12E3ECBF00AF033B /* DlgFormation.m in Sources */,
+				DA97A05A18F666B100B34976 /* DlgShop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

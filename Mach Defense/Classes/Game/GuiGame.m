@@ -820,7 +820,7 @@ extern DefaultAppDelegate *_appDelegate;
 					DlgUpgradeEquip *upgrade = [[DlgUpgradeEquip alloc] init];
 					[upgrade setLayer:VLAYER_UI];
 					[upgrade setPosX:_glView.deviceType == DEVICE_IPAD ? -8 : -36 Y:96 * GWORLD.deviceScale];
-					[upgrade refreshMachButtons];
+                    [upgrade refreshMachButtons];
 					[self addChild:upgrade];
 					_dlgUpgrade = upgrade;
 					

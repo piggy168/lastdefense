@@ -301,7 +301,7 @@
 	QobButton *button = [note object];
 	if(button == nil) return;
 	
-	if([[note name]isEqualToString:@"PushButton"])
+	if([note name] == @"PushButton")
 	{
 		if(button.buttonId == BTNID_UPGRADE_MACH || button.buttonId == BTNID_UPGRADE_ATTACK)
 		{
@@ -309,14 +309,14 @@
 			[_imgSelWeapon setShow:true];
 		}
 	}
-	if([[note name]isEqualToString:@"ReleaseButton"])
+	if([note name] == @"ReleaseButton")
 	{
 		if(button.buttonId == BTNID_UPGRADE_MACH || button.buttonId == BTNID_UPGRADE_ATTACK)
 		{
 			[_imgSelWeapon setShow:false];
 		}
 	}
-	else if([[note name]isEqualToString:@"PopButton"])
+	else if([note name] == @"PopButton")
 	{
 		if(button.buttonId == BTNID_UPGRADE_MACH)
 		{

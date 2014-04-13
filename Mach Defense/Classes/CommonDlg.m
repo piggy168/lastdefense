@@ -17,7 +17,7 @@
 	
 	_height = height;
 	
-	Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"%@_Mid.png", commonImg]];
+	Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"%@.png", commonImg]];
 	_bgMid = [[QobImage alloc] initWithTile:tile tileNo:0];
 	[_bgMid setScaleY:height / (64.f * GWORLD.deviceScale)];
 	[self addChild:_bgMid];
