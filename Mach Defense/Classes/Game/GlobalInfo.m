@@ -271,15 +271,20 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	if(GSLOT->machCount == 0)
 	{
 		MachBuildSet *buildSet;
-		buildSet = [self buyBuildSet:@"MachineGun"];			buildSet.onSlot = true;
-		buildSet = [self buyBuildSet:@"Tanker"];				buildSet.onSlot = true;
-		buildSet = [self buyBuildSet:@"Missile"];				buildSet.onSlot = true;
-		buildSet = [self buyBuildSet:@"RifleTurret"];			buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"PlasmaGun"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"HMG"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"HeavyMissile"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"ShotGun"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"IonRifle"];             buildSet.onSlot = true;
+   		buildSet = [self buyBuildSet:@"Griffon"];			buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"Phoenix"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"Unicorn"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"Cerberus"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"Manticore"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"Pagasus"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"Hydra"];             buildSet.onSlot = true;
+		buildSet = [self buyBuildSet:@"G-Claw"];			buildSet.onSlot = true;
+		buildSet = [self buyBuildSet:@"U-Horn"];				buildSet.onSlot = true;
+		buildSet = [self buyBuildSet:@"P-Sting"];				buildSet.onSlot = true;
+		buildSet = [self buyBuildSet:@"H-Fume"];			buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"C-Fang"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"M-Spine"];             buildSet.onSlot = true;
+        buildSet = [self buyBuildSet:@"Minotaur"];             buildSet.onSlot = true;
 
 		SpAttackSet *attackSet;
 		attackSet = [self buyAttackSet:@"AirStrike-Bomb" Count:2];		attackSet.onSlot = true;
