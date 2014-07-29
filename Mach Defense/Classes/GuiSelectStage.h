@@ -11,7 +11,8 @@
 
 #define MAX_WORLDMAP 4
 
-@class DlgShop;
+//@class DlgShop;
+//@class DlgShopSpecial;
 
 @interface GuiSelectStage : QobBase
 {
@@ -19,7 +20,8 @@
 	ResMgr_Tile *_tileResMgr;
 	QobBase *_buttonBase;
     DlgUpgradeEquip *_dlgUpgrade;
-    DlgShop *_dlgShop;
+//    DlgShop *_dlgShop;
+//    DlgShopSpecial *_dlgShopSpecial;
 	QobImage *_imgSel, *_imgWorldMap;
     QobButton *_btnFight;
     QobText *_cr;

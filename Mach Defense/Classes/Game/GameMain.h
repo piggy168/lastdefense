@@ -20,6 +20,8 @@
 @class GuiSelectSlot;
 @class GuiSelectStage;
 @class GuiGame;
+@class DlgShop;
+@class DlgShopSpecial;
 
 #define GWORLD [g_main getWorld]
 #define GAMEUI [g_main getGameUI]
@@ -29,6 +31,7 @@ enum EGameScreen
 {
 	GSCR_BEGIN,
 	GSCR_TITLE, GSCR_SELECTSLOT, GSCR_SELECTSTAGE, GSCR_GAME, GSCR_CLEARSTAGE,
+    GSCR_SHOPMACH,GSCR_SHOPSPECIAL,
 	GSCR_END
 };
 
@@ -64,6 +67,8 @@ enum EAlertID
 	GuiTitle *_uiTitle;
 	GuiSelectSlot *_uiSelSlot;
 	GuiSelectStage *_uiSelStage;
+    DlgShop *_uiShopMach;
+    DlgShopSpecial *_uiShopSpecial;
 	
 	QobBase *_layerLoading;
 	Tile2D *_tileLoadingImg;
@@ -93,10 +98,12 @@ enum EAlertID
 - (void)changeScreen:(int)screen;
 - (void)clearAllScreen;
 - (void)refreshScreen;
+- (void)makeScreen:(int)screen;
 - (void)setScreen_Title;
 - (void)setScreen_SelectSlot;
 - (void)setScreen_SelectStage;
 - (void)setScreen_Game;
+- (void)setScreen_Shop:(int)type;
 
 - (void)setAlertTitle:(NSString *)title Message:(NSString *)msg AlertId:(int)Id CancelBtn:(bool)cancel;
 

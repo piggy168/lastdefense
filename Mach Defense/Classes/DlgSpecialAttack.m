@@ -41,11 +41,20 @@
 	Tile2D *tile;
 	QobImage *img;
 	
-	tile = [TILEMGR getTileForRetina:@"GameUI_MachSlot.png"];
+	tile = [TILEMGR getTile:@"GameUI_MachSlot.png"];
 	[tile tileSplitX:1 splitY:1];
 	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:-71 Y:-352];
+	[img setPosX:-40 Y:-350];
+    [img setLayer:0];
 	[self addChild:img];
+    
+//    tile = [TILEMGR getTileForRetina:@"GameUI_MachSlot.png"];
+//    [tile tileSplitX:1 splitY:1];
+//    img = [[QobImage alloc] initWithTile:tile tileNo:1];
+//    [img setPosX:-19 * GWORLD.deviceScale Y:-17 * GWORLD.deviceScale];
+//    [img setLayer:1];
+//    [self addChild:img];
+
 	
 	tile = [TILEMGR getTileForRetina:@"SelMach.png"];
 	[tile tileSplitX:1 splitY:1];
@@ -108,12 +117,24 @@
 	
 	_upgradeInd = [[QobBase alloc] init];
 	[_buttons addChild:_upgradeInd];
+    
+//    NSArray *array = [GINFO listBuyAttackSet];
+//    _bottomPos = 88*array.count;// + _topPos;
+//    NSLog(@"count %d",array.count);
+//    int i=0;
+//	for(SpAttackSet *set in array)
+//    {
+//        NSString *strInfo;
+//        float x = 0.0f;
+//        float y = -i*80;
+//        
+//        TSpAttackSet *attack = [set attackSet];
 	
 	_buildBtnCnt = 0;
 	NSArray *array = [GINFO listBuyAttackSet];
 	for(SpAttackSet *set in array)
 	{
-		if(!set.onSlot) continue;
+		if(set.count <= 0) continue;
 		TSpAttackSet *attack = [set attackSet];
 		
 		tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Icon%05d.png", attack->itemId]];
@@ -122,23 +143,25 @@
 		[btn setReleaseTileNo:0];
 		[btn setDataObject:set];
 		[btn setPosX:_glView.deviceType == DEVICE_IPAD ? 1 : -35 Y:basePos];
+        [btn setLayer:3];
 		[_buttons addChild:btn];
 		
-		tile = [TILEMGR getTileForRetina:@"Btn_BuildMach.png"];
+		tile = [TILEMGR getTileForRetina:@"Side_bar_mech_box.png"];
 		[tile tileSplitX:1 splitY:1];
 		QobImage *body = [[QobImage alloc] initWithTile:tile tileNo:1];
 		[body setUseAtlas:TRUE];
 		[body setPosX:-19 * GWORLD.deviceScale Y:-17 * GWORLD.deviceScale];
+        [body setLayer:1];
 		[btn addChild:body];
 		
-		text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d/%d", set.level+1, set.maxLevel] Size:CGSizeMake(64, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14 Retina:true];
-		[text setLayer:VLAYER_FOREMOST];
-		[text setColorR:240 G:255 B:255];
-		[text setPosX:-60 * GWORLD.deviceScale Y:28 * GWORLD.deviceScale];
-		[btn addChild:text];
+//		text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d/%d", set.level+1, set.maxLevel] Size:CGSizeMake(64, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14 Retina:true];
+//		[text setLayer:VLAYER_FOREMOST];
+//		[text setColorR:240 G:255 B:255];
+//		[text setPosX:-60 * GWORLD.deviceScale Y:28 * GWORLD.deviceScale];
+//		[btn addChild:text];
 
 		text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d", set.count] Size:CGSizeMake(64, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:13 Retina:true];
-		[text setLayer:VLAYER_FOREMOST];
+		[text setLayer:4];
 		[text setColorR:240 G:255 B:255];
 		[text setPosX:0 Y:-42 * GWORLD.deviceScale];
 		[btn addChild:text];

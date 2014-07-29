@@ -47,7 +47,7 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	else
 	{
-		_uiDefaultPos = -215;
+		_uiDefaultPos = -220;
 		_uiWorldMargin = 240;
 		_msgPos = 216.f;
 	}
@@ -94,7 +94,7 @@ extern DefaultAppDelegate *_appDelegate;
 	[tile tileSplitX:1 splitY:4];
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UPGRADE_EQUIP];
 	[btn setReleaseTileNo:1];
-	[btn setPosX:74 * GWORLD.deviceScale Y:-356 * GWORLD.deviceScale];
+	[btn setPosX:74 * GWORLD.deviceScale Y:-350 * GWORLD.deviceScale];
 	[btn setLayer:VLAYER_UI];
 	[imgBuildSlot addChild:btn];
 	_btnUpgradeEquip = btn;
@@ -137,26 +137,26 @@ extern DefaultAppDelegate *_appDelegate;
 		_uiTitle = img;
 	}
 
-	tile = [TILEMGR getTileForRetina:@"GameUI_BtmL.png"];
-	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:-256 * GWORLD.deviceScale Y:-384 * GWORLD.deviceScale];
-	[bg addChild:img];
-	
-	tile = [TILEMGR getTileForRetina:@"GameUI_BtmR.png"];
-	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:128 * GWORLD.deviceScale Y:-384 * GWORLD.deviceScale];
-	[bg addChild:img];
+//	tile = [TILEMGR getTileForRetina:@"GameUI_BtmL.png"];
+//	img = [[QobImage alloc] initWithTile:tile tileNo:0];
+//	[img setPosX:-256 * GWORLD.deviceScale Y:-384 * GWORLD.deviceScale];
+//	[bg addChild:img];
+//	
+//	tile = [TILEMGR getTileForRetina:@"GameUI_BtmR.png"];
+//	img = [[QobImage alloc] initWithTile:tile tileNo:0];
+//	[img setPosX:128 * GWORLD.deviceScale Y:-384 * GWORLD.deviceScale];
+//	[bg addChild:img];
 	
 	tile = [TILEMGR getTileForRetina:@"MachButton.png"];
 	[tile tileSplitX:2 splitY:4];
 
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_MAKE_MACH];
-	[btn setPosX:-89 * GWORLD.deviceScale Y:-50 * GWORLD.deviceScale];
+	[btn setPosX:-89 * GWORLD.deviceScale Y:0 * GWORLD.deviceScale];
 	[bg addChild:btn];
 	_makeBtn[0] = btn;
 	
 	btn = [[QobButton alloc] initWithTile:tile TileNo:2 ID:BTNID_SPECIAL_ATTACK];
-	[btn setPosX:2 * GWORLD.deviceScale Y:-50 * GWORLD.deviceScale];
+	[btn setPosX:2 * GWORLD.deviceScale Y:0 * GWORLD.deviceScale];
 	[bg addChild:btn];
 	_makeBtn[1] = btn;
 	
@@ -219,7 +219,7 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	else
 	{
-		[btn setPosX:124 Y:-28];
+		[btn setPosX:124 Y:8];
 		[btn setBoundWidth:120 Height:50];
 	}
 	[bg addChild:btn];
@@ -324,7 +324,7 @@ extern DefaultAppDelegate *_appDelegate;
 	[self addChild:_buildSlot];
 	
 	_dlgSysMenu = [[DlgSystemMenu alloc] init];
-	[_dlgSysMenu setPosX:_glView.deviceType == DEVICE_IPAD ? 0 : -30 Y:128 * GWORLD.deviceScale];
+	[_dlgSysMenu setPosX:_glView.deviceType == DEVICE_IPAD ? 0 : -30 Y:220 * GWORLD.deviceScale];
 	[_dlgSysMenu setShow:false];
 	[self addChild:_dlgSysMenu];
 

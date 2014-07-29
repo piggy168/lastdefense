@@ -8,7 +8,9 @@
 
 #import "CommonDlg.h"
 
-@interface DlgShop : QobBase
+@class SpAttackSet;
+
+@interface DlgShopSpecial : QobBase
 {
     BOOL _isScroll;
     BOOL _canClick;
@@ -24,6 +26,7 @@
 - (void) updateList;
 - (void) updateSlot;
 - (void) refreshCR;
+- (SpAttackSet *)getAttackSet:(int)unit_id;
 - (void) refreshList:(int)unit_id;
 - (void) uninstallMach:(int)unit_id;//(MachBuildSet *)buildSet;
 - (void) upgradeMach:(int)unit_id;

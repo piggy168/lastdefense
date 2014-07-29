@@ -120,6 +120,15 @@ static QobManager *_sharedMgr = nil;
 //	[_uiReceiverArray removeObject:obj];
 }
 
+- (void)removeAllUiReceiver
+{
+    if(_deleteArray.count > 0)
+	{
+		[_uiReceiverArray removeObjectsInArray:_deleteArray];
+		[_deleteArray removeAllObjects];
+	}
+}
+
 - (BOOL)onTap:(CGPoint)pt State:(int)state ID:(id)tapID
 {
 	BOOL on = false;

@@ -156,8 +156,9 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 {
 	if(_localeCode != nil) [_localeCode release];
 	
-	if(locale && strcmp(locale, "kr") == 0) _localeCode = [[NSString alloc] initWithString:@"kr"];
-	else _localeCode = [[NSString alloc] initWithString:@"us"];
+//	if(locale && strcmp(locale, "kr") == 0) _localeCode = [[NSString alloc] initWithString:@"kr"];
+//	else
+        _localeCode = [[NSString alloc] initWithString:@"us"];
 	
 	[self openDescriptionList];
 }
@@ -266,7 +267,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	}
 	
 	[self clearBuyBuildSet];
-	[self clearAttackSet];
+	[self resetAttackSet];
 	
 	if(GSLOT->machCount == 0)
 	{
@@ -275,22 +276,24 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
         buildSet = [self buyBuildSet:@"Phoenix"];             buildSet.onSlot = true;
         buildSet = [self buyBuildSet:@"Unicorn"];             buildSet.onSlot = true;
         buildSet = [self buyBuildSet:@"Cerberus"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"Manticore"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"Pagasus"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"Hydra"];             buildSet.onSlot = true;
-		buildSet = [self buyBuildSet:@"G-Claw"];			buildSet.onSlot = true;
-		buildSet = [self buyBuildSet:@"U-Horn"];				buildSet.onSlot = true;
-		buildSet = [self buyBuildSet:@"P-Sting"];				buildSet.onSlot = true;
-		buildSet = [self buyBuildSet:@"H-Fume"];			buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"C-Fang"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"M-Spine"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"Minotaur"];             buildSet.onSlot = true;
+        
+        buildSet = [self buyBuildSet:@"Manticore"];             buildSet.onSlot = false;
+        buildSet = [self buyBuildSet:@"Pagasus"];             buildSet.onSlot = false;
+        buildSet = [self buyBuildSet:@"Hydra"];             buildSet.onSlot = false;
+		buildSet = [self buyBuildSet:@"G-Claw"];			buildSet.onSlot = false;
+		buildSet = [self buyBuildSet:@"U-Horn"];				buildSet.onSlot = false;
+		buildSet = [self buyBuildSet:@"P-Sting"];				buildSet.onSlot = false;
+		buildSet = [self buyBuildSet:@"H-Fume"];			buildSet.onSlot = false;
+        buildSet = [self buyBuildSet:@"C-Fang"];             buildSet.onSlot = false;
+        buildSet = [self buyBuildSet:@"M-Spine"];             buildSet.onSlot = false;
+        buildSet = [self buyBuildSet:@"Minotaur"];             buildSet.onSlot = false;
 
 		SpAttackSet *attackSet;
 		attackSet = [self buyAttackSet:@"AirStrike-Bomb" Count:2];		attackSet.onSlot = true;
 		attackSet = [self buyAttackSet:@"AirStrike-Missile" Count:2];	attackSet.onSlot = true;
-		attackSet = [self buyAttackSet:@"AirStrike-Nuclear" Count:1];	attackSet.onSlot = true;
-//		attackSet = [self buyAttackSet:@"Crossfire-Missile" Count:100];	attackSet.onSlot = true;
+		attackSet = [self buyAttackSet:@"AirStrike-Nuclear" Count:0];	attackSet.onSlot = false;
+		attackSet = [self buyAttackSet:@"Crossfire-Missile" Count:0];	attackSet.onSlot = false;
+        attackSet = [self buyAttackSet:@"AirStrike-EMP" Count:0];       attackSet.onSlot = false;
 //		[self addSpAttack:"02001" Cnt:2];
 //		[self addSpAttack:"02011" Cnt:2];
 //		[self addSpAttack:"02021" Cnt:1];
@@ -339,11 +342,11 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	
 	// 임시 초기값 //////////////////			// cheat
 #ifdef DEBUG
-	GSLOT->stage = 20;
-	GSLOT->cr = 20000;
+//	GSLOT->stage = 20;
+//	GSLOT->cr = 20000;
 //	GSLOT->maxHp = 256;
-    GSLOT->lastStage = 10;//MAX_STAGE;
-	GSLOT->machCount = 7;
+//    GSLOT->lastStage = 10;//MAX_STAGE;
+//	GSLOT->machCount = 7;
 #endif
 	///////////////////////////////
 	
@@ -953,7 +956,13 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 		[attackSet setAttackName:attackName];
 		[attackSet setAttackSet:&attackInfo ToLevel:level-1];
 		if(attackSet.maxLevel < level) attackSet.maxLevel = level;
+        if(![self existBuyAttackSet:attackName])
+        {
+            attackSet.count = 0;
+            [_listBuyAttackSet addObject:attackSet];
+        }
 	}
+    NSLog(@"SpAttack count : %d",[_listBuyAttackSet count]);
 	[table release];
 	
 	return true;
@@ -989,6 +998,14 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 - (void)clearAttackSet
 {
 	[_listBuyAttackSet removeAllObjects];
+}
+
+- (void)resetAttackSet
+{
+	for(SpAttackSet *set in _listBuyAttackSet)
+    {
+        set.count = 0;
+    }
 }
 
 - (NSArray *)listBuyAttackSet

@@ -89,35 +89,35 @@
 	
 	int x = 200;
 	ImageAttacher *attacher = [[ImageAttacher alloc] initWithWidth:256 Height:1024 Name:attachTileName];
-	[attacher attachImage:[TILEMGR getImage:@"GameUI_MachSlot.png"] ToX:256-64 Y:484];
+	[attacher attachImage:[TILEMGR getImage:@"GameUI_MachSlot.png"] ToX:256-68 Y:526];
 
 	int btnCnt = 0;
-	float basePos = 864;
+	float basePos = 800;
 	for(MachBuildSet *buildSet in listBuildSet)
 	{
 		if(buildSet == nil || !buildSet.onSlot || btnCnt >= 7) continue;
 		TMachBuildSet *set = [buildSet buildSet];
 		if(set == NULL/* || set->buildUnitType != unitType*/) continue;
 		
-		[attacher attachImage:[TILEMGR getImage:@"Btn_BuildMachBG.png"] ToX:x Y:basePos];
-		[attacher attachImage:[TILEMGR getImage:@"Btn_BuildMach.png"] ToX:x-19 Y:basePos-17];
+		[attacher attachImage:[TILEMGR getImage:@"Side_bar_mech_box_cover.png"] ToX:x Y:basePos-14];
+		[attacher attachImage:[TILEMGR getImage:@"Side_bar_mech_box.png"] ToX:x Y:basePos-15];
 		
-		[buildSet.uiMach attachTo:attacher X:x Y:basePos];
+		[buildSet.uiMach attachTo:attacher X:x Y:basePos-16];
 		
 /*		NSString *machName = [GINFO getDescription:[NSString stringWithFormat:@"MN_%@", buildSet.machName]];
 		if(machName == nil) machName = buildSet.machName;
 		[attacher attachText:machName ToX:x Y:basePos-40 Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:10];
 */		if(type == BMT_BUILDMACH)
 		{
-			[attacher attachText:[NSString stringWithFormat:@"%d", set->cost] ToX:x-60 Y:basePos+31 Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14];
+			[attacher attachText:[NSString stringWithFormat:@"%d", set->cost] ToX:x Y:basePos-38 Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14];
 		}
 		else
 		{
 			[attacher attachImage:[TILEMGR getImage:@"Btn_BuildMachUpgrade.png"] ToX:x-73 Y:basePos-18];
 			[attacher attachText:[NSString stringWithFormat:@"%d/%d", buildSet.level+1, buildSet.maxLevel] ToX:x-60 Y:basePos+31 Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14];
-			[attacher attachText:[NSString stringWithFormat:@"%dcr", set->upgradeCost] ToX:x-42 Y:basePos-21 Align:UITextAlignmentRight Font:@"TrebuchetMS-Bold" FontSize:12];
+			[attacher attachText:[NSString stringWithFormat:@"%dcr", set->upgradeCost] ToX:x Y:basePos-30 Align:UITextAlignmentRight Font:@"TrebuchetMS-Bold" FontSize:12];
 		}
-		basePos -= 102.f;
+		basePos -= 88.f;
 		btnCnt++;
 	}
 	tile = [TILEMGR makeTileWithImageAttacher:attacher];
@@ -149,60 +149,60 @@
 		[btn setBoundWidth:180 * GWORLD.deviceScale Height:96 * GWORLD.deviceScale];
 		[btn setDataObject:buildSet];
 		[btn setIntData:_buildBtnCnt];
-		[btn setPosX:x Y:basePos];
+		[btn setPosX:x Y:basePos-30];
 		[_imgButtonBG addChild:btn];
 		_buildButton[_buildBtnCnt].btn = btn;
-		basePos -= 102.f * GWORLD.deviceScale;
+		basePos -= 88.f * GWORLD.deviceScale;
 		
-		NSString *machName = [GINFO getDescription:[NSString stringWithFormat:@"MN_%@", buildSet.machName]];
-		if(machName == nil) machName = buildSet.machName;
-		QobText *text = [[QobText alloc] initWithString:machName Size:CGSizeMake(128, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:11 Retina:true];
-		[text setColorR:240 G:255 B:255];
-		[text setPosY:-43 * GWORLD.deviceScale];
-		[text setLayer:VLAYER_FOREMOST];
-		[btn addChild:text];
+//		NSString *machName = [GINFO getDescription:[NSString stringWithFormat:@"MN_%@", buildSet.machName]];
+//		if(machName == nil) machName = buildSet.machName;
+//		QobText *text = [[QobText alloc] initWithString:machName Size:CGSizeMake(128, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:11 Retina:true];
+//		[text setColorR:240 G:255 B:255];
+//		[text setPosY:-43 * GWORLD.deviceScale];
+//		[text setLayer:VLAYER_FOREMOST];
+//		[btn addChild:text];
 
-		if(type == BMT_BUILDMACH)
-		{
-			for(int j = 0; j < set->multiBuild; j++)
-			{
-				tile = [TILEMGR getTileForRetina:@"Btn_BuildMachInd.png"];
-				[tile tileSplitX:2 splitY:1];
-				img = [[QobImage alloc] initWithTile:tile tileNo:1];
-				[img setUseAtlas:TRUE];
-				[img setPosX:-45 * GWORLD.deviceScale Y:(-3-j*13) * GWORLD.deviceScale];
-				[btn addChild:img];
-				if(j < 5) _buildButton[_buildBtnCnt].buildIcon[j] = img;
-			}
-
-			tile = [TILEMGR getTileForRetina:@"BuildMach_Cover.png"];
-			[tile tileSplitX:1 splitY:1];
-			img = [[QobImage alloc] initWithTile:tile tileNo:1];
-			[img setUseAtlas:TRUE];
-			[img setLayer:VLAYER_FOREMOST];
-			[img setShow:false];
-			[img setPosX:-19 * GWORLD.deviceScale Y:-17 * GWORLD.deviceScale];
-			[btn addChild:img];
-			_buildButton[_buildBtnCnt].imgDimd = img;
-		}
-		else
-		{
-			if(GSLOT->cr >= set->upgradeCost)
-			{
-				tile = [TILEMGR getTileForRetina:@"Btn_BuildMachUpgradeOn.png"];
-				[tile tileSplitX:1 splitY:1];
-				img = [[QobImage alloc] initWithTile:tile tileNo:1];
-				[img setUseAtlas:TRUE];
-				[img setPosX:-72 * GWORLD.deviceScale Y:-3 * GWORLD.deviceScale];
-				[btn addChild:img];
-				_buildButton[_buildBtnCnt].imgDimd = img;
-			}
-			else
-			{
-				_buildButton[_buildBtnCnt].imgDimd = nil;
-			}
-
-		}
+//		if(type == BMT_BUILDMACH)
+//		{
+//			for(int j = 0; j < set->multiBuild; j++)
+//			{
+//				tile = [TILEMGR getTileForRetina:@"Btn_BuildMachInd.png"];
+//				[tile tileSplitX:2 splitY:1];
+//				img = [[QobImage alloc] initWithTile:tile tileNo:1];
+//				[img setUseAtlas:TRUE];
+//				[img setPosX:-45 * GWORLD.deviceScale Y:(-3-j*13) * GWORLD.deviceScale];
+//				[btn addChild:img];
+//				if(j < 5) _buildButton[_buildBtnCnt].buildIcon[j] = img;
+//			}
+//
+//			tile = [TILEMGR getTileForRetina:@"BuildMach_Cover.png"];
+//			[tile tileSplitX:1 splitY:1];
+//			img = [[QobImage alloc] initWithTile:tile tileNo:1];
+//			[img setUseAtlas:TRUE];
+//			[img setLayer:VLAYER_FOREMOST];
+//			[img setShow:false];
+//			[img setPosX:-19 * GWORLD.deviceScale Y:-17 * GWORLD.deviceScale];
+//			[btn addChild:img];
+//			_buildButton[_buildBtnCnt].imgDimd = img;
+//		}
+//		else
+//		{
+//			if(GSLOT->cr >= set->upgradeCost)
+//			{
+//				tile = [TILEMGR getTileForRetina:@"Btn_BuildMachUpgradeOn.png"];
+//				[tile tileSplitX:1 splitY:1];
+//				img = [[QobImage alloc] initWithTile:tile tileNo:1];
+//				[img setUseAtlas:TRUE];
+//				[img setPosX:-72 * GWORLD.deviceScale Y:-3 * GWORLD.deviceScale];
+//				[btn addChild:img];
+//				_buildButton[_buildBtnCnt].imgDimd = img;
+//			}
+//			else
+//			{
+//				_buildButton[_buildBtnCnt].imgDimd = nil;
+//			}
+//
+//		}
 
 		_buildBtnCnt++;
 	}
@@ -245,12 +245,12 @@
 				if([GAMEUI.buildSlot buildCount] >= BUILDSLOT_SIZE || GVAL.mineral < buildBtn->buildSet->cost || buildBtn->buildSet->buildCount >= buildBtn->buildSet->multiBuild || GWORLD.state != GSTATE_PLAY)
 				{
 					[buildBtn->btn setActive:false];
-					[buildBtn->imgDimd setShow:true];
+//					[buildBtn->imgDimd setShow:true];
 				}
 				else
 				{
 					[buildBtn->btn setActive:true];
-					[buildBtn->imgDimd setShow:false];
+//					[buildBtn->imgDimd setShow:false];
 				}
 				
 				for(int j = 0; j < buildBtn->buildSet->multiBuild && j < 5; j++)
@@ -258,13 +258,13 @@
 					[buildBtn->buildIcon[j] setTileNo:j < buildBtn->buildSet->multiBuild - buildBtn->buildSet->buildCount ? 1 : 0];
 				}
 			}
-			else
-			{
-				if(buildBtn->imgDimd != nil)
-				{
-					[buildBtn->imgDimd setShow:((int)(g_time * 2.f) % 2) == 0];
-				}
-			}
+//			else
+//			{
+//				if(buildBtn->imgDimd != nil)
+//				{
+//					[buildBtn->imgDimd setShow:((int)(g_time * 2.f) % 2) == 0];
+//				}
+//			}
 
 		}
 	}

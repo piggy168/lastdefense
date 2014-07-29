@@ -19,6 +19,8 @@
 #import "GuiSelectSlot.h"
 #import "GuiSelectStage.h"
 #import "GuiGame.h"
+#import "DlgShop.h"
+#import "DlgShopSpecial.h"
 #import "QobAffecter.h"
 
 GameMain *g_main = nil;
@@ -31,6 +33,7 @@ float g_time = 0.0;
 {
 	[super init];
 	
+    _uiShopMach = nil;
 	_zLayer = VLAYER_MIDDLE;
 
 	[self start];
@@ -197,6 +200,17 @@ float g_time = 0.0;
 	if(_uiTitle != nil)			{ [_uiTitle remove];				_uiTitle = nil; }
 	if(_uiSelSlot != nil)		{ [_uiSelSlot remove];				_uiSelSlot = nil; }
 	if(_uiSelStage != nil)		{ [_uiSelStage remove];				_uiSelStage = nil; }
+    if(_uiShopMach != nil)
+    {
+        [_uiShopMach remove];
+        _uiShopMach = nil;
+    }
+    
+    if(_uiShopSpecial != nil)
+    {
+        [_uiShopSpecial remove];
+        _uiShopSpecial = nil;
+    }
 	
 	if(_world != nil && [_world isShow])
 	{
@@ -227,9 +241,15 @@ float g_time = 0.0;
         else [_imgLoadingCenter setPosX:160 Y:320];
     }
 
-	_prevScreen = _screen;
 	_screen = screen;
 	_scrChangeState = SCRCHG_START;
+}
+
+- (void)makeScreen:(int)screen
+{
+    _screen = screen;
+    [self refreshScreen];
+    _prevScreen = _screen;
 }
 
 - (void)refreshScreen
@@ -243,7 +263,41 @@ float g_time = 0.0;
 		case GSCR_SELECTSTAGE:		[self setScreen_SelectStage];		break;
 		case GSCR_GAME:				[self setScreen_Game];				break;
 		case GSCR_CLEARSTAGE:											break;
+        case GSCR_SHOPMACH:			[self setScreen_Shop:GSCR_SHOPMACH];			break;
+        case GSCR_SHOPSPECIAL:      [self setScreen_Shop:GSCR_SHOPSPECIAL];         break;
 	}
+}
+
+- (void)setScreen_Shop:(int)type
+{
+    if(type == _prevScreen) return;
+    
+    if(_uiShopMach)
+    {
+        [_uiShopMach remove];
+        _uiShopMach = nil;
+    }
+    
+    if(_uiShopSpecial)
+    {
+        [_uiShopSpecial remove];
+        _uiShopSpecial = nil;
+    }
+    
+    if(type == GSCR_SHOPMACH)
+    {
+        _uiShopMach = [[DlgShop alloc] init];
+        [_uiShopMach setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
+        [self addChild:_uiShopMach];
+        //[_uiShopMach release];
+    }
+    else if(type == GSCR_SHOPSPECIAL)
+    {
+        _uiShopSpecial = [[DlgShopSpecial alloc] init];
+        [_uiShopSpecial setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
+        [self addChild:_uiShopSpecial];
+        //[_uiShopSpecial release];
+    }
 }
 
 - (void)setScreen_Title

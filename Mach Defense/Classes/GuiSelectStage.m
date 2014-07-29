@@ -8,7 +8,8 @@
 
 #import "GuiSelectStage.h"
 #import "DlgShop.h"
-#import "DlgUpgradeEquip.h"
+//#import "DlgShopSpecial.h"
+//#import "DlgUpgradeEquip.h"
 
 @implementation GuiSelectStage
 
@@ -20,7 +21,8 @@
 	_tileResMgr = [[ResMgr_Tile alloc] init];
     _btnMNG = [[NSMutableArray alloc] init];
     
-    _dlgShop = nil;
+//    _dlgShop = nil;
+//    _dlgShopSpecial = nil;
 	
 	Tile2D *tile = nil;
 	QobImage *img = nil;
@@ -81,7 +83,7 @@
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_frame_menu_bomb.png"];
     [tile tileSplitX:1 splitY:3];
-    btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UNIT1];
+    btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_SPECIAL_ATTACK];
 	[btn setReleaseTileNo:1];
 	//[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX: 544 Y:80];
@@ -96,7 +98,7 @@
     //	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
 	else [btn setPosX:60 Y:20];
-	[btn setLayer:VLAYER_FORE_UI2+1];
+	[btn setLayer:VLAYER_FORE_UI2];
 	[self addChild:btn];
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_btn_mechs.png"];
@@ -106,17 +108,17 @@
     //	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
 	else [btn setPosX:160 Y:20];
-	[btn setLayer:VLAYER_FORE_UI2+1];
+	[btn setLayer:VLAYER_FORE_UI2];
 	[self addChild:btn];
     
     tile = [_tileResMgr getTileForRetina:@"worldmap_btn_bombs.png"];
 	[tile tileSplitX:1 splitY:3];
-	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_BOMB];
+	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_SPECIAL_ATTACK];
 	[btn setReleaseTileNo:1];
     //	[btn setBoundWidth:80 Height:40];
 	if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
 	else [btn setPosX:260 Y:20];
-	[btn setLayer:VLAYER_FORE_UI2+1];
+	[btn setLayer:VLAYER_FORE_UI2];
 	[self addChild:btn];
 	
 	_sel = GSLOT->lastStage;
@@ -144,11 +146,17 @@
 	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
 	[nc removeObserver:self];
     
-    if(_dlgShop)
-    {
-        [_dlgShop remove];
-        _dlgShop = nil;
-    }
+//    if(_dlgShop)
+//    {
+//        [_dlgShop remove];
+//        _dlgShop = nil;
+//    }
+//    
+//    if(_dlgShopSpecial)
+//    {
+//        [_dlgShopSpecial remove];
+//        _dlgShopSpecial = nil;
+//    }
 	
 	[_tileResMgr removeAllTiles];
 	[_tileResMgr release];
@@ -313,7 +321,7 @@
 	
 	if([[note name]isEqualToString:@"PushButton"])
 	{
-        if( button.buttonId == BTNID_UNIT || button.buttonId == BTNID_UNIT1)
+        if( button.buttonId == BTNID_UNIT || button.buttonId == BTNID_SPECIAL_ATTACK)
         {
             _isClick = YES;
             _mode = 1;
@@ -359,20 +367,33 @@
     {
         if(_isClick)
         {
-            if( button.buttonId == BTNID_UNIT || button.buttonId == BTNID_UNIT1 )
+            if( button.buttonId == BTNID_UNIT )
             {
-                if(_dlgShop)
+//                if(_dlgShop)
+//                {
+//                    [_dlgShop remove];
+//                    _dlgShop = nil;
+//                }
+//                else
                 {
-                    [_dlgShop remove];
-                    _dlgShop = nil;
+                    [g_main makeScreen:GSCR_SHOPMACH];
+//                    DlgShop *dlgShop = [[DlgShop alloc] init];
+//                    [dlgShop setLayer:VLAYER_MIDDLE-2];
+//                    [dlgShop setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2+24];
+//                    [self addChild:dlgShop];
+//                    _dlgShop = dlgShop;
                 }
-                else
+            }
+            else if( button.buttonId == BTNID_SPECIAL_ATTACK )
+            {
+//                if(_dlgShopSpecial)
+//                {
+//                    [_dlgShopSpecial remove];
+//                    _dlgShopSpecial = nil;
+//                }
+//                else
                 {
-                    DlgShop *dlgShop = [[DlgShop alloc] init];
-                    [dlgShop setLayer:VLAYER_MIDDLE-2];
-                    [dlgShop setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2+24];
-                    [self addChild:dlgShop];
-                    _dlgShop = dlgShop;
+                    [g_main makeScreen:GSCR_SHOPSPECIAL];
                 }
             }
             else if(button.buttonId == BTNID_OK)
@@ -417,7 +438,8 @@
     
     if(_mode == 1)
     {
-        [_dlgShop onTap:pt State:state ID:tapID];
+        NSLog(@"GuiSelectStage mode 1 %d [%.02f %.02f]", state, pt.x, pt.y);
+//        [_dlgShop onTap:pt State:state ID:tapID];
         return true;
     }
     

@@ -303,6 +303,14 @@
 	}
 }
 
+- (void)removeAllChild
+{
+    for(QobBase *obj in _childArray)
+	{
+		if(obj != nil) [obj remove];
+	}
+}
+
 - (void)setActive:(BOOL)active
 {
 	_active = active;
@@ -331,6 +339,11 @@
 - (void)setParent:(QobBase *)parent
 {
 	_parent = parent;
+}
+
+- (QobBase *)getParent
+{
+    return _parent;
 }
 
 - (void)setUiReceiver:(bool)uiReceiver

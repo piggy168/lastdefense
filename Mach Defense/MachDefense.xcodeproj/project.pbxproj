@@ -14,9 +14,11 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		DA059AAF19137E2800EE779F /* shop_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA059AAE19137E2800EE779F /* shop_bg.jpg */; };
 		DA1E952B18DD5740005E2F09 /* worldmap_frame_menu_base.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1E952818DD5740005E2F09 /* worldmap_frame_menu_base.png */; };
 		DA1E952C18DD5740005E2F09 /* worldmap_frame_menu_bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1E952918DD5740005E2F09 /* worldmap_frame_menu_bomb.png */; };
 		DA1E952D18DD5740005E2F09 /* worldmap_frame_menu_unit.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1E952A18DD5740005E2F09 /* worldmap_frame_menu_unit.png */; };
+		DA2A80A8196BC4D300A3A72E /* Buy_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2A80A7196BC4D300A3A72E /* Buy_Btn.png */; };
 		DA30DB94186CF4B500D9AF93 /* Efx_BulletTrail_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */; };
 		DA30DB95186CF4B500D9AF93 /* Efx_BulletTrail_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */; };
 		DA40813618D2C7FB00D08666 /* loading_screen01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA40813418D2C7FA00D08666 /* loading_screen01.png */; };
@@ -26,6 +28,7 @@
 		DA43FF671832B07500C2834A /* PartsList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF661832B07500C2834A /* PartsList.tbl */; };
 		DA73CBFA1836B04D002912A9 /* MapList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA73CBF91836B04D002912A9 /* MapList.tbl */; };
 		DA79CB4A1871700F00DD7E45 /* P_Foot_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DA79CB491871700F00DD7E45 /* P_Foot_11.png */; };
+		DA861477192C894900E94276 /* Install_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DA861476192C894900E94276 /* Install_Btn.png */; };
 		DA86AF7E1876C43A00DFB848 /* ESpawn_01.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF381876C43A00DFB848 /* ESpawn_01.tbl */; };
 		DA86AF7F1876C43A00DFB848 /* ESpawn_02.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF391876C43A00DFB848 /* ESpawn_02.tbl */; };
 		DA86AF801876C43A00DFB848 /* ESpawn_03.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA86AF3A1876C43A00DFB848 /* ESpawn_03.tbl */; };
@@ -101,6 +104,9 @@
 		DA86AFC91876C5EB00DFB848 /* P_Foot_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */; };
 		DA870F161891007B000A9D79 /* MachList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA870F151891007B000A9D79 /* MachList.tbl */; };
 		DA8EA0781833647900A12DD5 /* P_Foot_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8EA0771833647900A12DD5 /* P_Foot_07.png */; };
+		DA90496219457AEB005CBB8E /* DlgShopSpecial.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90496119457AEB005CBB8E /* DlgShopSpecial.m */; };
+		DA904966194581C5005CBB8E /* Upgrade_Special_BG_unselect.png in Resources */ = {isa = PBXBuildFile; fileRef = DA904964194581C5005CBB8E /* Upgrade_Special_BG_unselect.png */; };
+		DA904967194581C5005CBB8E /* Upgrade_Special_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = DA904965194581C5005CBB8E /* Upgrade_Special_BG.png */; };
 		DA9409BC18CEDFF000FDA2ED /* worldmap_map_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA9409BA18CEDFF000FDA2ED /* worldmap_map_03.jpg */; };
 		DA9409BD18CEDFF000FDA2ED /* worldmap_map_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA9409BB18CEDFF000FDA2ED /* worldmap_map_04.jpg */; };
 		DA9409C118CEE93B00FDA2ED /* worldmap_bar_left.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9409BF18CEE93B00FDA2ED /* worldmap_bar_left.png */; };
@@ -1424,9 +1430,11 @@
 		A89F075218CA670000791217 /* turret_b_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_28.png; path = Resource/Mach/Parts/turret_b_28.png; sourceTree = SOURCE_ROOT; };
 		A89F075318CA670000791217 /* turret_b_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_29.png; path = Resource/Mach/Parts/turret_b_29.png; sourceTree = SOURCE_ROOT; };
 		A89F075418CA670000791217 /* turret_b_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turret_b_30.png; path = Resource/Mach/Parts/turret_b_30.png; sourceTree = SOURCE_ROOT; };
+		DA059AAE19137E2800EE779F /* shop_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shop_bg.jpg; sourceTree = "<group>"; };
 		DA1E952818DD5740005E2F09 /* worldmap_frame_menu_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_frame_menu_base.png; sourceTree = "<group>"; };
 		DA1E952918DD5740005E2F09 /* worldmap_frame_menu_bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_frame_menu_bomb.png; sourceTree = "<group>"; };
 		DA1E952A18DD5740005E2F09 /* worldmap_frame_menu_unit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_frame_menu_unit.png; sourceTree = "<group>"; };
+		DA2A80A7196BC4D300A3A72E /* Buy_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buy_Btn.png; sourceTree = "<group>"; };
 		DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_green.png; sourceTree = "<group>"; };
 		DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_red.png; sourceTree = "<group>"; };
 		DA30DB96186D03B200D9AF93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -1437,6 +1445,7 @@
 		DA43FF661832B07500C2834A /* PartsList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PartsList.tbl; sourceTree = "<group>"; };
 		DA73CBF91836B04D002912A9 /* MapList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapList.tbl; sourceTree = "<group>"; };
 		DA79CB491871700F00DD7E45 /* P_Foot_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_11.png; sourceTree = "<group>"; };
+		DA861476192C894900E94276 /* Install_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Install_Btn.png; sourceTree = "<group>"; };
 		DA86AF381876C43A00DFB848 /* ESpawn_01.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_01.tbl; sourceTree = "<group>"; };
 		DA86AF391876C43A00DFB848 /* ESpawn_02.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_02.tbl; sourceTree = "<group>"; };
 		DA86AF3A1876C43A00DFB848 /* ESpawn_03.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESpawn_03.tbl; sourceTree = "<group>"; };
@@ -1512,6 +1521,10 @@
 		DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_14.png; sourceTree = "<group>"; };
 		DA870F151891007B000A9D79 /* MachList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachList.tbl; sourceTree = "<group>"; };
 		DA8EA0771833647900A12DD5 /* P_Foot_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_07.png; sourceTree = "<group>"; };
+		DA90496019457AEB005CBB8E /* DlgShopSpecial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlgShopSpecial.h; sourceTree = "<group>"; };
+		DA90496119457AEB005CBB8E /* DlgShopSpecial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DlgShopSpecial.m; sourceTree = "<group>"; };
+		DA904964194581C5005CBB8E /* Upgrade_Special_BG_unselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Special_BG_unselect.png; sourceTree = "<group>"; };
+		DA904965194581C5005CBB8E /* Upgrade_Special_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Special_BG.png; sourceTree = "<group>"; };
 		DA9409BA18CEDFF000FDA2ED /* worldmap_map_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap_map_03.jpg; sourceTree = "<group>"; };
 		DA9409BB18CEDFF000FDA2ED /* worldmap_map_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap_map_04.jpg; sourceTree = "<group>"; };
 		DA9409BF18CEE93B00FDA2ED /* worldmap_bar_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_bar_left.png; sourceTree = "<group>"; };
@@ -3008,6 +3021,8 @@
 		DADB2CC018E28CD400BF059A /* uiShop */ = {
 			isa = PBXGroup;
 			children = (
+				DA2A80A7196BC4D300A3A72E /* Buy_Btn.png */,
+				DA059AAE19137E2800EE779F /* shop_bg.jpg */,
 				DADB2CC118E28CD400BF059A /* Done_btn.png */,
 				DADB2CC218E28CD400BF059A /* Shop_Screen_BG.png */,
 				DADB2CC318E28CD400BF059A /* Shop_Screen_BG_right_filter.png */,
@@ -3015,10 +3030,13 @@
 				DADB2CC518E28CD400BF059A /* Side_bar_mech_box.png */,
 				DADB2CC618E28CD400BF059A /* Side_bar_mech_box_cover.png */,
 				DADB2CC718E28CD400BF059A /* Uninstall_Btn.png */,
+				DA861476192C894900E94276 /* Install_Btn.png */,
 				DADB2CC818E28CD400BF059A /* Upgrade_Btn.png */,
 				DADB2CC918E28CD400BF059A /* Upgrade_Mach_BG.png */,
 				DADB2CCA18E28CD400BF059A /* Upgrade_Mach_BG_cover.png */,
 				DADB2CCB18E28CD400BF059A /* Upgrade_Mach_BG_unselect.png */,
+				DA904964194581C5005CBB8E /* Upgrade_Special_BG_unselect.png */,
+				DA904965194581C5005CBB8E /* Upgrade_Special_BG.png */,
 				DADB2CCC18E28CD400BF059A /* Upgrade_Select_border.png */,
 			);
 			path = uiShop;
@@ -4547,6 +4565,8 @@
 				E53CC06611EEAFE3002B0F88 /* GuiHelp.m */,
 				DA97A05818F666B100B34976 /* DlgShop.h */,
 				DA97A05918F666B100B34976 /* DlgShop.m */,
+				DA90496019457AEB005CBB8E /* DlgShopSpecial.h */,
+				DA90496119457AEB005CBB8E /* DlgShopSpecial.m */,
 			);
 			name = "UI Objects";
 			path = Classes;
@@ -6000,6 +6020,11 @@
 				DADB2CD618E28CD400BF059A /* Upgrade_Mach_BG_cover.png in Resources */,
 				DADB2CD718E28CD400BF059A /* Upgrade_Mach_BG_unselect.png in Resources */,
 				DADB2CD818E28CD400BF059A /* Upgrade_Select_border.png in Resources */,
+				DA059AAF19137E2800EE779F /* shop_bg.jpg in Resources */,
+				DA861477192C894900E94276 /* Install_Btn.png in Resources */,
+				DA904966194581C5005CBB8E /* Upgrade_Special_BG_unselect.png in Resources */,
+				DA904967194581C5005CBB8E /* Upgrade_Special_BG.png in Resources */,
+				DA2A80A8196BC4D300A3A72E /* Buy_Btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6090,6 +6115,7 @@
 				E5C9E07712D184CF00043F02 /* GameCenterManager.m in Sources */,
 				E5B761AC12E3ECBF00AF033B /* DlgFormation.m in Sources */,
 				DA97A05A18F666B100B34976 /* DlgShop.m in Sources */,
+				DA90496219457AEB005CBB8E /* DlgShopSpecial.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6101,8 +6127,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: oh donggun (8F64XVU534)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: oh donggun (8F64XVU534)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -6117,8 +6143,8 @@
 					"\"$(SRCROOT)/Classes/TestFlightSDK3.0.0\"",
 				);
 				PRODUCT_NAME = MachDefense;
-				PROVISIONING_PROFILE = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
+				PROVISIONING_PROFILE = "8D02FF14-6511-4039-8729-AE4100A3F06F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8D02FF14-6511-4039-8729-AE4100A3F06F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -6129,8 +6155,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -6144,8 +6170,6 @@
 					"\"$(SRCROOT)/Classes/TestFlightSDK3.0.0\"",
 				);
 				PRODUCT_NAME = MachDefense;
-				PROVISIONING_PROFILE = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A71DD143-D0A0-4627-A9EC-03593DA329E6";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

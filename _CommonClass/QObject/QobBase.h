@@ -65,10 +65,12 @@ enum EUISteate
 - (int)childCount;
 - (QobBase *)childAtIndex:(int)idx;
 - (void)remove;
+- (void)removeAllChild;
 - (void)setActive:(BOOL)active;
 - (void)setLayer:(int)layer;
 - (void)setZOrder:(int)z;
 - (void)setParent:(QobBase *)parent;
+- (QobBase *)getParent;
 - (void)setFixedPos:(bool)fixed;
 - (void)setScale:(float)scale;
 //- (CGPoint *)localPos;

@@ -47,6 +47,7 @@ enum EVLayer
 
 - (void)addUiReceiver:(QobBase *)obj;
 - (void)removeUiReceiver:(QobBase *)obj;
+- (void)removeAllUiReceiver;
 
 - (BOOL)onTap:(CGPoint)pt State:(int)state ID:(id)tapID;
 
