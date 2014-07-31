@@ -14,11 +14,12 @@
 {
     BOOL _isScroll;
     BOOL _canClick;
-    NSMutableArray *_QSLOT;
+    QobImage *_QSLOT[7];
     NSMutableArray *_QLIST;
     QobBase *_base;
     QobText *_cr;
     
+    int _buttonId;
     float _startPos,_scrollPos;
     float _topPos, _bottomPos;
 }
@@ -28,7 +29,7 @@
 - (void) refreshCR;
 - (SpAttackSet *)getAttackSet:(int)unit_id;
 - (void) refreshList:(int)unit_id;
-- (void) uninstallMach:(int)unit_id;//(MachBuildSet *)buildSet;
+- (void) buyAttack:(int)unit_id;
 - (void) upgradeMach:(int)unit_id;
 
 @end

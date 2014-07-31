@@ -297,6 +297,9 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 //		[self addSpAttack:"02001" Cnt:2];
 //		[self addSpAttack:"02011" Cnt:2];
 //		[self addSpAttack:"02021" Cnt:1];
+        
+        GSLOT->cr = 99999;
+        GSLOT->lastStage = 69;
 	}
 	else
 	{

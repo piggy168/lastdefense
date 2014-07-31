@@ -24,7 +24,7 @@
 //    DlgShopSpecial *_dlgShopSpecial;
 	QobImage *_imgSel, *_imgWorldMap;
     QobButton *_btnFight;
-    QobText *_cr;
+//    QobText *_cr;
 
     bool _isClick;
 	int _sel;

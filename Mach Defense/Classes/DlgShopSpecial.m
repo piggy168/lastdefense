@@ -26,7 +26,6 @@
     _scrollPos = 0.0f;
     _topPos = 115.0f+24;
     
-    _QSLOT = [[NSMutableArray alloc]init];
     _QLIST = [[NSMutableArray alloc]init];
     
     Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"shop_bg.jpg"]];
@@ -93,6 +92,7 @@
         QobImage *slot = [[QobImage alloc] initWithTile:tile tileNo:0];
         [bgTop addChild:slot];
         [slot setPosX:106 Y:142-i*50];
+        _QSLOT[i] = slot;
     }
     
     [self updateList];
@@ -174,9 +174,11 @@
 	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
 	[nc removeObserver:self];
 
-    [_QSLOT removeAllObjects];
-    [_QSLOT release];
-    _QSLOT = nil;
+    for(int i=0; i<7; i++)
+    {
+        [_QSLOT[i] removeAllChild];
+    }
+
     [_QLIST removeAllObjects];
     [_QLIST release];
     _QLIST = nil;
@@ -236,7 +238,7 @@
 
         tile = [TILEMGR getTileForRetina:@"Buy_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100+i];
+        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:-100*attack->itemId-i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:-12 ];
@@ -290,48 +292,34 @@
 
 - (void) updateSlot
 {
-    return;
-    
-    for(GobHvM_Player *slot in _QSLOT)
+    for(int i=0; i<7; i++)
     {
-        [slot remove];
-//        [slot release];
-        slot = nil;
-    }
-    [_QSLOT removeAllObjects];
-    
-    int nSlot = 0;
-    NSArray *listBuildSet = [GINFO listBuyAttackSet];
-    for(MachBuildSet *buildSet in listBuildSet)
-    {
-        bool bActive = buildSet.onSlot;
-        if(bActive)
+        if (_QSLOT[i])
         {
-            TMachBuildSet *set = [buildSet buildSet];
-            GobHvM_Player *pSlotPlayer = [[GobHvM_Player alloc] init];
-            [pSlotPlayer setPosX:106 Y:166-nSlot*50];
-            [self addChild:pSlotPlayer];
-            [pSlotPlayer setDir:M_PI / 2.f];
-            [pSlotPlayer setState:MACHSTATE_STOP];
-            [pSlotPlayer setUiModel:true];
-            [pSlotPlayer setLayer:5];
-            [pSlotPlayer setParts:@"DummyParts" partsType:PARTS_BASE];
-            [_QSLOT addObject:pSlotPlayer];
-            
-            if(buildSet.setType == BST_PARTS)
-            {
-                [pSlotPlayer setStepSize:set->parts->foot.param1];
-                
-                [pSlotPlayer setParts:set->parts->foot.strParam partsType:PARTS_FOOT];
-                [pSlotPlayer setParts:set->parts->armor.strParam partsType:PARTS_BODY];
-                [pSlotPlayer setParts:set->parts->weapon.strParam partsType:PARTS_WPN];
-            }
-            else if(buildSet.setType == BST_NAME)
-            {
-                [pSlotPlayer makeMachFromName:set->name->szMachName];
-            }
-            nSlot++;
+            [_QSLOT[i] removeAllChild];
         }
+    }
+    
+    NSArray *array = [GINFO listBuyAttackSet];
+    int i=0;
+	for(SpAttackSet *set in array)
+    {
+        if(set.count <= 0) continue;
+        TSpAttackSet *attack = [set attackSet];
+        
+        Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Icon%05d.png", attack->itemId]];
+		[tile tileSplitX:1 splitY:1];
+        QobImage *image = [[QobImage alloc] initWithTile:tile tileNo:0];
+        [image setScale:0.75f];
+        [image setPosX:0 Y:0];
+		[_QSLOT[i] addChild:image];
+        
+        QobText *text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d", set.count] Size:CGSizeMake(64, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14 Retina:true];
+        [text setColorR:240 G:255 B:255];
+        [text setPosX:0 Y:-8];
+        [image addChild:text];
+
+        i++;
     }
 }
 
@@ -397,7 +385,7 @@
         
         tile = [TILEMGR getTileForRetina:@"Buy_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100+i];
+        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:-100*attack->itemId-i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:-12 ];
@@ -445,32 +433,26 @@
     [self updateSlot];
 }
 
-- (void)uninstallMach:(int)unit_id
+- (void)buyAttack:(int)unit_id
 {
-    NSArray *listBuildSet = [GINFO listBuyBuildSet];
-    MachBuildSet *buildSet = [listBuildSet objectAtIndex:unit_id];
-	if(buildSet == nil) return;
+    unit_id *= -1;
+    int uid = unit_id/100;
+    int index = unit_id%100;
     
-    int nCount = 0;
-    for(MachBuildSet *buildSet in listBuildSet)
-    {
-        bool bActive = buildSet.onSlot;
-        if(bActive) nCount++;
-    }
-	
-    NSLog(@"BuildSet count %d [%s]",nCount, buildSet.onSlot ? "true" : "false");
-    if(buildSet.onSlot) buildSet.onSlot = false;
-    else if(nCount < 7) buildSet.onSlot = true;
-//	[self refreshButtonsWithType:BMT_UPGRADEMACH];
-//	[GAMEUI.dlgUpgrade refreshMachButtons];
-//	[GAMEUI.dlgUpgrade setUpgradeMachItem:buildSet];
-    [self updateSlot];
+    SpAttackSet *buildSet = [self getAttackSet:uid];
+    if(buildSet == nil) return;
     
-    QobImage *bg = [_QLIST objectAtIndex:unit_id];
-    if(bg)
+    TSpAttackSet *attack = [buildSet attackSet];
+    
+    if(attack)
     {
-        [[bg childAtIndex:1] setVisual:buildSet.onSlot];
-        [[bg childAtIndex:2] setVisual:(!buildSet.onSlot)];
+        if (GSLOT->cr < attack->cost) return;
+        
+		buildSet.count++;
+		GSLOT->cr -= attack->cost;
+        [self refreshCR];
+        [self refreshList:uid*1000+index];
+        [self updateSlot];
     }
 	
 	[SOUNDMGR play:[GINFO sfxID:SND_UNINSTALL]];
@@ -554,17 +536,12 @@
 	}
 	else if([[note name]isEqualToString:@"PopButton"])
 	{
-        if(button.buttonId == 9999)
-        {
-            [GINFO saveDataFile];
-            [g_main makeScreen:GSCR_SELECTSTAGE];
-        }
-        else if( button.buttonId == BTNID_UNIT )
+        if( button.buttonId == BTNID_UNIT )
         {
             [GINFO saveDataFile];
             [g_main makeScreen:GSCR_SHOPMACH];
         }
-        else if( button.buttonId == BTNID_BOMB )
+        else if( button.buttonId == BTNID_BOMB || button.buttonId == 9999)
         {
             [GINFO saveDataFile];
             [g_main makeScreen:GSCR_SELECTSTAGE];
@@ -575,13 +552,13 @@
         else if(_canClick)
         {
             NSLog(@"click unit %d", button.buttonId);
-            if(button.buttonId >= 1000)
+            if((int)button.buttonId < 0)
+            {
+                [self buyAttack:(int)button.buttonId];
+            }
+            else if(button.buttonId >= 1000)
             {
                 [self upgradeMach:button.buttonId];
-            }
-            else if(button.buttonId >= 100)
-            {
-                [self uninstallMach:button.buttonId-100];
             }
         }
 	}

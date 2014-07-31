@@ -48,7 +48,6 @@
 	
 	[SOUNDMGR playBGM:@"UI_BGM.mp3"];
 
-    GSLOT->lastStage = 12;
     [self createWorldMap];
 
 #ifdef _LITE_VERSION_
@@ -181,10 +180,10 @@
     [img setLayer:VLAYER_MIDDLE+1];
     [self addChild:img];
     
-    _cr = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d",GSLOT->cr] Size:CGSizeMake(128, 32) Align:UITextAlignmentRight Font:@"TrebuchetMS-Bold" FontSize:24 Retina:true];
-    [_cr setPosX:-128 Y:-8];
-    [img addChild:_cr];
-    [_cr setColorR:55 G:125 B:126];
+//    _cr = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%d",GSLOT->cr] Size:CGSizeMake(128, 32) Align:UITextAlignmentRight Font:@"TrebuchetMS-Bold" FontSize:24 Retina:true];
+//    [_cr setPosX:-128 Y:-8];
+//    [img addChild:_cr];
+//    [_cr setColorR:55 G:125 B:126];
     
     NSLog(@"crcrcr %d",GSLOT->cr);
     
