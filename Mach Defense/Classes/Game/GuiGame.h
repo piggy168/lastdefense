@@ -56,11 +56,11 @@ typedef struct TPassiveSlot TPassiveSlot;
 	DlgUpgradeBase *_dlgUpgradeBase;
 	QobBase *_dlgSubUI[3];
 	
-	QobImage *_imgUpgradeCell;
+//	QobImage *_imgUpgradeCell;
 	QobText *_textUpgradeCell;
 
 	QobBase *_gameUI, *_baseBuildSlot;
-	QobButton *_makeBtn[3], *_btnSysMenu, *_btnUpgradeBase, *_btnUpgradeEquip;
+	QobButton *_makeBtn[3], *_btnSysMenu, *_btnUpgradeBase;
 	int _uiType, _baseUpgradeStep;
 	float _destUiPos;
 	

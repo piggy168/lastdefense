@@ -47,16 +47,16 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	else
 	{
-		_uiDefaultPos = -220;
+		_uiDefaultPos = -210;
 		_uiWorldMargin = 240;
 		_msgPos = 216.f;
 	}
 
 	[self setLayer:VLAYER_UI];
 
-	tile = [TILEMGR getTileForRetina:@"Ani_BuildMach.png"];		[tile tileSplitX:8 splitY:1];
-	tile = [TILEMGR getTileForRetina:@"Ani_SpAttack.png"];		[tile tileSplitX:8 splitY:1];
-	tile = [TILEMGR getTileForRetina:@"Ani_Formation.png"];		[tile tileSplitX:8 splitY:1];
+//	tile = [TILEMGR getTileForRetina:@"Ani_BuildMach.png"];		[tile tileSplitX:8 splitY:1];
+//	tile = [TILEMGR getTileForRetina:@"Ani_SpAttack.png"];		[tile tileSplitX:8 splitY:1];
+//	tile = [TILEMGR getTileForRetina:@"Ani_Formation.png"];		[tile tileSplitX:8 splitY:1];
 
 	if(_glView.deviceType == DEVICE_IPAD)
 	{
@@ -74,30 +74,31 @@ extern DefaultAppDelegate *_appDelegate;
 	[self addChild:imgBuildSlot];
 	[imgBuildSlot setLayer:VLAYER_FORE];
 	_baseBuildSlot = imgBuildSlot;
+//
+//	tile = [TILEMGR getTileForRetina:@"CellUpgrade.png"];
+//	[tile tileSplitX:1 splitY:1];
+//	img = [[QobImage alloc] initWithTile:tile tileNo:0];
+//	[img setPosX:22 * GWORLD.deviceScale Y:411 * GWORLD.deviceScale];
+//	[img setLayer:VLAYER_UI];
+//	[img setShow:false];
+//	[_baseBuildSlot addChild:img];
+//	_imgUpgradeCell = img;
+//upgrade_btn
+//	btn = [[QobButton alloc] initWithTile:nil TileNo:0 ID:BTNID_UPGRADE_CELL];
+//	[btn setBoundWidth:138 * GWORLD.deviceScale Height:64 * GWORLD.deviceScale];
+//	[btn setPosX:62 * GWORLD.deviceScale Y:426 * GWORLD.deviceScale];
+//	[btn setLayer:VLAYER_UI];
+//    _btnUpgradeBase = btn;
+//	[_baseBuildSlot addChild:btn];
 	
-	tile = [TILEMGR getTileForRetina:@"CellUpgrade.png"];
-	[tile tileSplitX:1 splitY:1];
-	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:22 * GWORLD.deviceScale Y:411 * GWORLD.deviceScale];
-	[img setLayer:VLAYER_UI];
-	[img setShow:false];
-	[_baseBuildSlot addChild:img];
-	_imgUpgradeCell = img;
-
-	btn = [[QobButton alloc] initWithTile:nil TileNo:0 ID:BTNID_UPGRADE_CELL];
-	[btn setBoundWidth:138 * GWORLD.deviceScale Height:64 * GWORLD.deviceScale];
-	[btn setPosX:62 * GWORLD.deviceScale Y:426 * GWORLD.deviceScale];
-	[btn setLayer:VLAYER_UI];
-	[_baseBuildSlot addChild:btn];
-	
-	tile = [TILEMGR getTileForRetina:@"Btn_UpgradeEquip.png"];
-	[tile tileSplitX:1 splitY:4];
-	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UPGRADE_EQUIP];
-	[btn setReleaseTileNo:1];
-	[btn setPosX:74 * GWORLD.deviceScale Y:-350 * GWORLD.deviceScale];
-	[btn setLayer:VLAYER_UI];
-	[imgBuildSlot addChild:btn];
-	_btnUpgradeEquip = btn;
+//	tile = [TILEMGR getTileForRetina:@"Btn_UpgradeEquip.png"];
+//	[tile tileSplitX:1 splitY:4];
+//	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UPGRADE_EQUIP];
+//	[btn setReleaseTileNo:1];
+//	[btn setPosX:74 * GWORLD.deviceScale Y:-350 * GWORLD.deviceScale];
+//	[btn setLayer:VLAYER_UI];
+//	[imgBuildSlot addChild:btn];
+//	_btnUpgradeEquip = btn;
 	
 	tile = [TILEMGR getTileForRetina:@"GameUI_HpGauge.png"];	
 	if(_glView.deviceType == DEVICE_IPAD)
@@ -132,10 +133,39 @@ extern DefaultAppDelegate *_appDelegate;
 		tile = [TILEMGR getTileForRetina:@"UiTitle.png"];
 		[tile tileSplitX:1 splitY:4];
 		img = [[QobImage alloc] initWithTile:tile tileNo:0];
-		[img setPosX:0 Y:16 * GWORLD.deviceScale];
+		[img setPosX:0 Y:24 * GWORLD.deviceScale];
 		[bg addChild:img];
 		_uiTitle = img;
 	}
+    
+    tile = [TILEMGR getTileForRetina:@"Stage_bar.png"]; 
+	[tile tileSplitX:1 splitY:1];
+	QobImage *img_stage = [[QobImage alloc] initWithTile:tile tileNo:0];
+	[img_stage setPosX:-186 * GWORLD.deviceScale Y:-26 * GWORLD.deviceScale];
+    [bg addChild:img_stage];
+    
+    tile = [TILEMGR getTileForRetina:@"Energy_cell.png"];
+	[tile tileSplitX:1 splitY:1];
+	QobImage *img_cr = [[QobImage alloc] initWithTile:tile tileNo:0];
+	[img_cr setPosX:20 * GWORLD.deviceScale Y:14 * GWORLD.deviceScale];
+    [bg addChild:img_cr];
+    
+    tile = [TILEMGR getTileForRetina:@"Credits_bar.png"];
+	[tile tileSplitX:1 splitY:1];
+	QobImage *img_credit = [[QobImage alloc] initWithTile:tile tileNo:0];
+	[img_credit setPosX:-186 * GWORLD.deviceScale Y:10 * GWORLD.deviceScale];
+    [bg addChild:img_credit];
+    
+    tile = [TILEMGR getTileForRetina:@"game_upgrade_btn.png"];
+	[tile tileSplitX:1 splitY:3];
+    
+    btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UPGRADE_CELL];
+	//[btn setBoundWidth:138 * GWORLD.deviceScale Height:64 * GWORLD.deviceScale];
+	[btn setPosX:20 * GWORLD.deviceScale Y:-26 * GWORLD.deviceScale];
+    [bg addChild:btn];
+    [btn setDeactiveTileNo:2];
+    [btn setActive:NO];
+    _btnUpgradeBase = btn;
 
 //	tile = [TILEMGR getTileForRetina:@"GameUI_BtmL.png"];
 //	img = [[QobImage alloc] initWithTile:tile tileNo:0];
@@ -147,17 +177,24 @@ extern DefaultAppDelegate *_appDelegate;
 //	[img setPosX:128 * GWORLD.deviceScale Y:-384 * GWORLD.deviceScale];
 //	[bg addChild:img];
 	
-	tile = [TILEMGR getTileForRetina:@"MachButton.png"];
-	[tile tileSplitX:2 splitY:4];
+	tile = [TILEMGR getTileForRetina:@"Toggle_MechLeft_Btn.png"];
+	[tile tileSplitX:1 splitY:3];
 
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_MAKE_MACH];
-	[btn setPosX:-89 * GWORLD.deviceScale Y:0 * GWORLD.deviceScale];
+	[btn setPosX:194 * GWORLD.deviceScale Y:-4 * GWORLD.deviceScale];
 	[bg addChild:btn];
 	_makeBtn[0] = btn;
+    [btn setActive:NO];
+    [btn setVisual:NO];
+    
+    Tile2D *tile1 = [TILEMGR getTileForRetina:@"Toggle_BombLeft_Btn.png"];
+	[tile1 tileSplitX:1 splitY:3];
 	
-	btn = [[QobButton alloc] initWithTile:tile TileNo:2 ID:BTNID_SPECIAL_ATTACK];
-	[btn setPosX:2 * GWORLD.deviceScale Y:0 * GWORLD.deviceScale];
+	btn = [[QobButton alloc] initWithTile:tile1 TileNo:0 ID:BTNID_SPECIAL_ATTACK];
+	[btn setPosX:194 * GWORLD.deviceScale Y:-4 * GWORLD.deviceScale];
 	[bg addChild:btn];
+//    [btn setVisual:YES];
+//    [btn setActive:YES];
 	_makeBtn[1] = btn;
 	
 /*	btn = [[QobButton alloc] initWithTile:tile TileNo:4 ID:BTNID_FORMATION];
@@ -165,53 +202,53 @@ extern DefaultAppDelegate *_appDelegate;
 	[bg addChild:btn];
 	_makeBtn[2] = btn;
 */	
-	if(_glView.deviceType == DEVICE_IPAD)
-	{
-		tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
-		[tile tileSplitX:16 splitY:1];
-		_numScore = [[QobImageFont alloc] initWithTile:tile];
-		[_numScore setPosX:-270 Y:484];
-		[_numScore setAlignRate:1.f];
-		[_numScore setPitch:9];
-		[_numScore setNumber:0];
-		[self addChild:_numScore];
-	}
-	else
-	{
-		tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
-		[tile tileSplitX:16 splitY:1];
-		_numScore = [[QobImageFont alloc] initWithTile:tile];
-		[_numScore setPosX:-154 Y:-5];
-		[_numScore setAlignRate:0.f];
-		[_numScore setPitch:9];
-		[_numScore setNumber:0];
-		[bg addChild:_numScore];
-	}
+//	if(_glView.deviceType == DEVICE_IPAD)
+//	{
+//		tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
+//		[tile tileSplitX:16 splitY:1];
+//		_numScore = [[QobImageFont alloc] initWithTile:tile];
+//		[_numScore setPosX:-270 Y:484];
+//		[_numScore setAlignRate:1.f];
+//		[_numScore setPitch:9];
+//		[_numScore setNumber:0];
+//		[self addChild:_numScore];
+//	}
+//	else
+//	{
+//		tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
+//		[tile tileSplitX:16 splitY:1];
+//		_numScore = [[QobImageFont alloc] initWithTile:tile];
+//		[_numScore setPosX:16 Y:-2];
+//		[_numScore setAlignRate:0.f];
+//		[_numScore setPitch:9];
+//		[_numScore setNumber:0];
+//		[img_cr addChild:_numScore];
+//	}
 
 	tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
 	[tile tileSplitX:16 splitY:1];
 	_numCr = [[QobImageFont alloc] initWithTile:tile];
 	if(_glView.deviceType == DEVICE_IPAD) [_numCr setPosX:-222 Y:-90];
-	else [_numCr setPosX:-88 Y:-49];
+	else [_numCr setPosX:22 Y:0];
 	[_numCr setAlignRate:1.f];
 	[_numCr setPitch:9];
 	[_numCr setNumber:0];
-	[bg addChild:_numCr];
+	[img_credit addChild:_numCr];
 	
 	tile = [TILEMGR getTileForRetina:@"NumSet_Stage.png"];
 	[tile tileSplitX:16 splitY:1];
 	_numStage = [[QobImageFont alloc] initWithTile:tile];
 	if(_glView.deviceType == DEVICE_IPAD) [_numStage setPosX:-242 Y:-33];
-	else [_numStage setPosX:-96 Y:-28];
+	else [_numStage setPosX:20 Y:-2];
 	[_numStage setAlignRate:.5f];
 	[_numStage setPitch:12];
 	[_numStage setNumber:0];
-	[bg addChild:_numStage];
+	[img_stage addChild:_numStage];
 	
-	tile = [TILEMGR getUniTile:@"QuickBtn.png"];
-	[tile tileSplitX:2 splitY:2];
+	tile = [TILEMGR getTileForRetina:@"The_Menu_button.png"];
+	[tile tileSplitX:3 splitY:1];
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_GAMEMENU];
-	[btn setReleaseTileNo:1];
+//	[btn setReleaseTileNo:1];
 	if(_glView.deviceType == DEVICE_IPAD)
 	{
 		[btn setPosX:288 Y:-20];
@@ -219,41 +256,54 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	else
 	{
-		[btn setPosX:124 Y:8];
-		[btn setBoundWidth:120 Height:50];
+		[btn setPosX:132 Y:430];
+//		[btn setBoundWidth:120 Height:50];
 	}
 	[bg addChild:btn];
 	_btnSysMenu = btn;
 	
-	btn = [[QobButton alloc] initWithTile:tile TileNo:2 ID:BTNID_UPGRADE_BASE];
-	[btn setReleaseTileNo:3];
-	if(_glView.deviceType == DEVICE_IPAD)
-	{
-		[btn setPosX:288 Y:-85];
-		[btn setBoundWidth:180 Height:64];
-	}
-	else
-	{
-		[btn setPosX:124 Y:-51];
-		[btn setBoundWidth:80 Height:22];
-	}
-	[bg addChild:btn];
-	_btnUpgradeBase = btn;
+//	btn = [[QobButton alloc] initWithTile:tile TileNo:2 ID:BTNID_UPGRADE_BASE];
+//	[btn setReleaseTileNo:3];
+//	if(_glView.deviceType == DEVICE_IPAD)
+//	{
+//		[btn setPosX:288 Y:-85];
+//		[btn setBoundWidth:180 Height:64];
+//	}
+//	else
+//	{
+//		[btn setPosX:124 Y:-51];
+//		[btn setBoundWidth:80 Height:22];
+//	}
+//	[bg addChild:btn];
+//	_btnUpgradeBase = btn;
 	
 	tile = [TILEMGR getTileForRetina:@"EnemyGauge.png"];
 	[tile tileSplitX:1 splitY:2];
 	img = [[QobImage alloc] initWithTile:tile tileNo:1];
 	[img setUseAtlas:true];
-	[img setPosX:0 Y:_glView.deviceType == DEVICE_IPAD ? 499 : 233.5];
+	[img setPosX:30 Y:_glView.deviceType == DEVICE_IPAD ? 499 : 230];
 	[self addChild:img];
 	_gaugeEnemy = img;
 
 	img = [[QobImage alloc] initWithTile:tile tileNo:0];
 	[img setUseAtlas:true];
-	[img setPosX:0 Y:_glView.deviceType == DEVICE_IPAD ? 499 : 233.5];
+	[img setPosX:-100 Y:_glView.deviceType == DEVICE_IPAD ? 499 : 231];
 	[self addChild:img];
 	_gaugeMyBase = img;
-	
+    
+    tile = [TILEMGR getTileForRetina:@"blue_team_icon.png"];
+	[tile tileSplitX:1 splitY:1];
+    img = [[QobImage alloc] initWithTile:tile tileNo:1];
+    [img setPosX:-150 Y:228];
+    [img setLayer:VLAYER_UI2];
+	[self addChild:img];
+    
+    tile = [TILEMGR getTileForRetina:@"red_team_icon.png"];
+	[tile tileSplitX:1 splitY:1];
+    img = [[QobImage alloc] initWithTile:tile tileNo:1];
+    [img setPosX:82 Y:228];
+    [img setLayer:VLAYER_UI2];
+	[self addChild:img];
 
 	tile = [TILEMGR getTileForRetina:@"MessageBox.png"];
 	[tile tileSplitX:1 splitY:2];
@@ -268,14 +318,17 @@ extern DefaultAppDelegate *_appDelegate;
 	[self addChild:_dlgRadar];
 	[_dlgRadar setLayer:VLAYER_UI];
 
-	tile = [TILEMGR getTileForRetina:@"NumSet_Stage.png"];
+	tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
 	[tile tileSplitX:16 splitY:1];
 	_numMineral = [[QobImageFont alloc] initWithTile:tile];
-	[_numMineral setPosX:60 * GWORLD.deviceScale Y:438 * GWORLD.deviceScale];
+	[_numMineral setPosX:-8 Y:0];
 	[_numMineral setAlignRate:1.f];
 	[_numMineral setPitch:12];
-	[_numMineral setNumber:0];
-	[imgBuildSlot addChild:_numMineral];
+    char szBuff[128];
+    sprintf(szBuff, "0/0");
+    [_numMineral setText:szBuff];
+//	[_numMineral setNumber:0];
+	[img_cr addChild:_numMineral];
 	
 	tile = [TILEMGR getTileForRetina:@"NumSet_Level.png"];
 	[tile tileSplitX:16 splitY:1];
@@ -394,11 +447,11 @@ extern DefaultAppDelegate *_appDelegate;
 	
 	if(GVAL.cellUpgrade < 5 && GVAL.mineral >= GVAL.cellUpgradeCost)
 	{
-		[_imgUpgradeCell setShow:((int)(g_time * 2.f) % 2) == 0];
+		[_btnUpgradeBase setActive:true];
 	}
 	else
 	{
-		[_imgUpgradeCell setShow:false];
+		[_btnUpgradeBase setActive:false];
 	}
 
 
@@ -454,13 +507,13 @@ extern DefaultAppDelegate *_appDelegate;
 
 	}
 	
-	if(_numScore.num != GSLOT->cr)
-	{
-		int num = _numScore.num;
-		EASYOUT(num, GSLOT->score, 5);
-		if(abs(num - GSLOT->score) < 5) num = GSLOT->score;
-		[_numScore setNumber:num];
-	}
+//	if(_numScore.num != GSLOT->cr)
+//	{
+//		int num = _numScore.num;
+//		EASYOUT(num, GSLOT->score, 5);
+//		if(abs(num - GSLOT->score) < 5) num = GSLOT->score;
+//		[_numScore setNumber:num];
+//	}
 	
 	if(_numCr.num != GSLOT->cr)
 	{
@@ -475,7 +528,10 @@ extern DefaultAppDelegate *_appDelegate;
 		int num = _numMineral.num;
 		EASYOUT(num, GVAL.mineral, 5);
 		if(abs(num - GVAL.mineral) < 5) num = GVAL.mineral;
-		[_numMineral setNumber:num];
+        char szBuff[128];
+        sprintf(szBuff, "%.0f/%.0f" ,GVAL.mineral ,GVAL.maxMineral);
+        [_numMineral setText:szBuff];
+		//[_numMineral setNumber:num];
 	}
 	
 	[super tick];
@@ -485,8 +541,8 @@ extern DefaultAppDelegate *_appDelegate;
 {
 	if(btnID == BTNID_GAMEMENU)
 	{
-		[_btnUpgradeBase setActive:FALSE];
-		[_baseBuildSlot setActive:FALSE];
+//		[_btnUpgradeBase setActive:FALSE];
+//		[_baseBuildSlot setActive:FALSE];
 		for(int i = 0; i < 3; i++)
 		{
 			[_makeBtn[i] setActive:FALSE];
@@ -504,13 +560,13 @@ extern DefaultAppDelegate *_appDelegate;
 	else if(btnID == BTNID_UPGRADE_EQUIP)
 	{
 		[_btnSysMenu setActive:FALSE];
-		[_btnUpgradeBase setActive:FALSE];
+//		[_btnUpgradeBase setActive:FALSE];
 	}
 	else
 	{
 		[_btnSysMenu setActive:FALSE];
-		[_btnUpgradeBase setActive:FALSE];
-		[_baseBuildSlot setActive:FALSE];
+//		[_btnUpgradeBase setActive:FALSE];
+//		[_baseBuildSlot setActive:FALSE];
 		for(int i = 0; i < 3; i++)
 		{
 			[_makeBtn[i] setActive:FALSE];
@@ -522,8 +578,8 @@ extern DefaultAppDelegate *_appDelegate;
 - (void)turnOnButtons
 {
 	[_btnSysMenu setActive:TRUE];
-	[_btnUpgradeBase setActive:TRUE];
-	[_baseBuildSlot setActive:TRUE];
+//	[_btnUpgradeBase setActive:TRUE];
+//	[_baseBuildSlot setActive:TRUE];
 	for(int i = 0; i < 3; i++)
 	{
 		[_makeBtn[i] setActive:TRUE];
@@ -538,7 +594,7 @@ extern DefaultAppDelegate *_appDelegate;
 
 - (void)onStartStage
 {
-	[_imgUpgradeCell setShow:false];
+	[_btnUpgradeBase setActive:false];
 	
 	[_dlgBuildMach refreshButtonsWithType:BMT_BUILDMACH];
 	[_dlgBuildSpAttack refreshButtonsWithType:BSAT_BUILDATTACK];
@@ -560,27 +616,27 @@ extern DefaultAppDelegate *_appDelegate;
 	for(int i = 0; i < 3; i++)
 	{
 		if(uiType < 4) [_dlgSubUI[i] setShow:i == (_uiType-1)];
-		[_makeBtn[i] setDefaultTileNo:(i == uiType - 1) ? i*2+1 : i*2];
+		[_makeBtn[i] setDefaultTileNo:0];
 	}
 	
 	if(uiType < 4 && _uiTitle != nil) [_uiTitle setTileNo:uiType-1];
 	
-	if(uiType == UITYPE_MAKE_MACH)
-	{
-		[_btnUpgradeEquip setShow:true];
-		[_btnUpgradeEquip setDefaultTileNo:0];
-		[_btnUpgradeEquip setReleaseTileNo:1];
-	}
-	else if(uiType == UITYPE_MAKE_SPATTACK)
-	{
-		[_btnUpgradeEquip setShow:true];
-		[_btnUpgradeEquip setDefaultTileNo:2];
-		[_btnUpgradeEquip setReleaseTileNo:3];
-	}
-	else
-	{
-		[_btnUpgradeEquip setShow:false];
-	}
+//	if(uiType == UITYPE_MAKE_MACH)
+//	{
+//		[_btnUpgradeEquip setShow:true];
+//		[_btnUpgradeEquip setDefaultTileNo:0];
+//		[_btnUpgradeEquip setReleaseTileNo:1];
+//	}
+//	else if(uiType == UITYPE_MAKE_SPATTACK)
+//	{
+//		[_btnUpgradeEquip setShow:true];
+//		[_btnUpgradeEquip setDefaultTileNo:2];
+//		[_btnUpgradeEquip setReleaseTileNo:3];
+//	}
+//	else
+//	{
+//		[_btnUpgradeEquip setShow:false];
+//	}
 
 	
 	[self hideMessage];
@@ -643,7 +699,7 @@ extern DefaultAppDelegate *_appDelegate;
 //	scale = 1.f;
 	[_gaugeEnemy setScaleX:scale];
 	if(_glView.deviceType == DEVICE_IPAD) [_gaugeEnemy setPosX:178 - 81 * scale];
-	else [_gaugeEnemy setPosX:57 - 40.5 * scale];
+	else [_gaugeEnemy setPosX:30 + 91 - 91 * scale];
 }
 
 - (void)refreshMyGauge:(float)scale
@@ -651,12 +707,12 @@ extern DefaultAppDelegate *_appDelegate;
 //	scale = 1.f;
 	[_gaugeMyBase setScaleX:scale];
 	if(_glView.deviceType == DEVICE_IPAD) [_gaugeMyBase setPosX:-180 + 81 * scale];
-	else [_gaugeMyBase setPosX:-128.5 + 40.5 * scale];
+	else [_gaugeMyBase setPosX:-100 - 91 + 91 * scale];
 }
 
 - (void)refreshMaxMineral
 {
-	[_numMaxMineral setNumber:GVAL.maxMineral];
+	//[_numMaxMineral setNumber:GVAL.maxMineral];
 }
 
 - (void)refreshCellUpgradeCost
@@ -664,14 +720,14 @@ extern DefaultAppDelegate *_appDelegate;
 	if(_textUpgradeCell != nil) [_textUpgradeCell remove];
 	
 	NSString *cell;
-	if(GVAL.cellUpgrade < 5) cell = [NSString stringWithFormat:@"%d cell", GVAL.cellUpgradeCost];
+	if(GVAL.cellUpgrade < 5) cell = [NSString stringWithFormat:@"%d", GVAL.cellUpgradeCost];
 	else cell = @"FULL    ";
 	
 	QobText *text = [[QobText alloc] initWithString:cell Size:CGSizeMake(128, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14 Retina:true];
 	[text setColorR:255 G:255 B:255];
-	[text setPosX:96 * GWORLD.deviceScale Y:411 * GWORLD.deviceScale];
+	[text setPosX:46 * GWORLD.deviceScale Y:1];
 	[text setLayer:VLAYER_FORE_UI];
-	[_baseBuildSlot addChild:text];
+	[_btnUpgradeBase addChild:text];
 	_textUpgradeCell = text;
 }
 
@@ -754,7 +810,7 @@ extern DefaultAppDelegate *_appDelegate;
 			{
 				GVAL.cellUpgrade++;
 				GVAL.mineral -= GVAL.cellUpgradeCost;
-				[_imgUpgradeCell setShow:false];
+				[_btnUpgradeBase setActive:false];
 				[GINFO updateBaseUpgrade];
 				[self refreshMaxMineral];
 				[self refreshCellUpgradeCost];
@@ -765,16 +821,21 @@ extern DefaultAppDelegate *_appDelegate;
 		{
 			[self setUiType:UITYPE_MAKE_MACH];
 			if(_dlgUpgrade) [_dlgUpgrade refreshMachButtons];
+            
+            [_makeBtn[0] setVisual:NO];
+            [_makeBtn[1] setVisual:YES];
+            [_makeBtn[0] setActive:NO];
+            [_makeBtn[1] setActive:YES];
 
-			Tile2D *tile = [TILEMGR getTile:@"Ani_BuildMach.png"];
-			QobParticle *particle = [[QobParticle alloc] init];
-			[particle setTile:tile tileNo:0];
-			[particle setBlendType:BT_NORMAL];
-			[particle setLiveTime:tile.tileCnt * 0.06f];
-			[particle setTileAni:tile.tileCnt];
-			[particle setSelfRemove:YES];
-			[button addChild:particle];
-			[particle start];
+//			Tile2D *tile = [TILEMGR getTile:@"Ani_BuildMach.png"];
+//			QobParticle *particle = [[QobParticle alloc] init];
+//			[particle setTile:tile tileNo:0];
+//			[particle setBlendType:BT_NORMAL];
+//			[particle setLiveTime:tile.tileCnt * 0.06f];
+//			[particle setTileAni:tile.tileCnt];
+//			[particle setSelfRemove:YES];
+//			[button addChild:particle];
+//			[particle start];
 			
 			[SOUNDMGR play:[GINFO sfxID:SND_UI_BUILDMACH]];
 		}
@@ -782,16 +843,21 @@ extern DefaultAppDelegate *_appDelegate;
 		{
 			[self setUiType:UITYPE_MAKE_SPATTACK];
 			if(_dlgUpgrade) [_dlgUpgrade refreshAttackButtons];
+            
+            [_makeBtn[0] setVisual:YES];
+            [_makeBtn[1] setVisual:NO];
+            [_makeBtn[0] setActive:YES];
+            [_makeBtn[1] setActive:NO];
 
-			Tile2D *tile = [TILEMGR getTile:@"Ani_SpAttack.png"];
-			QobParticle *particle = [[QobParticle alloc] init];
-			[particle setTile:tile tileNo:0];
-			[particle setBlendType:BT_NORMAL];
-			[particle setLiveTime:tile.tileCnt * 0.06f];
-			[particle setTileAni:tile.tileCnt];
-			[particle setSelfRemove:YES];
-			[button addChild:particle];
-			[particle start];
+//			Tile2D *tile = [TILEMGR getTile:@"Ani_SpAttack.png"];
+//			QobParticle *particle = [[QobParticle alloc] init];
+//			[particle setTile:tile tileNo:0];
+//			[particle setBlendType:BT_NORMAL];
+//			[particle setLiveTime:tile.tileCnt * 0.06f];
+//			[particle setTileAni:tile.tileCnt];
+//			[particle setSelfRemove:YES];
+//			[button addChild:particle];
+//			[particle start];
 
 			[SOUNDMGR play:[GINFO sfxID:SND_UI_SPATTACK]];
 		}

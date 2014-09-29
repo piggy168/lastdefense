@@ -21,7 +21,7 @@
 - (id)init
 {
 	[super init];
-	
+	NSLog(@"DlgBuildMach");
 	Tile2D *tile;
 	QobImage *img;
 	
@@ -89,7 +89,7 @@
 	
 	int x = 200;
 	ImageAttacher *attacher = [[ImageAttacher alloc] initWithWidth:256 Height:1024 Name:attachTileName];
-	[attacher attachImage:[TILEMGR getImage:@"GameUI_MachSlot.png"] ToX:256-68 Y:526];
+	[attacher attachImage:[TILEMGR getImage:@"GameUI_MachSlot.png"] ToX:256-68 Y:480];
 
 	int btnCnt = 0;
 	float basePos = 800;

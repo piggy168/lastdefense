@@ -37,7 +37,7 @@
 - (id)init
 {
 	[super init];
-	
+	NSLog(@"DlgSpecialAttack");
 	Tile2D *tile;
 	QobImage *img;
 	
@@ -146,7 +146,7 @@
         [btn setLayer:3];
 		[_buttons addChild:btn];
 		
-		tile = [TILEMGR getTileForRetina:@"Side_bar_mech_box.png"];
+		tile = [TILEMGR getTileForRetina:@"Side_bar_bomb_box.png"];
 		[tile tileSplitX:1 splitY:1];
 		QobImage *body = [[QobImage alloc] initWithTile:tile tileNo:1];
 		[body setUseAtlas:TRUE];

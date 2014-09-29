@@ -21,6 +21,11 @@
 		DA2A80A8196BC4D300A3A72E /* Buy_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2A80A7196BC4D300A3A72E /* Buy_Btn.png */; };
 		DA30DB94186CF4B500D9AF93 /* Efx_BulletTrail_green.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */; };
 		DA30DB95186CF4B500D9AF93 /* Efx_BulletTrail_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */; };
+		DA3EC31F198B80C7006B7798 /* Credits_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3EC31B198B80C7006B7798 /* Credits_bar.png */; };
+		DA3EC320198B80C7006B7798 /* Energy_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3EC31C198B80C7006B7798 /* Energy_cell.png */; };
+		DA3EC321198B80C7006B7798 /* Stage_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3EC31D198B80C7006B7798 /* Stage_bar.png */; };
+		DA3EC329198CE527006B7798 /* The_Menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3EC328198CE527006B7798 /* The_Menu_button.png */; };
+		DA3EC32B198F5078006B7798 /* game_upgrade_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3EC32A198F5078006B7798 /* game_upgrade_btn.png */; };
 		DA40813618D2C7FB00D08666 /* loading_screen01.png in Resources */ = {isa = PBXBuildFile; fileRef = DA40813418D2C7FA00D08666 /* loading_screen01.png */; };
 		DA40813718D2C7FB00D08666 /* loading_screen02.png in Resources */ = {isa = PBXBuildFile; fileRef = DA40813518D2C7FB00D08666 /* loading_screen02.png */; };
 		DA43FF5A18322CEF00C2834A /* MachInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5618322CEE00C2834A /* MachInfo.mcb */; };
@@ -150,6 +155,8 @@
 		DADC602A1883AC9D00A544B9 /* BaseUpgrade.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC60291883AC9D00A544B9 /* BaseUpgrade.tbl */; };
 		DADC602C1883ACAE00A544B9 /* WeaponInfo.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC602B1883ACAE00A544B9 /* WeaponInfo.tbl */; };
 		DADC602E1883ACD600A544B9 /* TileList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DADC602D1883ACD600A544B9 /* TileList.tbl */; };
+		DAE6769019CFF70800C2D583 /* blue_team_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE6768F19CFF70800C2D583 /* blue_team_icon.png */; };
+		DAE6769319CFF72400C2D583 /* red_team_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE6769219CFF72400C2D583 /* red_team_icon.png */; };
 		DAF1522318C9A6B600331C03 /* Turret_b_06.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520A18C9A6B500331C03 /* Turret_b_06.png */; };
 		DAF1522418C9A6B600331C03 /* Turret_b_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520B18C9A6B500331C03 /* Turret_b_07.png */; };
 		DAF1522518C9A6B600331C03 /* Turret_b_08.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF1520C18C9A6B500331C03 /* Turret_b_08.png */; };
@@ -1432,6 +1439,11 @@
 		DA2A80A7196BC4D300A3A72E /* Buy_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buy_Btn.png; sourceTree = "<group>"; };
 		DA30DB92186CF4B500D9AF93 /* Efx_BulletTrail_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_green.png; sourceTree = "<group>"; };
 		DA30DB93186CF4B500D9AF93 /* Efx_BulletTrail_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_BulletTrail_red.png; sourceTree = "<group>"; };
+		DA3EC31B198B80C7006B7798 /* Credits_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Credits_bar.png; sourceTree = "<group>"; };
+		DA3EC31C198B80C7006B7798 /* Energy_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Energy_cell.png; sourceTree = "<group>"; };
+		DA3EC31D198B80C7006B7798 /* Stage_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stage_bar.png; sourceTree = "<group>"; };
+		DA3EC328198CE527006B7798 /* The_Menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Menu_button.png; sourceTree = "<group>"; };
+		DA3EC32A198F5078006B7798 /* game_upgrade_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_upgrade_btn.png; sourceTree = "<group>"; };
 		DA40813418D2C7FA00D08666 /* loading_screen01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_screen01.png; sourceTree = "<group>"; };
 		DA40813518D2C7FB00D08666 /* loading_screen02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_screen02.png; sourceTree = "<group>"; };
 		DA43FF5618322CEE00C2834A /* MachInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachInfo.mcb; sourceTree = "<group>"; };
@@ -1563,6 +1575,8 @@
 		DADC60291883AC9D00A544B9 /* BaseUpgrade.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaseUpgrade.tbl; sourceTree = "<group>"; };
 		DADC602B1883ACAE00A544B9 /* WeaponInfo.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WeaponInfo.tbl; sourceTree = "<group>"; };
 		DADC602D1883ACD600A544B9 /* TileList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TileList.tbl; sourceTree = "<group>"; };
+		DAE6768F19CFF70800C2D583 /* blue_team_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_team_icon.png; sourceTree = "<group>"; };
+		DAE6769219CFF72400C2D583 /* red_team_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_team_icon.png; sourceTree = "<group>"; };
 		DAF1520A18C9A6B500331C03 /* Turret_b_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_06.png; sourceTree = "<group>"; };
 		DAF1520B18C9A6B500331C03 /* Turret_b_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_07.png; sourceTree = "<group>"; };
 		DAF1520C18C9A6B500331C03 /* Turret_b_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turret_b_08.png; sourceTree = "<group>"; };
@@ -3502,6 +3516,10 @@
 		E53CB42511EEAAC3002B0F88 /* uiGame */ = {
 			isa = PBXGroup;
 			children = (
+				DAE6768F19CFF70800C2D583 /* blue_team_icon.png */,
+				DAE6769219CFF72400C2D583 /* red_team_icon.png */,
+				DA3EC32A198F5078006B7798 /* game_upgrade_btn.png */,
+				DA3EC328198CE527006B7798 /* The_Menu_button.png */,
 				DA94BBD01988B36700E90C38 /* Toggle_BombLeft_Btn.png */,
 				DA94BBD11988B36700E90C38 /* Toggle_MechLeft_Btn.png */,
 				E5AFAEFF12B9E47D00BE15A5 /* iPad_GameUI_BG.png */,
@@ -3513,6 +3531,9 @@
 				E5A930D612B1E64100939CDE /* UiTitle.png */,
 				E5A930FD12B1F63C00939CDE /* GameUI_HpGauge.png */,
 				E52B4FEA12965E4F0022EB7E /* GameUI_BuildSlot.png */,
+				DA3EC31B198B80C7006B7798 /* Credits_bar.png */,
+				DA3EC31C198B80C7006B7798 /* Energy_cell.png */,
+				DA3EC31D198B80C7006B7798 /* Stage_bar.png */,
 				E52B4FEB12965E4F0022EB7E /* GameUI_MachSlot.png */,
 				E5DDC3A0123637EE00477306 /* MakeMach_Mach.png */,
 				E5C0869E1293A046000D315D /* Btn_BuildMach.png */,
@@ -6003,6 +6024,13 @@
 				DA94BBD31988B36700E90C38 /* Toggle_MechLeft_Btn.png in Resources */,
 				DA94BBD51988B37B00E90C38 /* Side_bar_bomb_box.png in Resources */,
 				DA94BBD71988B3D900E90C38 /* Side_bar_bomb_box_cover.png in Resources */,
+				DA3EC31F198B80C7006B7798 /* Credits_bar.png in Resources */,
+				DA3EC320198B80C7006B7798 /* Energy_cell.png in Resources */,
+				DA3EC321198B80C7006B7798 /* Stage_bar.png in Resources */,
+				DA3EC329198CE527006B7798 /* The_Menu_button.png in Resources */,
+				DA3EC32B198F5078006B7798 /* game_upgrade_btn.png in Resources */,
+				DAE6769019CFF70800C2D583 /* blue_team_icon.png in Resources */,
+				DAE6769319CFF72400C2D583 /* red_team_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

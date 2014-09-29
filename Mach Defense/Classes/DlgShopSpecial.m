@@ -88,7 +88,7 @@
     
     for(int i=0; i<7; i++)
     {
-        tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Side_bar_mech_box.png"]];
+        tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Side_bar_bomb_box.png"]];
         QobImage *slot = [[QobImage alloc] initWithTile:tile tileNo:0];
         [bgTop addChild:slot];
         [slot setPosX:106 Y:142-i*50];
@@ -227,7 +227,8 @@
         tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Icon%05d.png", attack->itemId]];
 		[tile tileSplitX:1 splitY:1];
         QobImage *image = [[QobImage alloc] initWithTile:tile tileNo:0];
-        [image setPosX:-138 * GWORLD.deviceScale Y:8 * GWORLD.deviceScale];
+        [image setPosX:-138 * GWORLD.deviceScale Y:11 * GWORLD.deviceScale];
+        [image setScale:0.9f];
 		[bg addChild:image];
         
         QobText *text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%@", set.attackName] Size:CGSizeMake(128, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14 Retina:true];
@@ -262,10 +263,11 @@
             tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Icon%05d.png", attack->itemId]];
         }
         else tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Icon%05d.png", nextAttack->itemId]];
-        
+
         [tile tileSplitX:1 splitY:1];
         QobImage *image2 = [[QobImage alloc] initWithTile:tile tileNo:0];
-        [image2 setPosX:-16 * GWORLD.deviceScale Y:8 * GWORLD.deviceScale];
+        [image2 setPosX:-16 * GWORLD.deviceScale Y:11 * GWORLD.deviceScale];
+        [image2 setScale:0.9f];
         [bg addChild:image2];
         
         int upgradeCost = nextAttack ? attack->upgradeCost + (nextAttack->cost - attack->cost) * set.count : 0;
@@ -310,7 +312,6 @@
         Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Icon%05d.png", attack->itemId]];
 		[tile tileSplitX:1 splitY:1];
         QobImage *image = [[QobImage alloc] initWithTile:tile tileNo:0];
-        [image setScale:0.75f];
         [image setPosX:0 Y:0];
 		[_QSLOT[i] addChild:image];
         
@@ -374,7 +375,8 @@
         Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Icon%05d.png", attack->itemId]];
 		[tile tileSplitX:1 splitY:1];
         QobImage *image = [[QobImage alloc] initWithTile:tile tileNo:0];
-        [image setPosX:-138 * GWORLD.deviceScale Y:8 * GWORLD.deviceScale];
+        [image setPosX:-138 * GWORLD.deviceScale Y:11 * GWORLD.deviceScale];
+        [image setScale:0.9f];
 		[bg addChild:image];
         
         QobText *text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%@", set.attackName] Size:CGSizeMake(128, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14 Retina:true];
@@ -411,7 +413,8 @@
         
         [tile tileSplitX:1 splitY:1];
         QobImage *image2 = [[QobImage alloc] initWithTile:tile tileNo:0];
-        [image2 setPosX:-16 * GWORLD.deviceScale Y:8 * GWORLD.deviceScale];
+        [image2 setPosX:-16 * GWORLD.deviceScale Y:11 * GWORLD.deviceScale];
+        [image2 setScale:0.9f];
         [bg addChild:image2];
         
         int upgradeCost = nextAttack ? attack->upgradeCost + (nextAttack->cost - attack->cost) * set.count : 0;
