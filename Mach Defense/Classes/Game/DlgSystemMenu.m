@@ -20,6 +20,11 @@
 	
 	_thumbPos = THUMB_POS * GWORLD.deviceScale;
 	_thumbSize = THUMB_SIZE * GWORLD.deviceScale;
+    
+    QobText *title_text = [[QobText alloc] initWithString:@"OPTION" Size:CGSizeMake(360, 26) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:26 Retina:true];
+    [title_text setColorR:255 G:255 B:255];
+    [title_text setPosX:20 Y:58];
+    [_bgMid addChild:title_text];
 	
 	float vol = 0.8f;
 	QobButton *btn;
@@ -32,7 +37,7 @@
 	{
 		btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:btnID[i]];
 		[btn setReleaseTileNo:1];
-		[btn setPosY:(154 - i * 64.f) * GWORLD.deviceScale];
+		[btn setPosY:(50 - i * 60.f) * GWORLD.deviceScale];
 		[btn setBoundWidth:480 * GWORLD.deviceScale Height:48 * GWORLD.deviceScale];
 		[_bgMid addChild:btn];
 		
@@ -44,18 +49,18 @@
 	tile = [TILEMGR getTileForRetina:@"VolOption.png"];
 	[tile tileSplitX:1 splitY:2];
 	QobImage *img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:-4 * GWORLD.deviceScale Y:-158 * GWORLD.deviceScale];
+	[img setPosX:-4 * GWORLD.deviceScale Y:-66 * GWORLD.deviceScale];
 	[_bgMid addChild:img];
 	
 	img = [[QobImage alloc] initWithTile:tile tileNo:1];
-	[img setPosX:-4 * GWORLD.deviceScale Y:-204 * GWORLD.deviceScale];
+	[img setPosX:-4 * GWORLD.deviceScale Y:-112 * GWORLD.deviceScale];
 	[_bgMid addChild:img];
 	
 	if(GSLOT != NULL) vol = GSLOT->bgmVol;
 	tile = [TILEMGR getTileForRetina:@"VolOption_Thumb.png"];
 	[tile tileSplitX:1 splitY:1];
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_THUMB_BGM];
-	[btn setPosX:(_thumbPos + vol * _thumbSize ) * GWORLD.deviceScale Y:-158 * GWORLD.deviceScale];
+	[btn setPosX:(_thumbPos + vol * _thumbSize ) * GWORLD.deviceScale Y:-66 * GWORLD.deviceScale];
 	[btn setBoundWidth:64 * GWORLD.deviceScale Height:46 * GWORLD.deviceScale];
 	[_bgMid addChild:btn];
 	[btn setLayer:VLAYER_UI];
@@ -63,7 +68,7 @@
 	
 	if(GSLOT != NULL) vol = GSLOT->sfxVol;
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_THUMB_SFX];
-	[btn setPosX:(_thumbPos + vol * _thumbSize ) * GWORLD.deviceScale Y:-204 * GWORLD.deviceScale];
+	[btn setPosX:(_thumbPos + vol * _thumbSize ) * GWORLD.deviceScale Y:-112 * GWORLD.deviceScale];
 	[btn setBoundWidth:64 * GWORLD.deviceScale Height:46 * GWORLD.deviceScale];
 	[_bgMid addChild:btn];
 	[btn setLayer:VLAYER_UI];
