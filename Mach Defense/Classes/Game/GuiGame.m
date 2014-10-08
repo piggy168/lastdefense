@@ -47,7 +47,7 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	else
 	{
-		_uiDefaultPos = -210;
+		_uiDefaultPos = -250;
 		_uiWorldMargin = 240;
 		_msgPos = 216.f;
 	}
@@ -147,7 +147,7 @@ extern DefaultAppDelegate *_appDelegate;
     tile = [TILEMGR getTileForRetina:@"Energy_cell.png"];
 	[tile tileSplitX:1 splitY:1];
 	QobImage *img_cr = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img_cr setPosX:20 * GWORLD.deviceScale Y:14 * GWORLD.deviceScale];
+	[img_cr setPosX:-120 * GWORLD.deviceScale Y:42 * GWORLD.deviceScale];
     [bg addChild:img_cr];
     
     tile = [TILEMGR getTileForRetina:@"Credits_bar.png"];
@@ -161,7 +161,7 @@ extern DefaultAppDelegate *_appDelegate;
     
     btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_UPGRADE_CELL];
 	//[btn setBoundWidth:138 * GWORLD.deviceScale Height:64 * GWORLD.deviceScale];
-	[btn setPosX:20 * GWORLD.deviceScale Y:-26 * GWORLD.deviceScale];
+	[btn setPosX:80 * GWORLD.deviceScale Y:42 * GWORLD.deviceScale];
     [bg addChild:btn];
     [btn setDeactiveTileNo:2];
     [btn setActive:NO];
@@ -181,7 +181,7 @@ extern DefaultAppDelegate *_appDelegate;
 	[tile tileSplitX:1 splitY:3];
 
 	btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_MAKE_MACH];
-	[btn setPosX:194 * GWORLD.deviceScale Y:-4 * GWORLD.deviceScale];
+	[btn setPosX:262 * GWORLD.deviceScale Y:48 * GWORLD.deviceScale];
 	[bg addChild:btn];
 	_makeBtn[0] = btn;
     [btn setActive:NO];
@@ -191,7 +191,7 @@ extern DefaultAppDelegate *_appDelegate;
 	[tile1 tileSplitX:1 splitY:3];
 	
 	btn = [[QobButton alloc] initWithTile:tile1 TileNo:0 ID:BTNID_SPECIAL_ATTACK];
-	[btn setPosX:194 * GWORLD.deviceScale Y:-4 * GWORLD.deviceScale];
+	[btn setPosX:262 * GWORLD.deviceScale Y:48 * GWORLD.deviceScale];
 	[bg addChild:btn];
 //    [btn setVisual:YES];
 //    [btn setActive:YES];
@@ -256,7 +256,7 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	else
 	{
-		[btn setPosX:132 Y:430];
+		[btn setPosX:132 Y:470];
 //		[btn setBoundWidth:120 Height:50];
 	}
 	[bg addChild:btn];
@@ -330,14 +330,14 @@ extern DefaultAppDelegate *_appDelegate;
 //	[_numMineral setNumber:0];
 	[img_cr addChild:_numMineral];
 	
-	tile = [TILEMGR getTileForRetina:@"NumSet_Level.png"];
-	[tile tileSplitX:16 splitY:1];
-	_numMaxMineral = [[QobImageFont alloc] initWithTile:tile];
-	[_numMaxMineral setPitch:9];
-	[_numMaxMineral setAlignRate:0.f];
-	[_numMaxMineral setPosX:84 * GWORLD.deviceScale Y:434 * GWORLD.deviceScale];
-	[_numMaxMineral setNumber:0];
-	[imgBuildSlot addChild:_numMaxMineral];
+//	tile = [TILEMGR getTileForRetina:@"NumSet_Level.png"];
+//	[tile tileSplitX:16 splitY:1];
+//	_numMaxMineral = [[QobImageFont alloc] initWithTile:tile];
+//	[_numMaxMineral setPitch:9];
+//	[_numMaxMineral setAlignRate:0.f];
+//	[_numMaxMineral setPosX:84 * GWORLD.deviceScale Y:434 * GWORLD.deviceScale];
+//	[_numMaxMineral setNumber:0];
+//	[imgBuildSlot addChild:_numMaxMineral];
 	
 	_dlgBuildMach = [[DlgBuildMach alloc] init];
 	[_dlgBuildMach setPosX:0 Y:0];

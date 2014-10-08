@@ -109,6 +109,10 @@
 		DA86AFC91876C5EB00DFB848 /* P_Foot_14.png in Resources */ = {isa = PBXBuildFile; fileRef = DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */; };
 		DA870F161891007B000A9D79 /* MachList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA870F151891007B000A9D79 /* MachList.tbl */; };
 		DA8EA0781833647900A12DD5 /* P_Foot_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8EA0771833647900A12DD5 /* P_Foot_07.png */; };
+		DA901B2819E3CA8C007547C9 /* Defeat_Headline.png in Resources */ = {isa = PBXBuildFile; fileRef = DA901B2519E3CA8B007547C9 /* Defeat_Headline.png */; };
+		DA901B2A19E3CA8C007547C9 /* Dlg_Screen_Border.png in Resources */ = {isa = PBXBuildFile; fileRef = DA901B2719E3CA8C007547C9 /* Dlg_Screen_Border.png */; };
+		DA901B2C19E3CA99007547C9 /* Victory_Headline.png in Resources */ = {isa = PBXBuildFile; fileRef = DA901B2B19E3CA99007547C9 /* Victory_Headline.png */; };
+		DA901B2E19E51EAD007547C9 /* Dlg_Screen_Border_half.png in Resources */ = {isa = PBXBuildFile; fileRef = DA901B2D19E51EAD007547C9 /* Dlg_Screen_Border_half.png */; };
 		DA90496219457AEB005CBB8E /* DlgShopSpecial.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90496119457AEB005CBB8E /* DlgShopSpecial.m */; };
 		DA904966194581C5005CBB8E /* Upgrade_Special_BG_unselect.png in Resources */ = {isa = PBXBuildFile; fileRef = DA904964194581C5005CBB8E /* Upgrade_Special_BG_unselect.png */; };
 		DA904967194581C5005CBB8E /* Upgrade_Special_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = DA904965194581C5005CBB8E /* Upgrade_Special_BG.png */; };
@@ -217,10 +221,8 @@
 		E51C556311AD1B260073CAA2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E51C556211AD1B260073CAA2 /* libsqlite3.dylib */; };
 		E51C556511AD1B260073CAA2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E51C556411AD1B260073CAA2 /* libz.dylib */; };
 		E51CCFBD11FAB95600AA154E /* Common_Btn_EXIT.png in Resources */ = {isa = PBXBuildFile; fileRef = E51CCFBC11FAB95600AA154E /* Common_Btn_EXIT.png */; };
-		E52B4FC612965B820022EB7E /* Btn_BuildMachUpgrade.png in Resources */ = {isa = PBXBuildFile; fileRef = E52B4FC512965B820022EB7E /* Btn_BuildMachUpgrade.png */; };
 		E52B4FEC12965E4F0022EB7E /* GameUI_BuildSlot.png in Resources */ = {isa = PBXBuildFile; fileRef = E52B4FEA12965E4F0022EB7E /* GameUI_BuildSlot.png */; };
 		E52B4FED12965E4F0022EB7E /* GameUI_MachSlot.png in Resources */ = {isa = PBXBuildFile; fileRef = E52B4FEB12965E4F0022EB7E /* GameUI_MachSlot.png */; };
-		E52B5051129673010022EB7E /* Btn_BuildMachUpgradeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = E52B5050129673010022EB7E /* Btn_BuildMachUpgradeOn.png */; };
 		E52B507B129A0C6A0022EB7E /* CommonUI_Btm.png in Resources */ = {isa = PBXBuildFile; fileRef = E52B5076129A0C6A0022EB7E /* CommonUI_Btm.png */; };
 		E52B507C129A0C6A0022EB7E /* CommonUI_Mid.png in Resources */ = {isa = PBXBuildFile; fileRef = E52B5077129A0C6A0022EB7E /* CommonUI_Mid.png */; };
 		E52B507D129A0C6A0022EB7E /* CommonUI_Summary.png in Resources */ = {isa = PBXBuildFile; fileRef = E52B5078129A0C6A0022EB7E /* CommonUI_Summary.png */; };
@@ -237,7 +239,6 @@
 		E52B5267129B94E80022EB7E /* SpAttackSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B5266129B94E80022EB7E /* SpAttackSet.m */; };
 		E535D856126D3CDE009C6DC1 /* SelMach.png in Resources */ = {isa = PBXBuildFile; fileRef = E535D855126D3CDE009C6DC1 /* SelMach.png */; };
 		E535D8FB126D7AEF009C6DC1 /* MachBuildSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E535D8FA126D7AEF009C6DC1 /* MachBuildSet.m */; };
-		E535DA0B126EB3D3009C6DC1 /* Btn_MachBuild.png in Resources */ = {isa = PBXBuildFile; fileRef = E535DA0A126EB3D3009C6DC1 /* Btn_MachBuild.png */; };
 		E53878DC12B4D8C400C98CC8 /* HMG04.wav in Resources */ = {isa = PBXBuildFile; fileRef = E53878DB12B4D8C400C98CC8 /* HMG04.wav */; };
 		E538790012B4ED9500C98CC8 /* BuildMach.wav in Resources */ = {isa = PBXBuildFile; fileRef = E53878E112B4ED9500C98CC8 /* BuildMach.wav */; };
 		E538790112B4ED9500C98CC8 /* BuildMachComplete.wav in Resources */ = {isa = PBXBuildFile; fileRef = E53878E212B4ED9500C98CC8 /* BuildMachComplete.wav */; };
@@ -893,7 +894,6 @@
 		E595296C12951D9B0034BB09 /* P_Wpn_Sni_103.png in Resources */ = {isa = PBXBuildFile; fileRef = E59528DF12951D9B0034BB09 /* P_Wpn_Sni_103.png */; };
 		E595296D12951D9B0034BB09 /* P_Wpn_Sni_104.png in Resources */ = {isa = PBXBuildFile; fileRef = E59528E012951D9B0034BB09 /* P_Wpn_Sni_104.png */; };
 		E59529AC129531EA0034BB09 /* BuildMach_Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = E59529AB129531EA0034BB09 /* BuildMach_Cover.png */; };
-		E59529BE129617730034BB09 /* Btn_UpgradeEquip.png in Resources */ = {isa = PBXBuildFile; fileRef = E59529BD129617730034BB09 /* Btn_UpgradeEquip.png */; };
 		E596AC6812D561F100B9840D /* SummaryBtn_LeaderBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = E596AC6712D561F100B9840D /* SummaryBtn_LeaderBoard.png */; };
 		E59C5BDC12C04E81001C682A /* iPad_SelSlot_Sel.png in Resources */ = {isa = PBXBuildFile; fileRef = E59C5BDB12C04E81001C682A /* iPad_SelSlot_Sel.png */; };
 		E59C5BDF12C04E8D001C682A /* iPon_SelSlot_Sel.png in Resources */ = {isa = PBXBuildFile; fileRef = E59C5BDD12C04E8D001C682A /* iPon_SelSlot_Sel.png */; };
@@ -1287,8 +1287,6 @@
 		E5CE35BE12A4FC49002E1E02 /* Btn_BaseUpgrade_CellStorage.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B812A4FC48002E1E02 /* Btn_BaseUpgrade_CellStorage.png */; };
 		E5CE35BF12A4FC49002E1E02 /* Btn_BaseUpgrade_CrResearch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B912A4FC48002E1E02 /* Btn_BaseUpgrade_CrResearch.png */; };
 		E5CE35EE12A5E9FE002E1E02 /* BaseUpgradeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE35ED12A5E9FE002E1E02 /* BaseUpgradeSet.m */; };
-		E5CE367E12A62982002E1E02 /* Btn_UpgradeBase_Close.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE367C12A62982002E1E02 /* Btn_UpgradeBase_Close.png */; };
-		E5CE367F12A62982002E1E02 /* Btn_UpgradeBase_Upgrade.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE367D12A62982002E1E02 /* Btn_UpgradeBase_Upgrade.png */; };
 		E5CE36D512A64480002E1E02 /* ZoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE36D412A64480002E1E02 /* ZoneManager.m */; };
 		E5CF5EEF12B858B300E6D857 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CF5EEE12B858B300E6D857 /* iAd.framework */; };
 		E5CF5F2312B8652A00E6D857 /* iPon_SelSlot_BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5CF5F2112B8652A00E6D857 /* iPon_SelSlot_BG.jpg */; };
@@ -1527,6 +1525,10 @@
 		DA86AFC81876C5EB00DFB848 /* P_Foot_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_14.png; sourceTree = "<group>"; };
 		DA870F151891007B000A9D79 /* MachList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MachList.tbl; sourceTree = "<group>"; };
 		DA8EA0771833647900A12DD5 /* P_Foot_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_07.png; sourceTree = "<group>"; };
+		DA901B2519E3CA8B007547C9 /* Defeat_Headline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defeat_Headline.png; sourceTree = "<group>"; };
+		DA901B2719E3CA8C007547C9 /* Dlg_Screen_Border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dlg_Screen_Border.png; sourceTree = "<group>"; };
+		DA901B2B19E3CA99007547C9 /* Victory_Headline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Victory_Headline.png; sourceTree = "<group>"; };
+		DA901B2D19E51EAD007547C9 /* Dlg_Screen_Border_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dlg_Screen_Border_half.png; sourceTree = "<group>"; };
 		DA90496019457AEB005CBB8E /* DlgShopSpecial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlgShopSpecial.h; sourceTree = "<group>"; };
 		DA90496119457AEB005CBB8E /* DlgShopSpecial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DlgShopSpecial.m; sourceTree = "<group>"; };
 		DA904964194581C5005CBB8E /* Upgrade_Special_BG_unselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upgrade_Special_BG_unselect.png; sourceTree = "<group>"; };
@@ -1641,10 +1643,8 @@
 		E51C556211AD1B260073CAA2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		E51C556411AD1B260073CAA2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		E51CCFBC11FAB95600AA154E /* Common_Btn_EXIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Common_Btn_EXIT.png; sourceTree = "<group>"; };
-		E52B4FC512965B820022EB7E /* Btn_BuildMachUpgrade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BuildMachUpgrade.png; sourceTree = "<group>"; };
 		E52B4FEA12965E4F0022EB7E /* GameUI_BuildSlot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameUI_BuildSlot.png; sourceTree = "<group>"; };
 		E52B4FEB12965E4F0022EB7E /* GameUI_MachSlot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameUI_MachSlot.png; sourceTree = "<group>"; };
-		E52B5050129673010022EB7E /* Btn_BuildMachUpgradeOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BuildMachUpgradeOn.png; sourceTree = "<group>"; };
 		E52B5076129A0C6A0022EB7E /* CommonUI_Btm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommonUI_Btm.png; sourceTree = "<group>"; };
 		E52B5077129A0C6A0022EB7E /* CommonUI_Mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommonUI_Mid.png; sourceTree = "<group>"; };
 		E52B5078129A0C6A0022EB7E /* CommonUI_Summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommonUI_Summary.png; sourceTree = "<group>"; };
@@ -1666,7 +1666,6 @@
 		E535D855126D3CDE009C6DC1 /* SelMach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelMach.png; sourceTree = "<group>"; };
 		E535D8F9126D7AEF009C6DC1 /* MachBuildSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachBuildSet.h; sourceTree = "<group>"; };
 		E535D8FA126D7AEF009C6DC1 /* MachBuildSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachBuildSet.m; sourceTree = "<group>"; };
-		E535DA0A126EB3D3009C6DC1 /* Btn_MachBuild.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_MachBuild.png; sourceTree = "<group>"; };
 		E53878DB12B4D8C400C98CC8 /* HMG04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HMG04.wav; sourceTree = "<group>"; };
 		E53878E112B4ED9500C98CC8 /* BuildMach.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BuildMach.wav; sourceTree = "<group>"; };
 		E53878E212B4ED9500C98CC8 /* BuildMachComplete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BuildMachComplete.wav; sourceTree = "<group>"; };
@@ -2353,7 +2352,6 @@
 		E59528DF12951D9B0034BB09 /* P_Wpn_Sni_103.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Wpn_Sni_103.png; sourceTree = "<group>"; };
 		E59528E012951D9B0034BB09 /* P_Wpn_Sni_104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Wpn_Sni_104.png; sourceTree = "<group>"; };
 		E59529AB129531EA0034BB09 /* BuildMach_Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuildMach_Cover.png; sourceTree = "<group>"; };
-		E59529BD129617730034BB09 /* Btn_UpgradeEquip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_UpgradeEquip.png; sourceTree = "<group>"; };
 		E596AC6712D561F100B9840D /* SummaryBtn_LeaderBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SummaryBtn_LeaderBoard.png; sourceTree = "<group>"; };
 		E59C5BDB12C04E81001C682A /* iPad_SelSlot_Sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_SelSlot_Sel.png; sourceTree = "<group>"; };
 		E59C5BDD12C04E8D001C682A /* iPon_SelSlot_Sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPon_SelSlot_Sel.png; sourceTree = "<group>"; };
@@ -2782,8 +2780,6 @@
 		E5CE35B912A4FC48002E1E02 /* Btn_BaseUpgrade_CrResearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BaseUpgrade_CrResearch.png; sourceTree = "<group>"; };
 		E5CE35EC12A5E9FE002E1E02 /* BaseUpgradeSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUpgradeSet.h; sourceTree = "<group>"; };
 		E5CE35ED12A5E9FE002E1E02 /* BaseUpgradeSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUpgradeSet.m; sourceTree = "<group>"; };
-		E5CE367C12A62982002E1E02 /* Btn_UpgradeBase_Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_UpgradeBase_Close.png; sourceTree = "<group>"; };
-		E5CE367D12A62982002E1E02 /* Btn_UpgradeBase_Upgrade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_UpgradeBase_Upgrade.png; sourceTree = "<group>"; };
 		E5CE36D312A64480002E1E02 /* ZoneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneManager.h; sourceTree = "<group>"; };
 		E5CE36D412A64480002E1E02 /* ZoneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneManager.m; sourceTree = "<group>"; };
 		E5CF5EEE12B858B300E6D857 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -3469,6 +3465,10 @@
 		E53CB40311EEAAC3002B0F88 /* uiCommon */ = {
 			isa = PBXGroup;
 			children = (
+				DA901B2B19E3CA99007547C9 /* Victory_Headline.png */,
+				DA901B2519E3CA8B007547C9 /* Defeat_Headline.png */,
+				DA901B2719E3CA8C007547C9 /* Dlg_Screen_Border.png */,
+				DA901B2D19E51EAD007547C9 /* Dlg_Screen_Border_half.png */,
 				E53CB40611EEAAC3002B0F88 /* Common_Btn_BACK.png */,
 				E53CB40811EEAAC3002B0F88 /* Common_Btn_CANCEL.png */,
 				E53CB40911EEAAC3002B0F88 /* Common_Btn_CLOSE.png */,
@@ -3539,11 +3539,7 @@
 				E5C0869E1293A046000D315D /* Btn_BuildMach.png */,
 				E5C0869F1293A046000D315D /* Btn_BuildMachBG.png */,
 				E5C086A01293A046000D315D /* Btn_BuildMachInd.png */,
-				E52B4FC512965B820022EB7E /* Btn_BuildMachUpgrade.png */,
-				E52B5050129673010022EB7E /* Btn_BuildMachUpgradeOn.png */,
-				E535DA0A126EB3D3009C6DC1 /* Btn_MachBuild.png */,
 				E59529AB129531EA0034BB09 /* BuildMach_Cover.png */,
-				E59529BD129617730034BB09 /* Btn_UpgradeEquip.png */,
 				E5C4489712A787A10020DC11 /* UpgradeEquip_UpgradeOn.png */,
 				E52B5178129B5DB00022EB7E /* UpgradeEquip_SelMach.png */,
 				E5A467D5129F97DF00B08867 /* UpgradeEquip_MachInfo.png */,
@@ -3561,8 +3557,6 @@
 				E5CE35B712A4FC48002E1E02 /* Btn_BaseUpgrade_CellResearch.png */,
 				E5CE35B812A4FC48002E1E02 /* Btn_BaseUpgrade_CellStorage.png */,
 				E5CE35B912A4FC48002E1E02 /* Btn_BaseUpgrade_CrResearch.png */,
-				E5CE367C12A62982002E1E02 /* Btn_UpgradeBase_Close.png */,
-				E5CE367D12A62982002E1E02 /* Btn_UpgradeBase_Upgrade.png */,
 				E5A55587122CF66F00516555 /* MachButton.png */,
 				E5C448F512A79D020020DC11 /* Ani_BuildMach.png */,
 				E5C448F612A79D020020DC11 /* Ani_Formation.png */,
@@ -5224,7 +5218,6 @@
 				E518A29E1266C761000FDC0F /* E_Base_Rader.png in Resources */,
 				E518A29F1266C761000FDC0F /* E_Base.png in Resources */,
 				E535D856126D3CDE009C6DC1 /* SelMach.png in Resources */,
-				E535DA0B126EB3D3009C6DC1 /* Btn_MachBuild.png in Resources */,
 				E5B0C4331277F9DA0097CEE1 /* NumSet_Mineral.png in Resources */,
 				E5AA8E171288FF0500141BC8 /* Common_Btn_NEW.png in Resources */,
 				E5C083301290FDF2000D315D /* PB_HMG_01.png in Resources */,
@@ -5446,11 +5439,8 @@
 				E595296C12951D9B0034BB09 /* P_Wpn_Sni_103.png in Resources */,
 				E595296D12951D9B0034BB09 /* P_Wpn_Sni_104.png in Resources */,
 				E59529AC129531EA0034BB09 /* BuildMach_Cover.png in Resources */,
-				E59529BE129617730034BB09 /* Btn_UpgradeEquip.png in Resources */,
-				E52B4FC612965B820022EB7E /* Btn_BuildMachUpgrade.png in Resources */,
 				E52B4FEC12965E4F0022EB7E /* GameUI_BuildSlot.png in Resources */,
 				E52B4FED12965E4F0022EB7E /* GameUI_MachSlot.png in Resources */,
-				E52B5051129673010022EB7E /* Btn_BuildMachUpgradeOn.png in Resources */,
 				E52B507B129A0C6A0022EB7E /* CommonUI_Btm.png in Resources */,
 				E52B507C129A0C6A0022EB7E /* CommonUI_Mid.png in Resources */,
 				E52B507D129A0C6A0022EB7E /* CommonUI_Summary.png in Resources */,
@@ -5504,8 +5494,6 @@
 				E5CE35BD12A4FC49002E1E02 /* Btn_BaseUpgrade_CellResearch.png in Resources */,
 				E5CE35BE12A4FC49002E1E02 /* Btn_BaseUpgrade_CellStorage.png in Resources */,
 				E5CE35BF12A4FC49002E1E02 /* Btn_BaseUpgrade_CrResearch.png in Resources */,
-				E5CE367E12A62982002E1E02 /* Btn_UpgradeBase_Close.png in Resources */,
-				E5CE367F12A62982002E1E02 /* Btn_UpgradeBase_Upgrade.png in Resources */,
 				E5C4489812A787A10020DC11 /* UpgradeEquip_UpgradeOn.png in Resources */,
 				E5C448F812A79D020020DC11 /* Ani_BuildMach.png in Resources */,
 				E5C448F912A79D020020DC11 /* Ani_Formation.png in Resources */,
@@ -6031,6 +6019,10 @@
 				DA3EC32B198F5078006B7798 /* game_upgrade_btn.png in Resources */,
 				DAE6769019CFF70800C2D583 /* blue_team_icon.png in Resources */,
 				DAE6769319CFF72400C2D583 /* red_team_icon.png in Resources */,
+				DA901B2819E3CA8C007547C9 /* Defeat_Headline.png in Resources */,
+				DA901B2A19E3CA8C007547C9 /* Dlg_Screen_Border.png in Resources */,
+				DA901B2C19E3CA99007547C9 /* Victory_Headline.png in Resources */,
+				DA901B2E19E51EAD007547C9 /* Dlg_Screen_Border_half.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

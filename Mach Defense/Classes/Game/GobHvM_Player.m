@@ -283,26 +283,15 @@
 		if(_pickupTime != 0.f)
 		{
 			float t = GWORLD.time - _pickupTime;
-			if(t <= .6f)
+			if(t <= .5f)
 			{
 				[_imgPickItem setPosY:(fabs(sinf(t / .6f * M_PI * 3.f) * (20.f * (.6f - t))) + 50.f) * GWORLD.deviceScale];
 			}
 			else
 			{
-				[_imgPickItem setPosY:50.f * GWORLD.deviceScale];
-				if(t > 2.5f)
-				{
-					_imgPickItem.scaleX += .1f;
-					_imgPickItem.scaleY -= .1f;
-					_txtPickItem.scaleY = _imgPickItem.scaleY;
-					
-					if(_imgPickItem.scaleY <= 0.f)
-					{
-						[_imgPickItem setShow:false];
-						_pickupTime = 0.f;
-						_pickupCoin = 0.f;
-					}
-				}
+                [_imgPickItem setShow:false];
+                _pickupTime = 0.f;
+                _pickupCoin = 0.f;
 			}
 		}
 	}

@@ -270,12 +270,12 @@ extern DefaultAppDelegate *_appDelegate;
 	[base setMachType:MACHTYPE_TURRET];
 	[base setDir:0.f];
 	[base setIsBase:TRUE];
-	[base setHp:40000 + 10000 * stage];
-	[base setHpMax:40000 + 10000 * stage];
+	[base setHp:10000 * stage];
+	[base setHpMax:10000 * stage];
 	
 	GobHvM_Player *mach = [[GobHvM_Player alloc] init];
 	mach.layer = VLAYER_FOREMOST;
-	[mach setPosX:0 Y:-_mapHalfLen + 84 * _deviceScale];
+	[mach setPosX:0 Y:-_mapHalfLen + 94 * _deviceScale];
 	[_listPlayerMach addChild:mach];
 	[mach setMachType:MACHTYPE_TURRET];
 	[mach setState:MACHSTATE_STOP];
@@ -320,7 +320,8 @@ extern DefaultAppDelegate *_appDelegate;
 {
 	if(_gameState == GSTATE_CLEARSTAGE) return;
 	[self setGameState:GSTATE_CLEARSTAGE];
-	
+	// dustin. result dialog
+ NSLog(@"Dustin-onClearStage !!!!!!!!!!!!!!!");
 	DlgSummary *summery = [[DlgSummary alloc] initWithClear:true];
 	if(_glView.deviceType == DEVICE_IPAD) [summery setPosX:384 Y:640];
 	else [summery setPosX:130 Y:300];
