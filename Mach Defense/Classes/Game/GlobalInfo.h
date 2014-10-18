@@ -118,6 +118,7 @@ struct TGlobalValue
 	float buildTime, crGen, baseDef;
 	int killEnemies, deadMachs;
 	int cellUpgrade, cellUpgradeCost;
+    unsigned long giveDamage, getDamage ;
 };
 typedef struct TGlobalValue TGlobalValue;
 

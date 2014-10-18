@@ -811,7 +811,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	for(int i = 0; i < table.row; i++)
 	{
 		NSString *machName = [table getString:i Key:@"MachName"];
-
+        NSLog(@"%@",machName);
 		TMachBuildSet buildInfo;
 		buildInfo.buildCount = 0;
 		buildInfo.cost = [table getInt:i Key:@"Cost"];

@@ -256,6 +256,8 @@ extern DefaultAppDelegate *_appDelegate;
 	GVAL.mineral = GVAL.maxMineral * .4f;
 	GVAL.killEnemies = 0;
 	GVAL.deadMachs = 0;
+    GVAL.getDamage = 0;
+    GVAL.giveDamage = 0;
 	GVAL.moveLimit = _mapHalfLen - 50 * _deviceScale;
 	_stageStartTime = _gameTime;
 	
@@ -314,6 +316,9 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	
 	[_appDelegate bannerTurnOff:nil];
+    
+    //test
+    [self onClearStage];
 }
 
 - (void)onClearStage
@@ -324,7 +329,7 @@ extern DefaultAppDelegate *_appDelegate;
  NSLog(@"Dustin-onClearStage !!!!!!!!!!!!!!!");
 	DlgSummary *summery = [[DlgSummary alloc] initWithClear:true];
 	if(_glView.deviceType == DEVICE_IPAD) [summery setPosX:384 Y:640];
-	else [summery setPosX:130 Y:300];
+	else [summery setPosX:130 Y:350];
 	[summery setLayer:VLAYER_UI];
 	[g_main addChild:summery];
 	
@@ -646,6 +651,7 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	
 	GVAL.killEnemies++;
+    GVAL.giveDamage += enemy.hpMax;
 }
 
 - (void)killPlayer:(GobHvM_Player *)player
@@ -671,6 +677,7 @@ extern DefaultAppDelegate *_appDelegate;
 	}
 	
 	GVAL.deadMachs++;
+    GVAL.getDamage += player.hpMax;
 }
 
 - (QobParticle *)getFreeParticle
