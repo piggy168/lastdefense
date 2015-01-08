@@ -54,9 +54,12 @@
 	if(partsInfo.partsType == PARTS_FOOT) _shadowLen = 2.f;
 	if(partsInfo.partsType == PARTS_PROP) _useBaseRot = false;
 
-	if(partsInfo.tileCnt == 0)
+	if(partsInfo.tileCnt == 0 && [partsTileName compare:@""] == NSOrderedSame)
 	{
-		_tile = [[GWORLD tileResMgr] getTile:@"PartsDummy.png"];
+        NSString *parts_name = @"PartsDummy.png";
+//        if([partsTileName compare:@""] != NSOrderedSame)
+//            parts_name = [NSString stringWithString:partsTileName];
+		_tile = [[GWORLD tileResMgr] getTile:parts_name];
 		[_tile tileSplitX:1 splitY:1];
 	}
 	else

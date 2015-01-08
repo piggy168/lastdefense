@@ -318,7 +318,7 @@ extern DefaultAppDelegate *_appDelegate;
 	[_appDelegate bannerTurnOff:nil];
     
     //test
-    [self onClearStage];
+//    [self onClearStage];
 }
 
 - (void)onClearStage

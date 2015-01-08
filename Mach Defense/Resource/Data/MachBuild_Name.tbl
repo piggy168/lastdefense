@@ -14,7 +14,7 @@ P-Sting_02       	700  	2000 	12	1	UNIT 	Bot_P01	Tur_MG_02
 P-Sting_03       	800  	4000	12	1	UNIT 	Bot_P02	Tur_MG_03
 P-Sting_04       	900  	8000	12	1	UNIT 	Bot_P02	Tur_MG_04
 P-Sting_05       	1000  	0   	12	1	UNIT 	Bot_P03	Tur_MG_05
-H-Fume_01     	800  	3000 	12	1	UNIT 	Bot_P01	Tur_Ion_01
+H-Fume_01     	80  	3000 	12	1	UNIT 	Bot_P01	Tur_Ion_01
 H-Fume_02     	1000  	6000 	12	1	UNIT 	Bot_P01	Tur_Ion_02
 H-Fume_03     	1200  	12000	12	1	UNIT 	Bot_P02	Tur_Ion_03
 H-Fume_04     	1500  	24000	12	1	UNIT 	Bot_P02	Tur_Ion_04

@@ -10,7 +10,7 @@
 #import "UiObjMach.h"
 
 @implementation MachBuildSet
-@synthesize onSlot=_onSlot, uiMach=_uiMach, machName=_machName, setType=_setType, level=_level, maxLevel=_maxLevel;
+@synthesize onSlot=_onSlot, uiMach=_uiMach, machName=_machName, setType=_setType, level=_level, maxLevel=_maxLevel, status=_status;
 
 - (void)dealloc
 {
@@ -22,6 +22,15 @@
 	[_uiMach release];
 	
 	[super dealloc];
+}
+
+- (id)init
+{
+    [super init];
+    
+    _status = machbuild_lock;
+    
+    return self;
 }
 
 - (void)setBuildSet:(TMachBuildSet *)buildSet ToLevel:(int)level

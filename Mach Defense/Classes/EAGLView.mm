@@ -34,13 +34,13 @@ EAGLView *_glView = nil;
 {
 	if((self = [super initWithCoder:coder]))
 	{
-#ifdef SCREEN_LANDSCAPE
-		_interfaceOrientation = UIInterfaceOrientationLandscapeRight;
-#else
-		_interfaceOrientation = UIDeviceOrientationPortrait;
-#endif
+//#ifdef SCREEN_LANDSCAPE
+//		_interfaceOrientation = UIInterfaceOrientationLandscapeRight;
+//#else
+//		_interfaceOrientation = UIDeviceOrientationPortrait;
+//#endif
 		[self setMultipleTouchEnabled:YES];
-		[[UIApplication sharedApplication] setStatusBarOrientation:(UIInterfaceOrientation)_interfaceOrientation];
+//		[[UIApplication sharedApplication] setStatusBarOrientation:(UIInterfaceOrientation)_interfaceOrientation];
 		
 		CAEAGLLayer *eaglLayer = (CAEAGLLayer*)[self layer];
 		

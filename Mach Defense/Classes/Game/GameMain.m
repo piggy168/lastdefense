@@ -39,11 +39,11 @@ float g_time = 0.0;
 	[self start];
 	_scrChangeState = SCRCHG_END;
 	
-	if([GAMECENTER isGameCenterAvailable])
-	{
-		[GAMECENTER authenticateLocalPlayer];
-		[GAMECENTER registerForAuthenticationNotification];
-	}
+//	if([GAMECENTER isGameCenterAvailable])
+//	{
+//		[GAMECENTER authenticateLocalPlayer];
+//		[GAMECENTER registerForAuthenticationNotification];
+//	}
 
 #ifdef _ON_DEBUG_
 	Tile2D *tile = [TILEMGR getTile:@"NumSet01b.png"];

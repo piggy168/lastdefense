@@ -56,6 +56,7 @@ extern EAGLView *_glView;
     return NO;
 }
 
+- (BOOL)prefersStatusBarHidden {return YES;}
 
 - (void)didReceiveMemoryWarning
 {

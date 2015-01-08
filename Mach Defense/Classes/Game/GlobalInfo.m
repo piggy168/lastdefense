@@ -273,27 +273,27 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	{
 		MachBuildSet *buildSet;
    		buildSet = [self buyBuildSet:@"Griffon"];			buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"Phoenix"];             buildSet.onSlot = true;
+//        buildSet = [self buyBuildSet:@"Phoenix"];             buildSet.onSlot = true;
         buildSet = [self buyBuildSet:@"Unicorn"];             buildSet.onSlot = true;
         buildSet = [self buyBuildSet:@"Cerberus"];             buildSet.onSlot = true;
         
-        buildSet = [self buyBuildSet:@"Manticore"];             buildSet.onSlot = false;
-        buildSet = [self buyBuildSet:@"Pagasus"];             buildSet.onSlot = false;
-        buildSet = [self buyBuildSet:@"Hydra"];             buildSet.onSlot = false;
-		buildSet = [self buyBuildSet:@"G-Claw"];			buildSet.onSlot = false;
-		buildSet = [self buyBuildSet:@"U-Horn"];				buildSet.onSlot = false;
-		buildSet = [self buyBuildSet:@"P-Sting"];				buildSet.onSlot = false;
-		buildSet = [self buyBuildSet:@"H-Fume"];			buildSet.onSlot = false;
-        buildSet = [self buyBuildSet:@"C-Fang"];             buildSet.onSlot = false;
-        buildSet = [self buyBuildSet:@"M-Spine"];             buildSet.onSlot = false;
-        buildSet = [self buyBuildSet:@"Minotaur"];             buildSet.onSlot = false;
+//        buildSet = [self buyBuildSet:@"Manticore"];             buildSet.onSlot = false;
+//        buildSet = [self buyBuildSet:@"Pagasus"];             buildSet.onSlot = false;
+//        buildSet = [self buyBuildSet:@"Hydra"];             buildSet.onSlot = false;
+//		buildSet = [self buyBuildSet:@"G-Claw"];			buildSet.onSlot = false;
+//		buildSet = [self buyBuildSet:@"U-Horn"];				buildSet.onSlot = false;
+//		buildSet = [self buyBuildSet:@"P-Sting"];				buildSet.onSlot = false;
+//		buildSet = [self buyBuildSet:@"H-Fume"];			buildSet.onSlot = false;
+//        buildSet = [self buyBuildSet:@"C-Fang"];             buildSet.onSlot = false;
+//        buildSet = [self buyBuildSet:@"M-Spine"];             buildSet.onSlot = false;
+//        buildSet = [self buyBuildSet:@"Minotaur"];             buildSet.onSlot = false;
 
 		SpAttackSet *attackSet;
 		attackSet = [self buyAttackSet:@"AirStrike-Bomb" Count:2];		attackSet.onSlot = true;
 		attackSet = [self buyAttackSet:@"AirStrike-Missile" Count:2];	attackSet.onSlot = true;
-		attackSet = [self buyAttackSet:@"AirStrike-Nuclear" Count:0];	attackSet.onSlot = false;
-		attackSet = [self buyAttackSet:@"Crossfire-Missile" Count:0];	attackSet.onSlot = false;
-        attackSet = [self buyAttackSet:@"AirStrike-EMP" Count:0];       attackSet.onSlot = false;
+//		attackSet = [self buyAttackSet:@"AirStrike-Nuclear" Count:0];	attackSet.onSlot = false;
+//		attackSet = [self buyAttackSet:@"Crossfire-Missile" Count:0];	attackSet.onSlot = false;
+//        attackSet = [self buyAttackSet:@"AirStrike-EMP" Count:0];       attackSet.onSlot = false;
 //		[self addSpAttack:"02001" Cnt:2];
 //		[self addSpAttack:"02011" Cnt:2];
 //		[self addSpAttack:"02021" Cnt:1];
@@ -903,6 +903,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	TMachBuildSet *buildSet = [set buildSet];
 	if(set != nil)
 	{
+        NSLog(@"try to buyBuildSet [%@]",buildName);
 		if(![self existBuyBuildSet:buildName])
 		{
 			for(int i = 0; i < _listBuyBuildSet.count && insPos == -1; i++)

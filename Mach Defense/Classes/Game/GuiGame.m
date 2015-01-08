@@ -312,11 +312,11 @@ extern DefaultAppDelegate *_appDelegate;
 	[_imgMsgBox setShow:false];
 	[self addChild:_imgMsgBox];
 
-	_dlgRadar = [[DlgRadar alloc] init];
-	if(_glView.deviceType == DEVICE_IPAD) [_dlgRadar setPosX:-329 Y:312];
-	else [_dlgRadar setPosX:-142 Y:158];
-	[self addChild:_dlgRadar];
-	[_dlgRadar setLayer:VLAYER_UI];
+//	_dlgRadar = [[DlgRadar alloc] init];
+//	if(_glView.deviceType == DEVICE_IPAD) [_dlgRadar setPosX:-329 Y:312];
+//	else [_dlgRadar setPosX:-142 Y:158];
+//	[self addChild:_dlgRadar];
+//	[_dlgRadar setLayer:VLAYER_UI];
 
 	tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
 	[tile tileSplitX:16 splitY:1];
@@ -989,11 +989,11 @@ extern DefaultAppDelegate *_appDelegate;
 			[_appDelegate bannerTurnOff:nil];
 			
 			[GINFO saveDataFile];
-#ifdef _LITE_VERSION_
-			if(strcmp(GSLOT->name, "GimmeCr") != 0) [GAMECENTER reportScore:GSLOT->score forCategory:@"MDL_HIGHSCORE"];
-#else
-			if(strcmp(GSLOT->name, "GimmeCr") != 0) [GAMECENTER reportScore:GSLOT->score forCategory:@"HIGHSCORE"];
-#endif
+//#ifdef _LITE_VERSION_
+//			if(strcmp(GSLOT->name, "GimmeCr") != 0) [GAMECENTER reportScore:GSLOT->score forCategory:@"MDL_HIGHSCORE"];
+//#else
+//			if(strcmp(GSLOT->name, "GimmeCr") != 0) [GAMECENTER reportScore:GSLOT->score forCategory:@"HIGHSCORE"];
+//#endif
 			[g_main changeScreen:GSCR_TITLE];
 		}
 		else if(button.buttonId == BTNID_VISIT_INDIEAPPS)
@@ -1016,7 +1016,7 @@ extern DefaultAppDelegate *_appDelegate;
 			[_appDelegate bannerTurnOff:nil];
 			
 			[SOUNDMGR play:[GINFO sfxID:SND_MENU_CLICK]];
-			if(GAMECENTER.isAuth) [_glView.viewController showLeaderboard]; 
+//			if(GAMECENTER.isAuth) [_glView.viewController showLeaderboard]; 
 		}
 	}
 }

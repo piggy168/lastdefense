@@ -236,7 +236,7 @@
         if([strUnlock compare:@"-"] != NSOrderedSame)
         {
             NSLog(@"%@ !!!!!",strUnlock);
-            MachBuildSet *mach = [GINFO buyBuildSet:strUnlock];
+            MachBuildSet *mach = [GINFO getMachBuildSet:strUnlock];
             
             QobImage *img = [[QobImage alloc] initWithTile:[mach machTile] tileNo:0];
             [img setUseAtlas:true];

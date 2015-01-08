@@ -31,6 +31,8 @@
 		DA43FF5A18322CEF00C2834A /* MachInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5618322CEE00C2834A /* MachInfo.mcb */; };
 		DA43FF5C18322CEF00C2834A /* PartsInfo.mcb in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF5818322CEE00C2834A /* PartsInfo.mcb */; };
 		DA43FF671832B07500C2834A /* PartsList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA43FF661832B07500C2834A /* PartsList.tbl */; };
+		DA563D5A1A5E550600B01A78 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA563D581A5E550600B01A78 /* MainWindow_iPhone.xib */; };
+		DA563D5B1A5E550600B01A78 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA563D591A5E550600B01A78 /* MainWindow.xib */; };
 		DA73CBFA1836B04D002912A9 /* MapList.tbl in Resources */ = {isa = PBXBuildFile; fileRef = DA73CBF91836B04D002912A9 /* MapList.tbl */; };
 		DA79CB4A1871700F00DD7E45 /* P_Foot_11.png in Resources */ = {isa = PBXBuildFile; fileRef = DA79CB491871700F00DD7E45 /* P_Foot_11.png */; };
 		DA861477192C894900E94276 /* Install_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DA861476192C894900E94276 /* Install_Btn.png */; };
@@ -1352,7 +1354,6 @@
 		E5DDC4181237537A00477306 /* WndBuildSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DDC4171237537A00477306 /* WndBuildSlot.m */; };
 		E5DDC41B1237556A00477306 /* BuildItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DDC41A1237556A00477306 /* BuildItem.m */; };
 		E5DDC4571237685A00477306 /* BuildGauge.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DDC4561237685900477306 /* BuildGauge.png */; };
-		E5E902EA11D9D5F500EE4990 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E902E911D9D5F500EE4990 /* MainWindow_iPhone.xib */; };
 		FD211F691325C7C3004EB335 /* Efx_Explode01.png in Resources */ = {isa = PBXBuildFile; fileRef = FD211F481325C7C3004EB335 /* Efx_Explode01.png */; };
 		FD211F6A1325C7C3004EB335 /* Efx_Explode02.png in Resources */ = {isa = PBXBuildFile; fileRef = FD211F491325C7C3004EB335 /* Efx_Explode02.png */; };
 		FD211F6B1325C7C3004EB335 /* Efx_Explode03.png in Resources */ = {isa = PBXBuildFile; fileRef = FD211F4A1325C7C3004EB335 /* Efx_Explode03.png */; };
@@ -1449,6 +1450,8 @@
 		DA43FF5618322CEE00C2834A /* MachInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MachInfo.mcb; sourceTree = "<group>"; };
 		DA43FF5818322CEE00C2834A /* PartsInfo.mcb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PartsInfo.mcb; sourceTree = "<group>"; };
 		DA43FF661832B07500C2834A /* PartsList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PartsList.tbl; sourceTree = "<group>"; };
+		DA563D581A5E550600B01A78 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		DA563D591A5E550600B01A78 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		DA73CBF91836B04D002912A9 /* MapList.tbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapList.tbl; sourceTree = "<group>"; };
 		DA79CB491871700F00DD7E45 /* P_Foot_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P_Foot_11.png; sourceTree = "<group>"; };
 		DA861476192C894900E94276 /* Install_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Install_Btn.png; sourceTree = "<group>"; };
@@ -2852,7 +2855,6 @@
 		E5DDC4191237556A00477306 /* BuildItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildItem.h; sourceTree = "<group>"; };
 		E5DDC41A1237556A00477306 /* BuildItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildItem.m; sourceTree = "<group>"; };
 		E5DDC4561237685900477306 /* BuildGauge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuildGauge.png; sourceTree = "<group>"; };
-		E5E902E911D9D5F500EE4990 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		FD211F481325C7C3004EB335 /* Efx_Explode01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_Explode01.png; sourceTree = "<group>"; };
 		FD211F491325C7C3004EB335 /* Efx_Explode02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_Explode02.png; sourceTree = "<group>"; };
 		FD211F4A1325C7C3004EB335 /* Efx_Explode03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Efx_Explode03.png; sourceTree = "<group>"; };
@@ -2979,7 +2981,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E5E902E911D9D5F500EE4990 /* MainWindow_iPhone.xib */,
+				DA563D581A5E550600B01A78 /* MainWindow_iPhone.xib */,
+				DA563D591A5E550600B01A78 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* AppInfo.plist */,
 				E56CABD511DFA4110015001E /* Icon72.png */,
 				E5D8AD6912B5AD83003A5E05 /* Icon57.png */,
@@ -4722,6 +4725,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MachDefense" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -4747,7 +4759,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E902EA11D9D5F500EE4990 /* MainWindow_iPhone.xib in Resources */,
 				E56CABD711DFA4110015001E /* Icon72.png in Resources */,
 				E53CB93D11EEAAC5002B0F88 /* ad.png in Resources */,
 				E53CB93E11EEAAC5002B0F88 /* ae.png in Resources */,
@@ -5424,6 +5435,7 @@
 				E595295812951D9B0034BB09 /* P_Wpn_Shg_104.png in Resources */,
 				E595295912951D9B0034BB09 /* P_Wpn_Shg_105.png in Resources */,
 				E595295A12951D9B0034BB09 /* P_Wpn_Shg_106.png in Resources */,
+				DA563D5B1A5E550600B01A78 /* MainWindow.xib in Resources */,
 				E595295B12951D9B0034BB09 /* P_Wpn_Shg_107.png in Resources */,
 				E595295C12951D9B0034BB09 /* P_Wpn_Shg_108.png in Resources */,
 				E595295D12951D9B0034BB09 /* P_Wpn_Shg_109.png in Resources */,
@@ -5525,6 +5537,7 @@
 				E5C44AA712A8D6920020DC11 /* MachineGun06.wav in Resources */,
 				E5C44AA812A8D6920020DC11 /* MachineGun07.wav in Resources */,
 				E5C44AA912A8D6920020DC11 /* MachineGun08.wav in Resources */,
+				DA563D5A1A5E550600B01A78 /* MainWindow_iPhone.xib in Resources */,
 				E5C44AAA12A8D6920020DC11 /* MachineGun09.wav in Resources */,
 				E5C44AAB12A8D6920020DC11 /* MachineGun10.wav in Resources */,
 				E5C44AAC12A8D6920020DC11 /* Missile01.wav in Resources */,

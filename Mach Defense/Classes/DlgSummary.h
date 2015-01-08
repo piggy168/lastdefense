@@ -11,7 +11,7 @@
 
 @interface DlgSummary : CommonDlg
 {
-
+    int _nStage;
 }
 
 - (id)initWithClear:(bool)clear;

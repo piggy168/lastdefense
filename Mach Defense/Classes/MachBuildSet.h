@@ -8,6 +8,13 @@
 
 @class ItemInfo;
 
+enum MachStatus
+{
+    machbuild_lock = 0,
+    machbuild_unlock = 1,
+    machbuild_buy = 2
+};
+
 enum EBuildSetType
 {
 	BST_PARTS, BST_NAME
@@ -57,12 +64,12 @@ typedef struct TMachBuildSet TMachBuildSet;
 	
 	UiObjMach *_uiMach;
 
-	int _level, _maxLevel;
+	int _level, _maxLevel, _status;
 }
 
 @property(readwrite) bool onSlot;
 @property(retain) NSString *machName;
-@property(readwrite) int setType, level, maxLevel;
+@property(readwrite) int setType, level, maxLevel, status;
 @property(readonly) UiObjMach *uiMach;
 
 - (void)setBuildSet:(TMachBuildSet *)buildSet ToLevel:(int)level;

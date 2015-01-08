@@ -17,6 +17,7 @@
 
 - (id)initWithClear:(bool)clear
 {
+    _nStage = GSLOT->stage;
 	Tile2D *tile;
 	QobButton *btn;
     
@@ -27,6 +28,8 @@
 		tile = [TILEMGR getTileForRetina:@"Common_btn_next.png"];
 		[tile tileSplitX:1 splitY:3];
 		btn = [self addButton:tile ID:BTNID_STAGECLEAR_NEXT];
+        [btn setPosX:52 Y:-114];
+        [_bgMid addChild:btn];
 //		[btn setDeactiveTileNo:2];
 	}
 	else
@@ -36,12 +39,16 @@
 		tile = [TILEMGR getTileForRetina:@"Common_btn_retry.png"];
 		[tile tileSplitX:1 splitY:3];
 		btn = [self addButton:tile ID:BTNID_STAGECLEAR_RETRY];
+        [btn setPosX:40 Y:-112];
+        [_bgMid addChild:btn];
 //		[btn setDeactiveTileNo:2];
 	}
 	
 	tile = [TILEMGR getTileForRetina:@"Common_btn_map.png"];
 	[tile tileSplitX:1 splitY:3];
 	btn = [self addButton:tile ID:BTNID_STAGECLEAR_BACK];
+    [btn setPosX:-46 Y:-110];
+    [_bgMid addChild:btn];
 //	[btn setDeactiveTileNo:2];
     
     QobText *title_text = [[QobText alloc] initWithString:@"RESULT" Size:CGSizeMake(360, 26) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:26 Retina:true];
@@ -80,26 +87,18 @@
         tile = [TILEMGR getTileForRetina:@"Icon_32.png"];
         [tile tileSplitX:4 splitY:4];
         QobImage *img = [[QobImage alloc] initWithTile:tile tileNo:8];
-        [img setPosX:-80 * GWORLD.deviceScale Y:-38 * GWORLD.deviceScale];
+        [img setPosX:-80 * GWORLD.deviceScale Y:-45 * GWORLD.deviceScale];
         [_bgMid addChild:img];
         
 		int bonus = 500 + GSLOT->stage * 25;
 		text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"+%d", bonus] Size:CGSizeMake(256, 32) Align:UITextAlignmentLeft Font:@"TrebuchetMS-Bold" FontSize:24 Retina:true];
 		[text setColorR:255 G:100 B:100];
-		[text setPosX:40 Y:-38 * GWORLD.deviceScale];
+		[text setPosX:40 Y:-45 * GWORLD.deviceScale];
 		[_bgMid addChild:text];
 		
 		GSLOT->cr += bonus;
 		if(GSLOT->stageClearCount[GSLOT->stage] < 1) GSLOT->score += (GSLOT->stage + 1) * 1000;
-		[self addNewMach];
-//		if(GSLOT->stageClearCount[GSLOT->stage] < 1 && RANDOM(40) < 10)
-//		{
-//			if([self addNewMach] == false) [self addNewItem];
-//		}
-//		else
-//		{
-//			[self addNewItem];
-//		}
+		if([self addNewMach] == false) [self addNewItem];
 		
 		GSLOT->stageClearCount[GSLOT->stage]++;
 		
@@ -109,7 +108,7 @@
 	}
 
 	[GINFO saveDataFile];
-	if(strcmp(GSLOT->name, "GimmeCr") != 0) [GAMECENTER reportScore:GSLOT->score forCategory:@"HIGHSCORE"];
+//	if(strcmp(GSLOT->name, "GimmeCr") != 0) [GAMECENTER reportScore:GSLOT->score forCategory:@"HIGHSCORE"];
 
 	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
 	[nc addObserver:self selector:@selector(handleButton:) name:@"PushButton" object:nil];
@@ -130,77 +129,34 @@
 - (bool)addNewMach
 {
 	bool ret = false;
-	NSString *buildsetName[64];
-	int buildsetRate[64], buildsetCount = 0;
-	int rateSum = 0, rndSeed;
-	QTable *table = [[QTable alloc] initWithFile:[[NSBundle mainBundle] pathForResource:@"MachRegen" ofType:@"tbl"]];
-	for(int i = 0; i < table.row; i++)
-	{
-		NSString *machName = [table getString:i Key:@"MachName"];
-		if(![GINFO existBuyBuildSet:machName])
-		{
-			rateSum += [table getInt:i Key:@"Rate"];
-			buildsetName[buildsetCount] = machName;
-			buildsetRate[buildsetCount] = rateSum;
-			buildsetCount++;
-		}
-	}
-	
-	if(buildsetCount > 0)
-	{
+    
+    NSString *strMapID = [NSString stringWithFormat:@"%d",_nStage+1];
+    NSString *strUnlock = [GINFO getUnlockName:strMapID];
+    if([strUnlock compare:@"-"] != NSOrderedSame)
+    {
+        NSLog(@"%@ !!!!!",strUnlock);
+        MachBuildSet *buildSet = [GINFO getMachBuildSet:strUnlock];
+
 		QobText *text = [[QobText alloc] initWithString:@"Unlocked new Mach." Size:CGSizeMake(512, 32) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:24 Retina:true];
 		[text setColorR:160 G:255 B:255];
 		[text setPosX:0 Y:-90 * GWORLD.deviceScale];
 		[_bgMid addChild:text];
-		
-		rndSeed = RANDOM(rateSum);
-		for(int i = 0; i < buildsetCount; i++)
-		{
-			if(rndSeed < buildsetRate[i])
-			{
-				buildsetCount = 0;
-				MachBuildSet *buildSet = [GINFO buyBuildSet:buildsetName[i]];
-//				if(GAMEUI.dlgBuildMach.buildBtnCnt < 7) mach.onSlot = true;
-                
-                TMachBuildSet *set = [buildSet buildSet];
-                GobHvM_Player *pSlotPlayer = [[GobHvM_Player alloc] init];
-                [pSlotPlayer setPosX:-80 * GWORLD.deviceScale Y:-140 * GWORLD.deviceScale];
-                [_bgMid addChild:pSlotPlayer];
-                [pSlotPlayer setDir:M_PI / 2.f];
-                [pSlotPlayer setState:MACHSTATE_STOP];
-                [pSlotPlayer setUiModel:true];
-                [pSlotPlayer setLayer:5];
-                [pSlotPlayer setParts:@"DummyParts" partsType:PARTS_BASE];
-                
-                if(buildSet.setType == BST_PARTS)
-                {
-                    [pSlotPlayer setStepSize:set->parts->foot.param1];
-                    
-                    [pSlotPlayer setParts:set->parts->foot.strParam partsType:PARTS_FOOT];
-                    [pSlotPlayer setParts:set->parts->armor.strParam partsType:PARTS_BODY];
-                    [pSlotPlayer setParts:set->parts->weapon.strParam partsType:PARTS_WPN];
-                }
-                else if(buildSet.setType == BST_NAME)
-                {
-                    [pSlotPlayer makeMachFromName:set->name->szMachName];
-                }
-
-//				QobImage *img = [[QobImage alloc] initWithTile:[mach machTile] tileNo:0];
-//				[img setUseAtlas:true];
-//				[img setPosX:-80 * GWORLD.deviceScale Y:-140 * GWORLD.deviceScale];
-//				[_bgMid addChild:img];
+        
+        QobImage *img = [[QobImage alloc] initWithTile:[buildSet machTile] tileNo:0];
+        [img setUseAtlas:true];
+        [img setPosX:0 Y:-84];
+        [_bgMid addChild:img];
 				
-				text = [[QobText alloc] initWithString:buildsetName[i] Size:CGSizeMake(256, 32) Align:UITextAlignmentLeft Font:@"TrebuchetMS-Bold" FontSize:20 Retina:true];
-				[text setColorR:255 G:100 B:100];
-				[text setPosX:120 * GWORLD.deviceScale Y:-140 * GWORLD.deviceScale];
-				[_bgMid addChild:text];
-			}
-		}
+        text = [[QobText alloc] initWithString:strUnlock Size:CGSizeMake(512, 32) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:20 Retina:true];
+        [text setColorR:255 G:100 B:100];
+        [text setPosX:0 Y:-117 * GWORLD.deviceScale];
+        [_bgMid addChild:text];
+        
+        MachBuildSet *reward = [GINFO buyBuildSet:strUnlock];
+        if(GAMEUI.dlgBuildMach.buildBtnCnt < 7) reward.onSlot = true;
 		
 		ret = true;
 	}
-
-	[table release];
 	
 	return ret;
 }
@@ -250,12 +206,14 @@
 	{
 		if(button.buttonId == BTNID_STAGECLEAR_NEXT)
 		{
+            [GINFO saveDataFile];
 			[GWORLD setNextStage];
 			[self remove];
 //			[SOUNDMGR play:[GINFO sfxID:SND_MENU_CLICK]];
 		}
 		else if(button.buttonId == BTNID_STAGECLEAR_BACK)
 		{
+            [GINFO saveDataFile];
 			[g_main changeScreen:GSCR_SELECTSTAGE];
 			[self remove];
 //			[SOUNDMGR play:[GINFO sfxID:SND_MENU_CLICK]];

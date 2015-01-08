@@ -76,7 +76,7 @@
     [tile tileSplitX:1 splitY:3];
 	QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:9999];
 	[btn setReleaseTileNo:1];
-	[btn setPosX: _glView.surfaceSize.width/2 - 55 Y:185];
+	[btn setPosX: _glView.surfaceSize.width/2 - 70 Y:185];
 	[btn setLayer:VLAYER_FORE_UI2];
 	[bgTop addChild:btn];
     
@@ -216,6 +216,13 @@
         
         MachBuildSet *buildSet = [listBuildSet objectAtIndex:i];
         if(buildSet == nil) continue;
+        
+        NSLog(@"updatelist load [%@] [%d]", buildSet.machName, i);
+        if(![GINFO existBuyBuildSet:buildSet.machName])
+        {
+            NSLog(@"updatelist skip [%@]", buildSet.machName);
+            continue;
+        }
 
         TMachBuildSet *set = [buildSet buildSet];
         
@@ -227,7 +234,7 @@
         [bg setPosX:x Y:y];
         [bg setLayer:1];
         [_base addChild:bg];
-        
+
         NSString *machName = [GINFO getDescription:[NSString stringWithFormat:@"MN_%@", buildSet.machName]];
         if(machName == nil) machName = buildSet.machName;
         QobText *text = [[QobText alloc] initWithString:[NSString stringWithFormat:@"%@  Lv. %d", machName, buildSet.level+1] Size:CGSizeMake(128, 16) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:14 Retina:true];
@@ -384,7 +391,8 @@
             [bg addChild:text];
         }
         
-        [_QLIST addObject:bg];
+//        [_QLIST addObject:bg];
+        [_QLIST insertObject:bg atIndex:i];
     }
     
     [self updateSlot];
@@ -637,6 +645,7 @@
 {
     NSArray *listBuildSet = [GINFO listBuyBuildSet];
     MachBuildSet *buildSet = [listBuildSet objectAtIndex:unit_id];
+    NSLog(@"uninstallMach [%@] [%d]", buildSet.machName, unit_id);
 	if(buildSet == nil) return;
     
     int nCount = 0;
