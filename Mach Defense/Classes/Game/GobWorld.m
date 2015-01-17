@@ -175,7 +175,7 @@ extern DefaultAppDelegate *_appDelegate;
 	if(_camPos < -_mapHalfLen + (_camCenter - _camBottomMargin)) _camPos = -_mapHalfLen + (_camCenter - _camBottomMargin);
 	else _onCamBottom = false;
 	
-	[GAMEUI.dlgRader setCamBottom:_camPos - _camCenter + _camBottomMargin Top:_camPos + _camCenter];
+//	[GAMEUI.dlgRader setCamBottom:_camPos - _camCenter + _camBottomMargin Top:_camPos + _camCenter];
 }
 
 - (void)setUIPos:(float)pos
@@ -184,7 +184,7 @@ extern DefaultAppDelegate *_appDelegate;
 	if(_onCamBottom) _camPos = -_mapHalfLen + (_camCenter - _camBottomMargin);
 	else if(_camPos < -_mapHalfLen + (_camCenter - _camBottomMargin)) _onCamBottom = true;
 
-	[GAMEUI.dlgRader setCamBottom:_camPos - _camCenter + _camBottomMargin Top:_camPos + _camCenter];
+//	[GAMEUI.dlgRader setCamBottom:_camPos - _camCenter + _camBottomMargin Top:_camPos + _camCenter];
 }
 
 - (void)processCamera
@@ -272,8 +272,8 @@ extern DefaultAppDelegate *_appDelegate;
 	[base setMachType:MACHTYPE_TURRET];
 	[base setDir:0.f];
 	[base setIsBase:TRUE];
-	[base setHp:10000 * stage];
-	[base setHpMax:10000 * stage];
+	[base setHp:10000 * (stage+1)];
+	[base setHpMax:10000 * (stage+1)];
 	
 	GobHvM_Player *mach = [[GobHvM_Player alloc] init];
 	mach.layer = VLAYER_FOREMOST;
@@ -306,14 +306,14 @@ extern DefaultAppDelegate *_appDelegate;
 	[GAMEUI onStartStage];
 	[self setGameState:GSTATE_PLAY];
 	
-	if(GSLOT->runCount < 5)
-	{
-		[GWORLD setPause:true];
-		GuiHelp *help = [[GuiHelp alloc] initWithLocale:GINFO.localeCode Page:-1];
-		[GAMEUI addChild:help];
-		[help setLayer:VLAYER_UI];
-		GSLOT->runCount += 5;
-	}
+//	if(GSLOT->runCount < 5)
+//	{
+//		[GWORLD setPause:true];
+//		GuiHelp *help = [[GuiHelp alloc] initWithLocale:GINFO.localeCode Page:-1];
+//		[GAMEUI addChild:help];
+//		[help setLayer:VLAYER_UI];
+//		GSLOT->runCount += 5;
+//	}
 	
 	[_appDelegate bannerTurnOff:nil];
     
@@ -412,16 +412,17 @@ extern DefaultAppDelegate *_appDelegate;
 {
 	if(state == TAP_START)
 	{
-		if(pt.y > _radarPos.y - _radarSize.height && pt.y < _radarPos.y + _radarSize.height && pt.x > _radarPos.x - _radarSize.width && pt.x < _radarPos.x + _radarSize.width)				// map & build slot
-		{
-			if(_mapMoveTap == nil)
-			{
-				_mapMoveTap = tapID;
-				_camPos = (pt.y - _radarPos.y) * 8.f;
-				[self validCamPos];
-			}
-		}
-		else if(pt.x < _rightUIPos && pt.y > _camBottomMargin && _controlCamTap == nil)
+//		if(pt.y > _radarPos.y - _radarSize.height && pt.y < _radarPos.y + _radarSize.height && pt.x > _radarPos.x - _radarSize.width && pt.x < _radarPos.x + _radarSize.width)				// map & build slot
+//		{
+//			if(_mapMoveTap == nil)
+//			{
+//				_mapMoveTap = tapID;
+//				_camPos = (pt.y - _radarPos.y) * 8.f;
+//				[self validCamPos];
+//			}
+//		}
+//		else
+            if(pt.x < _rightUIPos && pt.y > _camBottomMargin && _controlCamTap == nil)
 		{
 			_controlCamTap = tapID;
 			_camTapPos = pt.y;

@@ -44,7 +44,7 @@
 	tile = [TILEMGR getTile:@"GameUI_MachSlot.png"];
 	[tile tileSplitX:1 splitY:1];
 	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:-40 Y:-350];
+	[img setPosX:-44 Y:-365];
     [img setLayer:0];
 	[self addChild:img];
     

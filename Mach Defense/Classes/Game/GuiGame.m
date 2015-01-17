@@ -457,36 +457,44 @@ extern DefaultAppDelegate *_appDelegate;
 
 	if(_msgTime != 0.f)
 	{
-		float t = GWORLD.time - _msgTime;
-		if(t <= .6f)
-		{
-			[_imgMsgBox setPosY:fabs(sinf(t / .6f * M_PI * 3.f) * (16.f * (.6f - t))) + _msgPos];
-		}
-		else
-		{
-			[_imgMsgBox setPosY:_msgPos];
-			if(_autoHideMsg && t > 10.f) [self hideMessage];
-		}
-
-		if(_hideMsg)
-		{
-			if(_imgMsgBox.scaleY > .1f)
-			{
-				EASYOUT(_imgMsgBox.scaleY, 0.09f, 4.f);
-				_txtMsg.scaleY = _imgMsgBox.scaleY;
-				if(_imgMsgBox.scaleY <= .1f) _imgMsgBox.scaleY = .1f;
-			}
-			else
-			{
-				EASYOUT(_imgMsgBox.scaleX, 0.04f, 4.f);
-				if(_imgMsgBox.scaleX <= .05f)
-				{
-					[_imgMsgBox setShow:false];
-					_msgTime = 0.f;
-					_hideMsg = false;
-				}
-			}
-		}
+        EASYOUT(_imgMsgBox.alpha, 0.4f,30.f);
+        if(_imgMsgBox.alpha <= .49f)
+        {
+            [_imgMsgBox setShow:false];
+            _msgTime = 0.f;
+            _hideMsg = false;
+            _imgMsgBox.alpha = 1.0f;
+        }
+//		float t = GWORLD.time - _msgTime;
+//		if(t <= .6f)
+//		{
+//			[_imgMsgBox setPosY:fabs(sinf(t / .6f * M_PI * 3.f) * (16.f * (.6f - t))) + _msgPos];
+//		}
+//		else
+//		{
+//			[_imgMsgBox setPosY:_msgPos];
+//			if(_autoHideMsg && t > 10.f) [self hideMessage];
+//		}
+//
+//		if(_hideMsg)
+//		{
+//			if(_imgMsgBox.scaleY > .1f)
+//			{
+//				EASYOUT(_imgMsgBox.scaleY, 0.09f, 4.f);
+//				_txtMsg.scaleY = _imgMsgBox.scaleY;
+//				if(_imgMsgBox.scaleY <= .1f) _imgMsgBox.scaleY = .1f;
+//			}
+//			else
+//			{
+//				EASYOUT(_imgMsgBox.scaleX, 0.04f, 4.f);
+//				if(_imgMsgBox.scaleX <= .05f)
+//				{
+//					[_imgMsgBox setShow:false];
+//					_msgTime = 0.f;
+//					_hideMsg = false;
+//				}
+//			}
+//		}
 	}
 
 	if(_imgPlaceName != nil)

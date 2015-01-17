@@ -367,7 +367,7 @@
 	{
 		if(button.buttonId == BTNID_MAKEMACH_SELMACH)
 		{
-			[_imgSelWeapon setPosX:button.pos.x Y:button.pos.y];
+			[_imgSelWeapon setPosX:button.pos.x Y:button.pos.y-10];
 			[_imgSelWeapon setShow:true];
 			[_imgSelWeapon setAlpha:1.f];
 		}
@@ -383,7 +383,7 @@
 	{
 		if(button.buttonId == BTNID_MAKEMACH_SELMACH)
 		{
-			[_imgSelWeapon setPosX:button.pos.x Y:button.pos.y];
+			[_imgSelWeapon setPosX:button.pos.x Y:button.pos.y-10];
 			if(_buildMachType == BMT_BUILDMACH)
 			{
 				[self buildMach:button.dataObject];
