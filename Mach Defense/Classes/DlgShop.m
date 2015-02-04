@@ -757,6 +757,11 @@
             [GINFO saveDataFile];
             [g_main makeScreen:GSCR_SHOPSPECIAL];
         }
+        else if ( button.buttonId == BTNID_BASE )
+        {
+            [GINFO saveDataFile];
+            [g_main makeScreen:GSCR_SHOPBASE];
+        }
 		else if(button.buttonId == BTNID_UPGRADE_MACH)
 		{
         }

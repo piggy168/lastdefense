@@ -138,11 +138,11 @@ extern DefaultAppDelegate *_appDelegate;
 		_uiTitle = img;
 	}
     
-    tile = [TILEMGR getTileForRetina:@"Stage_bar.png"]; 
-	[tile tileSplitX:1 splitY:1];
-	QobImage *img_stage = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img_stage setPosX:-186 * GWORLD.deviceScale Y:-26 * GWORLD.deviceScale];
-    [bg addChild:img_stage];
+//    tile = [TILEMGR getTileForRetina:@"Stage_bar.png"]; 
+//	[tile tileSplitX:1 splitY:1];
+//	QobImage *img_stage = [[QobImage alloc] initWithTile:tile tileNo:0];
+//	[img_stage setPosX:-186 * GWORLD.deviceScale Y:-26 * GWORLD.deviceScale];
+//    [bg addChild:img_stage];
     
     tile = [TILEMGR getTileForRetina:@"Energy_cell.png"];
 	[tile tileSplitX:1 splitY:1];
@@ -150,11 +150,11 @@ extern DefaultAppDelegate *_appDelegate;
 	[img_cr setPosX:-120 * GWORLD.deviceScale Y:42 * GWORLD.deviceScale];
     [bg addChild:img_cr];
     
-    tile = [TILEMGR getTileForRetina:@"Credits_bar.png"];
-	[tile tileSplitX:1 splitY:1];
-	QobImage *img_credit = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img_credit setPosX:-186 * GWORLD.deviceScale Y:10 * GWORLD.deviceScale];
-    [bg addChild:img_credit];
+//    tile = [TILEMGR getTileForRetina:@"Credits_bar.png"];
+//	[tile tileSplitX:1 splitY:1];
+//	QobImage *img_credit = [[QobImage alloc] initWithTile:tile tileNo:0];
+//	[img_credit setPosX:-186 * GWORLD.deviceScale Y:10 * GWORLD.deviceScale];
+//    [bg addChild:img_credit];
     
     tile = [TILEMGR getTileForRetina:@"game_upgrade_btn.png"];
 	[tile tileSplitX:1 splitY:3];
@@ -225,25 +225,25 @@ extern DefaultAppDelegate *_appDelegate;
 //		[img_cr addChild:_numScore];
 //	}
 
-	tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
-	[tile tileSplitX:16 splitY:1];
-	_numCr = [[QobImageFont alloc] initWithTile:tile];
-	if(_glView.deviceType == DEVICE_IPAD) [_numCr setPosX:-222 Y:-90];
-	else [_numCr setPosX:22 Y:0];
-	[_numCr setAlignRate:1.f];
-	[_numCr setPitch:9];
-	[_numCr setNumber:0];
-	[img_credit addChild:_numCr];
+//	tile = [TILEMGR getTileForRetina:@"NumSet_Cr.png"];
+//	[tile tileSplitX:16 splitY:1];
+//	_numCr = [[QobImageFont alloc] initWithTile:tile];
+//	if(_glView.deviceType == DEVICE_IPAD) [_numCr setPosX:-222 Y:-90];
+//	else [_numCr setPosX:22 Y:0];
+//	[_numCr setAlignRate:1.f];
+//	[_numCr setPitch:9];
+//	[_numCr setNumber:0];
+//	[img_credit addChild:_numCr];
 	
-	tile = [TILEMGR getTileForRetina:@"NumSet_Stage.png"];
-	[tile tileSplitX:16 splitY:1];
-	_numStage = [[QobImageFont alloc] initWithTile:tile];
-	if(_glView.deviceType == DEVICE_IPAD) [_numStage setPosX:-242 Y:-33];
-	else [_numStage setPosX:20 Y:-2];
-	[_numStage setAlignRate:.5f];
-	[_numStage setPitch:12];
-	[_numStage setNumber:0];
-	[img_stage addChild:_numStage];
+//	tile = [TILEMGR getTileForRetina:@"NumSet_Stage.png"];
+//	[tile tileSplitX:16 splitY:1];
+//	_numStage = [[QobImageFont alloc] initWithTile:tile];
+//	if(_glView.deviceType == DEVICE_IPAD) [_numStage setPosX:-242 Y:-33];
+//	else [_numStage setPosX:20 Y:-2];
+//	[_numStage setAlignRate:.5f];
+//	[_numStage setPitch:12];
+//	[_numStage setNumber:0];
+//	[img_stage addChild:_numStage];
 	
 	tile = [TILEMGR getTileForRetina:@"The_Menu_button.png"];
 	[tile tileSplitX:3 splitY:1];
@@ -523,13 +523,13 @@ extern DefaultAppDelegate *_appDelegate;
 //		[_numScore setNumber:num];
 //	}
 	
-	if(_numCr.num != GSLOT->cr)
-	{
-		int num = _numCr.num;
-		EASYOUT(num, GSLOT->cr, 5);
-		if(abs(num - GSLOT->cr) < 5) num = GSLOT->cr;
-		[_numCr setNumber:num];
-	}
+//	if(_numCr.num != GSLOT->cr)
+//	{
+//		int num = _numCr.num;
+//		EASYOUT(num, GSLOT->cr, 5);
+//		if(abs(num - GSLOT->cr) < 5) num = GSLOT->cr;
+//		[_numCr setNumber:num];
+//	}
 	
 	if(_numMineral.num != GVAL.mineral)
 	{
@@ -613,7 +613,7 @@ extern DefaultAppDelegate *_appDelegate;
 	[self refreshMaxMineral];
 	[self refreshCellUpgradeCost];
 	[self turnOnButtons];
-	[_numStage setNumber:GSLOT->stage + 1];
+//	[_numStage setNumber:GSLOT->stage + 1];
 	[GWORLD setUIPos:_gameUI.pos.y + _uiWorldMargin];
 }
 

@@ -22,7 +22,7 @@ TGlobalValue g_value;
 @synthesize gameMode=_gameMode, slotData=_slotData, localeCode=_localeCode, tileList=_tileList;
 
 static GlobalInfo *_sharedInfo = nil;
-static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTime", @"CrResearch", @"CellResearch", @"CellStorage" };
+static NSString *baseUpgradeName[6] = { @"BaseWeapon", @"BaseArmor", @"ProductionSpeed", @"Crystal", @"IncomeRate", @"IncomeStorage" };
 
 + (GlobalInfo *)sharedInfo
 {
@@ -173,24 +173,24 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	BaseUpgradeSet *set;
 	TBaseUpgradeSet *info;
 	
-	set = [GINFO getBaseUpgradeSet:@"CellStorage"];
+	set = [GINFO getBaseUpgradeSet:@"IncomeStorage"];
 	info = [set upgradeSet];
 	GVAL.maxMineral = info->param;
 	GVAL.mineralUpgradeValue = GVAL.maxMineral;
 	
-	set = [GINFO getBaseUpgradeSet:@"CellResearch"];
+	set = [GINFO getBaseUpgradeSet:@"IncomeRate"];
 	info = [set upgradeSet];
 	GVAL.incMineral = info->param;
 
-	set = [GINFO getBaseUpgradeSet:@"BuildTime"];
+	set = [GINFO getBaseUpgradeSet:@"ProductionSpeed"];
 	info = [set upgradeSet];
 	GVAL.buildTime = info->param;
 	
-	set = [GINFO getBaseUpgradeSet:@"CrResearch"];
+	set = [GINFO getBaseUpgradeSet:@"Crystal"];
 	info = [set upgradeSet];
 	GVAL.crGen = info->param;
 	
-	set = [GINFO getBaseUpgradeSet:@"BaseDefense"];
+	set = [GINFO getBaseUpgradeSet:@"BaseArmor"];
 	info = [set upgradeSet];
 	GVAL.baseDef = info->param;
 	
@@ -230,7 +230,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 #ifdef DEBUG
 		if(strcmp(slot->name, "GimmeCr") == 0)			// cheat
 		{
-			slot->cr = 10000000;
+			slot->cr = 1000;
 		}
 #endif
 		
@@ -275,12 +275,12 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
    		buildSet = [self buyBuildSet:@"Griffon"];			buildSet.onSlot = true;
 //        buildSet = [self buyBuildSet:@"Phoenix"];             buildSet.onSlot = true;
         buildSet = [self buyBuildSet:@"Unicorn"];             buildSet.onSlot = true;
-        buildSet = [self buyBuildSet:@"Cerberus"];             buildSet.onSlot = true;
+//        buildSet = [self buyBuildSet:@"Cerberus"];             buildSet.onSlot = true;
         
 //        buildSet = [self buyBuildSet:@"Manticore"];             buildSet.onSlot = false;
 //        buildSet = [self buyBuildSet:@"Pagasus"];             buildSet.onSlot = false;
 //        buildSet = [self buyBuildSet:@"Hydra"];             buildSet.onSlot = false;
-//		buildSet = [self buyBuildSet:@"G-Claw"];			buildSet.onSlot = false;
+		buildSet = [self buyBuildSet:@"G-Claw"];			buildSet.onSlot = false;
 //		buildSet = [self buyBuildSet:@"U-Horn"];				buildSet.onSlot = false;
 //		buildSet = [self buyBuildSet:@"P-Sting"];				buildSet.onSlot = false;
 //		buildSet = [self buyBuildSet:@"H-Fume"];			buildSet.onSlot = false;
@@ -298,8 +298,8 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 //		[self addSpAttack:"02011" Cnt:2];
 //		[self addSpAttack:"02021" Cnt:1];
         
-        GSLOT->cr = 99999;
-        GSLOT->lastStage = 69;
+        GSLOT->cr = 1000;
+        GSLOT->lastStage = 1;
 	}
 	else
 	{

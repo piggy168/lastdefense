@@ -319,7 +319,7 @@ static NSString *baseUpgradeName[6] = { @"BaseCannon", @"BaseDefense", @"BuildTi
 	
 	[GINFO updateBaseUpgrade];
 	[GAMEUI refreshMaxMineral];
-	[GAMEUI refreshCellUpgradeCost];
+//	[GAMEUI refreshCellUpgradeCost];
 
 	if(_selUpgrade == 0)
 	{

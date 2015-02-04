@@ -134,8 +134,10 @@
     NSString *strUnlock = [GINFO getUnlockName:strMapID];
     if([strUnlock compare:@"-"] != NSOrderedSame)
     {
-        NSLog(@"%@ !!!!!",strUnlock);
+        
         MachBuildSet *buildSet = [GINFO getMachBuildSet:strUnlock];
+        if(buildSet && buildSet.level > 0)
+            return false;
 
 		QobText *text = [[QobText alloc] initWithString:@"Unlocked new Mach." Size:CGSizeMake(512, 32) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:24 Retina:true];
 		[text setColorR:160 G:255 B:255];

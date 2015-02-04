@@ -44,7 +44,7 @@
 	tile = [TILEMGR getTile:@"GameUI_MachSlot.png"];
 	[tile tileSplitX:1 splitY:1];
 	img = [[QobImage alloc] initWithTile:tile tileNo:0];
-	[img setPosX:-44 Y:-365];
+	[img setPosX:-41 Y:-368];
     [img setLayer:0];
 	[self addChild:img];
     
@@ -104,7 +104,7 @@
 	QobButton *btn;
 	QobImage *img;
 	QobText *text;
-	float basePos = _glView.deviceType == DEVICE_IPAD ? 0 : -176;
+	float basePos = -218;
 	
 	_uiType = type;
 
@@ -142,7 +142,7 @@
 		btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:BTNID_SPATTACK_SELATTACK];
 		[btn setReleaseTileNo:0];
 		[btn setDataObject:set];
-		[btn setPosX:_glView.deviceType == DEVICE_IPAD ? 1 : -35 Y:basePos];
+		[btn setPosX: -37 Y:basePos];
         [btn setLayer:3];
 		[_buttons addChild:btn];
 		
@@ -150,7 +150,7 @@
 		[tile tileSplitX:1 splitY:1];
 		QobImage *body = [[QobImage alloc] initWithTile:tile tileNo:1];
 		[body setUseAtlas:TRUE];
-		[body setPosX:-19 * GWORLD.deviceScale Y:-17 * GWORLD.deviceScale];
+		[body setPosX:0 Y:0];
         [body setLayer:1];
 		[btn addChild:body];
 		

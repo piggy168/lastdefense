@@ -320,7 +320,7 @@
 	
 	if([[note name]isEqualToString:@"PushButton"])
 	{
-        if( button.buttonId == BTNID_UNIT || button.buttonId == BTNID_SPECIAL_ATTACK)
+        if( button.buttonId == BTNID_UNIT || button.buttonId == BTNID_SPECIAL_ATTACK || button.buttonId == BTNID_BASE)
         {
             _isClick = YES;
             _mode = 1;
@@ -394,6 +394,10 @@
                 {
                     [g_main makeScreen:GSCR_SHOPSPECIAL];
                 }
+            }
+            else if( button.buttonId == BTNID_BASE )
+            {
+                [g_main makeScreen:GSCR_SHOPBASE];
             }
             else if(button.buttonId == BTNID_OK)
             {

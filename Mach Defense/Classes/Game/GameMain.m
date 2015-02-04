@@ -21,6 +21,7 @@
 #import "GuiGame.h"
 #import "DlgShop.h"
 #import "DlgShopSpecial.h"
+#import "DlgShopBase.h"
 #import "QobAffecter.h"
 
 GameMain *g_main = nil;
@@ -211,6 +212,12 @@ float g_time = 0.0;
         [_uiShopSpecial remove];
         _uiShopSpecial = nil;
     }
+    
+    if(_uiShopBase != nil)
+    {
+        [_uiShopBase remove];
+        _uiShopBase = nil;
+    }
 	
 	if(_world != nil && [_world isShow])
 	{
@@ -265,6 +272,7 @@ float g_time = 0.0;
 		case GSCR_CLEARSTAGE:											break;
         case GSCR_SHOPMACH:			[self setScreen_Shop:GSCR_SHOPMACH];			break;
         case GSCR_SHOPSPECIAL:      [self setScreen_Shop:GSCR_SHOPSPECIAL];         break;
+        case GSCR_SHOPBASE:         [self setScreen_Shop:GSCR_SHOPBASE];         break;
 	}
 }
 
@@ -284,6 +292,12 @@ float g_time = 0.0;
         _uiShopSpecial = nil;
     }
     
+    if(_uiShopBase)
+    {
+        [_uiShopBase remove];
+        _uiShopBase = nil;
+    }
+    
     if(type == GSCR_SHOPMACH)
     {
         _uiShopMach = [[DlgShop alloc] init];
@@ -296,6 +310,13 @@ float g_time = 0.0;
         _uiShopSpecial = [[DlgShopSpecial alloc] init];
         [_uiShopSpecial setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
         [self addChild:_uiShopSpecial];
+        //[_uiShopSpecial release];
+    }
+    else if(type == GSCR_SHOPBASE)
+    {
+        _uiShopBase = [[DlgShopBase alloc] init];
+        [_uiShopBase setPosX:_glView.surfaceSize.width/2 Y:_glView.surfaceSize.height/2];
+        [self addChild:_uiShopBase];
         //[_uiShopSpecial release];
     }
 }

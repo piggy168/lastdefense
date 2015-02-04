@@ -22,6 +22,7 @@
 @class GuiGame;
 @class DlgShop;
 @class DlgShopSpecial;
+@class DlgShopBase;
 
 #define GWORLD [g_main getWorld]
 #define GAMEUI [g_main getGameUI]
@@ -31,7 +32,7 @@ enum EGameScreen
 {
 	GSCR_BEGIN,
 	GSCR_TITLE, GSCR_SELECTSLOT, GSCR_SELECTSTAGE, GSCR_GAME, GSCR_CLEARSTAGE,
-    GSCR_SHOPMACH,GSCR_SHOPSPECIAL,
+    GSCR_SHOPMACH,GSCR_SHOPSPECIAL,GSCR_SHOPBASE,
 	GSCR_END
 };
 
@@ -69,6 +70,7 @@ enum EAlertID
 	GuiSelectStage *_uiSelStage;
     DlgShop *_uiShopMach;
     DlgShopSpecial *_uiShopSpecial;
+    DlgShopBase *_uiShopBase;
 	
 	QobBase *_layerLoading;
 	Tile2D *_tileLoadingImg;

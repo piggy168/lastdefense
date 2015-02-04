@@ -143,6 +143,9 @@
 		DA979C5C18C3F800009DF352 /* worldmap_top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C4D18C3F800009DF352 /* worldmap_top_bar.png */; };
 		DA979C5E18C3FA3A009DF352 /* worldmap_bottom_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA979C5D18C3FA3A009DF352 /* worldmap_bottom_bar.png */; };
 		DA97A05A18F666B100B34976 /* DlgShop.m in Sources */ = {isa = PBXBuildFile; fileRef = DA97A05918F666B100B34976 /* DlgShop.m */; };
+		DABEF1511A7A1566005DF0E5 /* base_shop_ui.png in Resources */ = {isa = PBXBuildFile; fileRef = DABEF1501A7A1566005DF0E5 /* base_shop_ui.png */; };
+		DABEF1541A7A160A005DF0E5 /* DlgShopBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEF1531A7A160A005DF0E5 /* DlgShopBase.m */; };
+		DABEF1561A7A2A31005DF0E5 /* shop_base_desc_board.png in Resources */ = {isa = PBXBuildFile; fileRef = DABEF1551A7A2A31005DF0E5 /* shop_base_desc_board.png */; };
 		DACAA7D1183490480085C2AB /* selStage_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DACAA7D0183490480085C2AB /* selStage_btn.png */; };
 		DADB2CCD18E28CD400BF059A /* Done_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC118E28CD400BF059A /* Done_btn.png */; };
 		DADB2CCE18E28CD400BF059A /* Shop_Screen_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB2CC218E28CD400BF059A /* Shop_Screen_BG.png */; };
@@ -1564,6 +1567,10 @@
 		DA979C5D18C3FA3A009DF352 /* worldmap_bottom_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldmap_bottom_bar.png; sourceTree = "<group>"; };
 		DA97A05818F666B100B34976 /* DlgShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlgShop.h; sourceTree = "<group>"; };
 		DA97A05918F666B100B34976 /* DlgShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DlgShop.m; sourceTree = "<group>"; };
+		DABEF1501A7A1566005DF0E5 /* base_shop_ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base_shop_ui.png; sourceTree = "<group>"; };
+		DABEF1521A7A160A005DF0E5 /* DlgShopBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlgShopBase.h; sourceTree = "<group>"; };
+		DABEF1531A7A160A005DF0E5 /* DlgShopBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DlgShopBase.m; sourceTree = "<group>"; };
+		DABEF1551A7A2A31005DF0E5 /* shop_base_desc_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop_base_desc_board.png; sourceTree = "<group>"; };
 		DACAA7D0183490480085C2AB /* selStage_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selStage_btn.png; sourceTree = "<group>"; };
 		DADB2CC118E28CD400BF059A /* Done_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done_btn.png; sourceTree = "<group>"; };
 		DADB2CC218E28CD400BF059A /* Shop_Screen_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shop_Screen_BG.png; sourceTree = "<group>"; };
@@ -3026,11 +3033,13 @@
 		DADB2CC018E28CD400BF059A /* uiShop */ = {
 			isa = PBXGroup;
 			children = (
+				DABEF1551A7A2A31005DF0E5 /* shop_base_desc_board.png */,
 				DA94BBD41988B37B00E90C38 /* Side_bar_bomb_box.png */,
 				DA94BBD61988B3D900E90C38 /* Side_bar_bomb_box_cover.png */,
 				DA2A80A7196BC4D300A3A72E /* Buy_Btn.png */,
 				DA059AAE19137E2800EE779F /* shop_bg.jpg */,
 				DADB2CC118E28CD400BF059A /* Done_btn.png */,
+				DABEF1501A7A1566005DF0E5 /* base_shop_ui.png */,
 				DADB2CC218E28CD400BF059A /* Shop_Screen_BG.png */,
 				DADB2CC318E28CD400BF059A /* Shop_Screen_BG_right_filter.png */,
 				DADB2CC418E28CD400BF059A /* Shop_Screen_Border.png */,
@@ -4572,6 +4581,8 @@
 				E53CC06611EEAFE3002B0F88 /* GuiHelp.m */,
 				DA97A05818F666B100B34976 /* DlgShop.h */,
 				DA97A05918F666B100B34976 /* DlgShop.m */,
+				DABEF1521A7A160A005DF0E5 /* DlgShopBase.h */,
+				DABEF1531A7A160A005DF0E5 /* DlgShopBase.m */,
 				DA90496019457AEB005CBB8E /* DlgShopSpecial.h */,
 				DA90496119457AEB005CBB8E /* DlgShopSpecial.m */,
 			);
@@ -4727,6 +4738,7 @@
 				LastUpgradeCheck = 0450;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 8F64XVU534;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 0;
@@ -5191,6 +5203,7 @@
 				E53CBD3211EEAAC6002B0F88 /* P_Body_21.png in Resources */,
 				E53CBD3311EEAAC6002B0F88 /* P_Body_22.png in Resources */,
 				E53CBD3411EEAAC6002B0F88 /* P_Body_23.png in Resources */,
+				DABEF1511A7A1566005DF0E5 /* base_shop_ui.png in Resources */,
 				E53CBD3511EEAAC6002B0F88 /* P_Body_30.png in Resources */,
 				E53CBD3611EEAAC6002B0F88 /* P_Body_31.png in Resources */,
 				E53CBD3711EEAAC6002B0F88 /* P_Body_32.png in Resources */,
@@ -5638,6 +5651,7 @@
 				E5C1B43012B319A500DFEA9B /* BG_08_01.jpg in Resources */,
 				E5C1B43112B319A500DFEA9B /* BG_08_02.jpg in Resources */,
 				E5C1B43212B319A500DFEA9B /* BG_09_01.jpg in Resources */,
+				DABEF1561A7A2A31005DF0E5 /* shop_base_desc_board.png in Resources */,
 				E5C1B43312B319A500DFEA9B /* BG_09_02.jpg in Resources */,
 				E5C1B43412B319A500DFEA9B /* BG_10_01.jpg in Resources */,
 				E5C1B43512B319A500DFEA9B /* BG_10_02.jpg in Resources */,
@@ -6100,6 +6114,7 @@
 				E5C534831275264000D3C6B9 /* QobImage.m in Sources */,
 				E5C534841275264000D3C6B9 /* QobImageFont.m in Sources */,
 				E5C534851275264000D3C6B9 /* QobLine.m in Sources */,
+				DABEF1541A7A160A005DF0E5 /* DlgShopBase.m in Sources */,
 				E5C534861275264000D3C6B9 /* QobManager.m in Sources */,
 				E5C534871275264000D3C6B9 /* QobParticle.m in Sources */,
 				E5C534881275264000D3C6B9 /* QobText.m in Sources */,
@@ -6146,8 +6161,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -6162,10 +6177,10 @@
 					"\"$(SRCROOT)/Classes/TestFlightSDK3.0.0\"",
 				);
 				PRODUCT_NAME = MachDefense;
-				PROVISIONING_PROFILE = "a132892e-5571-45dc-a530-aecf6ed821e1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a132892e-5571-45dc-a530-aecf6ed821e1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0d0162e8-2b22-49d0-8c4e-ebd5fd3adb2c";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -6174,8 +6189,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: oh donggun (X7EWWZF675)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: oh donggun (X7EWWZF675)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -6189,10 +6204,10 @@
 					"\"$(SRCROOT)/Classes/TestFlightSDK3.0.0\"",
 				);
 				PRODUCT_NAME = MachDefense;
-				PROVISIONING_PROFILE = "a132892e-5571-45dc-a530-aecf6ed821e1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a132892e-5571-45dc-a530-aecf6ed821e1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0d0162e8-2b22-49d0-8c4e-ebd5fd3adb2c";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

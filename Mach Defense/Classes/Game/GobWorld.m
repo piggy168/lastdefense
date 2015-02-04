@@ -284,11 +284,11 @@ extern DefaultAppDelegate *_appDelegate;
 	[mach setDir:M_PI/2.f];
 	[mach setIsBase:TRUE];
 	[mach setParts:@"DummyParts" partsType:PARTS_BASE];
-	BaseUpgradeSet *upgradeSet = [GINFO getBaseUpgradeSet:@"BaseDefense"];
+	BaseUpgradeSet *upgradeSet = [GINFO getBaseUpgradeSet:@"BaseArmor"];
 	NSString *strName = [NSString stringWithFormat:@"Base%02d", upgradeSet.level + 1];
 	[mach setParts:strName partsType:PARTS_BODY];
 	
-	upgradeSet = [GINFO getBaseUpgradeSet:@"BaseCannon"];
+	upgradeSet = [GINFO getBaseUpgradeSet:@"BaseWeapon"];
 	strName = [NSString stringWithFormat:@"BaseWpn%02d", upgradeSet.level + 1];
 	[mach setParts:strName partsType:PARTS_WPN];
 	strName = [NSString stringWithFormat:@"Base%02d_Rader", upgradeSet.level + 1];
