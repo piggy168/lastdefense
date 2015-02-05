@@ -61,6 +61,11 @@
     [bgTop setPosY:24];
     [self addChild:bgTop];
     
+    QobText *title = [[QobText alloc] initWithString:@"BOMBS" Size:CGSizeMake(128, 32) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:32 Retina:true];
+    [title setPosX:0 Y:190];
+    [bgTop addChild:title];
+    [title setColorR:255 G:255 B:255];
+    
     tile = [TILEMGR getTileForRetina:@"worldmap_bottom_bar.png"];
     QobImage *img = [[QobImage alloc] initWithTile:tile tileNo:0];
     [img setPosX:0 Y:-_glView.surfaceSize.height/2+35];

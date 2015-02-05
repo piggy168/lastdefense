@@ -704,10 +704,10 @@ extern DefaultAppDelegate *_appDelegate;
 
 - (void)refreshEnemyGauge:(float)scale
 {
-//	scale = 1.f;
+//	scale = 0.8f;
 	[_gaugeEnemy setScaleX:scale];
 	if(_glView.deviceType == DEVICE_IPAD) [_gaugeEnemy setPosX:178 - 81 * scale];
-	else [_gaugeEnemy setPosX:30 + 91 - 91 * scale];
+	else [_gaugeEnemy setPosX:30 + 60 - 60 * scale];
 }
 
 - (void)refreshMyGauge:(float)scale
@@ -715,7 +715,7 @@ extern DefaultAppDelegate *_appDelegate;
 //	scale = 1.f;
 	[_gaugeMyBase setScaleX:scale];
 	if(_glView.deviceType == DEVICE_IPAD) [_gaugeMyBase setPosX:-180 + 81 * scale];
-	else [_gaugeMyBase setPosX:-100 - 91 + 91 * scale];
+	else [_gaugeMyBase setPosX:-100 - 60 + 60 * scale];
 }
 
 - (void)refreshMaxMineral

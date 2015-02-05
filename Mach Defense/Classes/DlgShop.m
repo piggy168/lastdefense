@@ -60,6 +60,11 @@
     [bgTop setPosY:24];
     [self addChild:bgTop];
     
+    QobText *title = [[QobText alloc] initWithString:@"MECHS" Size:CGSizeMake(128, 32) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:32 Retina:true];
+    [title setPosX:0 Y:190];
+    [bgTop addChild:title];
+    [title setColorR:255 G:255 B:255];
+    
     tile = [TILEMGR getTileForRetina:@"worldmap_bottom_bar.png"];
     QobImage *img = [[QobImage alloc] initWithTile:tile tileNo:0];
     [img setPosX:0 Y:-_glView.surfaceSize.height/2+35];
@@ -245,7 +250,7 @@
 
         tile = [TILEMGR getTileForRetina:@"Uninstall_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100+i];
+        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:10000+i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:-12 ];
@@ -255,7 +260,7 @@
         
         tile = [TILEMGR getTileForRetina:@"Install_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100+i];
+        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:10000+i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:-12 ];
@@ -265,7 +270,7 @@
         
         tile = [TILEMGR getTileForRetina:@"Upgrade_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:1000+i];
+        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100000+i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:19 ];
@@ -448,10 +453,19 @@
     QobImage *bg = [_QLIST objectAtIndex:unit_id];
     if(bg)
     {
-        [_QLIST removeObject:bg];
-        [bg remove];
+        [bg removeAllChild];
+//        [_QLIST removeObject:bg];
+//        [bg remove];
         //bg = nil;
     }
+//    else
+//    {
+//        Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Upgrade_Mach_BG.png"]];
+//        bg = [[QobImage alloc] initWithTile:tile tileNo:0];
+//        [bg setPosX:x Y:y];
+//        [bg setLayer:1];
+//        [_base addChild:bg];
+//    }
     
     NSArray *listBuildSet = [GINFO listBuyBuildSet];
     NSLog(@"updateList %d",listBuildSet.count);
@@ -463,8 +477,8 @@
         NSString *strInfo;
         GobHvM_Player *mach, *nextMach;
         int atk1, atk2, rng1, rng2, def1, def2, spd1, spd2;
-        float x = 0.0f;
-        float y = -i*80;
+//        float x = 0.0f;
+//        float y = -i*80;
         
         MachBuildSet *buildSet = [listBuildSet objectAtIndex:unit_id];
         if(buildSet == nil) return;
@@ -474,11 +488,6 @@
         //        bool bActive = buildSet.onSlot;
         //if(bActive) continue;
         
-        Tile2D *tile = [TILEMGR getTileForRetina:[NSString stringWithFormat:@"Upgrade_Mach_BG.png"]];
-        QobImage *bg = [[QobImage alloc] initWithTile:tile tileNo:0];
-        [bg setPosX:x Y:y];
-        [bg setLayer:1];
-        [_base addChild:bg];
         
         NSString *machName = [GINFO getDescription:[NSString stringWithFormat:@"MN_%@", buildSet.machName]];
         if(machName == nil) machName = buildSet.machName;
@@ -488,9 +497,9 @@
         [text setLayer:2];
         [bg addChild:text];
         
-        tile = [TILEMGR getTileForRetina:@"Uninstall_Btn.png"];
+        Tile2D *tile = [TILEMGR getTileForRetina:@"Uninstall_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100+i];
+        QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:10000+i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:-12 ];
@@ -500,7 +509,7 @@
         
         tile = [TILEMGR getTileForRetina:@"Install_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100+i];
+        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:10000+i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:-12 ];
@@ -510,7 +519,7 @@
         
         tile = [TILEMGR getTileForRetina:@"Upgrade_Btn.png"];
         [tile tileSplitX:1 splitY:3];
-        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:1000+i];
+        btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:100000+i];
         [btn setReleaseTileNo:1];
         if(_glView.deviceType == DEVICE_IPAD) [btn setPosX:224 Y:80];
         else [btn setPosX:60 Y:19 ];
@@ -636,7 +645,7 @@
             [bg addChild:text];
         }
     }
-    [_QLIST addObject:bg];
+//    [_QLIST addObject:bg];
     
     [self updateSlot];
 }
@@ -768,13 +777,13 @@
         else if(_canClick)
         {
             NSLog(@"click unit %d", button.buttonId);
-            if(button.buttonId >= 1000)
+            if(button.buttonId >= 100000)
             {
-                [self upgradeMach:button.buttonId-1000];
+                [self upgradeMach:button.buttonId-100000];
             }
-            else if(button.buttonId >= 100)
+            else if(button.buttonId >= 10000)
             {
-                [self uninstallMach:button.buttonId-100];
+                [self uninstallMach:button.buttonId-10000];
             }
         }
 	}

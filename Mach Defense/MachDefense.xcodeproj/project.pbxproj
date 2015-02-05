@@ -1125,7 +1125,6 @@
 		E5C0851B1292391C000D315D /* PB_Missile_09.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C085111292391C000D315D /* PB_Missile_09.png */; };
 		E5C0851C1292391C000D315D /* PB_Missile_10.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C085121292391C000D315D /* PB_Missile_10.png */; };
 		E5C086A11293A046000D315D /* Btn_BuildMach.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C0869E1293A046000D315D /* Btn_BuildMach.png */; };
-		E5C086A21293A046000D315D /* Btn_BuildMachBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C0869F1293A046000D315D /* Btn_BuildMachBG.png */; };
 		E5C086A31293A046000D315D /* Btn_BuildMachInd.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C086A01293A046000D315D /* Btn_BuildMachInd.png */; };
 		E5C1B38D12B30CFE00DFEA9B /* Blt_Bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C1B38B12B30CFE00DFEA9B /* Blt_Bullet.png */; };
 		E5C1B38E12B30CFE00DFEA9B /* Blt_Railgun.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C1B38C12B30CFE00DFEA9B /* Blt_Railgun.png */; };
@@ -1212,9 +1211,6 @@
 		E5C447CE12A75B150020DC11 /* UiObjMach.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C447CD12A75B150020DC11 /* UiObjMach.m */; };
 		E5C447D512A75D940020DC11 /* UiObjMachParts.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C447D412A75D940020DC11 /* UiObjMachParts.m */; };
 		E5C4489812A787A10020DC11 /* UpgradeEquip_UpgradeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C4489712A787A10020DC11 /* UpgradeEquip_UpgradeOn.png */; };
-		E5C448F812A79D020020DC11 /* Ani_BuildMach.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C448F512A79D020020DC11 /* Ani_BuildMach.png */; };
-		E5C448F912A79D020020DC11 /* Ani_Formation.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C448F612A79D020020DC11 /* Ani_Formation.png */; };
-		E5C448FA12A79D020020DC11 /* Ani_SpAttack.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C448F712A79D020020DC11 /* Ani_SpAttack.png */; };
 		E5C4497112A89DB50020DC11 /* UpgradeLine.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C4497012A89DB50020DC11 /* UpgradeLine.png */; };
 		E5C4499A12A8A4B70020DC11 /* UpgradeTarget.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C4499912A8A4B70020DC11 /* UpgradeTarget.png */; };
 		E5C44A9612A8D6920020DC11 /* HMG01.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5C44A6612A8D6920020DC11 /* HMG01.wav */; };
@@ -1287,12 +1283,6 @@
 		E5C534981275264000D3C6B9 /* Tile2D.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C5347D1275264000D3C6B9 /* Tile2D.m */; };
 		E5C9E06412D17F3700043F02 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C9E06312D17F3700043F02 /* GameKit.framework */; };
 		E5C9E07712D184CF00043F02 /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C9E07612D184CF00043F02 /* GameCenterManager.m */; };
-		E5CE35BA12A4FC48002E1E02 /* Btn_BaseUpgrade_BaseCannon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B412A4FC48002E1E02 /* Btn_BaseUpgrade_BaseCannon.png */; };
-		E5CE35BB12A4FC49002E1E02 /* Btn_BaseUpgrade_BaseDefense.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B512A4FC48002E1E02 /* Btn_BaseUpgrade_BaseDefense.png */; };
-		E5CE35BC12A4FC49002E1E02 /* Btn_BaseUpgrade_BuildTime.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B612A4FC48002E1E02 /* Btn_BaseUpgrade_BuildTime.png */; };
-		E5CE35BD12A4FC49002E1E02 /* Btn_BaseUpgrade_CellResearch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B712A4FC48002E1E02 /* Btn_BaseUpgrade_CellResearch.png */; };
-		E5CE35BE12A4FC49002E1E02 /* Btn_BaseUpgrade_CellStorage.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B812A4FC48002E1E02 /* Btn_BaseUpgrade_CellStorage.png */; };
-		E5CE35BF12A4FC49002E1E02 /* Btn_BaseUpgrade_CrResearch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CE35B912A4FC48002E1E02 /* Btn_BaseUpgrade_CrResearch.png */; };
 		E5CE35EE12A5E9FE002E1E02 /* BaseUpgradeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE35ED12A5E9FE002E1E02 /* BaseUpgradeSet.m */; };
 		E5CE36D512A64480002E1E02 /* ZoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE36D412A64480002E1E02 /* ZoneManager.m */; };
 		E5CF5EEF12B858B300E6D857 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CF5EEE12B858B300E6D857 /* iAd.framework */; };
@@ -2594,7 +2584,6 @@
 		E5C085111292391C000D315D /* PB_Missile_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PB_Missile_09.png; sourceTree = "<group>"; };
 		E5C085121292391C000D315D /* PB_Missile_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PB_Missile_10.png; sourceTree = "<group>"; };
 		E5C0869E1293A046000D315D /* Btn_BuildMach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BuildMach.png; sourceTree = "<group>"; };
-		E5C0869F1293A046000D315D /* Btn_BuildMachBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BuildMachBG.png; sourceTree = "<group>"; };
 		E5C086A01293A046000D315D /* Btn_BuildMachInd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BuildMachInd.png; sourceTree = "<group>"; };
 		E5C1B38B12B30CFE00DFEA9B /* Blt_Bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blt_Bullet.png; sourceTree = "<group>"; };
 		E5C1B38C12B30CFE00DFEA9B /* Blt_Railgun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blt_Railgun.png; sourceTree = "<group>"; };
@@ -2683,9 +2672,6 @@
 		E5C447D312A75D940020DC11 /* UiObjMachParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UiObjMachParts.h; sourceTree = "<group>"; };
 		E5C447D412A75D940020DC11 /* UiObjMachParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UiObjMachParts.m; sourceTree = "<group>"; };
 		E5C4489712A787A10020DC11 /* UpgradeEquip_UpgradeOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpgradeEquip_UpgradeOn.png; sourceTree = "<group>"; };
-		E5C448F512A79D020020DC11 /* Ani_BuildMach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ani_BuildMach.png; sourceTree = "<group>"; };
-		E5C448F612A79D020020DC11 /* Ani_Formation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ani_Formation.png; sourceTree = "<group>"; };
-		E5C448F712A79D020020DC11 /* Ani_SpAttack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ani_SpAttack.png; sourceTree = "<group>"; };
 		E5C4497012A89DB50020DC11 /* UpgradeLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpgradeLine.png; sourceTree = "<group>"; };
 		E5C4499912A8A4B70020DC11 /* UpgradeTarget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpgradeTarget.png; sourceTree = "<group>"; };
 		E5C44A6612A8D6920020DC11 /* HMG01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HMG01.wav; sourceTree = "<group>"; };
@@ -2786,12 +2772,6 @@
 		E5C9E06312D17F3700043F02 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		E5C9E07512D184CF00043F02 /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
 		E5C9E07612D184CF00043F02 /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
-		E5CE35B412A4FC48002E1E02 /* Btn_BaseUpgrade_BaseCannon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BaseUpgrade_BaseCannon.png; sourceTree = "<group>"; };
-		E5CE35B512A4FC48002E1E02 /* Btn_BaseUpgrade_BaseDefense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BaseUpgrade_BaseDefense.png; sourceTree = "<group>"; };
-		E5CE35B612A4FC48002E1E02 /* Btn_BaseUpgrade_BuildTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BaseUpgrade_BuildTime.png; sourceTree = "<group>"; };
-		E5CE35B712A4FC48002E1E02 /* Btn_BaseUpgrade_CellResearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BaseUpgrade_CellResearch.png; sourceTree = "<group>"; };
-		E5CE35B812A4FC48002E1E02 /* Btn_BaseUpgrade_CellStorage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BaseUpgrade_CellStorage.png; sourceTree = "<group>"; };
-		E5CE35B912A4FC48002E1E02 /* Btn_BaseUpgrade_CrResearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_BaseUpgrade_CrResearch.png; sourceTree = "<group>"; };
 		E5CE35EC12A5E9FE002E1E02 /* BaseUpgradeSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUpgradeSet.h; sourceTree = "<group>"; };
 		E5CE35ED12A5E9FE002E1E02 /* BaseUpgradeSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUpgradeSet.m; sourceTree = "<group>"; };
 		E5CE36D312A64480002E1E02 /* ZoneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneManager.h; sourceTree = "<group>"; };
@@ -3555,7 +3535,6 @@
 				E52B4FEB12965E4F0022EB7E /* GameUI_MachSlot.png */,
 				E5DDC3A0123637EE00477306 /* MakeMach_Mach.png */,
 				E5C0869E1293A046000D315D /* Btn_BuildMach.png */,
-				E5C0869F1293A046000D315D /* Btn_BuildMachBG.png */,
 				E5C086A01293A046000D315D /* Btn_BuildMachInd.png */,
 				E59529AB129531EA0034BB09 /* BuildMach_Cover.png */,
 				E5C4489712A787A10020DC11 /* UpgradeEquip_UpgradeOn.png */,
@@ -3569,16 +3548,7 @@
 				E5C4497012A89DB50020DC11 /* UpgradeLine.png */,
 				E5C4499912A8A4B70020DC11 /* UpgradeTarget.png */,
 				E5C44ACE12A8D9790020DC11 /* CellUpgrade.png */,
-				E5CE35B412A4FC48002E1E02 /* Btn_BaseUpgrade_BaseCannon.png */,
-				E5CE35B512A4FC48002E1E02 /* Btn_BaseUpgrade_BaseDefense.png */,
-				E5CE35B612A4FC48002E1E02 /* Btn_BaseUpgrade_BuildTime.png */,
-				E5CE35B712A4FC48002E1E02 /* Btn_BaseUpgrade_CellResearch.png */,
-				E5CE35B812A4FC48002E1E02 /* Btn_BaseUpgrade_CellStorage.png */,
-				E5CE35B912A4FC48002E1E02 /* Btn_BaseUpgrade_CrResearch.png */,
 				E5A55587122CF66F00516555 /* MachButton.png */,
-				E5C448F512A79D020020DC11 /* Ani_BuildMach.png */,
-				E5C448F612A79D020020DC11 /* Ani_Formation.png */,
-				E5C448F712A79D020020DC11 /* Ani_SpAttack.png */,
 				E535D855126D3CDE009C6DC1 /* SelMach.png */,
 				E5DDC4561237685900477306 /* BuildGauge.png */,
 				E53CB42B11EEAAC3002B0F88 /* EnemyGauge.png */,
@@ -5320,7 +5290,6 @@
 				E5C0851B1292391C000D315D /* PB_Missile_09.png in Resources */,
 				E5C0851C1292391C000D315D /* PB_Missile_10.png in Resources */,
 				E5C086A11293A046000D315D /* Btn_BuildMach.png in Resources */,
-				E5C086A21293A046000D315D /* Btn_BuildMachBG.png in Resources */,
 				E5C086A31293A046000D315D /* Btn_BuildMachInd.png in Resources */,
 				E59527831294D2A40034BB09 /* P_Foot_32x16.png in Resources */,
 				E59527D51294F2350034BB09 /* P_Wpn_32x16.png in Resources */,
@@ -5518,16 +5487,7 @@
 				E5DC1931129E04D000C58585 /* Turret_pla_05.png in Resources */,
 				E5DC1A34129E37B300C58585 /* UpgradeBtn_Buy.png in Resources */,
 				E5A467D6129F97E000B08867 /* UpgradeEquip_MachInfo.png in Resources */,
-				E5CE35BA12A4FC48002E1E02 /* Btn_BaseUpgrade_BaseCannon.png in Resources */,
-				E5CE35BB12A4FC49002E1E02 /* Btn_BaseUpgrade_BaseDefense.png in Resources */,
-				E5CE35BC12A4FC49002E1E02 /* Btn_BaseUpgrade_BuildTime.png in Resources */,
-				E5CE35BD12A4FC49002E1E02 /* Btn_BaseUpgrade_CellResearch.png in Resources */,
-				E5CE35BE12A4FC49002E1E02 /* Btn_BaseUpgrade_CellStorage.png in Resources */,
-				E5CE35BF12A4FC49002E1E02 /* Btn_BaseUpgrade_CrResearch.png in Resources */,
 				E5C4489812A787A10020DC11 /* UpgradeEquip_UpgradeOn.png in Resources */,
-				E5C448F812A79D020020DC11 /* Ani_BuildMach.png in Resources */,
-				E5C448F912A79D020020DC11 /* Ani_Formation.png in Resources */,
-				E5C448FA12A79D020020DC11 /* Ani_SpAttack.png in Resources */,
 				E5C4497112A89DB50020DC11 /* UpgradeLine.png in Resources */,
 				E5C4499A12A8A4B70020DC11 /* UpgradeTarget.png in Resources */,
 				E5C44A9612A8D6920020DC11 /* HMG01.wav in Resources */,
