@@ -16,7 +16,9 @@
 #import <mach/mach_time.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#if !defined(ANDROID)
 #import <GameKit/GameKit.h>
+#endif
 
 #import "EAGLView.h"
 #import "SoundEngine.h"

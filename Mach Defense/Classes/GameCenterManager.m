@@ -29,6 +29,8 @@ static GameCenterManager *_sharedMgr = nil;
 	return nil;
 }
 
+#if !defined(ANDROID)
+
 - (BOOL)isGameCenterAvailable
 {
 	// Check for presence of GKLocalPlayer API.
@@ -178,5 +180,7 @@ static GameCenterManager *_sharedMgr = nil;
 		}
 	}];
 }
+
+#endif
 
 @end

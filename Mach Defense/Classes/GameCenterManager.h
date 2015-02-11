@@ -17,6 +17,7 @@
 @property (readonly) BOOL isAuth;
 
 + (GameCenterManager *)sharedMgr;
+#if !defined(ANDROID)
 - (BOOL)isGameCenterAvailable;
 - (void)authenticateLocalPlayer;
 - (void)registerForAuthenticationNotification;
@@ -27,5 +28,6 @@
 - (void)retrieveTopTenScores;
 - (void)receiveMatchBestScores:(GKMatch*)match;
 - (void)loadCategoryTitles;
+#endif
 
 @end

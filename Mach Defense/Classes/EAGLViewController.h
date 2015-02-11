@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+#if !defined(ANDROID)
 @interface EAGLViewController : UIViewController <GKLeaderboardViewControllerDelegate>
 {
 }
-
 - (void)showLeaderboard;
+#else
+@interface EAGLViewController : UIViewController
+{
+}
+#endif
+
+
 
 @end

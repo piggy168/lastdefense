@@ -74,6 +74,8 @@ extern EAGLView *_glView;
     // e.g. self.myOutlet = nil;
 }
 
+#if !defined(ANDROID)
+
 - (void)showLeaderboard
 {
 	GKLeaderboardViewController *leaderboardController = [[GKLeaderboardViewController alloc] init];
@@ -100,6 +102,7 @@ extern EAGLView *_glView;
 	}
 }
 
+#endif
 
 - (void)dealloc
 {

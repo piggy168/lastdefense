@@ -60,6 +60,14 @@
     [bgTop setPosY:24];
     [self addChild:bgTop];
     
+    tile = [TILEMGR getTileForRetina:@"btn_plus.png"];
+    [tile tileSplitX:1 splitY:3];
+    QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:123456];
+    [btn setReleaseTileNo:1];
+    [btn setPosX:-53 Y:185];
+    [btn setLayer:VLAYER_FORE_UI2];
+    [bgTop addChild:btn];
+    
     QobText *title = [[QobText alloc] initWithString:@"MECHS" Size:CGSizeMake(128, 32) Align:UITextAlignmentCenter Font:@"TrebuchetMS-Bold" FontSize:32 Retina:true];
     [title setPosX:0 Y:190];
     [bgTop addChild:title];
@@ -79,7 +87,7 @@
     
     tile = [TILEMGR getTileForRetina:@"Done_btn.png"];
     [tile tileSplitX:1 splitY:3];
-	QobButton *btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:9999];
+    btn = [[QobButton alloc] initWithTile:tile TileNo:0 ID:9999];
 	[btn setReleaseTileNo:1];
 	[btn setPosX: _glView.surfaceSize.width/2 - 70 Y:185];
 	[btn setLayer:VLAYER_FORE_UI2];
@@ -751,7 +759,10 @@
 	}
 	else if([[note name]isEqualToString:@"PopButton"])
 	{
-        if(button.buttonId == 9999)
+        if (button.buttonId == 123456) {
+
+        }
+        else if(button.buttonId == 9999)
         {
             [GINFO saveDataFile];
             [g_main makeScreen:GSCR_SELECTSTAGE];

@@ -1,14 +1,5 @@
 {
-    "xcode_project": "MachDefense.xcodeproj", 
-    "java_sources": [], 
-    "pchs": [
-        "./MD_Prefix.pch"
-    ], 
     "assets": [
-        {
-            "asset": "MainWindow_iPhone.xib", 
-            "target": null
-        }, 
         {
             "asset": "Resource/Icon72.png", 
             "target": "Icon72.png"
@@ -930,40 +921,8 @@
             "target": "TargetPath.png"
         }, 
         {
-            "asset": "Resource/Images/uiCommon/Common_Btn_BACK.png", 
-            "target": "Common_Btn_BACK.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_CANCEL.png", 
-            "target": "Common_Btn_CANCEL.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_CLOSE.png", 
-            "target": "Common_Btn_CLOSE.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_DEL.png", 
-            "target": "Common_Btn_DEL.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_NEXT.png", 
-            "target": "Common_Btn_NEXT.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_NO.png", 
-            "target": "Common_Btn_NO.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_OK.png", 
-            "target": "Common_Btn_OK.png"
-        }, 
-        {
             "asset": "Resource/Images/uiCommon/Common_Btn_PREV.png", 
             "target": "Common_Btn_PREV.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_YES.png", 
-            "target": "Common_Btn_YES.png"
         }, 
         {
             "asset": "Resource/Images/uiEtc/NumSet01.png", 
@@ -990,34 +949,6 @@
             "target": "InvenPage.png"
         }, 
         {
-            "asset": "Resource/Images/uiGame/Loading_Bottom.png", 
-            "target": "Loading_Bottom.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Loading_Center.png", 
-            "target": "Loading_Center.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Loading_Left.png", 
-            "target": "Loading_Left.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Loading_Left2.png", 
-            "target": "Loading_Left2.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Loading_Right.png", 
-            "target": "Loading_Right.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Loading_Right2.png", 
-            "target": "Loading_Right2.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Loading_Top.png", 
-            "target": "Loading_Top.png"
-        }, 
-        {
             "asset": "Resource/Images/uiGame/MessageBox.png", 
             "target": "MessageBox.png"
         }, 
@@ -1036,10 +967,6 @@
         {
             "asset": "Resource/Images/uiSelectSlot/SelSlot_Btn.png", 
             "target": "SelSlot_Btn.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiTitle/Main_Copyright.png", 
-            "target": "Main_Copyright.png"
         }, 
         {
             "asset": "Resource/Images/uiTitle/Main_TapToStart.png", 
@@ -1184,6 +1111,10 @@
         {
             "asset": "Resource/Mach/Parts/Boss07_Body.png", 
             "target": "Boss07_Body.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/btn_plus.png", 
+            "target": "btn_plus.png"
         }, 
         {
             "asset": "Resource/Mach/Parts/Boss07_Wpn_01.png", 
@@ -1770,6 +1701,10 @@
             "target": "P_Body_23.png"
         }, 
         {
+            "asset": "Resource/Images/uiShop/base_shop_ui.png", 
+            "target": "base_shop_ui.png"
+        }, 
+        {
             "asset": "Resource/Mach/Parts/P_Body_30.png", 
             "target": "P_Body_30.png"
         }, 
@@ -1810,10 +1745,6 @@
             "target": "ItemBox.png"
         }, 
         {
-            "asset": "Resource/Images/uiCommon/Common_Btn_EXIT.png", 
-            "target": "Common_Btn_EXIT.png"
-        }, 
-        {
             "asset": "Resource/Images/uiCommon/NumSet_Cr.png", 
             "target": "NumSet_Cr.png"
         }, 
@@ -1832,18 +1763,6 @@
         {
             "asset": "Resource/Images/uiCommon/NumSet_Stage.png", 
             "target": "NumSet_Stage.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/MachButton.png", 
-            "target": "MachButton.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/GameUI_BtmR.png", 
-            "target": "GameUI_BtmR.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/GameUI_BtmL.png", 
-            "target": "GameUI_BtmL.png"
         }, 
         {
             "asset": "Resource/Images/uiGame/MakeMach_Mach.png", 
@@ -1950,20 +1869,8 @@
             "target": "SelMach.png"
         }, 
         {
-            "asset": "Resource/Images/uiGame/Btn_MachBuild.png", 
-            "target": "Btn_MachBuild.png"
-        }, 
-        {
             "asset": "Resource/Images/uiCommon/NumSet_Mineral.png", 
             "target": "NumSet_Mineral.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiTitle/iPad_Title_Main.png", 
-            "target": "iPad_Title_Main.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiCommon/Common_Btn_NEW.png", 
-            "target": "Common_Btn_NEW.png"
         }, 
         {
             "asset": "Resource/Mach/Parts/PB_HMG_01.png", 
@@ -2248,10 +2155,6 @@
         {
             "asset": "Resource/Images/uiGame/Btn_BuildMach.png", 
             "target": "Btn_BuildMach.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BuildMachBG.png", 
-            "target": "Btn_BuildMachBG.png"
         }, 
         {
             "asset": "Resource/Images/uiGame/Btn_BuildMachInd.png", 
@@ -2842,24 +2745,12 @@
             "target": "BuildMach_Cover.png"
         }, 
         {
-            "asset": "Resource/Images/uiGame/Btn_UpgradeEquip.png", 
-            "target": "Btn_UpgradeEquip.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BuildMachUpgrade.png", 
-            "target": "Btn_BuildMachUpgrade.png"
-        }, 
-        {
             "asset": "Resource/Images/uiGame/GameUI_BuildSlot.png", 
             "target": "GameUI_BuildSlot.png"
         }, 
         {
             "asset": "Resource/Images/uiGame/GameUI_MachSlot.png", 
             "target": "GameUI_MachSlot.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BuildMachUpgradeOn.png", 
-            "target": "Btn_BuildMachUpgradeOn.png"
         }, 
         {
             "asset": "Resource/Images/uiCommon/CommonUI_Btm.png", 
@@ -2892,10 +2783,6 @@
         {
             "asset": "Resource/Images/uiGame/UpgradeBtn_Upgrade.png", 
             "target": "UpgradeBtn_Upgrade.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/UpgradeMachBG.png", 
-            "target": "UpgradeMachBG.png"
         }, 
         {
             "asset": "Resource/Images/uiGame/UpgradeEquip_SelMach.png", 
@@ -3046,56 +2933,8 @@
             "target": "UpgradeBtn_Buy.png"
         }, 
         {
-            "asset": "Resource/Images/uiGame/UpgradeEquip_MachInfo.png", 
-            "target": "UpgradeEquip_MachInfo.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_BaseCannon.png", 
-            "target": "Btn_BaseUpgrade_BaseCannon.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_BaseDefense.png", 
-            "target": "Btn_BaseUpgrade_BaseDefense.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_BuildTime.png", 
-            "target": "Btn_BaseUpgrade_BuildTime.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_CellResearch.png", 
-            "target": "Btn_BaseUpgrade_CellResearch.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_CellStorage.png", 
-            "target": "Btn_BaseUpgrade_CellStorage.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_BaseUpgrade_CrResearch.png", 
-            "target": "Btn_BaseUpgrade_CrResearch.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_UpgradeBase_Close.png", 
-            "target": "Btn_UpgradeBase_Close.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Btn_UpgradeBase_Upgrade.png", 
-            "target": "Btn_UpgradeBase_Upgrade.png"
-        }, 
-        {
             "asset": "Resource/Images/uiGame/UpgradeEquip_UpgradeOn.png", 
             "target": "UpgradeEquip_UpgradeOn.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Ani_BuildMach.png", 
-            "target": "Ani_BuildMach.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Ani_Formation.png", 
-            "target": "Ani_Formation.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiGame/Ani_SpAttack.png", 
-            "target": "Ani_SpAttack.png"
         }, 
         {
             "asset": "Resource/Images/uiGame/UpgradeLine.png", 
@@ -3268,182 +3107,6 @@
         {
             "asset": "Resource/Images/uiGame/CellUpgrade.png", 
             "target": "CellUpgrade.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_01_01.png", 
-            "target": "tBG_01_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_01_02.png", 
-            "target": "tBG_01_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_02_01.png", 
-            "target": "tBG_02_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_02_02.png", 
-            "target": "tBG_02_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_03_01.png", 
-            "target": "tBG_03_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_03_02.png", 
-            "target": "tBG_03_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_04_01.png", 
-            "target": "tBG_04_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_04_02.png", 
-            "target": "tBG_04_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_05_01.png", 
-            "target": "tBG_05_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_05_02.png", 
-            "target": "tBG_05_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_06_01.png", 
-            "target": "tBG_06_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_06_02.png", 
-            "target": "tBG_06_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_07_01.png", 
-            "target": "tBG_07_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_07_02.png", 
-            "target": "tBG_07_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_08_01.png", 
-            "target": "tBG_08_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_08_02.png", 
-            "target": "tBG_08_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_09_01.png", 
-            "target": "tBG_09_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_09_02.png", 
-            "target": "tBG_09_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_10_01.png", 
-            "target": "tBG_10_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_10_02.png", 
-            "target": "tBG_10_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_11_01.png", 
-            "target": "tBG_11_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_11_02.png", 
-            "target": "tBG_11_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_12_01.png", 
-            "target": "tBG_12_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_12_02.png", 
-            "target": "tBG_12_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_13_01.png", 
-            "target": "tBG_13_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_13_02.png", 
-            "target": "tBG_13_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_14_01.png", 
-            "target": "tBG_14_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_14_02.png", 
-            "target": "tBG_14_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_15_01.png", 
-            "target": "tBG_15_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_15_02.png", 
-            "target": "tBG_15_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_16_01.png", 
-            "target": "tBG_16_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_16_02.png", 
-            "target": "tBG_16_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_17_01.png", 
-            "target": "tBG_17_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_17_02.png", 
-            "target": "tBG_17_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_18_01.png", 
-            "target": "tBG_18_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_18_02.png", 
-            "target": "tBG_18_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_19_01.png", 
-            "target": "tBG_19_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_19_02.png", 
-            "target": "tBG_19_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_20_01.png", 
-            "target": "tBG_20_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_20_02.png", 
-            "target": "tBG_20_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_21_01.png", 
-            "target": "tBG_21_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_21_02.png", 
-            "target": "tBG_21_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPad_SelStage_Fore.png", 
-            "target": "iPad_SelStage_Fore.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPad_SelSlot_BG.jpg", 
-            "target": "iPad_SelSlot_BG.jpg"
         }, 
         {
             "asset": "Resource/Sound/BGM/GamePlay.mp3", 
@@ -3754,6 +3417,10 @@
             "target": "BG_09_01.jpg"
         }, 
         {
+            "asset": "Resource/Images/uiShop/shop_base_desc_board.png", 
+            "target": "shop_base_desc_board.png"
+        }, 
+        {
             "asset": "Resource/Map/Images/BG_09_02.jpg", 
             "target": "BG_09_02.jpg"
         }, 
@@ -3994,38 +3661,6 @@
             "target": "Icon114.png"
         }, 
         {
-            "asset": "Resource/Images/uiSelectSlot/tBG_22_01.png", 
-            "target": "tBG_22_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_22_02.png", 
-            "target": "tBG_22_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_23_01.png", 
-            "target": "tBG_23_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_23_02.png", 
-            "target": "tBG_23_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_24_01.png", 
-            "target": "tBG_24_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_24_02.png", 
-            "target": "tBG_24_02.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_25_01.png", 
-            "target": "tBG_25_01.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/tBG_25_02.png", 
-            "target": "tBG_25_02.png"
-        }, 
-        {
             "asset": "Resource/Map/Images/BG_22_01.jpg", 
             "target": "BG_22_01.jpg"
         }, 
@@ -4066,372 +3701,16 @@
             "target": "Description_us.tble"
         }, 
         {
-            "asset": "Resource/Data/ItemInfo.tble", 
-            "target": "ItemInfo.tble"
-        }, 
-        {
             "asset": "Resource/Data/ItemRegen.tble", 
             "target": "ItemRegen.tble"
-        }, 
-        {
-            "asset": "Resource/Data/MachInfo.mcb", 
-            "target": "MachInfo.mcb"
-        }, 
-        {
-            "asset": "Resource/Data/MachList.tble", 
-            "target": "MachList.tble"
         }, 
         {
             "asset": "Resource/Data/MapInfo.mcb", 
             "target": "MapInfo.mcb"
         }, 
         {
-            "asset": "Resource/Data/MapList.tble", 
-            "target": "MapList.tble"
-        }, 
-        {
-            "asset": "Resource/Data/PartsInfo.mcb", 
-            "target": "PartsInfo.mcb"
-        }, 
-        {
-            "asset": "Resource/Data/PartsList.tble", 
-            "target": "PartsList.tble"
-        }, 
-        {
-            "asset": "Resource/Data/WeaponInfo.tble", 
-            "target": "WeaponInfo.tble"
-        }, 
-        {
-            "asset": "Resource/Data/BaseUpgrade.tble", 
-            "target": "BaseUpgrade.tble"
-        }, 
-        {
-            "asset": "Resource/Data/MachBuild_Name.tble", 
-            "target": "MachBuild_Name.tble"
-        }, 
-        {
-            "asset": "Resource/Data/MachBuild_Parts.tble", 
-            "target": "MachBuild_Parts.tble"
-        }, 
-        {
-            "asset": "Resource/Data/MachRegen.tble", 
-            "target": "MachRegen.tble"
-        }, 
-        {
-            "asset": "Resource/Data/SpAttackList.tble", 
-            "target": "SpAttackList.tble"
-        }, 
-        {
-            "asset": "Resource/Data/TileList.tble", 
-            "target": "TileList.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_01.tble", 
-            "target": "ESpawn_01.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_02.tble", 
-            "target": "ESpawn_02.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_03.tble", 
-            "target": "ESpawn_03.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_04.tble", 
-            "target": "ESpawn_04.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_05.tble", 
-            "target": "ESpawn_05.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_06.tble", 
-            "target": "ESpawn_06.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_07.tble", 
-            "target": "ESpawn_07.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_08.tble", 
-            "target": "ESpawn_08.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_09.tble", 
-            "target": "ESpawn_09.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_10.tble", 
-            "target": "ESpawn_10.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_11.tble", 
-            "target": "ESpawn_11.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_12.tble", 
-            "target": "ESpawn_12.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_13.tble", 
-            "target": "ESpawn_13.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_14.tble", 
-            "target": "ESpawn_14.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_15.tble", 
-            "target": "ESpawn_15.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_16.tble", 
-            "target": "ESpawn_16.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_17.tble", 
-            "target": "ESpawn_17.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_18.tble", 
-            "target": "ESpawn_18.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_19.tble", 
-            "target": "ESpawn_19.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_20.tble", 
-            "target": "ESpawn_20.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_21.tble", 
-            "target": "ESpawn_21.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_22.tble", 
-            "target": "ESpawn_22.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_23.tble", 
-            "target": "ESpawn_23.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_24.tble", 
-            "target": "ESpawn_24.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_25.tble", 
-            "target": "ESpawn_25.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_26.tble", 
-            "target": "ESpawn_26.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_27.tble", 
-            "target": "ESpawn_27.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_28.tble", 
-            "target": "ESpawn_28.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_29.tble", 
-            "target": "ESpawn_29.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_30.tble", 
-            "target": "ESpawn_30.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_31.tble", 
-            "target": "ESpawn_31.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_32.tble", 
-            "target": "ESpawn_32.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_33.tble", 
-            "target": "ESpawn_33.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_34.tble", 
-            "target": "ESpawn_34.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_35.tble", 
-            "target": "ESpawn_35.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_36.tble", 
-            "target": "ESpawn_36.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_37.tble", 
-            "target": "ESpawn_37.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_38.tble", 
-            "target": "ESpawn_38.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_39.tble", 
-            "target": "ESpawn_39.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_40.tble", 
-            "target": "ESpawn_40.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_41.tble", 
-            "target": "ESpawn_41.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_42.tble", 
-            "target": "ESpawn_42.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_43.tble", 
-            "target": "ESpawn_43.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_44.tble", 
-            "target": "ESpawn_44.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_45.tble", 
-            "target": "ESpawn_45.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_46.tble", 
-            "target": "ESpawn_46.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_47.tble", 
-            "target": "ESpawn_47.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_48.tble", 
-            "target": "ESpawn_48.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_49.tble", 
-            "target": "ESpawn_49.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_50.tble", 
-            "target": "ESpawn_50.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_51.tble", 
-            "target": "ESpawn_51.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_52.tble", 
-            "target": "ESpawn_52.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_53.tble", 
-            "target": "ESpawn_53.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_54.tble", 
-            "target": "ESpawn_54.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_55.tble", 
-            "target": "ESpawn_55.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_56.tble", 
-            "target": "ESpawn_56.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_57.tble", 
-            "target": "ESpawn_57.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_58.tble", 
-            "target": "ESpawn_58.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_59.tble", 
-            "target": "ESpawn_59.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_60.tble", 
-            "target": "ESpawn_60.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_61.tble", 
-            "target": "ESpawn_61.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_62.tble", 
-            "target": "ESpawn_62.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_63.tble", 
-            "target": "ESpawn_63.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_64.tble", 
-            "target": "ESpawn_64.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_65.tble", 
-            "target": "ESpawn_65.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_66.tble", 
-            "target": "ESpawn_66.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_67.tble", 
-            "target": "ESpawn_67.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_68.tble", 
-            "target": "ESpawn_68.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_69.tble", 
-            "target": "ESpawn_69.tble"
-        }, 
-        {
-            "asset": "Resource/Map/ESpawn_70.tble", 
-            "target": "ESpawn_70.tble"
-        }, 
-        {
             "asset": "Resource/Sound/SFX_QuickSlot.wav", 
             "target": "SFX_QuickSlot.wav"
-        }, 
-        {
-            "asset": "Resource/Images/uiTitle/iPon_Title_Main.png", 
-            "target": "iPon_Title_Main.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiTitle/iPon_Title_Main@2x.png", 
-            "target": "iPon_Title_Main@2x.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_BG.jpg", 
-            "target": "iPon_SelSlot_BG.jpg"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_BG@2x.jpg", 
-            "target": "iPon_SelSlot_BG@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPon_SelStage_Fore.png", 
-            "target": "iPon_SelStage_Fore.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPon_SelStage_Fore@2x.png", 
-            "target": "iPon_SelStage_Fore@2x.png"
         }, 
         {
             "asset": "Resource/Images/uiGame/iPad_GameUI_BG.png", 
@@ -4658,210 +3937,6 @@
             "target": "iPon_BG_25_02.jpg"
         }, 
         {
-            "asset": "Resource/Images/uiSelectSlot/iPad_SelSlot_Sel.png", 
-            "target": "iPad_SelSlot_Sel.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_Sel.png", 
-            "target": "iPon_SelSlot_Sel.png"
-        }, 
-        {
-            "asset": "Resource/Images/uiSelectSlot/iPon_SelSlot_Sel@2x.png", 
-            "target": "iPon_SelSlot_Sel@2x.png"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr01_kr.jpg", 
-            "target": "iPad_HelpScr01_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr01_us.jpg", 
-            "target": "iPad_HelpScr01_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr02_kr.jpg", 
-            "target": "iPad_HelpScr02_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr02_us.jpg", 
-            "target": "iPad_HelpScr02_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr03_kr.jpg", 
-            "target": "iPad_HelpScr03_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr03_us.jpg", 
-            "target": "iPad_HelpScr03_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr04_kr.jpg", 
-            "target": "iPad_HelpScr04_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr04_us.jpg", 
-            "target": "iPad_HelpScr04_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr05_kr.jpg", 
-            "target": "iPad_HelpScr05_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr05_us.jpg", 
-            "target": "iPad_HelpScr05_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr06_kr.jpg", 
-            "target": "iPad_HelpScr06_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr06_us.jpg", 
-            "target": "iPad_HelpScr06_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr07_kr.jpg", 
-            "target": "iPad_HelpScr07_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScr07_us.jpg", 
-            "target": "iPad_HelpScr07_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScrMain_kr.jpg", 
-            "target": "iPad_HelpScrMain_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPad_HelpScrMain_us.jpg", 
-            "target": "iPad_HelpScrMain_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr01_us.jpg", 
-            "target": "iPon_HelpScr01_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr01_us@2x.jpg", 
-            "target": "iPon_HelpScr01_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr01_kr.jpg", 
-            "target": "iPon_HelpScr01_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr01_kr@2x.jpg", 
-            "target": "iPon_HelpScr01_kr@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr02_us.jpg", 
-            "target": "iPon_HelpScr02_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr02_us@2x.jpg", 
-            "target": "iPon_HelpScr02_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr02_kr.jpg", 
-            "target": "iPon_HelpScr02_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr02_kr@2x.jpg", 
-            "target": "iPon_HelpScr02_kr@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr03_us.jpg", 
-            "target": "iPon_HelpScr03_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr03_us@2x.jpg", 
-            "target": "iPon_HelpScr03_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr03_kr.jpg", 
-            "target": "iPon_HelpScr03_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr03_kr@2x.jpg", 
-            "target": "iPon_HelpScr03_kr@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr04_us.jpg", 
-            "target": "iPon_HelpScr04_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr04_us@2x.jpg", 
-            "target": "iPon_HelpScr04_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr04_kr.jpg", 
-            "target": "iPon_HelpScr04_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr04_kr@2x.jpg", 
-            "target": "iPon_HelpScr04_kr@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr05_us.jpg", 
-            "target": "iPon_HelpScr05_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr05_us@2x.jpg", 
-            "target": "iPon_HelpScr05_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr05_kr.jpg", 
-            "target": "iPon_HelpScr05_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr05_kr@2x.jpg", 
-            "target": "iPon_HelpScr05_kr@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr06_us.jpg", 
-            "target": "iPon_HelpScr06_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr06_us@2x.jpg", 
-            "target": "iPon_HelpScr06_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr06_kr.jpg", 
-            "target": "iPon_HelpScr06_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr06_kr@2x.jpg", 
-            "target": "iPon_HelpScr06_kr@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr07_us.jpg", 
-            "target": "iPon_HelpScr07_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr07_us@2x.jpg", 
-            "target": "iPon_HelpScr07_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr07_kr.jpg", 
-            "target": "iPon_HelpScr07_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScr07_kr@2x.jpg", 
-            "target": "iPon_HelpScr07_kr@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScrMain_us.jpg", 
-            "target": "iPon_HelpScrMain_us.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScrMain_us@2x.jpg", 
-            "target": "iPon_HelpScrMain_us@2x.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScrMain_kr.jpg", 
-            "target": "iPon_HelpScrMain_kr.jpg"
-        }, 
-        {
-            "asset": "Resource/Help/iPon_HelpScrMain_kr@2x.jpg", 
-            "target": "iPon_HelpScrMain_kr@2x.jpg"
-        }, 
-        {
             "asset": "Resource/Help/Black.png", 
             "target": "Black.png"
         }, 
@@ -5042,1014 +4117,756 @@
             "target": "Default.png"
         }, 
         {
-            "asset": "Resource/Images/GameCommon/Efx_BulletTrail.png", 
-            "target": "Efx_BulletTrail.png"
-        }, 
-        {
             "asset": "Resource/Images/GameCommon/Efx_Damage.png", 
             "target": "Efx_Damage.png"
         }, 
         {
             "asset": "Resource/Images/GameCommon/Efx_DamageHMG.png", 
             "target": "Efx_DamageHMG.png"
+        }, 
+        {
+            "asset": "Resource/Data/MachInfo.mcb", 
+            "target": "MachInfo.mcb"
+        }, 
+        {
+            "asset": "Resource/Data/PartsInfo.mcb", 
+            "target": "PartsInfo.mcb"
+        }, 
+        {
+            "asset": "Resource/Data/PartsList.tbl", 
+            "target": "PartsList.tbl"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Foot_07.png", 
+            "target": "P_Foot_07.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/selStage_btn.png", 
+            "target": "selStage_btn.png"
+        }, 
+        {
+            "asset": "Resource/Data/MapList.tbl", 
+            "target": "MapList.tbl"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_BulletTrail_green.png", 
+            "target": "Efx_BulletTrail_green.png"
+        }, 
+        {
+            "asset": "Resource/Images/GameCommon/Efx_BulletTrail_red.png", 
+            "target": "Efx_BulletTrail_red.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Foot_11.png", 
+            "target": "P_Foot_11.png"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_01.tbl", 
+            "target": "ESpawn_01.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_02.tbl", 
+            "target": "ESpawn_02.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_03.tbl", 
+            "target": "ESpawn_03.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_04.tbl", 
+            "target": "ESpawn_04.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_05.tbl", 
+            "target": "ESpawn_05.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_06.tbl", 
+            "target": "ESpawn_06.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_07.tbl", 
+            "target": "ESpawn_07.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_08.tbl", 
+            "target": "ESpawn_08.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_09.tbl", 
+            "target": "ESpawn_09.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_10.tbl", 
+            "target": "ESpawn_10.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_11.tbl", 
+            "target": "ESpawn_11.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_12.tbl", 
+            "target": "ESpawn_12.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_13.tbl", 
+            "target": "ESpawn_13.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_14.tbl", 
+            "target": "ESpawn_14.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_15.tbl", 
+            "target": "ESpawn_15.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_16.tbl", 
+            "target": "ESpawn_16.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_17.tbl", 
+            "target": "ESpawn_17.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_18.tbl", 
+            "target": "ESpawn_18.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_19.tbl", 
+            "target": "ESpawn_19.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_20.tbl", 
+            "target": "ESpawn_20.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_21.tbl", 
+            "target": "ESpawn_21.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_22.tbl", 
+            "target": "ESpawn_22.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_23.tbl", 
+            "target": "ESpawn_23.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_24.tbl", 
+            "target": "ESpawn_24.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_25.tbl", 
+            "target": "ESpawn_25.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_26.tbl", 
+            "target": "ESpawn_26.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_27.tbl", 
+            "target": "ESpawn_27.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_28.tbl", 
+            "target": "ESpawn_28.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_29.tbl", 
+            "target": "ESpawn_29.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_30.tbl", 
+            "target": "ESpawn_30.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_31.tbl", 
+            "target": "ESpawn_31.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_32.tbl", 
+            "target": "ESpawn_32.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_33.tbl", 
+            "target": "ESpawn_33.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_34.tbl", 
+            "target": "ESpawn_34.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_35.tbl", 
+            "target": "ESpawn_35.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_36.tbl", 
+            "target": "ESpawn_36.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_37.tbl", 
+            "target": "ESpawn_37.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_38.tbl", 
+            "target": "ESpawn_38.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_39.tbl", 
+            "target": "ESpawn_39.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_40.tbl", 
+            "target": "ESpawn_40.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_41.tbl", 
+            "target": "ESpawn_41.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_42.tbl", 
+            "target": "ESpawn_42.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_43.tbl", 
+            "target": "ESpawn_43.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_44.tbl", 
+            "target": "ESpawn_44.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_45.tbl", 
+            "target": "ESpawn_45.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_46.tbl", 
+            "target": "ESpawn_46.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_47.tbl", 
+            "target": "ESpawn_47.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_48.tbl", 
+            "target": "ESpawn_48.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_49.tbl", 
+            "target": "ESpawn_49.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_50.tbl", 
+            "target": "ESpawn_50.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_51.tbl", 
+            "target": "ESpawn_51.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_52.tbl", 
+            "target": "ESpawn_52.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_53.tbl", 
+            "target": "ESpawn_53.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_54.tbl", 
+            "target": "ESpawn_54.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_55.tbl", 
+            "target": "ESpawn_55.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_56.tbl", 
+            "target": "ESpawn_56.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_57.tbl", 
+            "target": "ESpawn_57.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_58.tbl", 
+            "target": "ESpawn_58.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_59.tbl", 
+            "target": "ESpawn_59.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_60.tbl", 
+            "target": "ESpawn_60.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_61.tbl", 
+            "target": "ESpawn_61.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_62.tbl", 
+            "target": "ESpawn_62.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_63.tbl", 
+            "target": "ESpawn_63.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_64.tbl", 
+            "target": "ESpawn_64.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_65.tbl", 
+            "target": "ESpawn_65.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_66.tbl", 
+            "target": "ESpawn_66.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_67.tbl", 
+            "target": "ESpawn_67.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_68.tbl", 
+            "target": "ESpawn_68.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_69.tbl", 
+            "target": "ESpawn_69.tbl"
+        }, 
+        {
+            "asset": "Resource/Map/ESpawn_70.tbl", 
+            "target": "ESpawn_70.tbl"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Foot_01.png", 
+            "target": "P_Foot_01.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Foot_09.png", 
+            "target": "P_Foot_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/P_Foot_14.png", 
+            "target": "P_Foot_14.png"
+        }, 
+        {
+            "asset": "Resource/Data/ItemInfo.tbl", 
+            "target": "ItemInfo.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/MachBuild_Name.tbl", 
+            "target": "MachBuild_Name.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/MachBuild_Parts.tbl", 
+            "target": "MachBuild_Parts.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/SpAttackList.tbl", 
+            "target": "SpAttackList.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/MachRegen.tbl", 
+            "target": "MachRegen.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/BaseUpgrade.tbl", 
+            "target": "BaseUpgrade.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/WeaponInfo.tbl", 
+            "target": "WeaponInfo.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/TileList.tbl", 
+            "target": "TileList.tbl"
+        }, 
+        {
+            "asset": "Resource/Data/MachList.tbl", 
+            "target": "MachList.tbl"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_bg_option.png", 
+            "target": "worldmap_bg_option.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_btn_base.png", 
+            "target": "worldmap_btn_base.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_btn_bombs.png", 
+            "target": "worldmap_btn_bombs.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_btn_dots.png", 
+            "target": "worldmap_btn_dots.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_btn_marker.png", 
+            "target": "worldmap_btn_marker.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_btn_mechs.png", 
+            "target": "worldmap_btn_mechs.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_btn_option.png", 
+            "target": "worldmap_btn_option.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_frame_menu.png", 
+            "target": "worldmap_frame_menu.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_map_01.jpg", 
+            "target": "worldmap_map_01.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_map_02.jpg", 
+            "target": "worldmap_map_02.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_numbers.png", 
+            "target": "worldmap_numbers.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_top_bar.png", 
+            "target": "worldmap_top_bar.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_bottom_bar.png", 
+            "target": "worldmap_bottom_bar.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_06.png", 
+            "target": "Turret_b_06.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_07.png", 
+            "target": "Turret_b_07.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_08.png", 
+            "target": "Turret_b_08.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_09.png", 
+            "target": "Turret_b_09.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_10.png", 
+            "target": "Turret_b_10.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_11.png", 
+            "target": "Turret_b_11.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_12.png", 
+            "target": "Turret_b_12.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_13.png", 
+            "target": "Turret_b_13.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_14.png", 
+            "target": "Turret_b_14.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_15.png", 
+            "target": "Turret_b_15.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_16.png", 
+            "target": "Turret_b_16.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_17.png", 
+            "target": "Turret_b_17.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_18.png", 
+            "target": "Turret_b_18.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_19.png", 
+            "target": "Turret_b_19.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_20.png", 
+            "target": "Turret_b_20.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_21.png", 
+            "target": "Turret_b_21.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_22.png", 
+            "target": "Turret_b_22.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_23.png", 
+            "target": "Turret_b_23.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_24.png", 
+            "target": "Turret_b_24.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_25.png", 
+            "target": "Turret_b_25.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_26.png", 
+            "target": "Turret_b_26.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_27.png", 
+            "target": "Turret_b_27.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_28.png", 
+            "target": "Turret_b_28.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_29.png", 
+            "target": "Turret_b_29.png"
+        }, 
+        {
+            "asset": "Resource/Mach/Parts/Turret_b_30.png", 
+            "target": "Turret_b_30.png"
+        }, 
+        {
+            "asset": "Classes/TestFlightSDK3.0.0/README.md", 
+            "target": "README.md"
+        }, 
+        {
+            "asset": "Classes/TestFlightSDK3.0.0/release_notes.md", 
+            "target": "release_notes.md"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_map_03.jpg", 
+            "target": "worldmap_map_03.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_map_04.jpg", 
+            "target": "worldmap_map_04.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_bar_left.png", 
+            "target": "worldmap_bar_left.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_bar_right.png", 
+            "target": "worldmap_bar_right.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/loading_screen01.png", 
+            "target": "loading_screen01.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiTitle/loading_screen02.png", 
+            "target": "loading_screen02.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_frame_menu_base.png", 
+            "target": "worldmap_frame_menu_base.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_frame_menu_bomb.png", 
+            "target": "worldmap_frame_menu_bomb.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiSelectSlot/worldmap_frame_menu_unit.png", 
+            "target": "worldmap_frame_menu_unit.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Done_btn.png", 
+            "target": "Done_btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Shop_Screen_BG.png", 
+            "target": "Shop_Screen_BG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Shop_Screen_BG_right_filter.png", 
+            "target": "Shop_Screen_BG_right_filter.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Shop_Screen_Border.png", 
+            "target": "Shop_Screen_Border.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Side_bar_mech_box.png", 
+            "target": "Side_bar_mech_box.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Side_bar_mech_box_cover.png", 
+            "target": "Side_bar_mech_box_cover.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Uninstall_Btn.png", 
+            "target": "Uninstall_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Upgrade_Btn.png", 
+            "target": "Upgrade_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Upgrade_Mach_BG.png", 
+            "target": "Upgrade_Mach_BG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Upgrade_Mach_BG_cover.png", 
+            "target": "Upgrade_Mach_BG_cover.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Upgrade_Mach_BG_unselect.png", 
+            "target": "Upgrade_Mach_BG_unselect.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Upgrade_Select_border.png", 
+            "target": "Upgrade_Select_border.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/shop_bg.jpg", 
+            "target": "shop_bg.jpg"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Install_Btn.png", 
+            "target": "Install_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Upgrade_Special_BG_unselect.png", 
+            "target": "Upgrade_Special_BG_unselect.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Upgrade_Special_BG.png", 
+            "target": "Upgrade_Special_BG.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Buy_Btn.png", 
+            "target": "Buy_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Toggle_BombLeft_Btn.png", 
+            "target": "Toggle_BombLeft_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Toggle_MechLeft_Btn.png", 
+            "target": "Toggle_MechLeft_Btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Side_bar_bomb_box.png", 
+            "target": "Side_bar_bomb_box.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiShop/Side_bar_bomb_box_cover.png", 
+            "target": "Side_bar_bomb_box_cover.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Credits_bar.png", 
+            "target": "Credits_bar.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Energy_cell.png", 
+            "target": "Energy_cell.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/Stage_bar.png", 
+            "target": "Stage_bar.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/The_Menu_button.png", 
+            "target": "The_Menu_button.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/game_upgrade_btn.png", 
+            "target": "game_upgrade_btn.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/blue_team_icon.png", 
+            "target": "blue_team_icon.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiGame/red_team_icon.png", 
+            "target": "red_team_icon.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Defeat_Headline.png", 
+            "target": "Defeat_Headline.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Dlg_Screen_Border.png", 
+            "target": "Dlg_Screen_Border.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Victory_Headline.png", 
+            "target": "Victory_Headline.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Dlg_Screen_Border_half.png", 
+            "target": "Dlg_Screen_Border_half.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_btn_next.png", 
+            "target": "Common_btn_next.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_btn_retry.png", 
+            "target": "Common_btn_retry.png"
+        }, 
+        {
+            "asset": "Resource/Images/uiCommon/Common_btn_map.png", 
+            "target": "Common_btn_map.png"
         }
     ], 
-    "link_flags": [], 
     "config": {
+        "APPLICATION_FULL_NAME": "MachDefense", 
+        "APPLICATION_IDENTIFIER": "com.timidmedia.fd", 
+        "APPLICATION_NAME": "MachDefense", 
         "FEATURES": [
             "portrait"
         ], 
-        "APPLICATION_IDENTIFIER": "com.knockgames.MachDefense", 
-        "APPLICATION_NAME": "MachDefense", 
-        "LONG_VERSION": "1.0.5", 
+        "LONG_VERSION": "2.4.15", 
+        "SHORT_VERSION": "2.4.15", 
         "TEMPLATE_VALUES": {
             "EXECUTABLE_NAME": "MachDefense", 
             "PRODUCT_NAME": "MachDefense"
-        }, 
-        "APPLICATION_FULL_NAME": "MachDefense"
+        }
     }, 
-    "header_paths": [
-        {
-            "header_path": "MachDefense-generated-files.hmap", 
-            "type": "iquote", 
-            "hmap": {}
-        }, 
-        {
-            "header_path": "MachDefense-own-target-headers.hmap", 
-            "type": "I", 
-            "hmap": {}
-        }, 
-        {
-            "header_path": "MachDefense-all-target-headers.hmap", 
-            "type": "I", 
-            "hmap": {}
-        }, 
-        {
-            "header_path": "MachDefense-project-headers.hmap", 
-            "type": "iquote", 
-            "hmap": {
-                "ResMgr_Tile.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "ResMgr_Tile.h", 
-                    "key": "ResMgr_Tile.h"
-                }, 
-                "BaseUpgradeSet.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "BaseUpgradeSet.h", 
-                    "key": "BaseUpgradeSet.h"
-                }, 
-                "GlobalInfo.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GlobalInfo.h", 
-                    "key": "GlobalInfo.h"
-                }, 
-                "PartsController_Weapon.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "PartsController_Weapon.h", 
-                    "key": "PartsController_Weapon.h"
-                }, 
-                "DlgUpgradeBase.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DlgUpgradeBase.h", 
-                    "key": "DlgUpgradeBase.h"
-                }, 
-                "MachInfo.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "MachInfo.h", 
-                    "key": "MachInfo.h"
-                }, 
-                "QList.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "QList.h", 
-                    "key": "QList.h"
-                }, 
-                "QobAffecter.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobAffecter.h", 
-                    "key": "QobAffecter.h"
-                }, 
-                "UiObjMachParts.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "UiObjMachParts.h", 
-                    "key": "UiObjMachParts.h"
-                }, 
-                "GobHvM_Player.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobHvM_Player.h", 
-                    "key": "GobHvM_Player.h"
-                }, 
-                "TextureAtlas.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "TextureAtlas.h", 
-                    "key": "TextureAtlas.h"
-                }, 
-                "QobParticle.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobParticle.h", 
-                    "key": "QobParticle.h"
-                }, 
-                "GobHvMach.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobHvMach.h", 
-                    "key": "GobHvMach.h"
-                }, 
-                "MachBuildSet.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "MachBuildSet.h", 
-                    "key": "MachBuildSet.h"
-                }, 
-                "GobWorld.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobWorld.h", 
-                    "key": "GobWorld.h"
-                }, 
-                "Tile2D.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "Tile2D.h", 
-                    "key": "Tile2D.h"
-                }, 
-                "DefaultAppDelegate.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DefaultAppDelegate.h", 
-                    "key": "DefaultAppDelegate.h"
-                }, 
-                "GuiSelectSlot.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GuiSelectSlot.h", 
-                    "key": "GuiSelectSlot.h"
-                }, 
-                "ItemInfo.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "ItemInfo.h", 
-                    "key": "ItemInfo.h"
-                }, 
-                "DlgSystemMenu.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "DlgSystemMenu.h", 
-                    "key": "DlgSystemMenu.h"
-                }, 
-                "PVRTexture.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "PVRTexture.h", 
-                    "key": "PVRTexture.h"
-                }, 
-                "GobBullet.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobBullet.h", 
-                    "key": "GobBullet.h"
-                }, 
-                "SpAttackSet.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "SpAttackSet.h", 
-                    "key": "SpAttackSet.h"
-                }, 
-                "GobStaffEffect.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobStaffEffect.h", 
-                    "key": "GobStaffEffect.h"
-                }, 
-                "QVisualLayer.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QVisualLayer.h", 
-                    "key": "QVisualLayer.h"
-                }, 
-                "GuiTitle.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GuiTitle.h", 
-                    "key": "GuiTitle.h"
-                }, 
-                "DlgRadar.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "DlgRadar.h", 
-                    "key": "DlgRadar.h"
-                }, 
-                "QobBase.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobBase.h", 
-                    "key": "QobBase.h"
-                }, 
-                "GuiSelectStage.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "GuiSelectStage.h", 
-                    "key": "GuiSelectStage.h"
-                }, 
-                "EAGLView.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "EAGLView.h", 
-                    "key": "EAGLView.h"
-                }, 
-                "GameDef.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GameDef.h", 
-                    "key": "GameDef.h"
-                }, 
-                "EAGLViewController.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "EAGLViewController.h", 
-                    "key": "EAGLViewController.h"
-                }, 
-                "GameCenterManager.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "GameCenterManager.h", 
-                    "key": "GameCenterManager.h"
-                }, 
-                "ImageAttacher.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "ImageAttacher.h", 
-                    "key": "ImageAttacher.h"
-                }, 
-                "QobCamera.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobCamera.h", 
-                    "key": "QobCamera.h"
-                }, 
-                "GobEnemySpawner.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobEnemySpawner.h", 
-                    "key": "GobEnemySpawner.h"
-                }, 
-                "DlgFormation.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DlgFormation.h", 
-                    "key": "DlgFormation.h"
-                }, 
-                "Texture2D.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "Texture2D.h", 
-                    "key": "Texture2D.h"
-                }, 
-                "PartsManager.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "PartsManager.h", 
-                    "key": "PartsManager.h"
-                }, 
-                "ZoneManager.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "ZoneManager.h", 
-                    "key": "ZoneManager.h"
-                }, 
-                "GameMain.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GameMain.h", 
-                    "key": "GameMain.h"
-                }, 
-                "CommonDlg.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "CommonDlg.h", 
-                    "key": "CommonDlg.h"
-                }, 
-                "GuiGame.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GuiGame.h", 
-                    "key": "GuiGame.h"
-                }, 
-                "BuildItem.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "BuildItem.h", 
-                    "key": "BuildItem.h"
-                }, 
-                "DlgSpecialAttack.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DlgSpecialAttack.h", 
-                    "key": "DlgSpecialAttack.h"
-                }, 
-                "UiObjMach.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "UiObjMach.h", 
-                    "key": "UiObjMach.h"
-                }, 
-                "SoundManager.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "SoundManager.h", 
-                    "key": "SoundManager.h"
-                }, 
-                "GobTrailEffect.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobTrailEffect.h", 
-                    "key": "GobTrailEffect.h"
-                }, 
-                "QTable.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "QTable.h", 
-                    "key": "QTable.h"
-                }, 
-                "QobText.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobText.h", 
-                    "key": "QobText.h"
-                }, 
-                "DlgSummary.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DlgSummary.h", 
-                    "key": "DlgSummary.h"
-                }, 
-                "DlgUpgradeEquip.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DlgUpgradeEquip.h", 
-                    "key": "DlgUpgradeEquip.h"
-                }, 
-                "QSocket.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "QSocket.h", 
-                    "key": "QSocket.h"
-                }, 
-                "PartsController_WeaponAI.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "PartsController_WeaponAI.h", 
-                    "key": "PartsController_WeaponAI.h"
-                }, 
-                "GobAirStrike.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobAirStrike.h", 
-                    "key": "GobAirStrike.h"
-                }, 
-                "WndBuildSlot.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "WndBuildSlot.h", 
-                    "key": "WndBuildSlot.h"
-                }, 
-                "QobLine.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobLine.h", 
-                    "key": "QobLine.h"
-                }, 
-                "GobMachParts.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobMachParts.h", 
-                    "key": "GobMachParts.h"
-                }, 
-                "QobManager.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobManager.h", 
-                    "key": "QobManager.h"
-                }, 
-                "SpDamageInfo.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "SpDamageInfo.h", 
-                    "key": "SpDamageInfo.h"
-                }, 
-                "QVector.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "QVector.h", 
-                    "key": "QVector.h"
-                }, 
-                "QUIAlertView.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "QUIAlertView.h", 
-                    "key": "QUIAlertView.h"
-                }, 
-                "PartsController.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "PartsController.h", 
-                    "key": "PartsController.h"
-                }, 
-                "QobImageFont.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobImageFont.h", 
-                    "key": "QobImageFont.h"
-                }, 
-                "QobImage.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobImage.h", 
-                    "key": "QobImage.h"
-                }, 
-                "QChunk.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "QChunk.h", 
-                    "key": "QChunk.h"
-                }, 
-                "GuiMapLoading.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GuiMapLoading.h", 
-                    "key": "GuiMapLoading.h"
-                }, 
-                "PartsInfo.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "PartsInfo.h", 
-                    "key": "PartsInfo.h"
-                }, 
-                "DlgUpgradeItem.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DlgUpgradeItem.h", 
-                    "key": "DlgUpgradeItem.h"
-                }, 
-                "GobHvM_Bot.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobHvM_Bot.h", 
-                    "key": "GobHvM_Bot.h"
-                }, 
-                "MD_Prefix.pch": {
-                    "prefix": "./", 
-                    "suffix": "MD_Prefix.pch", 
-                    "key": "MD_Prefix.pch"
-                }, 
-                "GuiHelp.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GuiHelp.h", 
-                    "key": "GuiHelp.h"
-                }, 
-                "WeaponInfo.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "WeaponInfo.h", 
-                    "key": "WeaponInfo.h"
-                }, 
-                "SoundEngine.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "SoundEngine.h", 
-                    "key": "SoundEngine.h"
-                }, 
-                "SoundEffect.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "SoundEffect.h", 
-                    "key": "SoundEffect.h"
-                }, 
-                "DlgBuildMach.h": {
-                    "prefix": "Classes/", 
-                    "suffix": "DlgBuildMach.h", 
-                    "key": "DlgBuildMach.h"
-                }, 
-                "Collider.h": {
-                    "prefix": "../_CommonClass/Util/", 
-                    "suffix": "Collider.h", 
-                    "key": "Collider.h"
-                }, 
-                "GobFieldItem.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobFieldItem.h", 
-                    "key": "GobFieldItem.h"
-                }, 
-                "GobHvM_Enemy.h": {
-                    "prefix": "Classes/Game/", 
-                    "suffix": "GobHvM_Enemy.h", 
-                    "key": "GobHvM_Enemy.h"
-                }, 
-                "QobButton.h": {
-                    "prefix": "../_CommonClass/QObject/", 
-                    "suffix": "QobButton.h", 
-                    "key": "QobButton.h"
-                }
-            }
-        }
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60000
+    }, 
+    "deps": [
+        "UIKit", 
+        "Foundation", 
+        "OpenGLES", 
+        "QuartzCore", 
+        "MediaPlayer", 
+        "OpenAL", 
+        "CoreGraphics", 
+        "AudioToolbox", 
+        "CoreAudio", 
+        "Security", 
+        "CFNetwork", 
+        "CoreLocation", 
+        "SystemConfiguration", 
+        "StoreKit", 
+        "iAd", 
+        "GameKit"
     ], 
-    "modules": [], 
-    "sources": [
-        {
-            "source": "../_CommonClass/QObject/QVisualLayer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobAffecter.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobBase.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobButton.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobCamera.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobImage.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobImageFont.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobLine.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobManager.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobParticle.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/QObject/QobText.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/Collider.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/ImageAttacher.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/PVRTexture.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/QChunk.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/QList.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/QSocket.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/QTable.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/QUIAlertView.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/QVector.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/ResMgr_Tile.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/SoundEffect.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/SoundEngine.cpp", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c++", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/SoundManager.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/Texture2D.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/TextureAtlas.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "../_CommonClass/Util/Tile2D.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/BaseUpgradeSet.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/BuildItem.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/CommonDlg.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DefaultAppDelegate.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DlgBuildMach.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DlgFormation.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DlgSpecialAttack.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DlgSummary.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DlgUpgradeBase.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DlgUpgradeEquip.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/DlgUpgradeItem.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/EAGLView.mm", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc++", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/EAGLViewController.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/DlgRadar.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/DlgSystemMenu.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GameMain.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GlobalInfo.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobAirStrike.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobBullet.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobEnemySpawner.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobFieldItem.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobHvM_Bot.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobHvM_Enemy.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobHvM_Player.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobHvMach.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobMachParts.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobStaffEffect.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobTrailEffect.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GobWorld.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GuiGame.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GuiHelp.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GuiMapLoading.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GuiSelectSlot.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/GuiTitle.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/ItemInfo.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/MachInfo.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/PartsController.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/PartsController_Weapon.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/PartsController_WeaponAI.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/PartsInfo.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/SpDamageInfo.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/Game/WeaponInfo.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/GameCenterManager.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/GuiSelectStage.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/MachBuildSet.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/PartsManager.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/SpAttackSet.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/UiObjMach.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/UiObjMachParts.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/WndBuildSlot.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Classes/ZoneManager.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "main.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }
-    ], 
-    "version": "1", 
     "flags": [
         "-DNS_BLOCK_ASSERTIONS=1", 
+        {
+            "flag": "-DNS_BLOCK_ASSERTIONS=1", 
+            "type": "c++"
+        }, 
         "-fasm-blocks", 
         {
             "flag": "-std=c99", 
@@ -6073,40 +4890,1081 @@
             "type": "objc"
         }
     ], 
+    "header_paths": [
+        {
+            "header_path": "MachDefense-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "MachDefense-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "MachDefense-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "MachDefense-project-headers.hmap", 
+            "hmap": {
+                "BaseUpgradeSet.h": {
+                    "key": "BaseUpgradeSet.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "BaseUpgradeSet.h"
+                }, 
+                "BuildItem.h": {
+                    "key": "BuildItem.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "BuildItem.h"
+                }, 
+                "Collider.h": {
+                    "key": "Collider.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "Collider.h"
+                }, 
+                "CommonDlg.h": {
+                    "key": "CommonDlg.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "CommonDlg.h"
+                }, 
+                "DefaultAppDelegate.h": {
+                    "key": "DefaultAppDelegate.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DefaultAppDelegate.h"
+                }, 
+                "DlgBuildMach.h": {
+                    "key": "DlgBuildMach.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgBuildMach.h"
+                }, 
+                "DlgFormation.h": {
+                    "key": "DlgFormation.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgFormation.h"
+                }, 
+                "DlgRadar.h": {
+                    "key": "DlgRadar.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "DlgRadar.h"
+                }, 
+                "DlgShop.h": {
+                    "key": "DlgShop.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgShop.h"
+                }, 
+                "DlgShopBase.h": {
+                    "key": "DlgShopBase.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgShopBase.h"
+                }, 
+                "DlgShopSpecial.h": {
+                    "key": "DlgShopSpecial.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgShopSpecial.h"
+                }, 
+                "DlgSpecialAttack.h": {
+                    "key": "DlgSpecialAttack.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgSpecialAttack.h"
+                }, 
+                "DlgSummary.h": {
+                    "key": "DlgSummary.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgSummary.h"
+                }, 
+                "DlgSystemMenu.h": {
+                    "key": "DlgSystemMenu.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "DlgSystemMenu.h"
+                }, 
+                "DlgUpgradeBase.h": {
+                    "key": "DlgUpgradeBase.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgUpgradeBase.h"
+                }, 
+                "DlgUpgradeEquip.h": {
+                    "key": "DlgUpgradeEquip.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgUpgradeEquip.h"
+                }, 
+                "DlgUpgradeItem.h": {
+                    "key": "DlgUpgradeItem.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "DlgUpgradeItem.h"
+                }, 
+                "EAGLView.h": {
+                    "key": "EAGLView.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "EAGLView.h"
+                }, 
+                "EAGLViewController.h": {
+                    "key": "EAGLViewController.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "EAGLViewController.h"
+                }, 
+                "GameCenterManager.h": {
+                    "key": "GameCenterManager.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "GameCenterManager.h"
+                }, 
+                "GameDef.h": {
+                    "key": "GameDef.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GameDef.h"
+                }, 
+                "GameMain.h": {
+                    "key": "GameMain.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GameMain.h"
+                }, 
+                "GlobalInfo.h": {
+                    "key": "GlobalInfo.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GlobalInfo.h"
+                }, 
+                "GobAirStrike.h": {
+                    "key": "GobAirStrike.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobAirStrike.h"
+                }, 
+                "GobBullet.h": {
+                    "key": "GobBullet.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobBullet.h"
+                }, 
+                "GobEnemySpawner.h": {
+                    "key": "GobEnemySpawner.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobEnemySpawner.h"
+                }, 
+                "GobFieldItem.h": {
+                    "key": "GobFieldItem.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobFieldItem.h"
+                }, 
+                "GobHvM_Bot.h": {
+                    "key": "GobHvM_Bot.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvM_Bot.h"
+                }, 
+                "GobHvM_Enemy.h": {
+                    "key": "GobHvM_Enemy.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvM_Enemy.h"
+                }, 
+                "GobHvM_Player.h": {
+                    "key": "GobHvM_Player.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvM_Player.h"
+                }, 
+                "GobHvMach.h": {
+                    "key": "GobHvMach.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobHvMach.h"
+                }, 
+                "GobMachParts.h": {
+                    "key": "GobMachParts.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobMachParts.h"
+                }, 
+                "GobStaffEffect.h": {
+                    "key": "GobStaffEffect.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobStaffEffect.h"
+                }, 
+                "GobTrailEffect.h": {
+                    "key": "GobTrailEffect.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobTrailEffect.h"
+                }, 
+                "GobWorld.h": {
+                    "key": "GobWorld.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GobWorld.h"
+                }, 
+                "GuiGame.h": {
+                    "key": "GuiGame.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiGame.h"
+                }, 
+                "GuiHelp.h": {
+                    "key": "GuiHelp.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiHelp.h"
+                }, 
+                "GuiMapLoading.h": {
+                    "key": "GuiMapLoading.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiMapLoading.h"
+                }, 
+                "GuiSelectSlot.h": {
+                    "key": "GuiSelectSlot.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiSelectSlot.h"
+                }, 
+                "GuiSelectStage.h": {
+                    "key": "GuiSelectStage.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "GuiSelectStage.h"
+                }, 
+                "GuiTitle.h": {
+                    "key": "GuiTitle.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "GuiTitle.h"
+                }, 
+                "ImageAttacher.h": {
+                    "key": "ImageAttacher.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "ImageAttacher.h"
+                }, 
+                "ItemInfo.h": {
+                    "key": "ItemInfo.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "ItemInfo.h"
+                }, 
+                "MD_Prefix.pch": {
+                    "key": "MD_Prefix.pch", 
+                    "prefix": "./", 
+                    "suffix": "MD_Prefix.pch"
+                }, 
+                "MachBuildSet.h": {
+                    "key": "MachBuildSet.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "MachBuildSet.h"
+                }, 
+                "MachInfo.h": {
+                    "key": "MachInfo.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "MachInfo.h"
+                }, 
+                "PVRTexture.h": {
+                    "key": "PVRTexture.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "PVRTexture.h"
+                }, 
+                "PartsController.h": {
+                    "key": "PartsController.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsController.h"
+                }, 
+                "PartsController_Weapon.h": {
+                    "key": "PartsController_Weapon.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsController_Weapon.h"
+                }, 
+                "PartsController_WeaponAI.h": {
+                    "key": "PartsController_WeaponAI.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsController_WeaponAI.h"
+                }, 
+                "PartsInfo.h": {
+                    "key": "PartsInfo.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "PartsInfo.h"
+                }, 
+                "PartsManager.h": {
+                    "key": "PartsManager.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "PartsManager.h"
+                }, 
+                "QChunk.h": {
+                    "key": "QChunk.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QChunk.h"
+                }, 
+                "QList.h": {
+                    "key": "QList.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QList.h"
+                }, 
+                "QSocket.h": {
+                    "key": "QSocket.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QSocket.h"
+                }, 
+                "QTable.h": {
+                    "key": "QTable.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QTable.h"
+                }, 
+                "QUIAlertView.h": {
+                    "key": "QUIAlertView.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QUIAlertView.h"
+                }, 
+                "QVector.h": {
+                    "key": "QVector.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "QVector.h"
+                }, 
+                "QVisualLayer.h": {
+                    "key": "QVisualLayer.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QVisualLayer.h"
+                }, 
+                "QobAffecter.h": {
+                    "key": "QobAffecter.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobAffecter.h"
+                }, 
+                "QobBase.h": {
+                    "key": "QobBase.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobBase.h"
+                }, 
+                "QobButton.h": {
+                    "key": "QobButton.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobButton.h"
+                }, 
+                "QobCamera.h": {
+                    "key": "QobCamera.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobCamera.h"
+                }, 
+                "QobImage.h": {
+                    "key": "QobImage.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobImage.h"
+                }, 
+                "QobImageFont.h": {
+                    "key": "QobImageFont.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobImageFont.h"
+                }, 
+                "QobLine.h": {
+                    "key": "QobLine.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobLine.h"
+                }, 
+                "QobManager.h": {
+                    "key": "QobManager.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobManager.h"
+                }, 
+                "QobParticle.h": {
+                    "key": "QobParticle.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobParticle.h"
+                }, 
+                "QobText.h": {
+                    "key": "QobText.h", 
+                    "prefix": "../_CommonClass/QObject/", 
+                    "suffix": "QobText.h"
+                }, 
+                "ResMgr_Tile.h": {
+                    "key": "ResMgr_Tile.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "ResMgr_Tile.h"
+                }, 
+                "SoundEffect.h": {
+                    "key": "SoundEffect.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "SoundEffect.h"
+                }, 
+                "SoundEngine.h": {
+                    "key": "SoundEngine.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "SoundEngine.h"
+                }, 
+                "SoundManager.h": {
+                    "key": "SoundManager.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "SoundManager.h"
+                }, 
+                "SpAttackSet.h": {
+                    "key": "SpAttackSet.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "SpAttackSet.h"
+                }, 
+                "SpDamageInfo.h": {
+                    "key": "SpDamageInfo.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "SpDamageInfo.h"
+                }, 
+                "TestFlight+AsyncLogging.h": {
+                    "key": "TestFlight+AsyncLogging.h", 
+                    "prefix": "Classes/TestFlightSDK3.0.0/", 
+                    "suffix": "TestFlight+AsyncLogging.h"
+                }, 
+                "TestFlight+ManualSessions.h": {
+                    "key": "TestFlight+ManualSessions.h", 
+                    "prefix": "Classes/TestFlightSDK3.0.0/", 
+                    "suffix": "TestFlight+ManualSessions.h"
+                }, 
+                "TestFlight.h": {
+                    "key": "TestFlight.h", 
+                    "prefix": "Classes/TestFlightSDK3.0.0/", 
+                    "suffix": "TestFlight.h"
+                }, 
+                "Texture2D.h": {
+                    "key": "Texture2D.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "Texture2D.h"
+                }, 
+                "TextureAtlas.h": {
+                    "key": "TextureAtlas.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "TextureAtlas.h"
+                }, 
+                "Tile2D.h": {
+                    "key": "Tile2D.h", 
+                    "prefix": "../_CommonClass/Util/", 
+                    "suffix": "Tile2D.h"
+                }, 
+                "UiObjMach.h": {
+                    "key": "UiObjMach.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "UiObjMach.h"
+                }, 
+                "UiObjMachParts.h": {
+                    "key": "UiObjMachParts.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "UiObjMachParts.h"
+                }, 
+                "WeaponInfo.h": {
+                    "key": "WeaponInfo.h", 
+                    "prefix": "Classes/Game/", 
+                    "suffix": "WeaponInfo.h"
+                }, 
+                "WndBuildSlot.h": {
+                    "key": "WndBuildSlot.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "WndBuildSlot.h"
+                }, 
+                "ZoneManager.h": {
+                    "key": "ZoneManager.h", 
+                    "prefix": "Classes/", 
+                    "suffix": "ZoneManager.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/fc/b_ytzqwj6tz21_hgltkng31w0000gn/T/tmpLS96WI/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/fc/b_ytzqwj6tz21_hgltkng31w0000gn/T/tmpLS96WI/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/fc/b_ytzqwj6tz21_hgltkng31w0000gn/T/tmpLS96WI/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
     "infoplists": [
         "./AppInfo.plist"
     ], 
-    "deps": [
-        "UIKit", 
-        "Foundation", 
-        "OpenGLES", 
-        "QuartzCore", 
-        "MediaPlayer", 
-        "OpenAL", 
-        "CoreGraphics", 
-        "AudioToolbox", 
-        "CoreAudio", 
-        "Security", 
-        "CFNetwork", 
-        "CoreLocation", 
-        "SystemConfiguration", 
-        "StoreKit", 
-        "iAd", 
-        "GameKit"
-    ], 
+    "java_libs": [], 
+    "java_res_dirs": [], 
+    "java_sourcepaths": [], 
+    "java_sources": [], 
     "libs": [
         "sqlite3", 
-        "z"
+        "z", 
+        "TestFlight"
     ], 
-    "java_sourcepaths": [], 
-    "java_res_dirs": [], 
+    "link_flags": [], 
+    "modules": [], 
+    "pchs": [
+        "./MD_Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QVisualLayer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobAffecter.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobBase.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobButton.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobCamera.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobImage.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobImageFont.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobLine.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobParticle.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/QObject/QobText.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/Collider.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/ImageAttacher.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/PVRTexture.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/QChunk.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/QList.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/QSocket.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/QTable.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/QUIAlertView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/QVector.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/ResMgr_Tile.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/SoundEffect.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c++", 
+            "source": "../_CommonClass/Util/SoundEngine.cpp"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/SoundManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/Texture2D.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/TextureAtlas.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "../_CommonClass/Util/Tile2D.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/BaseUpgradeSet.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/BuildItem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/CommonDlg.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DefaultAppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgBuildMach.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgFormation.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgShop.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgShopBase.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgShopSpecial.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgSpecialAttack.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgSummary.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgUpgradeBase.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgUpgradeEquip.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/DlgUpgradeItem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "Classes/EAGLView.mm"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/EAGLViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/DlgRadar.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/DlgSystemMenu.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GameMain.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GlobalInfo.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobAirStrike.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobBullet.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobEnemySpawner.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobFieldItem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobHvM_Bot.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobHvM_Enemy.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobHvM_Player.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobHvMach.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobMachParts.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobStaffEffect.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobTrailEffect.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GobWorld.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GuiGame.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GuiHelp.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GuiMapLoading.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GuiSelectSlot.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/GuiTitle.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/ItemInfo.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/MachInfo.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/PartsController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/PartsController_Weapon.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/PartsController_WeaponAI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/PartsInfo.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/SpDamageInfo.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/Game/WeaponInfo.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/GameCenterManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/GuiSelectStage.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/MachBuildSet.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/PartsManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/SpAttackSet.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/UiObjMach.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/UiObjMachParts.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/WndBuildSlot.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ZoneManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "main.m"
+        }
+    ], 
+    "storyboards": [], 
     "type": "app", 
-    "java_libs": [], 
-    "defines": {
-        "IBOutletCollection(ClassName)": "__attribute__((iboutletcollection(ClassName)))", 
-        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60000, 
-        "IBAction": "void)__attribute__((ibaction)", 
-        "NS_BLOCK_ASSERTIONS": 1, 
-        "IBOutlet": "__attribute__((iboutlet))"
-    }
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "MachDefense.xcodeproj", 
+    "xibs": [
+        {
+            "target": null, 
+            "xib": "MainWindow.xib"
+        }, 
+        {
+            "target": null, 
+            "xib": "MainWindow_iPhone.xib"
+        }
+    ]
 }
